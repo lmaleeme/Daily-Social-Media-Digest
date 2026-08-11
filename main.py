@@ -27,7 +27,7 @@ import trafilatura
 # ---------------------------------------------------------------------------
 
 RSS_FEEDS = [
-    "https://www.marketingdive.com/feeds/news/",
+    "https://www.marketingdive.com/feeds/news/", "https://www.socialmediatoday.com/feeds/news/",
     # Add more feeds here, e.g.:
     # "https://www.socialmediatoday.com/rss/",
     # "https://www.adweek.com/feed/",
