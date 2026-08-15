@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-08-15",
+    "articles": []
+  },
+  {
     "date": "2026-08-14",
     "articles": [
       {
@@ -172,9 +176,5 @@
         "summary": "YouTube will be making a major update to the qualifying terms for its monetization programs. The changes announced Monday, will make it harder for creators to join its revenue share program, but will also provide\u2026"
       }
     ]
-  },
-  {
-    "date": "2026-08-10",
-    "articles": []
   }
 ]
