@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-08-18",
+    "articles": [
+      {
+        "title": "Amazon, Nike reign supreme with Gen Alpha teens: report",
+        "link": "https://www.marketingdive.com/news/amazon-nike-reign-supreme-with-gen-alpha-teens-report/827946/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-08-17T13:50:00",
+        "summary": "Amazon and Nike are the top brands in households with Gen Alpha teens, an age group that wields significant sway over household purchasing decisions, according to an early look at data HarrisX and Allison Worldwide\u2026"
+      },
+      {
+        "title": "Meta\u2019s true AI costs exceed previous accounts",
+        "link": "https://www.socialmediatoday.com/news/metas-true-ai-costs-exceed-previous-accounts/828097/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-17T22:54:01",
+        "summary": "As the tsunami of artificial intelligence-generated content continues to gain momentum in social apps, prompting confusion, distrust and even revulsion in some cases, social media platforms continue to double down on\u2026"
+      },
+      {
+        "title": "X algorithm insights highlight key posting strategies",
+        "link": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-17T22:47:48",
+        "summary": "Last week, X published new insights into how its feed algorithm works in an effort to provide more transparency into how its system dictates what each user sees in their feed.\nThe platform listed various positive and\u2026"
+      },
+      {
+        "title": "YouTube is changing how it counts views",
+        "link": "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-17T21:14:08",
+        "summary": "YouTube announced a change to the way that it counts video views, which will have an impact on measurement approaches and potentially affect brand deals with influencers.\nAs of August 24, the platform is aligning all of\u2026"
+      },
+      {
+        "title": "TikTok owner ByteDance signs Motion Picture Association deal",
+        "link": "https://www.socialmediatoday.com/news/tiktok-owner-bytedance-signs-motion-picture-association-deal/828088/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-17T19:54:53",
+        "summary": "TikTok owner ByteDance announced a new agreement with the Motion Picture Association, which will ensure that the artificial intelligence options available from ByteDance include more guardrails to protect against IP\u2026"
+      },
+      {
+        "title": "New research reveals 75% of LinkedIn AI citations come from individual profiles, not company pages",
+        "link": "https://www.socialmediatoday.com/spons/new-research-reveals-75-of-linkedin-ai-citations-come-from-individual-prof/827232/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-17T09:00:00",
+        "summary": "Your employees' LinkedIn posts are an AI goldmine. Here's how you make them work for your brand.\nAs more people turn to tools like ChatGPT and Google AI Overviews to find answers, brands have to start thinking\u2026"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "articles": [
       {
@@ -84,46 +131,6 @@
         "source": "Social Media Today - Latest News",
         "published": "2026-08-13T19:33:30",
         "summary": "Meta published a series of blog posts on holiday campaign planning this week that outline how shopping journeys have evolved, and details how marketers can update their approaches to align with new discovery and\u2026"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "articles": [
-      {
-        "title": "YouTube expands access to its in-app AI chatbot",
-        "link": "https://www.socialmediatoday.com/news/youtube-expands-access-to-its-in-app-ai-chatbot/827757/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-12T22:07:40",
-        "summary": "YouTube is expanding access to its artificial intelligence-powered Ask YouTube functionality on mobile to all U.S. users.\nYouTube launched the feature on mobile to its Premium subscribers in April. The option enables\u2026"
-      },
-      {
-        "title": "Meta partners with North America\u2019s Building Trades Unions",
-        "link": "https://www.socialmediatoday.com/news/meta-partners-with-north-americas-building-trades-unions/827755/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-12T22:04:13",
-        "summary": "Meta announced another training partnership program related to the development of construction jobs in the U.S., as the company works to counter concerns about its massive data center projects and their potential for\u2026"
-      },
-      {
-        "title": "Meta outlines updated scam alert system coming to WhatsApp",
-        "link": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-12T21:53:40",
-        "summary": "Meta shared a preview of its new Scam Alert system for WhatsApp, which is designed to alert WhatsApp users to potential scam messages and contacts without infringing on their privacy. The system works with WhatsApp\u2019s\u2026"
-      },
-      {
-        "title": "Pinterest partners with Zillow for ad targeting",
-        "link": "https://www.socialmediatoday.com/news/pinterest-partners-with-zillow-for-ad-targeting/827752/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-12T21:31:06",
-        "summary": "Pinterest and real estate marketplace Zillow announced a new partnership on Wednesday that will enable Zillow Elevate advertisers to target Pinners via Pinterest\u2019s Media Network Connect option.\nPinterest\u2019s Media Network\u2026"
-      },
-      {
-        "title": "Meta expands access to Creator Studio app",
-        "link": "https://www.socialmediatoday.com/news/meta-expands-access-to-creator-studio-app/827745/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-12T19:23:02",
-        "summary": "Meta expanded access to its new Creator Studio app, which provides artificial intelligence-powered guidance to help creators maximize their growth on Facebook.\nThe company announced the new Creator Studio app in June\u2026"
       }
     ]
   }
