@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-08-19",
+    "articles": [
+      {
+        "title": "Brands shake up back-to-school marketing to reach \u2018hyper value-seekers\u2019",
+        "link": "https://www.marketingdive.com/news/brands-shake-up-back-to-school-marketing-to-reach-hyper-value-seekers/827821/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-08-18T12:00:00",
+        "summary": "Deals and discounts are common tactics to draw in shoppers during the back-to-school season. But how about a promise that prices won\u2019t rise within the next few weeks?\nThat\u2019s the premise of JCPenney\u2019s Price Lock\u2026"
+      },
+      {
+        "title": "TikTok Live adds AI-generated intros",
+        "link": "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-18T23:19:37",
+        "summary": "TikTok has launched a new artificial intelligence-powered introduction tool within the TikTok Live composer, which will generate a summary of the live host and the focus of their broadcast, which they can then share\u2026"
+      },
+      {
+        "title": "YouTube rolls out improvements for Connected TV",
+        "link": "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-18T23:05:41",
+        "summary": "YouTube announced updates to its TV app as the company continues to fuel Connected TV engagement, which has been one of its fastest-growing formats.\nFirst, YouTube now lets creators turn their playlists into shows,\u2026"
+      },
+      {
+        "title": "Reddit tests AI-powered conversations",
+        "link": "https://www.socialmediatoday.com/news/reddit-tests-ai-powered-conversations/828217/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-18T23:02:29",
+        "summary": "Reddit is testing a new way to drive user engagement via audio and/or video summaries of in-app conversations.\nAs shown in this sequence, which was highlighted by The Verge, Reddit\u2019s new experiment will give users\u2026"
+      },
+      {
+        "title": "Meta faces unprecedented legal battle",
+        "link": "https://www.socialmediatoday.com/news/meta-faces-unprecedented-legal-battle/828215/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-18T20:06:07",
+        "summary": "Meta is facing an unprecedented legal battle as the company defends itself against a coalition of 29 state attorneys general in the U.S. The state AGs allege that the company intentionally designed addictive systems,\u2026"
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "articles": [
       {
@@ -86,52 +126,5 @@
   {
     "date": "2026-08-15",
     "articles": []
-  },
-  {
-    "date": "2026-08-14",
-    "articles": [
-      {
-        "title": "Sociable: Pinterest partners with Zillow for ad targeting",
-        "link": "https://www.marketingdive.com/news/sociable-pinterest-partners-with-zillow-for-ad-targeting/827812/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-08-13T15:51:00",
-        "summary": "\u201cSociable\u201d is the latest commentary on important social media developments and trends from industry expert Andrew Hutchinson of Social Media Today.\nPinterest and real estate marketplace Zillow announced a new\u2026"
-      },
-      {
-        "title": "Smartphone school ban could imperil billions in social media ad revenue",
-        "link": "https://www.marketingdive.com/news/smartphone-school-ban-could-imperil-billions-in-social-media-ad-revenue/827739/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-08-13T15:10:33",
-        "summary": "Dive Brief:\n- A nationwide school smartphone ban would cost TikTok $1.26 billion in ad revenue if one took effect, according to an analysis by Emarketer shared with Marketing Dive. That difference would grow to $2.08\u2026"
-      },
-      {
-        "title": "Meta gives 15,000 pairs of AI glasses to vision impaired users",
-        "link": "https://www.socialmediatoday.com/news/meta-gives-15000-pairs-of-ai-glasses-to-vision-impaired-users/827874/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-13T20:40:40",
-        "summary": "Meta is working to highlight the utility of its artificial intelligence-equipped wearables amid rising concerns about its Meta glasses being used to spy on unwitting victims. To that end, the company is giving away\u2026"
-      },
-      {
-        "title": "Instagram reveals its new logo",
-        "link": "https://www.socialmediatoday.com/news/instagram-reveals-its-new-logo/827871/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-13T20:27:57",
-        "summary": "Instagram is trying out a new look, with platform Chief Adam Mosseri sharing the first view of an updated logo.\nInstagram\u2019s new branding takes on a different style than the previous IG logo, offering a refreshed feel\u2026"
-      },
-      {
-        "title": "Meta removed more than 750,000 teen accounts in Australia",
-        "link": "https://www.socialmediatoday.com/news/meta-removed-more-than-750000-teen-accounts-in-australia/827865/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-13T20:03:51",
-        "summary": "Meta has shared new data on its compliance with Australia's under-16 teen social media ban, with the company reporting that since June 2025, it has removed access to more than 750,000 Australian accounts across Facebook\u2026"
-      },
-      {
-        "title": "Meta publishes holiday marketing guides",
-        "link": "https://www.socialmediatoday.com/news/meta-publishes-holiday-marketing-guides/827856/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-13T19:33:30",
-        "summary": "Meta published a series of blog posts on holiday campaign planning this week that outline how shopping journeys have evolved, and details how marketers can update their approaches to align with new discovery and\u2026"
-      }
-    ]
   }
 ]
