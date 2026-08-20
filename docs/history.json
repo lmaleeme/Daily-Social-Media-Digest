@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-08-20",
+    "articles": [
+      {
+        "title": "Chipotle broadens Gen Alpha marketing with Salish Matter collab",
+        "link": "https://www.marketingdive.com/news/chipotle-broadens-gen-alpha-marketing-strategy-with-salish-matter-collab/828178/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-08-19T11:53:00",
+        "summary": "Dive Brief:\n- Chipotle is bringing a custom order inspired by a content creator to its Kid\u2019s Meal for the first time, marking a ramp-up in the Mexican fast-casual chain\u2019s overtures to Gen Alpha, according to news shared\u2026"
+      },
+      {
+        "title": "TikTok explores expanding in-stream payment options",
+        "link": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-19T23:19:31",
+        "summary": "As X continues to evolve its X Money payment process, TikTok may also be looking to integrate in-stream payments as part of its own expanded shopping push.\nAccording to Bloomberg, TikTok is exploring the potential of\u2026"
+      },
+      {
+        "title": "Meta highlights rising brand opportunities in women\u2019s sports",
+        "link": "https://www.socialmediatoday.com/news/meta-highlights-rising-brand-opportunities-in-womens-sports/828348/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-19T23:10:53",
+        "summary": "Meta shared new insights into rising engagement with women\u2019s sports content across its apps, which could present valuable opportunities for brands.\nMeta\u2019s report includes insights on the increased popularity of women\u2019s\u2026"
+      },
+      {
+        "title": "Meta AI launches for Mac",
+        "link": "https://www.socialmediatoday.com/news/meta-ai-launches-for-mac/828347/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-19T23:06:19",
+        "summary": "Meta released a Mac version of its Meta AI app, providing another access point to its evolving artificial intelligence assistant tools.\nThe new Mac-specific iteration of Meta AI includes all the features of the mobile\u2026"
+      },
+      {
+        "title": "Meta adds AI-powered assistant for SMB owners",
+        "link": "https://www.socialmediatoday.com/news/meta-adds-ai-powered-assistant-for-smb-owners/828344/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-19T21:34:46",
+        "summary": "Meta is looking to make its artificial intelligence tools more valuable for small businesses by enabling SMB owners to integrate data from their Facebook and Instagram analytics, Meta Ads and Google Workspace into Meta\u2026"
+      },
+      {
+        "title": "LinkedIn adds AI-powered event highlights",
+        "link": "https://www.socialmediatoday.com/news/linkedin-adds-ai-powered-event-highlights/828343/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-08-19T20:22:16",
+        "summary": "LinkedIn wants to help creators and brands maximize the value of their live event streams by introducing artificial intelligence-powered recommended clips and chapters for live event video recordings, which will\u2026"
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "articles": [
       {
@@ -121,10 +168,6 @@
   },
   {
     "date": "2026-08-16",
-    "articles": []
-  },
-  {
-    "date": "2026-08-15",
     "articles": []
   }
 ]
