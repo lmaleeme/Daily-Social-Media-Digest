@@ -27,7 +27,7 @@ import trafilatura
 # ---------------------------------------------------------------------------
 
 RSS_FEEDS = [
-    "https://www.marketingdive.com/feeds/news/", "https://www.socialmediatoday.com/feeds/news/",
+    "https://www.marketingdive.com/feeds/news/",
     # Add more feeds here, e.g.:
     # "https://www.socialmediatoday.com/rss/",
     # "https://www.adweek.com/feed/",
@@ -284,25 +284,33 @@ def post_to_linkedin(text):
         print(text)
         return
 
+    # Uses LinkedIn's newer versioned Posts API (rest/posts), not the legacy
+    # /v2/ugcPosts endpoint — the legacy endpoint rejects the member ID format
+    # returned by the OpenID /userinfo lookup with an "author" field error.
+    # LINKEDIN_API_VERSION should be bumped periodically — LinkedIn sunsets
+    # versions after about a year. Check https://learn.microsoft.com/en-us/linkedin/
+    # if this starts returning a 426 NONEXISTENT_VERSION error.
+    LINKEDIN_API_VERSION = "202603"
+
     resp = requests.post(
-        "https://api.linkedin.com/v2/ugcPosts",
+        "https://api.linkedin.com/rest/posts",
         headers={
             "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
             "Content-Type": "application/json",
             "X-Restli-Protocol-Version": "2.0.0",
+            "LinkedIn-Version": LINKEDIN_API_VERSION,
         },
         json={
             "author": LINKEDIN_AUTHOR_URN,
+            "commentary": text,
+            "visibility": "PUBLIC",
+            "distribution": {
+                "feedDistribution": "MAIN_FEED",
+                "targetEntities": [],
+                "thirdPartyDistributionChannels": [],
+            },
             "lifecycleState": "PUBLISHED",
-            "specificContent": {
-                "com.linkedin.ugc.ShareContent": {
-                    "shareCommentary": {"text": text},
-                    "shareMediaCategory": "NONE",
-                }
-            },
-            "visibility": {
-                "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
-            },
+            "isReshareDisabledByAuthor": False,
         },
         timeout=30,
     )
