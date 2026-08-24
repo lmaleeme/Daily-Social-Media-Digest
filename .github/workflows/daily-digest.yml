@@ -2,8 +2,9 @@ name: Daily Social Media Digest
 
 on:
   schedule:
-    # Runs 07:00 UTC daily — adjust to your preferred send time.
-    - cron: "0 7 * * *"
+    # Runs 07:00 UTC, Monday-Friday only — skips weekends since there's
+    # often little/no social media news to report on Sat/Sun.
+    - cron: "0 7 * * 1-5"
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
 permissions:
