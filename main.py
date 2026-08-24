@@ -130,28 +130,29 @@ def summarize_article(article):
 
     if not ANTHROPIC_API_KEY:
         # Fallback with no API key: trim what we have (not ideal, but functional)
-        return source_text[:220].rsplit(" ", 1)[0] + "…"
+        trimmed = source_text[:220].rsplit(" ", 1)[0] + "…"
+        return {"long": trimmed, "short": trimmed[:120]}
 
     # Cap input length to keep prompts small/cheap
     source_text = source_text[:6000]
 
     prompt = (
-        "You are writing an executive summary for a daily social-media-news digest, "
-        "read by busy marketing professionals. Read the article text below and write "
-        "a summary ENTIRELY IN YOUR OWN WORDS — do not copy or closely paraphrase "
-        "sentences from the source, and do not use direct quotes.\n\n"
-        "Target length: a ONE-MINUTE READ — about 150-180 words, 4-6 sentences. "
-        "This is not a teaser; it should be dense enough that the reader genuinely "
-        "understands what happened without opening the article, and only clicks "
-        "through if they want more depth or the exact source.\n\n"
-        "Include, as relevant: what happened and to which platform/company; concrete "
-        "specifics (numbers, dates, features, names) rather than vague description; "
-        "the stated reason or context behind it; and why it matters for someone "
-        "working in marketing or social media (the practical implication).\n\n"
-        "Do not include fluff: no throat-clearing openers ('In a recent development...'), "
-        "no restating the headline, no filler adjectives, no editorializing or opinion, "
-        "no call-to-action. Every sentence should carry information the reader would "
-        "otherwise have had to read the article to get.\n\n"
+        "You are writing content for a daily social-media-news digest, read by busy "
+        "marketing professionals. Read the article text below and respond with ONLY "
+        "a JSON object (no markdown fences, no preamble) with two keys:\n\n"
+        "\"long_summary\": a ONE-MINUTE READ, about 150-180 words / 4-6 sentences. "
+        "Dense enough that the reader genuinely understands what happened without "
+        "opening the article.\n\n"
+        "\"short_summary\": a single, information-dense sentence (roughly 25-35 words) "
+        "covering what happened, the platform/company involved, and the concrete "
+        "detail that matters most. This will stand ALONE next to the headline in a "
+        "LinkedIn post, so it must convey real substance by itself — not a teaser "
+        "like 'here's what changed', but the actual news.\n\n"
+        "Both summaries: written ENTIRELY IN YOUR OWN WORDS (no copying or close "
+        "paraphrasing of source sentences, no direct quotes), with concrete specifics "
+        "(numbers, dates, features, names) rather than vague description. No "
+        "throat-clearing openers, no restating the headline, no filler adjectives, "
+        "no editorializing, no call-to-action.\n\n"
         f"Title: {article['title']}\n\n"
         f"Article text:\n{source_text}"
     )
@@ -165,14 +166,26 @@ def summarize_article(article):
         },
         json={
             "model": ANTHROPIC_MODEL,
-            "max_tokens": 350,
+            "max_tokens": 450,
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=45,
     )
     response.raise_for_status()
     data = response.json()
-    return "".join(block.get("text", "") for block in data.get("content", [])).strip()
+    raw_text = "".join(block.get("text", "") for block in data.get("content", [])).strip()
+
+    try:
+        # Strip accidental markdown fences if the model adds them anyway
+        cleaned = re.sub(r"^```json\s*|\s*```$", "", raw_text.strip())
+        parsed = json.loads(cleaned)
+        return {
+            "long": parsed.get("long_summary", "").strip(),
+            "short": parsed.get("short_summary", "").strip(),
+        }
+    except Exception as e:
+        print(f"Summary JSON parse failed, falling back to raw text: {e}")
+        return {"long": raw_text, "short": raw_text[:200]}
 
 
 # ---------------------------------------------------------------------------
@@ -266,15 +279,14 @@ def build_html(history):
 # ---------------------------------------------------------------------------
 
 def build_linkedin_post(today_articles):
-    # Summaries are now full 1-minute reads (~150-180 words), too long to stack
-    # several into one LinkedIn post. Keep LinkedIn as true highlights — just the
-    # headlines — and send readers to the page for the full summaries.
+    # Each bullet now carries a real one-liner (li_summary), not just the headline,
+    # so the post itself works as a genuine catch-up rather than a teaser list.
     today = datetime.date.today().strftime("%B %d, %Y")
-    lines = [f"📱 Social Media News — {today}\n"]
+    lines = [f"📱 Social Media News Digest — {today}\n"]
     for a in today_articles:
-        lines.append(f"• {a['title']}")
+        lines.append(f"• {a['title']}: {a['li_summary']}")
     if PUBLISHED_PAGE_URL:
-        lines.append(f"\nFull summaries: {PUBLISHED_PAGE_URL}")
+        lines.append(f"\nFull digest: {PUBLISHED_PAGE_URL}")
     return "\n".join(lines)
 
 
@@ -327,7 +339,9 @@ def post_to_linkedin(text):
 def main():
     today_articles = fetch_recent_articles()
     for a in today_articles:
-        a["summary"] = summarize_article(a)
+        summaries = summarize_article(a)
+        a["summary"] = summaries["long"]       # full one-minute read, shown on the web page
+        a["li_summary"] = summaries["short"]   # dense one-liner, shown in the LinkedIn post
         a.pop("raw_summary", None)  # no longer needed once we have a real summary
 
     history = update_history(today_articles)
@@ -337,8 +351,14 @@ def main():
     with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
 
-    li_text = build_linkedin_post(today_articles)
-    post_to_linkedin(li_text)
+    # Weekday-only safety net: even though the schedule itself is Mon-Fri only,
+    # skip posting to LinkedIn if there's nothing to say (e.g. a quiet news day)
+    # rather than publishing an empty digest.
+    if today_articles:
+        li_text = build_linkedin_post(today_articles)
+        post_to_linkedin(li_text)
+    else:
+        print("No qualifying articles today — skipping LinkedIn post to avoid a blank digest.")
 
     print(f"Digest built with {len(today_articles)} article(s) today, "
           f"{len(history)} day(s) in history.")
