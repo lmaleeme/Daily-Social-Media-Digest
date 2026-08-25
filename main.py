@@ -38,6 +38,11 @@ SOCIAL_KEYWORDS = [
     "social media", "instagram", "tiktok", "linkedin", "facebook", "meta",
     "twitter", " x ", "youtube", "snapchat", "pinterest", "reddit",
     "influencer", "algorithm", "creator economy", "platform update",
+    # Broader campaign/case-study language that MarketingDive's own "Social Media"
+    # topic page uses, even when a specific platform isn't named in the title:
+    "social-first", "social series", "social content", "social campaign",
+    "social strategy", "user-generated content", " ugc ", "viral", "creator",
+    "brand partnership", "sponsored content",
 ]
 
 LOOKBACK_HOURS = 26  # slight buffer past 24h so a daily run never misses items
