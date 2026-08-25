@@ -50,7 +50,7 @@ MAX_ARTICLES = 6     # cap on how many stories go into one day's digest
 HISTORY_DAYS = 5     # how many days of digests to keep on the page
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_AUTHOR_URN = os.environ.get("LINKEDIN_AUTHOR_URN")
@@ -184,6 +184,8 @@ def summarize_article(article):
         },
         timeout=45,
     )
+    if response.status_code >= 400:
+        print(f"Anthropic API error {response.status_code}: {response.text}")
     response.raise_for_status()
     data = response.json()
     raw_text = "".join(block.get("text", "") for block in data.get("content", [])).strip()
