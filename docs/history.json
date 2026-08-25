@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-08-25",
+    "articles": []
+  },
+  {
     "date": "2026-08-24",
     "articles": []
   },
@@ -63,46 +67,6 @@
         "source": "Social Media Today - Latest News",
         "published": "2026-08-19T20:22:16",
         "summary": "LinkedIn wants to help creators and brands maximize the value of their live event streams by introducing artificial intelligence-powered recommended clips and chapters for live event video recordings, which will\u2026"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "articles": [
-      {
-        "title": "Brands shake up back-to-school marketing to reach \u2018hyper value-seekers\u2019",
-        "link": "https://www.marketingdive.com/news/brands-shake-up-back-to-school-marketing-to-reach-hyper-value-seekers/827821/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-08-18T12:00:00",
-        "summary": "Deals and discounts are common tactics to draw in shoppers during the back-to-school season. But how about a promise that prices won\u2019t rise within the next few weeks?\nThat\u2019s the premise of JCPenney\u2019s Price Lock\u2026"
-      },
-      {
-        "title": "TikTok Live adds AI-generated intros",
-        "link": "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-18T23:19:37",
-        "summary": "TikTok has launched a new artificial intelligence-powered introduction tool within the TikTok Live composer, which will generate a summary of the live host and the focus of their broadcast, which they can then share\u2026"
-      },
-      {
-        "title": "YouTube rolls out improvements for Connected TV",
-        "link": "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-18T23:05:41",
-        "summary": "YouTube announced updates to its TV app as the company continues to fuel Connected TV engagement, which has been one of its fastest-growing formats.\nFirst, YouTube now lets creators turn their playlists into shows,\u2026"
-      },
-      {
-        "title": "Reddit tests AI-powered conversations",
-        "link": "https://www.socialmediatoday.com/news/reddit-tests-ai-powered-conversations/828217/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-18T23:02:29",
-        "summary": "Reddit is testing a new way to drive user engagement via audio and/or video summaries of in-app conversations.\nAs shown in this sequence, which was highlighted by The Verge, Reddit\u2019s new experiment will give users\u2026"
-      },
-      {
-        "title": "Meta faces unprecedented legal battle",
-        "link": "https://www.socialmediatoday.com/news/meta-faces-unprecedented-legal-battle/828215/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-18T20:06:07",
-        "summary": "Meta is facing an unprecedented legal battle as the company defends itself against a coalition of 29 state attorneys general in the U.S. The state AGs allege that the company intentionally designed addictive systems,\u2026"
       }
     ]
   }
