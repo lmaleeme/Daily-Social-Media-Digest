@@ -62,7 +62,13 @@ HISTORY_FILE = os.path.join(OUTPUT_DIR, "history.json")
 # ---------------------------------------------------------------------------
 
 def fetch_recent_articles():
-    cutoff = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None) - datetime.timedelta(hours=LOOKBACK_HOURS)
+    # On Mondays, reach back far enough to cover the weekend gap (script doesn't
+    # run Sat/Sun), so Friday/weekend news isn't silently missed. Other weekdays
+    # use the normal short lookback.
+    is_monday = datetime.date.today().weekday() == 0  # Monday == 0
+    lookback_hours = 78 if is_monday else LOOKBACK_HOURS  # ~3.25 days covers Fri-Sun
+
+    cutoff = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None) - datetime.timedelta(hours=lookback_hours)
     articles = []
 
     for feed_url in RSS_FEEDS:
