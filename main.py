@@ -28,15 +28,15 @@ import trafilatura
 
 RSS_FEEDS = [
     "https://www.marketingdive.com/feeds/news/",
+    "https://www.socialmediatoday.com/feeds/news/",
     # Add more feeds here, e.g.:
-    # "https://www.socialmediatoday.com/rss/",
     # "https://www.adweek.com/feed/",
 ]
 
 # Only keep articles whose title/summary mentions one of these (case-insensitive).
 SOCIAL_KEYWORDS = [
     "social media", "instagram", "tiktok", "linkedin", "facebook", "meta",
-    "twitter", " x ", "youtube", "snapchat", "pinterest", "reddit",
+    "twitter", " x ", "youtube", "snapchat", "pinterest", "reddit", "threads",
     "influencer", "algorithm", "creator economy", "platform update",
     # Broader campaign/case-study language that MarketingDive's own "Social Media"
     # topic page uses, even when a specific platform isn't named in the title:
@@ -85,7 +85,9 @@ def fetch_recent_articles():
 
             title = entry.get("title", "").strip()
             summary_raw = entry.get("summary", "") or entry.get("description", "")
-            text_blob = f"{title} {summary_raw}".lower()
+            # Leading/trailing space added so the " x " keyword (X/Twitter) still
+            # matches when "X" is the very first or last word of the title.
+            text_blob = f" {title} {summary_raw} ".lower()
 
             if not any(kw in text_blob for kw in SOCIAL_KEYWORDS):
                 continue
