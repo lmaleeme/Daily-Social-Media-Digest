@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-03",
+    "articles": [
+      {
+        "title": "X Money will be the only payout option for U.S. creators",
+        "link": "https://www.socialmediatoday.com/news/x-money-will-be-the-only-payout-option-for-us-creators/829514/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-02T23:20:37",
+        "summary": "X has made its new X Money payments platform the mandatory payout method for U.S. creators enrolled in its Original Content Rewards and Subscriptions programs, effective immediately, with no alternative option offered domestically. X says the switch lets creators access funds instantly upon payment rather than waiting to hit a payout threshold. To qualify, creators must verify their phone number for an X Money account and maintain an X Premium subscription\u2014already a monetization requirement, so no added barrier there. Non-U.S. creators will keep using Stripe for payouts. X Money, launched in beta in November 2025, is powered by Cross River Bank, which also issues its Visa debit card for ATM withdrawals, after X secured a regulatory agreement to overcome state-level pushback tied to its Middle East ownership ties. The move comes as TechCrunch reports a rise in hacking attempts targeting X accounts specifically to steal X Money payment details, adding security pressure as X pushes toward becoming an all-in-one \"everything app.\"",
+        "li_summary": "X now requires all U.S. creators in its Original Content Rewards and Subscriptions programs to receive payouts exclusively through X Money, its Cross River Bank-powered payment platform launched in beta November 2025."
+      },
+      {
+        "title": "TikTok signs multi-year NFL deal",
+        "link": "https://www.socialmediatoday.com/news/tiktok-signs-multi-year-nfl-deal/829506/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-02T21:38:06",
+        "summary": "TikTok has signed a new multi-year partnership with the NFL to deepen the league's presence on the platform through expanded content and interactive fan features. The deal introduces NFL game day hubs built on TikTok's GamePlan sports partnership framework, giving fans a dedicated space to browse trending clips, complete fan challenges for exclusive rewards, and engage around live game moments. TikTok will also host more highlights, archival footage, and ongoing storytelling content from the league and its 32 teams throughout the year. Brands get a new avenue too, with advertisers able to leverage NFL-related trends via TikTok's Pulse Premiere ad product. TikTok says posts tagged #NFL rose more than 32% over the past year, and cites earlier research showing 59% of its users find watching sports content on the app more entertaining than watching live games, signaling why leagues are prioritizing the platform for fan engagement.",
+        "li_summary": "TikTok and the NFL signed a multi-year deal adding GamePlan-powered game day hubs, fan challenges, highlights and Pulse Premiere ads, after #NFL posts grew over 32% in the past year."
+      },
+      {
+        "title": "YouTube adds mobile phone controls for CTV",
+        "link": "https://www.socialmediatoday.com/news/youtube-adds-mobile-phone-controls-for-ctv/829505/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-02T21:28:57",
+        "summary": "```json\n{\n  \"long_summary\": \"YouTube is updating its Connected TV experience to let viewers control TV playback using their phones without needing to share a Wi-Fi network or manually pair devices. The update syncs phone and TV access to engagement features like comments, likes, descriptions, and channel subscriptions, which are cumbersome to manage with a standard remote. Users can also browse other parts of the YouTube app\u2014like searching videos or watching Shorts\u2014while content plays on the TV, and can send videos to their TV directly from their phone's homepage feed via a \"Play on different device\" option in the three-dot menu. This builds on YouTube's recent CTV push, which has included podcast viewing, account locking, and channel-based \"station\" streams. It also extends AI-powered search capabilities, previously limited to smart TVs with microphone-equipped remotes, to a broader base of users. YouTube reports more than one billion daily hours of viewing on TV screens, making CTV a key growth area the company continues to invest in.\",\n  \"short_summary\": \"YouTube now lets phones control connected TVs without shared Wi-Fi or manual pairing, syncing access to comments, likes, subscriptions, and search as daily TV viewing surpasses one billion hours.\"\n}\n```",
+        "li_summary": "```json\n{\n  \"long_summary\": \"YouTube is updating its Connected TV experience to let viewers control TV playback using their phones without needing to share a Wi-Fi network or manually pair devices. Th"
+      },
+      {
+        "title": "Pinterest promotes its role in teen wellbeing",
+        "link": "https://www.socialmediatoday.com/news/pinterest-promotes-its-role-in-teen-wellbeing/829504/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-02T19:24:47",
+        "summary": "{\"long_summary\":\"Pinterest released a report on Tuesday positioning itself as a positive influence on teen wellbeing, contrasting its platform with apps designed for endless scrolling. The company said 77% of active teen users proactively use its search bar, and teens access settings and feed controls at nearly twice the rate of other age groups. Teens over-index on art searches by 1.26 times, favoring topics like drawing references, anime styles, sketch tutorials, and bedroom d\u00e9cor. Pinterest is expanding its distraction-free \\\"school hours\\\" nudges\u2014already shown to 4.5 million teens across the US, Canada, France, UK, Germany, and Brazil\u2014to over 30 countries. The company is also growing its (Me)dia Mindfulness hub and launching a new trauma-informed feature called \\\"Protect Your Energy,\\\" alongside increased donations to youth mental health causes. The report reads partly as an implicit contrast with Meta, which faces ongoing scrutiny over teen safety, though Pinterest's emphasis on lower usage time is a notable stance for an ad-dependent business.\",\"short_summary\":\"Pinterest published a report Tuesday claiming 77% of teen users actively use its search bar and expanding its distraction-free school-hours nudges\u2014already seen by 4.5 million teens across six countries\u2014to over 30 count",
+        "li_summary": "{\"long_summary\":\"Pinterest released a report on Tuesday positioning itself as a positive influence on teen wellbeing, contrasting its platform with apps designed for endless scrolling. The company sai"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "articles": []
   },
@@ -20,53 +57,6 @@
         "source": "Marketing Dive - Latest News",
         "published": "2026-08-20T16:39:00",
         "summary": "\u201cSociable\u201d is the latest commentary on important social media developments and trends from industry expert Andrew Hutchinson of Social Media Today.\nYouTube announced updates to its TV app as the company continues to\u2026"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-20",
-    "articles": [
-      {
-        "title": "Chipotle broadens Gen Alpha marketing with Salish Matter collab",
-        "link": "https://www.marketingdive.com/news/chipotle-broadens-gen-alpha-marketing-strategy-with-salish-matter-collab/828178/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-08-19T11:53:00",
-        "summary": "Dive Brief:\n- Chipotle is bringing a custom order inspired by a content creator to its Kid\u2019s Meal for the first time, marking a ramp-up in the Mexican fast-casual chain\u2019s overtures to Gen Alpha, according to news shared\u2026"
-      },
-      {
-        "title": "TikTok explores expanding in-stream payment options",
-        "link": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-19T23:19:31",
-        "summary": "As X continues to evolve its X Money payment process, TikTok may also be looking to integrate in-stream payments as part of its own expanded shopping push.\nAccording to Bloomberg, TikTok is exploring the potential of\u2026"
-      },
-      {
-        "title": "Meta highlights rising brand opportunities in women\u2019s sports",
-        "link": "https://www.socialmediatoday.com/news/meta-highlights-rising-brand-opportunities-in-womens-sports/828348/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-19T23:10:53",
-        "summary": "Meta shared new insights into rising engagement with women\u2019s sports content across its apps, which could present valuable opportunities for brands.\nMeta\u2019s report includes insights on the increased popularity of women\u2019s\u2026"
-      },
-      {
-        "title": "Meta AI launches for Mac",
-        "link": "https://www.socialmediatoday.com/news/meta-ai-launches-for-mac/828347/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-19T23:06:19",
-        "summary": "Meta released a Mac version of its Meta AI app, providing another access point to its evolving artificial intelligence assistant tools.\nThe new Mac-specific iteration of Meta AI includes all the features of the mobile\u2026"
-      },
-      {
-        "title": "Meta adds AI-powered assistant for SMB owners",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-ai-powered-assistant-for-smb-owners/828344/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-19T21:34:46",
-        "summary": "Meta is looking to make its artificial intelligence tools more valuable for small businesses by enabling SMB owners to integrate data from their Facebook and Instagram analytics, Meta Ads and Google Workspace into Meta\u2026"
-      },
-      {
-        "title": "LinkedIn adds AI-powered event highlights",
-        "link": "https://www.socialmediatoday.com/news/linkedin-adds-ai-powered-event-highlights/828343/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-08-19T20:22:16",
-        "summary": "LinkedIn wants to help creators and brands maximize the value of their live event streams by introducing artificial intelligence-powered recommended clips and chapters for live event video recordings, which will\u2026"
       }
     ]
   }
