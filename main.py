@@ -152,15 +152,16 @@ def summarize_article(article):
     prompt = (
         "You are writing content for a daily social-media-news digest, read by busy "
         "marketing professionals. Read the article text below and respond with ONLY "
-        "a JSON object (no markdown fences, no preamble) with two keys:\n\n"
-        "\"long_summary\": a ONE-MINUTE READ, about 150-180 words / 4-6 sentences. "
-        "Dense enough that the reader genuinely understands what happened without "
-        "opening the article.\n\n"
+        "a JSON object (no markdown fences, no preamble) with two keys, in THIS ORDER "
+        "(short_summary first, so it's complete even if the response is ever cut short):\n\n"
         "\"short_summary\": a single, information-dense sentence (roughly 25-35 words) "
         "covering what happened, the platform/company involved, and the concrete "
         "detail that matters most. This will stand ALONE next to the headline in a "
         "LinkedIn post, so it must convey real substance by itself — not a teaser "
         "like 'here's what changed', but the actual news.\n\n"
+        "\"long_summary\": a ONE-MINUTE READ, about 150-180 words / 4-6 sentences. "
+        "Dense enough that the reader genuinely understands what happened without "
+        "opening the article.\n\n"
         "Both summaries: written ENTIRELY IN YOUR OWN WORDS (no copying or close "
         "paraphrasing of source sentences, no direct quotes), with concrete specifics "
         "(numbers, dates, features, names) rather than vague description. No "
@@ -179,7 +180,7 @@ def summarize_article(article):
         },
         json={
             "model": ANTHROPIC_MODEL,
-            "max_tokens": 450,
+            "max_tokens": 700,
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=45,
@@ -199,8 +200,22 @@ def summarize_article(article):
             "short": parsed.get("short_summary", "").strip(),
         }
     except Exception as e:
-        print(f"Summary JSON parse failed, falling back to raw text: {e}")
-        return {"long": raw_text, "short": raw_text[:200]}
+        print(f"Summary JSON parse failed for '{article['title']}': {e}")
+        # Safety net: try to pull each field out with regex even from a
+        # truncated/broken response, so raw JSON debris never ends up in a post.
+        short_match = re.search(r'"short_summary"\s*:\s*"([^"]*)"', raw_text)
+        long_match = re.search(r'"long_summary"\s*:\s*"([^"]*)"', raw_text)
+        short_val = short_match.group(1).strip() if short_match else ""
+        long_val = long_match.group(1).strip() if long_match else ""
+
+        if not short_val and not long_val:
+            # Nothing usable recovered — fall back to a clean trim of the
+            # original source text instead of ever showing raw JSON/braces.
+            clean_fallback = source_text[:220].rsplit(" ", 1)[0] + "…"
+            short_val = short_val or clean_fallback[:150]
+            long_val = long_val or clean_fallback
+
+        return {"long": long_val or short_val, "short": short_val or long_val[:150]}
 
 
 # ---------------------------------------------------------------------------
@@ -294,14 +309,17 @@ def build_html(history):
 # ---------------------------------------------------------------------------
 
 def build_linkedin_post(today_articles):
-    # Each bullet now carries a real one-liner (li_summary), not just the headline,
-    # so the post itself works as a genuine catch-up rather than a teaser list.
+    # Each bullet carries a real one-liner (li_summary) plus a direct link back
+    # to the original source article — not just one link to the digest page.
     today = datetime.date.today().strftime("%B %d, %Y")
     lines = [f"📱 Social Media News Digest — {today}\n"]
     for a in today_articles:
         lines.append(f"• {a['title']}: {a['li_summary']}")
+        if a.get("link"):
+            lines.append(f"  {a['link']}")
+        lines.append("")  # blank line between items for readability
     if PUBLISHED_PAGE_URL:
-        lines.append(f"\nFull digest: {PUBLISHED_PAGE_URL}")
+        lines.append(f"Full digest (last 5 days): {PUBLISHED_PAGE_URL}")
     return "\n".join(lines)
 
 
