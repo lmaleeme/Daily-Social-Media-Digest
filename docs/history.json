@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-08",
+    "articles": [
+      {
+        "title": "Building a framework to better protect teens on social media",
+        "link": "https://www.socialmediatoday.com/news/building-a-framework-to-better-protect-teens-on-social-media/829645/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-08T05:48:00",
+        "summary": "A new review of global teen social media safety efforts highlights growing public support for age restrictions alongside serious enforcement problems. Pew Research's July survey found 56% of Americans back a ban for under-16s, while polls show 90% of UK parents, 79% of French and Italian adults, and 60% of Swedish and Norwegian respondents favor similar limits. Yet Australia, the first country to enact a large-scale under-16 ban, reports in its six-month review that most young users still bypass restrictions, despite testing government ID checks, facial age estimation, and activity-based inference. Regulators found viable verification tools exist but stopped short of mandating one method, leaving enforcement inconsistent. The EU is now trialing government-issued ID for teens, while Meta argues AI and app stores should handle age verification instead. Messaging apps remain largely exempt from these bans, even as Australian data shows displa",
+        "li_summary": "Australia's eSafety Commissioner reports that most under-16 users still access banned social platforms six months into its landmark ban, as Pew Research finds 56% of Americans now support similar under-16 restrictions."
+      },
+      {
+        "title": "LinkedIn shares insights into younger professionals",
+        "link": "https://www.socialmediatoday.com/news/linkedin-shares-insights-into-younger-professionals/829515/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-08T05:48:00",
+        "summary": "LinkedIn released survey findings from over 18,000 professionals examining how Gen Z employees engage with the workforce and how marketers can better reach this demographic. On the career side, 72% of Gen Z professionals said they miss opportunities due to hesitation, with 37% fearing they'd bother people, 37% fearing judgment, and 34% worried about sounding inauthentic; separately, 53% said they don't know how to start networking professionally. This matters because LinkedIn data shows 27% of Gen Z found their next role through online professional communities, and U.S. applicants with an inside connection were nearly 7 times more likely to get hired. LinkedIn plans to add more in-stream connection features, including expanded in-app games, to help younger users network more easily. On the marketing front, 90% of marketers said future growth hinges on influencing younger decision-makers, 42% said expert-voice content converts best, and 86% of U.S. marketers agreed Gen Z and millennial buyers trust peer recommendations and experts over branded content. Gen Z buyers most engage with short-form and immersive video (49%) and expert content (42%), while 73% of respondents said brand credibility now outweighs visibility.",
+        "li_summary": "LinkedIn's survey of 18,000+ professionals found 72% of Gen Z workers avoid networking out of fear of judgment, while 90% of marketers say growth depends on reaching younger decision-makers via expert-led short-form video."
+      },
+      {
+        "title": "Pinterest offers advice on creating effective shopping promotions",
+        "link": "https://www.socialmediatoday.com/news/pinterest-offers-advice-on-creating-effective-shopping-promotions/829245/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-08T05:48:00",
+        "summary": "Pinterest released a four-step framework to help brands run more effective shopping promotions ahead of the year-end retail season, tied to its growth to 640 million monthly active users, most of whom use the app for product discovery. The first step, \"build foundations,\" urges brands to set up a shopfront, create product Pins, sync product catalogs for updated listings, and install Pinterest tags for performance tracking before launching ads. Step two, \"launch and automate,\" recommends using Pinterest Trends to spot demand patterns and adopting Performance+, Pinterest's AI tool for automating targeting, bidding, and creative delivery, alongside dynamic retargeting and local inventory ads. The third step focuses on measurement, advising brands to define clear performance benchmarks and monitor campaigns through Pinterest's analytics suite. The final step points marketers to Pinterest Academy, the platform's training program, to deepen understanding of shopping trends and user behavior. Pinterest frames this as a practical, sequential approach for brands looking to strengthen their presence and maximize visibility during peak holiday shopping activity on the platform.",
+        "li_summary": "Pinterest published a four-step shopping guide for marketers covering profile setup, AI-driven Performance+ ad campaigns, performance tracking, and Pinterest Academy training, as the platform's user base reaches 640 million monthly actives."
+      },
+      {
+        "title": "Zuckerberg is one of the least-liked people in the U.S.",
+        "link": "https://www.socialmediatoday.com/news/zuckerberg-is-one-of-the-least-liked-people-in-the-us/829244/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-08T05:48:00",
+        "summary": "A survey from UMass Lowell's Center for Public Opinion, conducted with YouGov and shared via Reddit's r/DataisBeautiful, ranked Mark Zuckerberg as the least-favorably viewed public figure in America across both major political parties. The finding lands weeks after Zuckerberg published a 6,500-word manifesto describing his vision for AI \"superintelligence,\" where personal AI agents would work around the clock to manage users' health, finances, relationships, careers, and home life. Achieving that vision would require Meta to collect significantly more sensitive personal data than it does today, making public trust a critical factor for adoption. Given Meta's history of privacy controversies, this low favorability rating suggests a steep uphill battle for convincing users to hand over that data. The company's reputation is also being hurt by other issues, including its AI-enabled smart glasses being nicknamed \"perve glasses\" after reports of wearers secretly filming people. While Meta has recently struck an agreement limiting teen social media use to help rebuild trust, it still faces broad skepticism about whether it operates in the public's interest rather than purely for profit.",
+        "li_summary": "A new UMass Lowell/YouGov survey found Meta CEO Mark Zuckerberg is the least-liked public figure in the U.S. among both Republicans and Democrats, complicating his push for AI products that require access to personal data."
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "articles": []
   },
@@ -79,10 +116,6 @@
   },
   {
     "date": "2026-08-25",
-    "articles": []
-  },
-  {
-    "date": "2026-08-24",
     "articles": []
   }
 ]
