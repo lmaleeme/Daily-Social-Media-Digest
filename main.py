@@ -299,6 +299,21 @@ def build_html(history):
 # STEP 6: Post today's highlights to LinkedIn
 # ---------------------------------------------------------------------------
 
+def _to_bold_unicode(text):
+    """Convert ASCII letters/digits to Unicode 'Mathematical Bold' lookalikes.
+    LinkedIn's post API has no real bold formatting — this fakes it by using
+    different (but visually bold) Unicode characters, which render as bold
+    everywhere since they're just plain text under the hood."""
+    bold_map = {}
+    for i, c in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
+        bold_map[c] = chr(0x1D400 + i)
+    for i, c in enumerate("abcdefghijklmnopqrstuvwxyz"):
+        bold_map[c] = chr(0x1D41A + i)
+    for i, c in enumerate("0123456789"):
+        bold_map[c] = chr(0x1D7CE + i)
+    return "".join(bold_map.get(ch, ch) for ch in text)
+
+
 def build_linkedin_post(today_articles):
     # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
     # link to the original source directly — that would route readers away before
@@ -308,7 +323,8 @@ def build_linkedin_post(today_articles):
     today = datetime.date.today().strftime("%B %d, %Y")
     lines = [f"📱 Social Media News Digest — {today}\n"]
     for a in today_articles:
-        lines.append(f"• {a['title']}: {a['li_summary']}")
+        bold_title = _to_bold_unicode(a['title'])
+        lines.append(f"• {bold_title}: {a['li_summary']}")
     if PUBLISHED_PAGE_URL:
         lines.append(f"\nFull digest + sources: {PUBLISHED_PAGE_URL}")
     return "\n".join(lines)
