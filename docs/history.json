@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-24",
+    "articles": [
+      {
+        "title": "Target\u2019s new campaign puts design legacy at center of marketing",
+        "link": "https://www.marketingdive.com/news/targets-new-campaign-puts-design-legacy-at-center-of-marketing/831116/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-09-23T14:44:00",
+        "summary": "Target debuted a new national campaign called \"Inside Out,\" spotlighting its design legacy and signature red bags by showing customers\u2014including couples, friends, dog owners and families\u2014with recent purchases appearing to materialize out of invisible shopping bags. The ads, running in 30- and 15-second formats through October 31 across broadcast, streaming, radio, digital and social, are set to Raye's song \"Joy.\" The push includes \"Red Bag Stories,\" a creator-driven content series highlighting influencer shopping hauls, plus \"Bagspotting\" activations in Boston and Chicago in early October offering gift cards to people spotted with Target bags, and reusable bag giveaways in five cities and two college campuses. The campaign follows Target's early-September design showcase at New York's New Museum during Fashion Week, featuring work from designers like Isaac Mizrahi. It arrives as part of Target's broader $1 billion turnaround plan launched in March, which just posted Q2 2026 results showing 3.8% comparable sales growth and 3.6% traffic growth, alongside the hiring of former Hilton CMO Mark Weinstein as chief marketing and guest experience officer.",
+        "li_summary": "Target launched its \"Inside Out\" brand campaign centered on its red shopping bags and customers, running 30- and 15-second spots through Oct. 31 across broadcast, streaming, digital and social alongside creator content and city activations."
+      },
+      {
+        "title": "Meta outlines Muse, AI glasses and VR device updates at Connect 2026",
+        "link": "https://www.socialmediatoday.com/news/meta-outlines-muse-ai-glasses-and-vr-device-updates-at-connect-2026/831223/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-24T06:15:54",
+        "summary": "At Meta Connect 2026 in Menlo Park, Mark Zuckerberg framed Muse, Meta's personal AI agent, as the centerpiece of the company's shift from metaverse-first to AI-first strategy, highlighting Meta Secure VM, a private data process that even Meta cannot access. Chief AI Officer Alexandr Wang detailed upcoming Muse features including dedicated email addresses for agents, customizable voices, expansion into Canada, and new retail integrations with Walmart, Best Buy, Gap, Sephora, Expedia, Instacart and Wayfair. Meta previewed Muse Charm, a Tamagotchi-style companion device still in development. On glasses, Meta introduced private processing to address recording-privacy concerns, audio-only AI glasses without cameras, improved hearing-impaired support, and the Ray-Ban Meta Gen 3 with a slimmer frame, longer battery life, and Dolby Atmos spatial audio capture. New Aviator and Zena styles were announced alongside an updated $249 Adventurer model and a Lisa-branded collaboration with pet-inspired charms. Meta Display glasses will expand availability after months of shortages. Finally, Meta unveiled tethered VR glasses five times lighter than the Quest 3, using an external compute-and-battery \"puck,\" integrated with Muse, priced at $1,299 and shipping this spring.",
+        "li_summary": "Meta used its Connect 2026 keynote to unveil Muse agent upgrades with private-processing security, new retail partnerships including Walmart and Sephora, refreshed AI glasses lines, and $1,299 tethered VR glasses weighing five times less than the Quest 3, shipping this spring."
+      },
+      {
+        "title": "X updates third-party livestream support",
+        "link": "https://www.socialmediatoday.com/news/x-updates-third-party-livestream-support/831218/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-23T23:25:49",
+        "summary": "X has rolled out a rebuilt livestream API designed to let third-party video platforms feed streams directly into X and give creators far more control over live broadcasts. The updated API supports persistent RTMP stream management, plus the ability to create, publish, and monitor broadcasts, schedule them in advance, and read and respond to live chat in real time. It also adds moderation tools, allowing creators to mute or remove disruptive viewers during a stream. This follows X's July update to its Creator Studio, which introduced a livestreaming command center to simplify scheduling and running broadcasts within the app. Together, these changes suggest X is building toward a more robust live-video ecosystem, making it easier for outside streaming providers and creators to integrate with the platform rather than relying solely on native tools. The push reflects X's broader strategy of boosting real-time engagement, as live video and chat interactions tend to keep users active longer, and the company is betting that expanded third-party support will increase the volume and variety of streams available on the app.",
+        "li_summary": "X relaunched its livestream API from the ground up, letting third-party platforms power broadcasts on X with new tools for scheduling, RTMP stream management, and live chat moderation including muting and removing viewers."
+      },
+      {
+        "title": "US opposes Australia\u2019s proposed social media restrictions",
+        "link": "https://www.socialmediatoday.com/news/us-opposes-australias-proposed-social-media-restrictions/831217/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-23T23:22:43",
+        "summary": "Australia's proposed Digital Duty of Care legislation would require social platforms to let users disable engagement-based algorithms, targeting addictive app features, AI chatbots, and content tied to eating disorders, crime, gender equality issues, and dangerous stunts. The U.S. embassy in Canberra submitted formal objections, as reported by BBC, arguing the bill's harm-content provisions could let Australia's communications minister unilaterally define and restrict \"harmful\" categories, effectively enabling localized censorship and government control over American tech businesses. Critics point to wording granting ministerial power to designate harm types, though the proposal does include parliamentary review and compliance checks against Australia's human rights and free expression obligations. U.S. officials are pushing for clearer definitions of harm and enforcement mechanisms, and have also raised concerns that independent journalists covering controversial topics could be caught up in restrictions. The pushback echoes conservative media campaigns against the bill, despite the legislation targeting content with documented harms rather than journalism specifically. The proposal remains in early discussion stages, with no finalized structure yet, meaning Australian officials still have significant flexibility to revise the bill's language and scope before any implementation.",
+        "li_summary": "The U.S. embassy in Canberra has formally opposed Australia's proposed Digital Duty of Care law, warning that its harm-content provisions could enable government censorship and unfairly target U.S.-owned social media companies."
+      },
+      {
+        "title": "YouTube presents new AI and engagement features at Made on 2026",
+        "link": "https://www.socialmediatoday.com/news/youtube-presents-new-ai-and-engagement-features-at-made-on-2026/831216/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-23T23:14:48",
+        "summary": "At its 2026 Made On event, YouTube revealed a broad set of updates spanning viewing, creation, and monetization. Custom Feeds, which let users generate personalized video feeds through conversational prompts, will expand to all US users this fall after May testing. TV viewers gain access to channel image posts, and image carousels are expanding in Shorts. Shopping gets a boost through Ask YouTube, an AI chatbot answering product questions during playback. Creators can now organize Shorts into seasons and episodes via Shorts series, tapping into microdrama trends, while a new Gemini Omni-powered conversational editing assistant helps draft Shorts by trimming pauses, adjusting pacing, and adding text from simple prompts. Livestreamers will see real-time auto-dubbing piloted in English and Spanish early next year, plus Live showdowns for donation-driving competitions and expanded Watch With communal streaming. YouTube Studio adds Ask Studio AI assistance, deeper performance insights, A/B testing, and three-thumbnail uploads. The Shopping affiliate program aims for 35 markets by year-end, alongside Amazon partnerships expanding into India and Brazil, plus new Affiliate Campaigns connecting brands and creators through flat fees and commissions.",
+        "li_summary": "YouTube's 2026 Made On event unveiled prompt-based custom feeds rolling out to all US users this fall, plus Gemini-powered Shorts editing, real-time livestream dubbing, and expanded shopping affiliate tools across 35 markets."
+      },
+      {
+        "title": "LinkedIn expands verifications",
+        "link": "https://www.socialmediatoday.com/news/linkedin-expands-verifications/831212/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-23T21:41:47",
+        "summary": "LinkedIn is broadening its verification system to boost trust amid rising AI-driven content concerns. A new test lets past colleagues confirm whether a member actually worked at a listed employer; enough confirmations trigger a profile verification badge, though users can choose to hide it, which could weaken the system's credibility unless adoption becomes widespread enough that unverified profiles stand out. Separately, verified company pages will gain the ability to remove people falsely listing themselves as current employees, though this feature is limited to businesses with verified status, which LinkedIn ties to factors like ad spend, Premium Company Page subscriptions, or consistent platform engagement. LinkedIn is also extending its identity-verification badge visibility to two new partners, Truecaller and PeerSpot, adding to existing integrations with Adobe, TrustRadius, and UserTesting. The company says it has spent tens of millions of dollars building out verification tools, with over 115 million members now verified, up from 100 million in December 2025, and reports that verified profiles get 50% more post engagement and nearly 90% more profile views.",
+        "li_summary": "LinkedIn is testing peer-based colleague verification badges and letting verified company pages remove false employee listings, as its identity verification tally hits 115 million members, up from 100 million in December 2025."
+      }
+    ]
+  },
+  {
     "date": "2026-09-23",
     "articles": [
       {
@@ -200,51 +253,6 @@
         "published": "2026-09-17T21:09:55",
         "summary": "Reddit has launched a new 2026 Small Business Holiday Insights guide aimed at SMBs, focusing on how users discover products and make purchasing decisions on the platform. The 11-page report covers gift research trends, optimal posting times, and the most-searched product categories to help marketers target relevant sectors. Key data points include that approximately 75% of Reddit users turn to the platform for honest, unfiltered reviews when researching holiday gifts, and nearly 50% prefer shopping from local or independent retailers over larger chains. Notably, mentions of \"small business\" within the r/gifts community increased 120% year-over-year in 2025, signaling growing interest in supporting smaller sellers during the holidays. The guide also demonstrates that community discussions on Reddit influence purchase validation, with most users willing to pay more for products recommended within Reddit threads. Additional sections address Black Friday shopping behavior and other seasonal trends. The full report is available on Reddit's business site for marketers planning their end-of-year campaigns.",
         "li_summary": "Reddit released an 11-page holiday planning guide for small businesses, revealing that 75% of users trust the platform for unfiltered gift reviews and mentions of \"small business\" in r/gifts rose 120% year-over-year in 2025."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-17",
-    "articles": [
-      {
-        "title": "X adds in-stream stock trading",
-        "link": "https://www.socialmediatoday.com/news/x-adds-in-stream-stock-trading/830620/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-16T23:07:58",
-        "summary": "X has rolled out its Cashtag Partner Program in the U.S., extending the platform's existing Cashtags feature to enable direct trading from within the app. Previously, X's April update linked cashtag mentions to embedded stock market data, but users couldn't act on that information without leaving the platform. Now, tapping a Cashtag lets users connect to their accounts on partner brokerages, currently Interactive Brokers, Moomoo, Gemini, Kraken, and Coinbase, to buy or trade stocks and cryptocurrencies in response to real-time discussions and market news appearing in their feed. This move builds on X's existing U.S. payments infrastructure and pushes further toward Elon Musk's long-stated \"everything app\" ambition, where X eventually handles all financial activity for users, potentially positioning it as an alternative to traditional banks. By tying trading capability directly to conversation and news flow, X aims to capture user intent at the moment interest is highest, though it remains uncertain whether users will trust the platform enough to route significant financial activity through it.",
-        "li_summary": "X launched its Cashtag Partner Program in the U.S., letting users tap stock ticker mentions in posts to trade directly through partner brokerages including Interactive Brokers, Moomoo, Gemini, Kraken, and Coinbase."
-      },
-      {
-        "title": "Report highlights the value of creator-led collabs on Instagram",
-        "link": "https://www.socialmediatoday.com/news/report-highlights-the-value-of-creator-led-collabs-on-instagram/830619/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-16T23:04:38",
-        "summary": "Emplifi's review of more than 520,000 Instagram posts across 3,791 brand profiles between January and June 2026 found that creator-led collaboration posts significantly outperform standard brand content and brand-initiated collabs. Instagram supports two collaboration formats: \"owned\" collaborations, where a brand publishes a post and tags a creator, and \"accepted\" collaborations, where a creator publishes the post and invites a brand to co-sponsor it. Emplifi's data shows 73% of brands now use Instagram's collaboration tools, but it's the creator-initiated posts that deliver the biggest results, generating more than five times the amplification of non-collaboration posts within ecommerce and retail categories specifically, with strong share and repost gains across other verticals too. This trend may be tied to Meta's expanded affiliate program, announced in March, which lets creators pick products to promote directly within Reels and earn commissions, incentivizing more creator-driven sponsored content. Emplifi also found that while collaborations boost performance across all content formats, Reels see the largest gains, reinforcing that creators, who specialize in short-form video, are better positioned to drive engagement than brands publishing solo.",
-        "li_summary": "Emplifi analyzed over 520,000 Instagram posts from 3,791 brand profiles and found creator-published collaboration posts outperform brand posts, driving over 5x the amplification of non-collab content in ecommerce and retail."
-      },
-      {
-        "title": "Meta adds simplified third-party AI support to WhatsApp",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-simplified-third-party-ai-support-to-whatsapp/830617/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-16T21:47:13",
-        "summary": "Meta has introduced WhatsApp Business Tools MCP, a new integration process designed to help businesses connect their preferred third-party AI tools directly into the WhatsApp Business Platform. Instead of requiring developers to manually code automated systems, marketers can now describe in plain language the type of agent, response system, or workflow they want, and their chosen AI tool will generate the technical steps needed to build it within WhatsApp. This covers a range of business functions, including creating customer-facing marketing templates, setting up automated reply systems, and building agent profiles for handling customer queries. The move is aimed at lowering the technical barrier for brands wanting to use WhatsApp as a customer service and engagement channel, particularly as the app's usage continues to grow amid a broader shift toward private messaging over public social media interaction. By simplifying AI integration, Meta is positioning WhatsApp as a more viable platform for always-on customer support, potentially helping businesses respond faster to queries and maintain more direct, continuous engagement with their audience without needing in-house coding expertise.",
-        "li_summary": "Meta launched WhatsApp Business Tools MCP, letting brands connect third-party AI chatbot tools to build automated agent profiles, marketing templates, and response workflows via conversational requests instead of manual coding."
-      },
-      {
-        "title": "LinkedIn offers tips on company targeting via Campaign Manager",
-        "link": "https://www.socialmediatoday.com/news/linkedin-offers-tips-on-company-targeting-via-campaign-manager/830615/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-16T21:33:03",
-        "summary": "LinkedIn has released guidance on using the Companies hub within Campaign Manager to help B2B marketers identify and target key decision-makers more effectively. The feature tracks which businesses' representatives engage with a brand's organic posts and paid ads on the platform. LinkedIn's four-step framework starts with uploading a company list or connecting a CRM to merge first-party data with platform insights. Next, marketers use the Companies dashboard to monitor which accounts engage with content, filtering by engagement level and job seniority to confirm they're reaching actual decision-makers rather than junior staff. Third, brands should segment companies by engagement stage, retargeting those showing high ad interaction and building lookalike audiences from CRM data. Finally, marketers track engagement with follow-up campaigns to gauge each account's position in the purchase funnel and adjust strategy accordingly. LinkedIn recommends starting with a small group of accounts resembling top customers, connecting CRM data, watching for engagement signals, then directing subsequent campaigns at responsive companies to nurture them toward conversion, ultimately improving targeting precision and ad performance.",
-        "li_summary": "LinkedIn published a four-step guide for using the Companies hub in Campaign Manager, helping marketers track account-level engagement, filter by job seniority, and retarget high-intent decision-makers with CRM data."
-      },
-      {
-        "title": "Threads adds more podcast promotion features",
-        "link": "https://www.socialmediatoday.com/news/threads-adds-more-podcast-promotion-features/830614/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-16T21:28:11",
-        "summary": "Threads announced a broad update to its podcast features on Wednesday, expanding on tools it began rolling out last November like podcast profile cards and custom thumbnails. The new additions include profile and post banners displaying a podcast's logo and details, an episode picker that turns podcast links into tappable cards, and support for transcripts, video, and guest cards to spotlight specific episodes\u2014transcripts had been spotted in testing last month. Creators and guests can now opt into automatic episode reminders to prompt sharing, while listeners can save favorite episodes directly within the app. Threads is also introducing Podcast Insights, giving creators data on engagement, clicks, and saves to track how their content performs. The company says these updates build on Threads' existing role as a space where podcast conversations happen organically, aiming to make it easier for creators to promote shows and for users to discuss them. The push comes as podcast listenership keeps climbing, with Edison Research reporting that 58% of Americans tuned into podcasts in 2026.",
-        "li_summary": "Threads launched a new set of podcast promotion tools on Wednesday, including profile and post banners, episode link cards, transcript and guest cards, episode reminders, save options, and creator performance insights, as it pushes to become the top hub for podcast discussion."
       }
     ]
   }
