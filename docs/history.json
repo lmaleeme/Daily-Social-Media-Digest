@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-28",
+    "articles": [
+      {
+        "title": "How agencies can turn holiday intent into action",
+        "link": "https://www.marketingdive.com/spons/how-agencies-can-turn-holiday-intent-into-action/831219/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-09-28T09:00:00",
+        "summary": "New research on TikTok shopping behavior highlights why agencies need to rethink holiday strategy timing and structure. The data shows 60% of TikTok users have discovered a new brand or product on the platform, 57% found gift ideas there, 51% used it to confirm purchase decisions, and 66% went on to search for products online after seeing them on TikTok. Creator content plays a significant role in this path, with two-thirds of shoppers saying creators help them find new brands and half saying they purchase items creators recommend. Because discovery, evaluation and buying now happen in rapid succession rather than as separate stages, the piece argues agencies must integrate creative, media planning and commerce strategy from the outset instead of treating them as sequential tasks. Rather than simply securing reach during peak shopping dates like Black Friday, agencies are being pushed to identify where purchase intent originates and build connected programs that guide shoppers from inspiration to checkout, starting well before major retail moments hit the calendar.",
+        "li_summary": "TikTok data shows 60% of users discover new brands and 57% find gift ideas on the platform, with 51% confirming purchases there and 66% researching products online afterward, prompting calls for agencies to unify creative, media and commerce earlier in holiday planning."
+      },
+      {
+        "title": "How agencies can turn holiday intent into action",
+        "link": "https://www.socialmediatoday.com/spons/how-agencies-can-turn-holiday-intent-into-action/831221/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T09:00:00",
+        "summary": "New research on TikTok shopping behavior highlights why agencies need to rethink holiday strategy timing and structure. The platform reports that 60% of users have discovered a new brand or product through TikTok, 57% found gift ideas there, 51% used it to confirm purchase decisions, and 66% went on to search for products online after seeing them on the app. Creator content plays a central role: two-thirds of shoppers say creators help them find new brands, and half say they've purchased items based on creator recommendations. Because discovery, evaluation and purchase now happen in a compressed, near-continuous sequence rather than distinct stages, agencies are being pushed to integrate creative, media and commerce planning from the outset instead of treating them separately. The article argues that brands increasingly need agency partners who can identify where purchase intent is forming early and build campaigns around that behavior, rather than simply buying reach during peak shopping windows. Acting before major retail dates, when competition and noise increase, gives brands more influence over how shoppers form consideration and ultimately decide what to buy.",
+        "li_summary": "TikTok data shows 60% of users discover new brands on the platform and 66% search for products online after seeing them there, prompting agencies to merge creative, media and commerce earlier in holiday planning."
+      },
+      {
+        "title": "Can Meta be trusted with user data to power its AI agents?",
+        "link": "https://www.socialmediatoday.com/news/can-meta-be-trusted-with-user-data-to-power-its-ai-agents/831446/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-27T22:38:36",
+        "summary": "Meta is rolling out Muse, a new suite of AI agents designed to perform tasks on users' behalf, including web searches, purchases, banking analysis, insurance recommendations, and health data review. To work effectively, these bots need broad access to sensitive personal information, so Meta has launched a PR campaign promising new data-protection safeguards, claiming even Meta itself won't access shared data. However, this trust-building effort faces skepticism given Meta's extensive track record of data misuse, totaling more than $25 billion in fines and settlements since 2007. Notable cases include the 2019 FTC's $5 billion Cambridge Analytica penalty, a 2022 Texas biometric data settlement of $1.4 billion, a 2023 EU fine of $1.3 billion for improper data transfers, and an 18 billion dollar 2026 settlement over child mental health harms tied to its apps. Additional incidents include a 2018 breach exposing 30 million users, a 2024 Irish breach fine covering 29 million accounts, and 2026 hacks compromising over 20,000 Instagram accounts via Meta's AI support bot. Despite these penalties, Meta has earned over $1.17 trillion in lifetime revenue, raising questions about whether such fines meaningfully deter future data misuse as it expands AI agent access to user information.",
+        "li_summary": "Meta is launching Muse AI agents that require access to sensitive user data like banking and health information, prompting scrutiny given the company's history of over $25 billion in data-misuse fines and settlements since 2007."
+      },
+      {
+        "title": "YouTube previews AI-powered Conversational Editing",
+        "link": "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-27T22:34:24",
+        "summary": "At its Made On event last week, YouTube introduced Conversational Editing, a new AI-driven feature built into the Shorts composer and YouTube Create app that lets creators assemble and refine videos using natural-language commands rather than manual timeline editing. Creator Kelli Erdmann (Happy Kelli) demonstrated the tool live, showing how it can automatically stitch together multiple clips from a camera roll based on simple typed instructions, cutting down the editing process that can otherwise take ten or more hours for a single hour of footage. Creators can keep refining results conversationally, adjusting typography, music choices, color filters, or a Short's opening hook, while the system also surfaces contextual suggestions like \"add music\" during editing. More advanced requests are supported too, such as syncing cuts to a song's beat or locating a seamless loop point. Users aren't locked into AI-only editing either, since they can drop into the manual timeline at any stage to fine-tune details themselves, giving less experienced editors a faster path to polished content without losing creative control.",
+        "li_summary": "YouTube unveiled Conversational Editing at its Made On event, a new AI feature in Shorts composer and the YouTube Create app that lets creators edit video clips using plain-language text prompts instead of manual timeline work."
+      },
+      {
+        "title": "X launches Grok Bot rewards program to showcase AI utility",
+        "link": "https://www.socialmediatoday.com/news/x-launches-grok-bot-rewards-program-to-showcase-ai-utility/831444/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-27T22:30:04",
+        "summary": "X has rolled out Grok Bot Template Rewards, an invite-only pilot program designed to demonstrate practical uses for xAI's Grok Bots, agentic AI tools launched last month that can log into a user's existing apps and complete tasks independently, only returning for approval on key decisions. Since most users struggle to identify use cases for agentic AI, X is asking selected creators to share their Grok Bot templates publicly on X; when other users adopt and consistently use these templates, creators can earn cash rewards paid through X Money. X says it will evaluate each payment cycle individually, considering factors like adoption numbers and sustained usage over time, while excluding creators' own use of their templates from calculations, and may offer early bonus payments to promising creators to encourage participation. The program's criteria are expected to evolve. This mirrors a similar initiative from Meta, which recently showcased use cases for its Muse AI agent. Both moves reflect a broader industry challenge: proving agentic AI's real-world value while convincing users to trust these tools with access to personal data and autonomous decision-making.",
+        "li_summary": "X launched an invite-only Grok Bot Template Rewards pilot, paying selected creators via X Money when others adopt and repeatedly use their submitted AI agent task templates on the platform."
+      },
+      {
+        "title": "How can Instagram creators use Muse AI agents?",
+        "link": "https://www.socialmediatoday.com/news/how-can-instagram-creators-use-muse-ai-agents/831443/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-27T22:24:06",
+        "summary": "Following Meta's Connect presentation, Instagram shared a walkthrough of how its Muse AI agents can support creators once given access to their account data. Muse can flag incoming collaboration opportunities and benchmark them against industry-average rates, supply a tailored creative playbook for content strategy, and generate account and activity summaries. It can also send scheduled reminders about evolving platform trends or account tasks, and creators unsure of its capabilities can simply ask Muse what it's able to help with. Because Muse is built directly into Instagram and Facebook, it draws on official platform data rather than third-party estimates. However, Meta acknowledges adoption risk: letting an AI agent act autonomously could result in rule violations or improper data access if something goes wrong, so Muse includes an optional approval step requiring creator sign-off before it takes action. Meta says this safeguard should prevent missteps, but building creator trust in autonomous AI action remains the biggest challenge to widespread Muse usage across Instagram's creator base.",
+        "li_summary": "Instagram detailed how Meta's Muse AI agents, unveiled at Connect, can assist creators by analyzing brand collaboration offers against industry averages, offering strategic content playbooks, and sending account summaries and reminders."
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "articles": [
       {
@@ -192,59 +245,6 @@
         "published": "2026-09-21T19:51:56",
         "summary": "Snapchat introduced a batch of AI features exclusively for its Lens+ subscription tier, aimed at boosting engagement and paid subscriptions. The headline addition is Snap-to-song, which lets users pick a chat message and a music genre, then converts that text into a full AI-generated song, tapping into a trend already popular on short-form video platforms. Also new is AI Photoshoot, which automatically fixes flawed photos, such as blinking, bad lighting or awkward expressions, without requiring a retake. AI Remix allows users to reimagine an existing image in a completely different scenario or setting, while a separate update introduces AI-enhanced font styles like bubble text, fuzzy textures and spray-paint effects, plus the ability to remix stickers into new visual styles. Separately, Snapchat+ subscribers can now build a customizable 3D model of their home to display on Snap Map, choosing a location and appearance. These additions expand Snapchat's paid tools lineup, though they arrive as the company also works to curb AI content overload, having adjusted its Spotlight algorithm last month to reduce visibility of fully AI-generated videos.",
         "li_summary": "Snapchat rolled out several AI-powered tools for Lens+ subscribers, including Snap-to-song (turning chat messages into AI-generated songs), AI Photoshoot photo touch-ups, AI Remix scene re-creation, and new AI-enhanced fonts and stickers."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-21",
-    "articles": [
-      {
-        "title": "Creator content preferred in AI recommendations: Here\u2019s what the numbers say",
-        "link": "https://www.marketingdive.com/news/creator-content-preferred-in-ai-recommendations-heres-what-the-numbers-sa/830523/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-09-18T12:00:00",
-        "summary": "The Interactive Advertising Bureau's \"Creator Signal\" report surveyed 2,200 recent AI-shopping users across the US, UK, Australia, Mexico and India in May 2026 and found 80% are comfortable relying on AI for purchase recommendations, with 56% preferring when those recommendations cite creator or influencer content. That preference splits sharply by generation: 65% of Gen Z and millennials want creator citations versus just 34% of boomers, with Gen X roughly split at 53%. Yet citing creators doesn't necessarily drive sales \u2014 only 29% of younger respondents and 12% of boomers said creator mentions actually increased purchase likelihood, with consumer ratings, subject-matter experts, retailers and brand content generally outranking influencers on that metric. Creators are seen as most useful early in the shopping journey, particularly for finding value/pricing (38%) and discovering new brands (32%), but far less helpful at checkout (15%) or final decisions (21%). Everyday consumers and professional reviewers are trusted far more than lifestyle influencers, journalists or celebrities, with credibility track record (49%) and consistency (40%) mattering more than follower count (21%).",
-        "li_summary": "IAB's new \"Creator Signal\" report, based on 2,200 shoppers across the US, UK, Australia, Mexico and India surveyed in May 2026, finds 80% comfortable with AI shopping recommendations and 56% preferring when those results cite creator or influencer reviews."
-      },
-      {
-        "title": "LinkedIn tests Network tab to encourage engagement among connections",
-        "link": "https://www.socialmediatoday.com/news/linkedin-tests-network-tab-to-encourage-engagement-among-connections/830853/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-20T21:58:36",
-        "summary": "LinkedIn is trialing a Network tab as an alternative to its main feed, announced last Friday by Chief Product Officer Hari Srinivasan. The tab would show updates exclusively from accounts a user has explicitly connected with or followed, rather than the algorithmically curated mix currently shown on the main feed. Srinivasan framed the test as part of LinkedIn's push toward \"real connection with real people,\" a response to growing concerns about engagement pods artificially inflating post metrics and AI-generated content flooding user feeds. This isn't LinkedIn's first attempt at reworking feed discovery: last year the platform tested several alternative feed formats to boost app usage, and in June it piloted topic-based suggested feeds meant to surface trending conversations. Neither of those experiments led to a wider rollout, suggesting they failed to gain sufficient traction internally or with users. Whether the Network tab succeeds where those attempts didn't may depend on whether users want a more direct, connection-only view rather than LinkedIn's broader discovery-focused approach. No timeline for wider release has been shared.",
-        "li_summary": "LinkedIn is testing a new Network tab, announced by Chief Product Officer Hari Srinivasan last Friday, showing only updates from users' direct connections and follows to counter engagement pods and AI-generated feed content."
-      },
-      {
-        "title": "Meta expands Muse agent connections, launches Muse for Mac",
-        "link": "https://www.socialmediatoday.com/news/meta-expands-muse-agent-connections-launches-muse-for-mac/830852/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-20T21:51:47",
-        "summary": "Meta has expanded its Muse agentic AI tool with two updates. Muse for Mac, released late last week, allows Mac users to connect their Muse agent directly to their computer, with explicit permission, so it can organize downloads folders, locate lost files, and summarize messages and notes. Separately, Meta introduced Muse Connectors, a system letting third-party developers apply to link their apps to Muse and potentially get listed in a Muse directory, expanding the range of tasks users can delegate to the agent through connected accounts. Meta says these moves are meant to broaden Muse's usefulness and make it more attractive to everyday consumers. However, some users have already noticed Muse reading their DMs on Mac and suggesting actions based on private conversations, which Meta says only happens with explicit permission but could still feel invasive. The company also faces a broader challenge in convincing users that granting Muse access to sensitive data, like messages or financial transactions, is worth the convenience, especially since many of the tasks Muse automates are ones people already enjoy doing themselves.",
-        "li_summary": "Meta launched Muse for Mac, letting its AI agent directly access a user's computer to organize files or summarize messages, alongside new Muse Connectors that let developers link third-party apps into the Muse agent system."
-      },
-      {
-        "title": "LinkedIn ditches post enhancement, launches Post Proofreader",
-        "link": "https://www.socialmediatoday.com/news/linkedin-ditches-post-enhancement-launches-post-proofreader/830851/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-20T21:34:37",
-        "summary": "LinkedIn quietly removed its AI post enhancement tool last month and has now launched a replacement called Post Proofreader, available to eligible Premium members. Unlike the old feature, which let users regenerate posts using AI in-stream, Post Proofreader focuses on refining existing drafts by showing suggested edits with inline change tracking, letting users review and choose whether to accept each change. Premium subscribers get three enhancement options to polish language and presentation without creating entirely new content that doesn't reflect their own voice. The shift comes as LinkedIn cracks down on AI-generated content: last month it introduced an \"AI slop\" reporting tool for posts, which was used more than one million times within three weeks of launch, and this month expanded that reporting option to comments as well. By rebranding enhancement as proofreading, LinkedIn is signaling a broader strategic shift toward positioning AI as an editing aid rather than a content-generation shortcut, responding directly to growing user frustration with inauthentic, AI-produced posts flooding the platform.",
-        "li_summary": "LinkedIn has replaced its AI-powered post enhancement tool with Post Proofreader, a Premium-only feature offering three editing options that suggest inline changes for users to approve rather than generating entirely new post content."
-      },
-      {
-        "title": "YouTube executives share strategies on channel pivoting",
-        "link": "https://www.socialmediatoday.com/news/youtube-executives-share-strategies-on-channel-pivoting/830850/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-20T21:15:56",
-        "summary": "YouTube Creator Liaison Rene Ritchie and Global Content Strategy Lead Kyle Monahan shared guidance for creators and brands considering a content pivot, using the example of a gaming creator wanting to switch games. Monahan said the first step is determining the root cause: whether the audience has lost interest or the creator has lost passion. Ritchie emphasized that creators often overestimate how much their audience follows them personally versus their specific topic, citing GTA 5 content as an example where viewers may be there for the game itself, not the creator's personality. Both stressed identifying a channel's unique selling proposition, voice, or tone, since strong personal branding makes pivoting easier regardless of subject matter. Monahan recommended mapping out clear end goals and using Google Trends to spot pivot opportunities, while also weighing competition levels, noting that smaller, underserved niches can generate substantial views for creators offering a unique perspective, even without chasing the largest trending categories. YouTube also offers a dedicated strategic guide with questions to help creators plan pivots effectively.",
-        "li_summary": "YouTube executives Rene Ritchie and Kyle Monahan outlined a framework for creators pivoting content focus, urging them to identify whether audiences follow them or their topic before switching niches, such as changing gaming titles."
-      },
-      {
-        "title": "X shares guidance on effective promotions in the app",
-        "link": "https://www.socialmediatoday.com/news/x-shares-guidance-on-effective-promotions-in-the-app/830848/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-20T20:56:42",
-        "summary": "X, formerly Twitter, has refreshed its Business blog to consolidate strategy guides and resources designed to help marketers build more effective ad campaigns on the platform. Despite losing some cultural influence in recent years, X maintains over 550 million monthly active users and continues to serve as a key hub for industry discussions and reaching decision-makers who drive purchasing decisions. The updated resource hub includes several concise, one-page overviews covering different aspects of X advertising. Two standout guides highlighted include a breakdown of X ads best practices, offering practical tips on structuring campaigns for better performance, and a separate overview identifying key calendar events and moments brands can align their promotions with to boost engagement. Together, these resources provide marketers with actionable, easy-to-digest guidance on optimizing ad content and timing to drive stronger audience response. For brands still active on X or considering the platform, these updated guides offer a quick reference to refine targeting and messaging strategies without needing to sift through lengthy documentation.",
-        "li_summary": "X revamped its Business blog with updated strategy guides, including one-page overviews on ad best practices and key promotional events, aimed at helping brands improve campaign performance across its 550 million monthly active users."
       }
     ]
   }
