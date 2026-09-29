@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-29",
+    "articles": [
+      {
+        "title": "Snapchat launches pitch for B2B ad spend",
+        "link": "https://www.socialmediatoday.com/news/snapchat-launches-pitch-for-b2b-ad-spend/831559/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T20:11:32",
+        "summary": "Snapchat has rolled out a new advertising campaign called \"Spend Smarter,\" aimed at convincing B2B marketers to direct budget toward the platform, arguing that decision-makers spend meaningful time there despite Snapchat rarely being viewed as a primary sales channel. The campaign builds on themes from Snapchat's recent Performance Summit, which emphasized maximizing ad spend and leveraging in-app conversation and engagement features, and will feature testimonials from recognized industry figures alongside real customer success stories. Snap's pitch centers on a perceived mismatch between how media budgets are currently allocated and where target audiences actually pay attention, positioning Snapchat as a discovery platform where B2B buyers first encounter products even if purchases happen elsewhere\u2014a \"halo effect\" the company says gives it outsized influence beyond direct conversions. This follows Snapchat's recent FinServ Summit, which pitched its ad tools specifically to financial services companies, another sector not traditionally associated with the app. The \"Spend Smarter\" campaign is running across Instagram, TikTok and Substack in the United States and United Kingdom, signaling Snapchat's broader push to diversify its advertiser base beyond consumer-focused brands.",
+        "li_summary": "Snapchat launched a \"Spend Smarter\" campaign across Instagram, TikTok and Substack in the US and UK, urging advertisers to allocate B2B marketing budgets toward reaching decision-makers on its app."
+      },
+      {
+        "title": "Meta opens early access to advanced Muse features",
+        "link": "https://www.socialmediatoday.com/news/meta-opens-early-access-to-advanced-muse-features/831556/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T20:07:03",
+        "summary": "Meta has invited users to apply for early access to new, unspecified advanced features for Muse, its AI agent app, following last week's expanded rollout. The push is part of Meta's broader strategy, led by Chief AI Officer Alexandr Wang, to prove AI's everyday usefulness and support CEO Mark Zuckerberg's goal of \"personal superintelligence\" for all users. Wang recently outlined his vision for Muse on X, describing it as a \"second mind\" designed to act on users' unspoken desires, such as changing careers, improving health, or starting a business, by drafting emails, making calls, securing funding, and managing schedules on their behalf. Meta reports that Muse has significantly exceeded expectations, hitting nearly 3 million downloads within its first two weeks, according to Reuters. TechCrunch also noted that Muse is currently outpacing ChatGPT in both downloads and daily active users at comparable stages after launch, positioning it as a notably strong performer in the competitive AI assistant market as Meta works to expand its capabilities further.",
+        "li_summary": "Meta is opening early access applications for upcoming advanced Muse features, building on the AI agent app's expanded launch, which has already reached nearly 3 million downloads in two weeks."
+      },
+      {
+        "title": "LinkedIn tests advanced creator discovery to power brand campaigns",
+        "link": "https://www.socialmediatoday.com/news/linkedin-tests-advanced-creator-discovery-to-power-brand-campaigns/831555/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T20:00:35",
+        "summary": "LinkedIn is rolling out a new Creator Discovery beta feature inside its Creator Marketplace, designed to help B2B marketers identify relevant creators for campaigns, with general availability targeted for early 2027. The tool adds filters for content type, creator industry, job function, audience demographics, and Top Voices status, aiming to speed up creator sourcing and vetting. The move responds to LinkedIn data showing 63% of B2B buyers now consult creators early in their research process. LinkedIn also shared performance stats for existing creator-focused ad formats: Thought Leader Ads generate a 252% higher click-through rate than standard single-image ads, with 45% higher CTR at the awareness stage and 48% higher at conversion compared to non-users. BrandLink, which places pre-roll ads on approved creator and publisher content, delivers 130% higher video completion rates than in-feed ads. LinkedIn's Top Voices 360\u00b0 program, linking brands to exclusive platform Shows, is also cited as a strong performer. The company frames these tools as responses to buyers seeking credibility and expert validation over direct product pitches.",
+        "li_summary": "LinkedIn is beta-testing Creator Discovery within its Creator Marketplace, adding search filters like content type, industry, job function, audience demographics and Top Voices status, with general availability planned for early 2027."
+      },
+      {
+        "title": "Instagram shares Reels creation tips in new guide",
+        "link": "https://www.socialmediatoday.com/news/instagram-shares-reels-creation-tips-in-new-guide/831551/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T19:46:58",
+        "summary": "Instagram has published a refreshed guide within its \"Tips and Tricks\" series aimed at helping users create more effective Reels, covering creative options, editing features and distribution mechanics. The guide breaks down ideal Reels lengths by use case: 3-15 seconds for quick transitions and trends, 15-60 seconds as the sweet spot for tutorials and day-in-the-life content, and 60 seconds to 3 minutes for longer storytelling and walkthroughs. It also covers creating Reels from photo slideshows, using text overlays to highlight key moments versus captions for full accessibility of spoken audio, and editing tools like playback speed adjustments, hands-free video timers, and alignment features for smoother transitions. On distribution, Instagram emphasizes that strong-performing Reels can surface on the Explore page, reaching audiences beyond a creator's existing followers, unlike Stories, making originality and quality from the first second critical for algorithmic recommendation. While the guide contains no entirely new features, it serves as a useful refresher given Reels now account for more than 50% of total time users spend on Instagram, making it the app's most engaging content format.",
+        "li_summary": "Instagram released an updated \"Tips and Tricks\" guide detailing Reels best practices, covering ideal video lengths from 3 seconds to 3 minutes, text overlays, captions, editing tools and Explore page distribution strategies for creators."
+      },
+      {
+        "title": "Meta launches enterprise AI platform to drive business opportunities",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-enterprise-ai-platform-to-drive-business-opportunities/831548/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-28T19:29:54",
+        "summary": "Meta has launched Meta Enterprise Platform, a business-focused AI offering designed to help companies integrate Meta's models and agent technology into their operations, using tools like Muse agents, Muse API and Muse Code for automating internal tasks. CEO Mark Zuckerberg framed the launch as leveraging Meta's advanced AI systems, infrastructure scale, and decades of advertiser relationships to help organizations of all sizes innovate and run operations more efficiently. Former MongoDB chief executive Chirantan Desai has been hired to head the new division. The move comes as Meta searches for ways to justify its enormous AI infrastructure spending, which includes over $600 million committed to U.S. projects alone and a total AI investment now estimated to exceed $1 trillion, prompting investor scrutiny over eventual returns. However, Meta's track record may complicate enterprise trust: the company shut down its Workplace collaboration tool in 2024, has a history of data misuse controversies, and recently limited link-sharing on Facebook and Instagram to push businesses toward paid subscriptions.",
+        "li_summary": "Meta unveiled Meta Enterprise Platform, a new AI business suite built on its Muse agents, Muse API and Muse Code tools, hiring former MongoDB CEO Chirantan Desai to lead it as the company seeks fresh revenue from its AI spending, now estimated above $1 trillion."
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "articles": [
       {
@@ -200,51 +245,6 @@
         "published": "2026-09-22T20:00:53",
         "summary": "TikTok USDS JV announced two new child-safety partnerships on Tuesday. First, it joined Lantern, the Tech Coalition's cross-platform data-sharing system launched in 2023, which lets participating companies like Meta, Google, Discord, Reddit, X, Snap, and Twitch exchange signals to identify patterns of child sexual abuse material and strengthen enforcement across services. Second, TikTok expanded its partnership with the National Center for Missing and Exploited Children, agreeing to share more data to support legal action on flagged cases, and committing $2 million toward NCMEC's three-year initiative to overhaul its CyberTipline reporting system. That funding will go toward building AI-driven search, automation, and analysis tools designed to speed up harm detection, cut manual review time in half, and get urgent reports to law enforcement faster. The move follows pressure from Meta, which recently settled an $18 billion child-safety lawsuit and urged competitors including TikTok and YouTube to adopt similar teen protection measures like usage time limits. TikTok hasn't committed to time restrictions yet, but this announcement signals an effort to keep pace with industry safety standards.",
         "li_summary": "TikTok's U.S. management group, TikTok USDS, joined the Tech Coalition's Lantern platform alongside 38 companies and pledged $2 million to NCMEC to help modernize its CyberTipline with AI-powered detection tools for child exploitation content."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "articles": [
-      {
-        "title": "X shares more insight into penalties impacting post reach",
-        "link": "https://www.socialmediatoday.com/news/x-shares-more-insight-into-penalties-impacting-post-reach/830972/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-21T23:25:53",
-        "summary": "X has broadened its Under The Hood transparency tool, which last month began letting users see penalties and restrictions applied to their posts or accounts. The update now adds visibility into government-related content filtering, showing whether an account or specific posts had their reach limited because of compliance with local laws in a particular country, following a legal demand. Previously the tool only displayed labels applied to accounts and posts over the prior month; now it also flags country-specific withholding tied to legal requirements. X says the expansion responds to positive feedback on transparency around content filtering. The added detail is meant to help users understand shadowban concerns and clarify actual post and profile performance, which matters especially for creators in X's monetization program, though any user could benefit from seeing exactly which labels or restrictions have hit their account. Eligibility for these insights requires an account to be at least one year old and to have published more than 10 posts in the previous month.",
-        "li_summary": "X expanded its Under The Hood feature to show users whether their posts or accounts had visibility limited due to government-mandated content compliance, including which country issued the legal demand, available to accounts over one year old with 10+ monthly posts."
-      },
-      {
-        "title": "Snapchat report examines the rise of microdramas",
-        "link": "https://www.socialmediatoday.com/news/snapchat-report-examines-the-rise-of-microdramas/830970/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-21T23:09:07",
-        "summary": "Snapchat has released a report examining the growing popularity of microdramas, short episodic soap opera-style video series that align with short-form content consumption habits. Based on an Ipsos study of 3,000 people across the US, UK and Saudi Arabia conducted earlier this year, the report found Snapchat users are notably more engaged with this format than average consumers, with familiarity levels 1.4 times higher than competitors. Specifically, 64% of Snapchatters know at least one short drama platform compared to 42% of non-Snapchatters, and 42% of Snapchat users watch microdramas daily, with consumption increasing over time. The report attributes much of the format's appeal to communal viewing, since most microdrama fans share clips and discuss episodes with friends, making the content valuable for creators seeking engaged audiences. Snapchat suggests this creates promotional opportunities for brands, including sponsoring short drama creators or producing branded short dramas built around popular romance and thriller themes, genres that don't require high production budgets. The report also notes Snapchatters are more likely than average users to pay for subscription access to microdrama creator content.",
-        "li_summary": "Snapchat's new Ipsos-based report of 3,000 users across the US, UK and Saudi Arabia finds 42% of Snapchatters watch soap opera-style microdramas daily, with 64% familiar with at least one short drama platform versus 42% of non-Snapchatters."
-      },
-      {
-        "title": "Pinterest offers predictive optimization for Performance+",
-        "link": "https://www.socialmediatoday.com/news/pinterest-offers-predictive-optimization-for-performance/830968/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-21T21:50:18",
-        "summary": "Pinterest introduced a campaign optimization score inside Ads Manager, giving advertisers a single metric that predicts how well their campaign setup will perform based on alignment with best practices. The score evaluates four elements: adoption of Performance+ tools for targeting, budget and bidding alignment; variety of creative assets to reach broader audiences; use of broad targeting so Performance+ can select optimal audiences; and consistent budget pacing to support system learning. Pinterest recommends running at least three ad formats per ad group and five or more distinct ads to give its AI enough signals to identify what works across different audiences. To help meet these requirements, Pinterest offers Performance+ creative, a tool that automatically remixes existing assets into new formats and variations. Pinterest also advised advertisers to keep conversion data current and ensure product feeds and catalogs are updated to reflect shopping trends. The move builds on Pinterest's broader push to strengthen Performance+, which the company said in March delivered a 10% improvement in cost-per-click and cost-per-action compared to standard campaign setups.",
-        "li_summary": "Pinterest launched a campaign optimization score in Ads Manager that grades ad setups on four factors to boost alignment with its AI-driven Performance+ system, following March data showing 10% better CPC and CPA."
-      },
-      {
-        "title": "Threads advertisers will no longer need an Instagram account",
-        "link": "https://www.socialmediatoday.com/news/threads-advertisers-will-no-longer-need-an-instagram-account/830967/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-21T21:41:16",
-        "summary": "Meta announced that beginning in September 2026, advertisers will no longer need matching usernames across Threads and Instagram to launch ads on Threads, and businesses without any Instagram presence will be able to create Threads ads directly through native Threads profiles. Previously, Threads ad creation was tied to Instagram identity, requiring advertisers to maintain consistent branding across both apps before promoting content on Threads. This change reflects Threads' growth to roughly 500 million users, positioning it as a standalone advertising platform with an audience that behaves differently from Instagram users rather than simply overlapping with it. Meta has already begun separating the two platforms in other ways, including removing Instagram graph insights from the Threads onboarding process, though Instagram engagement signals are still used to gauge likely interest for Threads users. This latest update signals Meta's broader push to treat Threads as an independent product with its own advertising ecosystem rather than an extension of Instagram. The company noted the rollout will happen gradually, meaning not all advertisers will have immediate access to these new ad-creation options right away.",
-        "li_summary": "Starting September 2026, Meta will let advertisers run Threads ads without matching Instagram usernames or even holding an Instagram account, using native Threads profiles instead, as the app's user base reaches 500 million."
-      },
-      {
-        "title": "Snapchat adds new AI features including chat-to-song",
-        "link": "https://www.socialmediatoday.com/news/snapchat-adds-new-ai-features-including-chat-to-song/830966/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-21T19:51:56",
-        "summary": "Snapchat introduced a batch of AI features exclusively for its Lens+ subscription tier, aimed at boosting engagement and paid subscriptions. The headline addition is Snap-to-song, which lets users pick a chat message and a music genre, then converts that text into a full AI-generated song, tapping into a trend already popular on short-form video platforms. Also new is AI Photoshoot, which automatically fixes flawed photos, such as blinking, bad lighting or awkward expressions, without requiring a retake. AI Remix allows users to reimagine an existing image in a completely different scenario or setting, while a separate update introduces AI-enhanced font styles like bubble text, fuzzy textures and spray-paint effects, plus the ability to remix stickers into new visual styles. Separately, Snapchat+ subscribers can now build a customizable 3D model of their home to display on Snap Map, choosing a location and appearance. These additions expand Snapchat's paid tools lineup, though they arrive as the company also works to curb AI content overload, having adjusted its Spotlight algorithm last month to reduce visibility of fully AI-generated videos.",
-        "li_summary": "Snapchat rolled out several AI-powered tools for Lens+ subscribers, including Snap-to-song (turning chat messages into AI-generated songs), AI Photoshoot photo touch-ups, AI Remix scene re-creation, and new AI-enhanced fonts and stickers."
       }
     ]
   }
