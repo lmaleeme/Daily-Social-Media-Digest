@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-30",
+    "articles": [
+      {
+        "title": "TikTok adds certification tiers for agency partners",
+        "link": "https://www.socialmediatoday.com/news/tiktok-adds-certification-tiers-for-agency-partners/831719/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T22:29:28",
+        "summary": "TikTok has revamped its Agency Partner program, introducing a two-tier badge system to help brands identify agency expertise levels. Partners now receive either an Agency Partner badge or a Premier Agency Partner badge. The standard Agency Partner badge marks agencies that show strong performance, operational capability, and certified team knowledge of TikTok's ad tools. The Premier Agency Partner badge is reserved for a smaller, select group of top-performing agencies worldwide, representing the highest recognition tier, awarded based on proven business results, deep platform knowledge, and consistent focus on TikTok-first marketing strategies. Both badges are meant to give brands confidence that an agency has passed TikTok's vetting requirements, whether they need help launching standard performance campaigns or executing large-scale, specialized activations. The updated system is intended to make it easier for marketers to choose the right partner for their needs. TikTok's Agency Partner program launched in 2020 and now includes more than 600 approved partners spanning creative production, marketing technology, and measurement services.",
+        "li_summary": "TikTok restructured its Agency Partner program, splitting its 600+ approved marketing partners into two new certification tiers, Agency Partner and Premier Agency Partner, to signal expertise levels to brands."
+      },
+      {
+        "title": "Instagram updates its educational safety program",
+        "link": "https://www.socialmediatoday.com/news/instagram-updates-its-educational-safety-program/831718/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T22:27:54",
+        "summary": "Instagram announced updates to its School Partnerships program, which launched in March 2025 and now includes almost 17,000 participating schools. The program lets educators report safety concerns directly to Instagram through a prioritized channel for approved contributors with direct student contact. New features include in-app hubs for school accounts to widen message reach, plus access to channels, School Stories, and Notes for participating schools, alongside added resources for educators, parents, and students. Instagram is also introducing \"verified students,\" giving approved student contributors similar alert and connection tools to flag concerns, along with new student banners and directories that let classmates find each other\u2014visible only to mutual teen followers at the same school. Meta has partnered with Unidays to verify high schoolers before granting access to official school communities, aiming to keep these spaces secure. The rollout comes as Instagram faces ongoing scrutiny and regional usage restrictions over concerns about social media's impact on teen mental health and wellbeing.",
+        "li_summary": "Instagram expanded its School Partnerships program to nearly 17,000 schools, adding in-app school hubs, verified student accounts, student directories, and Unidays-based verification to strengthen teen safety reporting and connections."
+      },
+      {
+        "title": "Meta adds contributor badges to Forums chat app",
+        "link": "https://www.socialmediatoday.com/news/meta-adds-contributor-badges-to-forums-chat-app/831717/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T22:20:15",
+        "summary": "Meta rolled out new features for its Forums app, launched in May to turn Facebook Groups into a Reddit- or Quora-style Q&A platform, including recognition badges for top contributors, a display of related answers pulled from multiple groups, and topic labels to improve content discovery. The badges reward users who consistently answer questions, share firsthand experience, offer practical advice, or spark community discussions, and come with perks like faster-publishing posts, intended to motivate experts to keep contributing. A new cross-group answer feature lets users compare responses to similar questions from different communities and pick the most helpful one. Topic labels are meant to make it easier for people to find relevant discussions. While Meta frames these updates as improvements for everyday users, the underlying goal appears to be generating structured, high-quality question-and-answer data, similar to how Reddit content has become valuable for training and guiding AI chatbot responses, suggesting Forums may ultimately serve Meta's AI systems more than its human community members.",
+        "li_summary": "Meta added top-contributor badges, cross-group related answers, and topic labels to its Forums Q&A app, aiming to boost expert engagement and feed higher-quality data into its AI chatbot responses."
+      },
+      {
+        "title": "Pinterest offers post-holiday marketing tips",
+        "link": "https://www.socialmediatoday.com/news/pinterest-offers-post-holiday-marketing-tips/831715/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T21:45:40",
+        "summary": "Pinterest this week published new marketing tips focused on Q5, the week between Christmas and New Year's, which it describes as a high-engagement period despite falling outside typical holiday campaign windows. The platform outlined three shifts marketers should make: first, pivot creative from gift-giving scenarios to personal, everyday use cases; second, move messaging away from festive celebration toward planning, organization and self-improvement themes that align with new-year mindsets; and third, replace holiday urgency around shipping deadlines with messaging that emphasizes how products support daily routines and long-term goals. Pinterest noted that campaign focus should vary by objective\u2014awareness campaigns should lean into fresh-start inspiration, consideration campaigns should show how products fit evolving routines, and sales-focused campaigns should use product-led creative to drive quick action. To help brands execute this shift without building entirely new assets, Pinterest pointed to its ad tools, Media Library and Smart Assembly feature, which repurposes existing creative into new ad formats tailored to the post-holiday mindset shift from gifting toward self-care and personal use.",
+        "li_summary": "Pinterest released post-holiday marketing guidance this week, urging brands to shift Q5 (Dec 26-31) campaigns from gift-focused messaging toward self-purchase, planning and routine-based content to match changing consumer intent."
+      },
+      {
+        "title": "Meta launches Muse AI for SMBs",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-muse-ai-for-smbs/831714/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T21:32:26",
+        "summary": "Meta expanded its agentic AI push by launching Muse for Small Business, building on its earlier consumer-focused Muse agents to give small business owners dedicated automation tools. The core feature is Muse connectors, integrations with partner apps including Zoom, Figma, Canva, Stripe, GitHub, QuickBooks, Slack and Shopify, alongside Meta's own tools and analytics, letting Muse access business data to run background tasks automatically. Meta Chief AI Officer Alexandr Wang said plumbers, grocery store owners and farmers are already using Muse to find efficiencies. Example use cases include analyzing content to build promotional campaigns, reviewing cash flow to flag savings opportunities, drafting customer communication responses, and refining marketing and business plans; Meta is also developing goal-setting features to align Muse activity with specific business targets. Meta says users retain control, with nothing published, sent or spent without explicit approval, though the system's usefulness depends heavily on how much data access SMBs are willing to grant. A lower-risk starting point could be using Muse simply for Facebook and Instagram strategy tips before granting deeper operational access.",
+        "li_summary": "Meta launched Muse for Small Business, an agentic AI package with connectors to Zoom, Figma, Canva, Stripe, GitHub, QuickBooks, Slack and Shopify to help SMBs automate marketing, finances and customer communication workflows."
+      },
+      {
+        "title": "Threads expands live chat engagement options",
+        "link": "https://www.socialmediatoday.com/news/threads-expands-live-chat-engagement-options/831710/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-09-29T19:58:25",
+        "summary": "Threads announced updates to its live chat feature on Tuesday, expanding on the tool it launched in April 2025 for text-based group discussions hosted within the app's DM section. The update introduces Live Reactions, letting participants send a shared emoji that floats across every viewer's screen simultaneously, rather than reacting to individual messages. A new raise-hand feature lets users signal they want to join an active chat, useful for sessions where the host has capped participant numbers. Threads is also bringing live chats to the web for the first time, responding to one of its most-requested feature requests, and is extending access to users in Australia as part of its ongoing rollout. The company highlighted past chat activity tied to Coachella, KATSEYE, the NBA, World Cup and Jay-Z as evidence of engagement, and is now partnering with creators for live chats around \"Dancing with the Stars\" and the WNBA Playoffs. Threads head Connor Hayes said in a Tuesday post that the feature's goal is to keep the app feeling timely and help users find relevant real-time conversations.",
+        "li_summary": "Threads rolled out live chat upgrades on Tuesday, adding group emoji reactions, a raise-hand feature for joining discussions, web-based access, and expanded availability to users in Australia."
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "articles": [
       {
@@ -192,59 +245,6 @@
         "published": "2026-09-23T21:41:47",
         "summary": "LinkedIn is broadening its verification system to boost trust amid rising AI-driven content concerns. A new test lets past colleagues confirm whether a member actually worked at a listed employer; enough confirmations trigger a profile verification badge, though users can choose to hide it, which could weaken the system's credibility unless adoption becomes widespread enough that unverified profiles stand out. Separately, verified company pages will gain the ability to remove people falsely listing themselves as current employees, though this feature is limited to businesses with verified status, which LinkedIn ties to factors like ad spend, Premium Company Page subscriptions, or consistent platform engagement. LinkedIn is also extending its identity-verification badge visibility to two new partners, Truecaller and PeerSpot, adding to existing integrations with Adobe, TrustRadius, and UserTesting. The company says it has spent tens of millions of dollars building out verification tools, with over 115 million members now verified, up from 100 million in December 2025, and reports that verified profiles get 50% more post engagement and nearly 90% more profile views.",
         "li_summary": "LinkedIn is testing peer-based colleague verification badges and letting verified company pages remove false employee listings, as its identity verification tally hits 115 million members, up from 100 million in December 2025."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-23",
-    "articles": [
-      {
-        "title": "Threads adds sticker options for bios",
-        "link": "https://www.socialmediatoday.com/news/threads-adds-sticker-options-for-bios/831098/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T23:32:24",
-        "summary": "Threads has rolled out a new customization option that allows users to insert digital stickers, including both animated and non-animated designs, into their profile bio section. The feature was highlighted through an example shared by Threads user @vlaad, showing how stickers can now appear alongside bio text to add visual flair. This builds on Threads' earlier addition of animated letter stickers for posts, a feature that initially generated buzz as users created colorful animated word combinations, though interest reportedly faded within days. Unlike post-based stickers, bio stickers may have more staying power since profile bios aren't updated as frequently as individual posts, meaning the visual effect could persist longer on user profiles. The update signals Threads' continued push toward more expressive, customizable profile options, drawing comparisons to the animated GIF and glitter-text trends popularized on MySpace profiles in the mid-2000s. Whether this leads to a lasting shift in how users present themselves on Threads, or another short-lived novelty, remains to be seen.",
-        "li_summary": "Threads now lets users add animated and static digital stickers directly to their profile bio section, expanding on the animated sticker feature it introduced for posts earlier this year."
-      },
-      {
-        "title": "Meta Muse uses human staff for some functions",
-        "link": "https://www.socialmediatoday.com/news/meta-muse-uses-human-staff-for-some-functions/831097/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T23:23:26",
-        "summary": "Meta's Chief AI Officer Alexandr Wang recently announced expanded outbound calling capacity for Muse, the company's AI agent that phones businesses to handle tasks like pricing inquiries and bookings for users. However, 404 Media reports that leaked internal information reveals Meta is testing a hybrid system where trained human agents step in to complete some of these calls and requests rather than relying solely on AI. This mirrors Meta's 2015 \"M\" assistant within Messenger, which combined AI with human trainers who intervened whenever the bot got stuck, without users knowing which parts were human versus AI-driven. That project was shut down by 2018 after proving too costly to scale and generating limited user interest, as former Verge reporter Casey Newton noted when Mark Zuckerberg admitted the tool saw little use. Separately, Reuters reported that Meta had also piloted a \"human concierge\" system to support Meta AI responses, but scrapped it over concerns about exposing users' private data to human contractors. Despite this troubled history, Meta continues pushing forward with human-assisted AI agents, betting that improved technology will finally make the approach work.",
-        "li_summary": "Meta's new Muse AI agents, which make outbound calls to businesses for bookings and pricing on users' behalf, are secretly relying on trained human staff to handle certain requests, echoing its failed 2015 \"M\" assistant."
-      },
-      {
-        "title": "Meta Muse partners with Shopify and gets blocked by Amazon",
-        "link": "https://www.socialmediatoday.com/news/meta-muse-partners-with-shopify-and-gets-blocked-by-amazon/831096/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T23:14:35",
-        "summary": "Meta announced a new partnership with Shopify enabling its Muse AI agents to conduct agentic checkout using Shop Pay across all Shopify merchant stores, letting users' bots search for products, compare options, negotiate prices, and complete purchases autonomously. Shopify CEO Tobi Lutke confirmed the integration on X, while Mark Zuckerberg framed it as a step toward AI-powered shopping becoming mainstream. However, Amazon has taken the opposite stance, requesting removal from Meta's list of supported Muse shopping agents, citing its existing policies against automated purchasing tools. Retail Dive reported that Amazon's resistance likely stems from concerns over lost upselling opportunities and reduced direct site traffic, since AI agents bypassing product pages could shrink exposure for promoted listings and dilute the platform's value. Broader industry worries include AI agents price-matching across competitors, potentially pushing sales toward cheaper platforms like Temu and Shein, disadvantaging both major retailers and small businesses that can't compete on price with bulk-buying chains. The shift raises questions about whether AI-driven shopping ultimately benefits consumers through convenience and lower prices, or narrows the retail landscape to only a handful of surviving platforms.",
-        "li_summary": "Meta partnered with Shopify to let its Muse AI agents search, negotiate, and complete purchases via Shop Pay across all Shopify stores, while Amazon separately blocked Muse bots from accessing its platform entirely."
-      },
-      {
-        "title": "X Numbers officially launch",
-        "link": "https://www.socialmediatoday.com/news/x-numbers-officially-launch/831091/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T21:46:06",
-        "summary": "X has officially launched X Numbers, a new XChat feature allowing users to generate numeric access codes that let non-connections send DMs and initiate audio or video calls without needing to accept message requests or follow each other. The feature began rolling out to select users earlier this month, and could prove useful for managing communications with event attendees, business partners, or client prospects. X clarifies this is not an actual phone number and differs from its existing chat safety number feature used for verifying message security. Notably, anyone a user has previously messaged can view their X Number and potentially share it further, meaning anyone holding a valid code can contact that user until it's deactivated. Users can hide their code, disable it anytime, or generate a new one whenever needed. This launch comes just days after X pulled its standalone XChat app, launched only four months ago in April, from both Apple and Google app stores, leaving X's overall messaging strategy and long-term plans for an all-in-one platform somewhat unclear.",
-        "li_summary": "X officially rolled out X Numbers for XChat, letting users share numeric access codes so non-followers can DM or start audio/video calls without message requests or mutual follows required."
-      },
-      {
-        "title": "Meta adds Threads-specific permissions for businesses",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-threads-specific-permissions-for-businesses/831087/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T21:10:43",
-        "summary": "Meta is rolling out dedicated business management permissions for Threads, separate from Instagram, as part of a broader push to treat Threads as an independent platform. Alongside this update, Meta also removed the requirement for advertisers to hold an Instagram account before running Threads ads. Starting in September 2026, businesses will be able to assign task-based access controls directly to Threads profiles within their business portfolio, rather than relying on permissions inherited from a linked Instagram account. Existing Threads profiles will initially keep the access settings carried over from Instagram, but admins will gain the ability to customize and manage these permissions independently going forward. Meta says the rollout is happening gradually and globally, with availability varying by region for now. The move reflects Threads' growing scale, with the platform reporting 500 million monthly active users, and Mark Zuckerberg suggesting it has now surpassed X in overall usage, prompting Meta to build out standalone tools tailored specifically to Threads rather than folding it into Instagram's existing management systems.",
-        "li_summary": "Meta will let businesses assign Threads-specific, task-based employee permissions within its business portfolio tools starting September 2026, fully decoupling access management from linked Instagram accounts as Threads grows toward 500 million monthly users."
-      },
-      {
-        "title": "TikTok commits to expanded child protection initiatives",
-        "link": "https://www.socialmediatoday.com/news/tiktok-commits-to-expanded-child-protection-initiatives/831086/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-22T20:00:53",
-        "summary": "TikTok USDS JV announced two new child-safety partnerships on Tuesday. First, it joined Lantern, the Tech Coalition's cross-platform data-sharing system launched in 2023, which lets participating companies like Meta, Google, Discord, Reddit, X, Snap, and Twitch exchange signals to identify patterns of child sexual abuse material and strengthen enforcement across services. Second, TikTok expanded its partnership with the National Center for Missing and Exploited Children, agreeing to share more data to support legal action on flagged cases, and committing $2 million toward NCMEC's three-year initiative to overhaul its CyberTipline reporting system. That funding will go toward building AI-driven search, automation, and analysis tools designed to speed up harm detection, cut manual review time in half, and get urgent reports to law enforcement faster. The move follows pressure from Meta, which recently settled an $18 billion child-safety lawsuit and urged competitors including TikTok and YouTube to adopt similar teen protection measures like usage time limits. TikTok hasn't committed to time restrictions yet, but this announcement signals an effort to keep pace with industry safety standards.",
-        "li_summary": "TikTok's U.S. management group, TikTok USDS, joined the Tech Coalition's Lantern platform alongside 38 companies and pledged $2 million to NCMEC to help modernize its CyberTipline with AI-powered detection tools for child exploitation content."
       }
     ]
   }
