@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-02",
+    "articles": [
+      {
+        "title": "Sociable: TikTok adds certification tiers for agency partners",
+        "link": "https://www.marketingdive.com/news/sociable-tiktok-adds-certification-tiers-for-agency-partners/831892/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-01T15:03:00",
+        "summary": "TikTok has restructured its Agency Partner Program, which launched in 2020 and now includes more than 600 approved agencies, into two distinct certification tiers. Agencies will now be designated as either an Agency Partner or a Premier Agency Partner, with the badge awarded reflecting an agency's proven performance, operational maturity, and certified staff expertise on the platform. The standard Agency Partner badge recognizes agencies that meet established benchmarks for platform competency and campaign execution, while the Premier Agency Partner badge is reserved for a smaller, select group of top-tier agencies worldwide that demonstrate consistent business results, advanced platform knowledge, and a strong focus on TikTok-first marketing strategies. TikTok says both tiers assure brands they are working with vetted specialists, whether the need is launching and scaling performance campaigns or executing large, complex brand activations requiring deeper expertise. The update is meant to give marketers clearer signals when selecting an agency partner, covering areas like creative production, marketing technology integration, and campaign measurement, ultimately helping brands match their specific needs with the right level of agency experience.",
+        "li_summary": "TikTok has split its 600+ agency Partner Program into two tiers, Agency Partner and Premier Agency Partner, to signal verified expertise and help brands choose vetted marketing partners."
+      },
+      {
+        "title": "Reese\u2019s searches for \u2018trick-or-treatiest street\u2019 in multichannel effort",
+        "link": "https://www.marketingdive.com/news/reeses-searches-for-trick-or-treatiest-street-in-multichannel-effort/831813/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-01T14:00:00",
+        "summary": "Reese\u2019s is running a multichannel Halloween campaign called \u201cReese\u2019s Trick-or-Treatiest Street in America,\u201d surveying 15,000 Americans and evaluating 150 candidate streets nationwide based on decorations, walkability and community participation, with results posted to a dedicated microsite. A newly formed Halloween Council, including \u201cAddams Family\u201d actor Christina Ricci, \u201cHocus Pocus\u201d actor Kathy Najimy, and creators Rachel Iwanyszyn, Zaire Alford and Macy Blackwell, will review the data across a two-part social content series and crown one winning street on October 21. That street will receive a celebratory block party built with real estate partner Zillow, featuring Reese\u2019s products and a fully decorated trick-or-treat setup, supported by a 60-second explainer video. The campaign also includes new creative tied to Reese\u2019s ongoing \u201cEverything Happens for a Reese\u2019s\u201d platform. The work comes from MiltonOne, Publicis Groupe\u2019s dedicated Hershey unit, alongside Saatchi & Saatchi New York and MSL. The push follows the National Retail Federation\u2019s projection of $13.5 billion in total Halloween spending this year, including $4.1 billion on candy, and arrives as Hershey reported 6.6% net sales growth to $2.7 billion in Q2 2026.",
+        "li_summary": "Reese\u2019s launched \u201cTrick-or-Treatiest Street in America,\u201d surveying 15,000 people and 150 streets, with a celebrity-led Halloween Council naming a winner Oct. 21 for a Zillow-backed block party."
+      },
+      {
+        "title": "Inside Advertising Week\u2019s changes \u2014 and a bid for $100M in creator deals",
+        "link": "https://www.marketingdive.com/news/inside-advertising-weeks-changes-and-a-bid-for-100m-in-creator-deals/831812/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-01T12:00:00",
+        "summary": "Advertising Week New York kicks off Monday at Manhattan's Penn District through Oct. 8, continuing its shift from an agency-focused Madison Avenue event toward courting brand-side CMOs and marketing budget holders. Global president Ruth Mortimer says the creator economy is the area the conference has gone deepest into this year, with roughly 1,000 creators attending as delegates in 2025 expected to more than double in 2026. A new initiative, developed with chief creator officer Dhar Mann, aims to facilitate $100 million in creator-brand deals over the four-day event by matchmaking marketers' budgets with creators, building on a model that produced a real Old Navy campaign last year. Mortimer expects to surpass 2025's attendance of over 20,000 marketers. This marks the first Advertising Week since owner Emerald was acquired by Apollo Global Management and merged with Questex to form Forge. The event faces new competition the same week, including Lions' VidCon x Lions Creators showcase in Denver and the debut Jupiter Festival, backed by YouTube and the IAB, as the creator-marketing calendar grows increasingly crowded.",
+        "li_summary": "Advertising Week New York, running Oct. 6-8 at Penn District, is launching a challenge to generate $100 million in creator-brand deals while expecting creator attendance to more than double to over 2,000 in 2026."
+      },
+      {
+        "title": "Concerns about social media\u2019s negative impact are growing",
+        "link": "https://www.socialmediatoday.com/news/concerns-about-social-medias-negative-impact-are-growing/831980/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-01T22:33:07",
+        "summary": "Pew Research's latest global study across 37 nations shows that negative views of social media's impact on democracy have increased in every country surveyed since 2022. The U.S. stands out with 64% of adults saying social media harms democracy, while wealthier nations overall show higher skepticism than developing ones. Despite this, 55% of all respondents still see social media as net-positive for democracy, with younger adults most likely to hold favorable views. A separate Pew survey found 82% of Australian adults support restricting social media access for minors, with older respondents most supportive of such bans, mirroring the broader negative sentiment trend. Similar majority support for teen social media restrictions appears in the U.S., U.K., France, Italy, Norway, and Sweden. The findings suggest engagement-driven algorithms that amplify divisive, emotionally charged content may be fueling public concern, and point toward growing political momentum for age-based social media restrictions as public opinion increasingly favors limiting youth access to these platforms.",
+        "li_summary": "Pew Research's 37-nation survey found negative sentiment toward social media's impact on democracy has risen since 2022 in every country, with 64% of U.S. adults now calling it harmful."
+      },
+      {
+        "title": "Meta\u2019s Muse app surpasses 5M downloads and 3M weekly users",
+        "link": "https://www.socialmediatoday.com/news/metas-muse-app-surpasses-5m-downloads-and-3m-weekly-users/831979/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-01T22:25:47",
+        "summary": "Meta's new Muse AI agent app has reached 5 million downloads within its first 22 days, according to Sensor Tower data cited by Yahoo Finance, placing it among just 23 apps in history to hit that milestone so quickly, and currently outperforming both ChatGPT and xAI's Grok in early adoption. The Information separately reported Muse has surpassed 3 million weekly active users, signaling strong retention alongside its rapid uptake. The app is central to Meta's consumer AI strategy, part of a broader commitment exceeding $600 billion in U.S. AI infrastructure spending over three years. At Meta's Connect conference, CEO Mark Zuckerberg detailed the monetization plan: Muse will remain free for users, with Meta eventually profiting from small fees on transactions the app facilitates, such as identifying and canceling unnecessary subscriptions. This targets a real pain point, since CNBC reports 44% of U.S. consumers increased subscription spending in 2025. Success depends on users granting Muse deeper access to personal and financial data, raising privacy concerns Meta hopes early cost-saving wins will help offset as adoption continues climbing.",
+        "li_summary": "Meta's Muse AI agent app has hit 5 million downloads in 22 days and surpassed 3 million weekly users, outpacing ChatGPT and Grok, with Zuckerberg planning to monetize via small fees on in-app transactions like subscription cancellations."
+      },
+      {
+        "title": "TikTok US reports generating $81B in economic value",
+        "link": "https://www.socialmediatoday.com/news/tiktok-us-reports-generating-81b-in-economic-value/831978/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-01T22:20:33",
+        "summary": "TikTok commissioned PF Global to produce a new U.S. economic impact report surveying 11,123 American adults and more than 5,000 businesses, over half of them SMBs, concluding that the platform generated upward of $81 billion in economic value, though that figure stems from estimated advertiser spend multiplied by industry revenue-to-GDP ratios rather than confirmed contribution data. The report found 69% of surveyed businesses consider TikTok essential, 83% say it helps attract customers, 93% reported sales increases from promoting on the platform, 80% said it helped them scale, and 75% have paid creators for promotional content. TikTok Shop reportedly averaged nearly 595,000 monthly live shopping sessions in the US during 2026, with live-driven sales up 92% year-over-year, while platform-driven discovery allegedly added $14 billion in spending across tourism, retail and hospitality. The report also claims TikTok enabled 3.6 billion hours of informal learning in 2025, with 45 million adults saying it clarified their career options. The timing suggests this is part of TikTok's ongoing effort to justify its U.S. presence, even though its American arm's sale to a local consortium already appears to secure its future in the country.",
+        "li_summary": "TikTok released a PF Global-conducted report claiming the platform generated $81 billion in U.S. economic value, based on survey responses from 11,123 adults and over 5,000 businesses, though the GDP figure relies on estimated ad spend rather than verified data."
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "articles": [
       {
@@ -200,51 +253,6 @@
         "published": "2026-09-27T22:24:06",
         "summary": "Following Meta's Connect presentation, Instagram shared a walkthrough of how its Muse AI agents can support creators once given access to their account data. Muse can flag incoming collaboration opportunities and benchmark them against industry-average rates, supply a tailored creative playbook for content strategy, and generate account and activity summaries. It can also send scheduled reminders about evolving platform trends or account tasks, and creators unsure of its capabilities can simply ask Muse what it's able to help with. Because Muse is built directly into Instagram and Facebook, it draws on official platform data rather than third-party estimates. However, Meta acknowledges adoption risk: letting an AI agent act autonomously could result in rule violations or improper data access if something goes wrong, so Muse includes an optional approval step requiring creator sign-off before it takes action. Meta says this safeguard should prevent missteps, but building creator trust in autonomous AI action remains the biggest challenge to widespread Muse usage across Instagram's creator base.",
         "li_summary": "Instagram detailed how Meta's Muse AI agents, unveiled at Connect, can assist creators by analyzing brand collaboration offers against industry averages, offering strategic content playbooks, and sending account summaries and reminders."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "articles": [
-      {
-        "title": "Google provides more Demand Gen ad features",
-        "link": "https://www.socialmediatoday.com/news/google-provides-more-demand-gen-ad-features/831330/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-24T20:36:26",
-        "summary": "Google announced a batch of updates to its Demand Gen advertising suite this week, starting with an AI-powered \"Ask YouTube\" feature that lets viewers query product details directly from the video playback window without leaving the clip, unveiled at YouTube's Made On event. Google is also introducing single-tap image ads for YouTube Shorts, supporting 9:16 full-bleed creative formats, and extending the same one-click functionality to Gmail ads, aiming to streamline response paths for advertisers. Google noted that brands adding Gmail to their Demand Gen campaigns typically see a 40% lift in conversions from image creatives while maintaining the same ROI. Additionally, Google is launching affiliate location extensions within Google Maps, allowing businesses to promote their physical locations directly in map results, a move that mirrors Snapchat's promoted places feature on Snap Map. This addition could help local businesses capture more foot traffic by surfacing sponsored listings to nearby searchers. All of these Demand Gen enhancements began rolling out this week, giving advertisers new tools across YouTube, Gmail and Maps to boost product discovery and response rates.",
-        "li_summary": "Google rolled out Demand Gen ad updates this week, adding an AI-powered Ask YouTube product Q&A bot, one-click image ads on Shorts and Gmail, and promoted location pins in Google Maps."
-      },
-      {
-        "title": "Instagram chief shares algorithm insights and posting tips",
-        "link": "https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-24T20:05:28",
-        "summary": "Instagram head Adam Mosseri posted a series of videos on his own profile breaking down how the platform's content-ranking algorithm works, partly to respond to scrutiny like Australia's proposed regulations on algorithmic influence, and partly to help creators optimize their strategy. Mosseri explained that without ranking, feeds would be dominated by high-frequency posters like brands, reducing overall content variety and creator reach, so Instagram instead predicts engagement likelihood\u2014such as watch time or shares\u2014to sort posts, with recency still playing a major role in keeping feeds close to chronological order. He outlined four guiding principles: originality (favoring original creators over re-posters), recency, \"breaking content\" (testing small creators' public posts with non-followers to help new accounts gain traction), and growing model size (using broader data inputs to refine rankings). He noted users can shape their own feeds via tools like Favorites, \"Not Interested,\" and Your Algorithm, which lets people edit assigned interest topics. For creators, Mosseri recommended focusing on engagement rate rather than total views or likes, experimenting frequently through trial Reels, and posting often to increase hit potential while balancing workload to prevent burnout.",
-        "li_summary": "Instagram CEO Adam Mosseri released a video series explaining the platform's ranking algorithm, revealing four core principles\u2014originality, recency, breaking content exposure for new creators, and expanded AI model size\u2014while advising creators to prioritize engagement rate over raw views or likes."
-      },
-      {
-        "title": "YouTube refuses to join Meta settlement on teen harms",
-        "link": "https://www.socialmediatoday.com/news/youtube-refuses-to-join-meta-settlement-on-teen-harms/831325/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-24T20:02:58",
-        "summary": "YouTube has declined to join Meta's teen safety settlement framework, with CEO Neal Mohan confirming at the company's Made On showcase this week that YouTube won't adopt Meta's usage restrictions for under-18 users. Last month, Meta agreed to pay over $18 billion combined to settle a bipartisan attorneys general lawsuit over social media harms to teens, committing to a five-year daily two-hour usage cap and a midnight-to-6am app block for minors. Meta added a clause offering to extend these restrictions to ten years if YouTube and TikTok also implemented matching rules and contributed financially to the settlement. Mohan, speaking to CNN, said YouTube already maintains substantial safety investments and parental control tools enabling usage limits, and is collaborating with child safety experts on further measures, but argued YouTube's platform differs fundamentally from Meta's apps and needs its own tailored approach rather than adopting Meta's terms. TikTok, also named in the original lawsuit, has similarly not joined Meta's proposal, and reportedly rejected Meta-sponsored ads earlier this month urging both companies to sign on.",
-        "li_summary": "YouTube CEO Neal Mohan rejected Meta's push to adopt matching teen usage restrictions, declining the $18 billion settlement's extended 10-year clause and shared cost terms."
-      },
-      {
-        "title": "LinkedIn shares insights into key B2B buying behaviors",
-        "link": "https://www.socialmediatoday.com/news/linkedin-shares-insights-into-key-b2b-buying-behaviors/831324/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-24T19:59:43",
-        "summary": "LinkedIn partnered with Factors.ai to study over 50,000 closed B2B deals from 850 organizations, uncovering key patterns in buyer behavior that could reshape ad strategy. The research found B2B buyers typically spend around 124 days researching solutions before engaging a salesperson, suggesting marketers should launch campaigns much earlier than the final purchase decision to capture early-stage discovery. The report also revealed that deal size correlates with contact breadth: reaching six or more contacts before a deal even enters the CRM can boost win rates by 17 percentage points, while engaging three or more additional contacts during the active sales cycle adds another 16 points. Despite this, 76% of LinkedIn ad spend currently targets director-level roles only, potentially missing a wider pool of influential stakeholders. Perhaps the most notable finding is that companies pairing LinkedIn Ads with consistent organic posting see 2.4 times higher win rates than those relying on paid campaigns alone. LinkedIn's takeaway for marketers: run longer campaigns, broaden job-role targeting beyond directors, and maintain organic activity alongside paid efforts for stronger results.",
-        "li_summary": "LinkedIn and Factors.ai analyzed 50,000+ closed B2B deals across 850 organizations, finding buyers research solutions 124 days before contacting sellers, and combining paid ads with organic activity yields 2.4x higher win rates."
-      },
-      {
-        "title": "Meta looks to reassure AI users it can be trusted with their data",
-        "link": "https://www.socialmediatoday.com/news/meta-looks-to-reassure-ai-users-it-can-be-trusted-with-their-data/831323/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-24T19:54:30",
-        "summary": "At its annual Connect event, Meta unveiled several new AI-focused products alongside privacy safeguards meant to build trust in its agentic AI push. The company introduced Private Processing, a system that handles data from AI wearables inside \"confidential virtual machines\" that Meta says even it cannot access. It also announced users can now opt out of having visual data from AI glasses used to train its models, and released a camera-less version of its AI glasses to address fears about covert recording. Additionally, Meta debuted Muse Charm, a playful, non-camera wearable device designed to keep users connected to their AI agents in a less invasive way. These moves come as Meta pushes deeper into always-on AI assistants that require constant access to personal context, conversations, and habits to function effectively. The article argues that despite these reassurances, Meta's history of prioritizing innovation over privacy protection suggests it will likely repeat past patterns, launching first and addressing backlash later, betting that utility and appealing design will ultimately outweigh users' data privacy concerns.",
-        "li_summary": "At its Connect showcase, Meta introduced Private Processing for Meta AI, camera-less smart glasses, an opt-out for AI training on visual data, and a new wearable charm device, all aimed at easing privacy fears around always-on AI assistants."
       }
     ]
   }
