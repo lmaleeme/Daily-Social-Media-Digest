@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-05",
+    "articles": [
+      {
+        "title": "TikTok broadens agentic AI play, brings global ad network to US",
+        "link": "https://www.marketingdive.com/news/tiktok-broadens-agentic-ai-play-brings-global-ad-network-to-us/832007/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-05T14:30:00",
+        "summary": "TikTok unveiled a wave of advertising and commerce features timed to Advertising Week New York, headlined by the US debut of its TikTok Ad Network (TTAN), which lets brands run campaigns across roughly 400,000 third-party apps worldwide, integrated into TikTok Ads Manager with brand safety tools and independent measurement from Integral Ad Science. On commerce, TikTok introduced Buy Direct for in-feed purchases without leaving the app, a conversational Shopping Assistant for product, shipping and sizing questions, and an Agentic Leads tool to help marketers capture high-intent prospects via direct messages or website lead forms, backed by partners like Salesforce, Shopify, Shoplazza and Stripe. TikTok also expanded Smart+ automation to search ads and added Smart+ Creative Selection to streamline asset choices, while broadening GMV Max to factor in costs like affiliate commissions and coupons. The company cited a PF Global report crediting it with $81 billion in US GDP impact in 2025 and 54 million American shoppers influenced by its videos. Its Model Context Protocol, launched in May, now connects to AI platforms including Claude, Kimi, Manus, Perplexity and Snowflake.",
+        "li_summary": "TikTok launched its TikTok Ad Network in the US for the first time, giving advertisers access to about 400,000 third-party apps, alongside new AI shopping and lead-generation tools unveiled at Advertising Week New York."
+      },
+      {
+        "title": "Influencer marketing has an AI trust problem",
+        "link": "https://www.socialmediatoday.com/spons/influencer-marketing-has-an-ai-trust-problem/831579/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-05T09:00:00",
+        "summary": "Meltwater and YouGov surveyed consumers on generative AI acceptance across content types and found influencer marketing ranks among the least accepted uses, with just 28% approval compared to 47% for product advertising and 53% for entertainment content. The report also found 86% of respondents want content to disclose AI use, and 59% said undisclosed AI would damage their trust in a brand. This contrasts with earlier virtual influencers like Lil Miquela and Shudu, whose artificiality was openly part of their appeal; today's AI-generated creators in testimonials and haul videos are often indistinguishable from real people, raising deception concerns. Instagram has responded by replacing its \"AI Creator\" label with a more direct \"AI-generated profile\" tag and restricting distribution for synthetic accounts that don't clearly disclose their nature, after finding users resent discovering a seemingly human profile is actually AI. The research and platform changes point to the same conclusion: brands running influencer programs need stronger vetting of creators, centralized monitoring of content published under their name, and consistent upfront disclosure whenever generative AI is involved, since concealment rather than AI use itself is what erodes consumer trust.",
+        "li_summary": "New Meltwater/YouGov research finds only 28% of consumers accept generative AI in influencer marketing versus 47% in advertising and 53% in entertainment, while Instagram now labels synthetic profiles \"AI-generated\" and limits their reach."
+      },
+      {
+        "title": "X launches updated video composer",
+        "link": "https://www.socialmediatoday.com/news/x-launches-updated-video-composer/832088/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-04T21:30:59",
+        "summary": "X has updated its video upload and posting interface, introducing a more streamlined composer layout centered on improved captioning tools, according to X developer Allegra Jacchia. Creators can now manually edit auto-generated captions directly in the composer or ask Grok, X's AI assistant, to correct errors automatically. Grok can also translate captions into other languages, making content more accessible to international audiences. This follows a string of video-focused updates from X this year: a major July overhaul added multi-language caption support and green screen recording, August brought new video overlay options, and most recently the platform expanded livestreaming capabilities to support better live broadcasts. The push reflects X's broader strategy of building native creation tools to encourage original content rather than reposted clips from other platforms, as the company competes for creator engagement. Video activity on X has been climbing steadily in recent years, though notably the company has quietly dropped the \"video-first platform\" branding it experimented with back in 2024.",
+        "li_summary": "X rolled out a redesigned video composer with a cleaner layout and editable captions that creators can manually fix or have Grok AI correct and translate into other languages."
+      },
+      {
+        "title": "Instagram tests read-only mode",
+        "link": "https://www.socialmediatoday.com/news/instagram-tests-read-only-mode/832087/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-04T21:27:24",
+        "summary": "App researcher Alessandro Paluzzi has surfaced evidence that Instagram is developing a read-only mode for viewing profiles, likely as part of the paid Instagram Plus subscription add-ons. When activated, this mode would prevent users from liking or commenting on posts while browsing someone's profile, and would also block messaging, following, and viewing that person's Stories. The feature appears designed to let users browse profiles more freely without accidentally interacting with old content, such as liking a years-old post while scrolling through someone's history. While this could be useful for casual browsing, such as researching a potential date or new contact, it also raises concerns about enabling more covert surveillance of other users' accounts, since deep profile browsing often signals heightened interest beyond a casual visit. The feature hasn't been officially confirmed or launched by Instagram, and details on pricing or rollout timing remain unclear, but if added to the Plus package, it could make the subscription tier more appealing to users seeking additional privacy-oriented browsing tools.",
+        "li_summary": "Instagram is testing a read-only profile viewing mode, reportedly tied to its paid Instagram Plus add-on package, which blocks liking, commenting, messaging, following, or viewing Stories while browsing a profile."
+      },
+      {
+        "title": "Instagram adds AI songs to DMs",
+        "link": "https://www.socialmediatoday.com/news/instagram-adds-ai-songs-to-dms/832086/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-04T21:23:38",
+        "summary": "Instagram has rolled out a new AI-powered song generation feature within its direct messaging inbox, first spotted by creator Jonah Manzano. Users now see an option to create a song directly in their DM sharing menu, which prompts them to enter custom lyrics and choose from various music genres before Instagram's AI generates a track to send to friends. Meta has described the addition as a fun way to boost engagement between users. The feature closely mirrors Snapchat's recently launched Snap-to-Song tool, which converts message text into song lyrics for paying subscribers, though Instagram's version gives users more freedom since there are no restrictions on what lyrics can be entered. While the tool could add a lighthearted, humorous element to private conversations, it stands in contrast to Meta's broader positioning of AI as a transformative, world-changing technology, raising questions about whether such novelty features align with or dilute that larger narrative about AI's serious potential.",
+        "li_summary": "Instagram has added an AI song creation tool to its DM inbox, letting users input custom lyrics and select a music genre to generate and send AI-made tracks to friends, similar to Snapchat's paid Snap-to-Song feature."
+      },
+      {
+        "title": "Instagram adds Threads sharing sticker for Stories",
+        "link": "https://www.socialmediatoday.com/news/instagram-adds-threads-sharing-sticker-for-stories/832085/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-04T21:18:35",
+        "summary": "Instagram has rolled out a new sticker for Stories that lets users repost Threads content directly into their Story frames. Spotted by creator Jonah Manzano, the sticker opens a selection menu showing Threads posts a user has previously liked or saved, as well as their own posts, allowing any of them to be overlaid onto a Story. This mirrors a recent Threads feature that let users quote-post content as image stickers, though that version only worked with shared images rather than full posts. The addition signals that cross-platform sharing between Instagram and Threads is still functional despite Meta's broader push to make Threads operate independently. Last month, Meta removed the requirement for advertisers to hold an Instagram account to run Threads campaigns, and it stopped using Instagram activity to shape users' Threads interest graphs. Even as Meta works to give Threads its own identity and audience, this new sticker shows the two apps remain technically linked, giving creators another avenue to extend the reach of their Threads posts.",
+        "li_summary": "Instagram launched a new Threads sharing sticker that lets users select any liked, saved, or self-authored Threads post and embed it directly into their Instagram Stories for added visibility."
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "articles": [
       {
@@ -200,59 +253,6 @@
         "published": "2026-09-28T19:29:54",
         "summary": "Meta has launched Meta Enterprise Platform, a business-focused AI offering designed to help companies integrate Meta's models and agent technology into their operations, using tools like Muse agents, Muse API and Muse Code for automating internal tasks. CEO Mark Zuckerberg framed the launch as leveraging Meta's advanced AI systems, infrastructure scale, and decades of advertiser relationships to help organizations of all sizes innovate and run operations more efficiently. Former MongoDB chief executive Chirantan Desai has been hired to head the new division. The move comes as Meta searches for ways to justify its enormous AI infrastructure spending, which includes over $600 million committed to U.S. projects alone and a total AI investment now estimated to exceed $1 trillion, prompting investor scrutiny over eventual returns. However, Meta's track record may complicate enterprise trust: the company shut down its Workplace collaboration tool in 2024, has a history of data misuse controversies, and recently limited link-sharing on Facebook and Instagram to push businesses toward paid subscriptions.",
         "li_summary": "Meta unveiled Meta Enterprise Platform, a new AI business suite built on its Muse agents, Muse API and Muse Code tools, hiring former MongoDB CEO Chirantan Desai to lead it as the company seeks fresh revenue from its AI spending, now estimated above $1 trillion."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-28",
-    "articles": [
-      {
-        "title": "How agencies can turn holiday intent into action",
-        "link": "https://www.marketingdive.com/spons/how-agencies-can-turn-holiday-intent-into-action/831219/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-09-28T09:00:00",
-        "summary": "New research on TikTok shopping behavior highlights why agencies need to rethink holiday strategy timing and structure. The data shows 60% of TikTok users have discovered a new brand or product on the platform, 57% found gift ideas there, 51% used it to confirm purchase decisions, and 66% went on to search for products online after seeing them on TikTok. Creator content plays a significant role in this path, with two-thirds of shoppers saying creators help them find new brands and half saying they purchase items creators recommend. Because discovery, evaluation and buying now happen in rapid succession rather than as separate stages, the piece argues agencies must integrate creative, media planning and commerce strategy from the outset instead of treating them as sequential tasks. Rather than simply securing reach during peak shopping dates like Black Friday, agencies are being pushed to identify where purchase intent originates and build connected programs that guide shoppers from inspiration to checkout, starting well before major retail moments hit the calendar.",
-        "li_summary": "TikTok data shows 60% of users discover new brands and 57% find gift ideas on the platform, with 51% confirming purchases there and 66% researching products online afterward, prompting calls for agencies to unify creative, media and commerce earlier in holiday planning."
-      },
-      {
-        "title": "How agencies can turn holiday intent into action",
-        "link": "https://www.socialmediatoday.com/spons/how-agencies-can-turn-holiday-intent-into-action/831221/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T09:00:00",
-        "summary": "New research on TikTok shopping behavior highlights why agencies need to rethink holiday strategy timing and structure. The platform reports that 60% of users have discovered a new brand or product through TikTok, 57% found gift ideas there, 51% used it to confirm purchase decisions, and 66% went on to search for products online after seeing them on the app. Creator content plays a central role: two-thirds of shoppers say creators help them find new brands, and half say they've purchased items based on creator recommendations. Because discovery, evaluation and purchase now happen in a compressed, near-continuous sequence rather than distinct stages, agencies are being pushed to integrate creative, media and commerce planning from the outset instead of treating them separately. The article argues that brands increasingly need agency partners who can identify where purchase intent is forming early and build campaigns around that behavior, rather than simply buying reach during peak shopping windows. Acting before major retail dates, when competition and noise increase, gives brands more influence over how shoppers form consideration and ultimately decide what to buy.",
-        "li_summary": "TikTok data shows 60% of users discover new brands on the platform and 66% search for products online after seeing them there, prompting agencies to merge creative, media and commerce earlier in holiday planning."
-      },
-      {
-        "title": "Can Meta be trusted with user data to power its AI agents?",
-        "link": "https://www.socialmediatoday.com/news/can-meta-be-trusted-with-user-data-to-power-its-ai-agents/831446/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-27T22:38:36",
-        "summary": "Meta is rolling out Muse, a new suite of AI agents designed to perform tasks on users' behalf, including web searches, purchases, banking analysis, insurance recommendations, and health data review. To work effectively, these bots need broad access to sensitive personal information, so Meta has launched a PR campaign promising new data-protection safeguards, claiming even Meta itself won't access shared data. However, this trust-building effort faces skepticism given Meta's extensive track record of data misuse, totaling more than $25 billion in fines and settlements since 2007. Notable cases include the 2019 FTC's $5 billion Cambridge Analytica penalty, a 2022 Texas biometric data settlement of $1.4 billion, a 2023 EU fine of $1.3 billion for improper data transfers, and an 18 billion dollar 2026 settlement over child mental health harms tied to its apps. Additional incidents include a 2018 breach exposing 30 million users, a 2024 Irish breach fine covering 29 million accounts, and 2026 hacks compromising over 20,000 Instagram accounts via Meta's AI support bot. Despite these penalties, Meta has earned over $1.17 trillion in lifetime revenue, raising questions about whether such fines meaningfully deter future data misuse as it expands AI agent access to user information.",
-        "li_summary": "Meta is launching Muse AI agents that require access to sensitive user data like banking and health information, prompting scrutiny given the company's history of over $25 billion in data-misuse fines and settlements since 2007."
-      },
-      {
-        "title": "YouTube previews AI-powered Conversational Editing",
-        "link": "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-27T22:34:24",
-        "summary": "At its Made On event last week, YouTube introduced Conversational Editing, a new AI-driven feature built into the Shorts composer and YouTube Create app that lets creators assemble and refine videos using natural-language commands rather than manual timeline editing. Creator Kelli Erdmann (Happy Kelli) demonstrated the tool live, showing how it can automatically stitch together multiple clips from a camera roll based on simple typed instructions, cutting down the editing process that can otherwise take ten or more hours for a single hour of footage. Creators can keep refining results conversationally, adjusting typography, music choices, color filters, or a Short's opening hook, while the system also surfaces contextual suggestions like \"add music\" during editing. More advanced requests are supported too, such as syncing cuts to a song's beat or locating a seamless loop point. Users aren't locked into AI-only editing either, since they can drop into the manual timeline at any stage to fine-tune details themselves, giving less experienced editors a faster path to polished content without losing creative control.",
-        "li_summary": "YouTube unveiled Conversational Editing at its Made On event, a new AI feature in Shorts composer and the YouTube Create app that lets creators edit video clips using plain-language text prompts instead of manual timeline work."
-      },
-      {
-        "title": "X launches Grok Bot rewards program to showcase AI utility",
-        "link": "https://www.socialmediatoday.com/news/x-launches-grok-bot-rewards-program-to-showcase-ai-utility/831444/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-27T22:30:04",
-        "summary": "X has rolled out Grok Bot Template Rewards, an invite-only pilot program designed to demonstrate practical uses for xAI's Grok Bots, agentic AI tools launched last month that can log into a user's existing apps and complete tasks independently, only returning for approval on key decisions. Since most users struggle to identify use cases for agentic AI, X is asking selected creators to share their Grok Bot templates publicly on X; when other users adopt and consistently use these templates, creators can earn cash rewards paid through X Money. X says it will evaluate each payment cycle individually, considering factors like adoption numbers and sustained usage over time, while excluding creators' own use of their templates from calculations, and may offer early bonus payments to promising creators to encourage participation. The program's criteria are expected to evolve. This mirrors a similar initiative from Meta, which recently showcased use cases for its Muse AI agent. Both moves reflect a broader industry challenge: proving agentic AI's real-world value while convincing users to trust these tools with access to personal data and autonomous decision-making.",
-        "li_summary": "X launched an invite-only Grok Bot Template Rewards pilot, paying selected creators via X Money when others adopt and repeatedly use their submitted AI agent task templates on the platform."
-      },
-      {
-        "title": "How can Instagram creators use Muse AI agents?",
-        "link": "https://www.socialmediatoday.com/news/how-can-instagram-creators-use-muse-ai-agents/831443/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-27T22:24:06",
-        "summary": "Following Meta's Connect presentation, Instagram shared a walkthrough of how its Muse AI agents can support creators once given access to their account data. Muse can flag incoming collaboration opportunities and benchmark them against industry-average rates, supply a tailored creative playbook for content strategy, and generate account and activity summaries. It can also send scheduled reminders about evolving platform trends or account tasks, and creators unsure of its capabilities can simply ask Muse what it's able to help with. Because Muse is built directly into Instagram and Facebook, it draws on official platform data rather than third-party estimates. However, Meta acknowledges adoption risk: letting an AI agent act autonomously could result in rule violations or improper data access if something goes wrong, so Muse includes an optional approval step requiring creator sign-off before it takes action. Meta says this safeguard should prevent missteps, but building creator trust in autonomous AI action remains the biggest challenge to widespread Muse usage across Instagram's creator base.",
-        "li_summary": "Instagram detailed how Meta's Muse AI agents, unveiled at Connect, can assist creators by analyzing brand collaboration offers against industry averages, offering strategic content playbooks, and sending account summaries and reminders."
       }
     ]
   }
