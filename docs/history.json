@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-06",
+    "articles": [
+      {
+        "title": "How brands\u2019 deeper creator deals are unlocking cost efficiencies, results",
+        "link": "https://www.marketingdive.com/news/how-brands-deeper-creator-deals-are-unlocking-cost-efficiencies-results/832205/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-06T13:15:00",
+        "summary": "Executives from Chili's, Disney and Alaska Airlines at Advertising Week New York described a shift from treating creators as add-ons to making them central to marketing strategy, with long-term partnerships now driving measurable business results. Chili's social media director Luz Bickert said a May campaign pairing pop star Lizzo's Baby Back Ribs jingle cover with creator Keila Pacheco's low-budget mukbang car video outperformed the brand's polished TV spot, and credited influencer partnerships with growing the Triple Dipper from 7% to 15% of total sales. Disney VP Nicole Leo said creator-led content now makes up over 40% of assets in media campaigns, up from under 10% five years ago, aided by a corporate restructuring that lets creator ideas flow between departments while still requiring customized briefs per project. Alaska Airlines' April Johnson noted that contracting creators long-term creates budget efficiencies and matches how talent prefers to work. Panelists agreed creators should be looped into campaign planning earlier rather than handed rigid briefs, and that combining influencer and media agency reporting helps prove the channel's value, even as brands still grapple with measuring engagement beyond paid impressions.",
+        "li_summary": "At Advertising Week New York, Chili's, Disney and Alaska Airlines executives revealed creators now drive 40%+ of Disney's media assets and helped grow Chili's Triple Dipper from 7% to 15% of sales through long-term, deeply integrated partnerships rather than one-off sponsored posts."
+      },
+      {
+        "title": "TikTok broadens agentic AI play, brings global ad network to US",
+        "link": "https://www.marketingdive.com/news/tiktok-broadens-agentic-ai-play-brings-global-ad-network-to-us/832007/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-05T14:30:00",
+        "summary": "TikTok unveiled a broad set of advertising and commerce updates at Advertising Week New York, centered on AI-driven tools and U.S. expansion. The TikTok Ad Network (TTAN), previously used internationally, is now available to U.S. advertisers, letting them run campaigns across roughly 400,000 third-party apps through TikTok Ads Manager, with Integral Ad Science providing independent measurement for viewability, invalid traffic and brand safety. On the shopping side, TikTok introduced Buy Direct for in-feed purchases without leaving the app, a conversational Shopping Assistant that handles product, shipping and sizing questions, and an Agentic Leads tool for capturing high-intent prospects via DMs or website lead forms, supported by partners including Salesforce, Shopify, Shoplazza and Stripe. TikTok is also expanding Smart+ automation to search campaigns and launching Smart+ Creative Selection to streamline asset choices, alongside growing GMV Max for TikTok Shop merchants. A Model Context Protocol launched in May now connects to Claude, Kimi, Manus, Perplexity and Snowflake. TikTok says it helped generate $81 billion in U.S. GDP in 2025, with 54 million American shoppers buying after watching a TikTok video.",
+        "li_summary": "TikTok launched its U.S. TikTok Ad Network reaching 400,000 third-party apps, plus new AI tools including Buy Direct, a Shopping Assistant, Agentic Leads, and expanded Smart+ campaign automation, timed to Advertising Week New York."
+      },
+      {
+        "title": "Meta adds parental oversight to Meta AI app",
+        "link": "https://www.socialmediatoday.com/news/meta-adds-parental-oversight-to-meta-ai-app/832204/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-05T22:22:31",
+        "summary": "Meta has begun rolling out parental supervision tools for its dedicated Meta AI app, expanding oversight features first introduced in April for AI elements embedded across its other platforms. Once supervision is enabled, parents and guardians can review a seven-day log of topics their teen has raised with Meta AI, though actual conversation content remains private. Parents seeking tighter restrictions can switch from the default 13+ setting to a new Limited Content mode, which further narrows the kinds of exchanges teens can have with the chatbot. The move comes amid growing scrutiny of AI's role in teens' lives: Pew Research found 57% of U.S. teens have used chatbots for information searches and 54% for schoolwork help, while other reporting shows many are turning to AI for companionship and emotional support. The update may also lay groundwork for eventually opening Meta's Muse AI agents to younger users, aligning with the company's broader ambition to expand AI access widely. Still, while topic-level visibility gives parents a useful signal, it may not fully address deeper risks like misinformation, bias, or AI influence on adolescent decision-making.",
+        "li_summary": "Meta today launched parental supervision controls in its standalone Meta AI app, letting parents view the topics\u2014but not full conversations\u2014their teens discussed with the chatbot over the past seven days, plus a new Limited Content setting."
+      },
+      {
+        "title": "Instagram tests option to open to Reels",
+        "link": "https://www.socialmediatoday.com/news/instagram-tests-option-to-open-to-reels/832202/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-05T21:34:36",
+        "summary": "Instagram is piloting a UI option, spotted by app researcher Radu Oncescu, that would let users choose to open directly into their Reels feed rather than the standard post feed when launching the app. Stories would still appear at the top of the home screen as usual, and users could swipe across to access the traditional feed, or revert back to the classic layout whenever they prefer, making this a toggleable setting rather than a forced redesign. Meta previously trialed a similar format in India last year, where the Stories bar sat above a Reels-first feed and a top-right icon let users jump to the traditional feed. The move reflects Reels' growing dominance: over 50% of time spent on Instagram now goes toward Reels, and the format is driving all of the platform's recent engagement growth. By framing this as an opt-in test rather than a default change, Meta can gauge adoption and avoid backlash, though wider Reels engagement gains could eventually push Instagram to make this the standard experience for all users.",
+        "li_summary": "Instagram is testing a new option letting users set Reels as their default home screen feed instead of the traditional post feed, with Stories still displayed on top and a one-tap switch back available anytime."
+      },
+      {
+        "title": "TikTok outlines US election preparations",
+        "link": "https://www.socialmediatoday.com/news/tiktok-outlines-us-election-preparations/832201/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-05T21:22:31",
+        "summary": "TikTok announced on Monday its preparation strategy for the November U.S. midterm elections, centered on four priorities: protecting user data and systems, detecting harmful or deceptive activity, promoting reliable election content, and securing accounts belonging to government officials and candidates. The company confirmed it continues working with Oracle to safeguard American user data, software, and app content, stating that every feature or code update undergoes security review before reaching U.S. users. For the election period specifically, TikTok is standing up a U.S. Election Mission Control Center to track emerging risks, coordinate investigations, and respond to threats in real time, alongside stepped-up monitoring for coordinated influence campaigns, AI-generated misinformation, and false claims. It also launched a new U.S. Election Center within the app to surface verified voting information. This marks the first major election test since TikTok's ownership shifted to a U.S.-based group, TikTok USDS, which was selected with input from President Trump and now oversees the platform's recommendation algorithm\u2014raising scrutiny given Trump's past joking remark about making TikTok \"100% MAGA.\"",
+        "li_summary": "TikTok detailed its U.S. midterm election safeguards on Monday, including a dedicated Election Mission Control Center, partnership with Oracle on data security, and a new Election Center for voting information, marking the first major vote since its U.S. ownership restructuring."
+      },
+      {
+        "title": "Social media platforms resist U.K. safety disclosures",
+        "link": "https://www.socialmediatoday.com/news/social-media-platforms-resist-uk-safety-disclosures/832199/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-05T21:14:02",
+        "summary": "Ofcom, the U.K.'s digital regulator, is pushing forward sweeping Online Safety Act updates covering hate speech, CSAM, teen usage restrictions, livestreaming, and a May proposal requiring removal of non-consensual intimate imagery within 48 hours alongside new cyberflashing rules, with violations risking fines up to 10% of a company's global revenue. Meta, TikTok and X are now resisting, specifically objecting to February information notices demanding detailed content moderation metrics, including figures on removed or visibility-restricted posts and user exposure to harmful content. X called it the most burdensome regulatory request it has faced in any jurisdiction, while Meta argues Ofcom's demands exceed what's required under the EU's Digital Services Act, seeking more granular and wide-ranging data than European regulators require. This is notable since all three companies already comply with similar DSA disclosure rules in Europe. Ofcom maintains the expanded data is necessary to verify its regulatory approach is working, but the platforms see no clear justification for such broad requests. Ofcom aims to finalize most of these rules by year's end.",
+        "li_summary": "Meta, TikTok and X are challenging Ofcom's Online Safety Act proposals in the U.K., calling February's content moderation data requests unprecedented and more burdensome than even the EU's Digital Services Act disclosures."
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "articles": [
       {
@@ -208,51 +261,6 @@
         "published": "2026-09-29T19:58:25",
         "summary": "Threads announced updates to its live chat feature on Tuesday, expanding on the tool it launched in April 2025 for text-based group discussions hosted within the app's DM section. The update introduces Live Reactions, letting participants send a shared emoji that floats across every viewer's screen simultaneously, rather than reacting to individual messages. A new raise-hand feature lets users signal they want to join an active chat, useful for sessions where the host has capped participant numbers. Threads is also bringing live chats to the web for the first time, responding to one of its most-requested feature requests, and is extending access to users in Australia as part of its ongoing rollout. The company highlighted past chat activity tied to Coachella, KATSEYE, the NBA, World Cup and Jay-Z as evidence of engagement, and is now partnering with creators for live chats around \"Dancing with the Stars\" and the WNBA Playoffs. Threads head Connor Hayes said in a Tuesday post that the feature's goal is to keep the app feeling timely and help users find relevant real-time conversations.",
         "li_summary": "Threads rolled out live chat upgrades on Tuesday, adding group emoji reactions, a raise-hand feature for joining discussions, web-based access, and expanded availability to users in Australia."
-      }
-    ]
-  },
-  {
-    "date": "2026-09-29",
-    "articles": [
-      {
-        "title": "Snapchat launches pitch for B2B ad spend",
-        "link": "https://www.socialmediatoday.com/news/snapchat-launches-pitch-for-b2b-ad-spend/831559/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T20:11:32",
-        "summary": "Snapchat has rolled out a new advertising campaign called \"Spend Smarter,\" aimed at convincing B2B marketers to direct budget toward the platform, arguing that decision-makers spend meaningful time there despite Snapchat rarely being viewed as a primary sales channel. The campaign builds on themes from Snapchat's recent Performance Summit, which emphasized maximizing ad spend and leveraging in-app conversation and engagement features, and will feature testimonials from recognized industry figures alongside real customer success stories. Snap's pitch centers on a perceived mismatch between how media budgets are currently allocated and where target audiences actually pay attention, positioning Snapchat as a discovery platform where B2B buyers first encounter products even if purchases happen elsewhere\u2014a \"halo effect\" the company says gives it outsized influence beyond direct conversions. This follows Snapchat's recent FinServ Summit, which pitched its ad tools specifically to financial services companies, another sector not traditionally associated with the app. The \"Spend Smarter\" campaign is running across Instagram, TikTok and Substack in the United States and United Kingdom, signaling Snapchat's broader push to diversify its advertiser base beyond consumer-focused brands.",
-        "li_summary": "Snapchat launched a \"Spend Smarter\" campaign across Instagram, TikTok and Substack in the US and UK, urging advertisers to allocate B2B marketing budgets toward reaching decision-makers on its app."
-      },
-      {
-        "title": "Meta opens early access to advanced Muse features",
-        "link": "https://www.socialmediatoday.com/news/meta-opens-early-access-to-advanced-muse-features/831556/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T20:07:03",
-        "summary": "Meta has invited users to apply for early access to new, unspecified advanced features for Muse, its AI agent app, following last week's expanded rollout. The push is part of Meta's broader strategy, led by Chief AI Officer Alexandr Wang, to prove AI's everyday usefulness and support CEO Mark Zuckerberg's goal of \"personal superintelligence\" for all users. Wang recently outlined his vision for Muse on X, describing it as a \"second mind\" designed to act on users' unspoken desires, such as changing careers, improving health, or starting a business, by drafting emails, making calls, securing funding, and managing schedules on their behalf. Meta reports that Muse has significantly exceeded expectations, hitting nearly 3 million downloads within its first two weeks, according to Reuters. TechCrunch also noted that Muse is currently outpacing ChatGPT in both downloads and daily active users at comparable stages after launch, positioning it as a notably strong performer in the competitive AI assistant market as Meta works to expand its capabilities further.",
-        "li_summary": "Meta is opening early access applications for upcoming advanced Muse features, building on the AI agent app's expanded launch, which has already reached nearly 3 million downloads in two weeks."
-      },
-      {
-        "title": "LinkedIn tests advanced creator discovery to power brand campaigns",
-        "link": "https://www.socialmediatoday.com/news/linkedin-tests-advanced-creator-discovery-to-power-brand-campaigns/831555/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T20:00:35",
-        "summary": "LinkedIn is rolling out a new Creator Discovery beta feature inside its Creator Marketplace, designed to help B2B marketers identify relevant creators for campaigns, with general availability targeted for early 2027. The tool adds filters for content type, creator industry, job function, audience demographics, and Top Voices status, aiming to speed up creator sourcing and vetting. The move responds to LinkedIn data showing 63% of B2B buyers now consult creators early in their research process. LinkedIn also shared performance stats for existing creator-focused ad formats: Thought Leader Ads generate a 252% higher click-through rate than standard single-image ads, with 45% higher CTR at the awareness stage and 48% higher at conversion compared to non-users. BrandLink, which places pre-roll ads on approved creator and publisher content, delivers 130% higher video completion rates than in-feed ads. LinkedIn's Top Voices 360\u00b0 program, linking brands to exclusive platform Shows, is also cited as a strong performer. The company frames these tools as responses to buyers seeking credibility and expert validation over direct product pitches.",
-        "li_summary": "LinkedIn is beta-testing Creator Discovery within its Creator Marketplace, adding search filters like content type, industry, job function, audience demographics and Top Voices status, with general availability planned for early 2027."
-      },
-      {
-        "title": "Instagram shares Reels creation tips in new guide",
-        "link": "https://www.socialmediatoday.com/news/instagram-shares-reels-creation-tips-in-new-guide/831551/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T19:46:58",
-        "summary": "Instagram has published a refreshed guide within its \"Tips and Tricks\" series aimed at helping users create more effective Reels, covering creative options, editing features and distribution mechanics. The guide breaks down ideal Reels lengths by use case: 3-15 seconds for quick transitions and trends, 15-60 seconds as the sweet spot for tutorials and day-in-the-life content, and 60 seconds to 3 minutes for longer storytelling and walkthroughs. It also covers creating Reels from photo slideshows, using text overlays to highlight key moments versus captions for full accessibility of spoken audio, and editing tools like playback speed adjustments, hands-free video timers, and alignment features for smoother transitions. On distribution, Instagram emphasizes that strong-performing Reels can surface on the Explore page, reaching audiences beyond a creator's existing followers, unlike Stories, making originality and quality from the first second critical for algorithmic recommendation. While the guide contains no entirely new features, it serves as a useful refresher given Reels now account for more than 50% of total time users spend on Instagram, making it the app's most engaging content format.",
-        "li_summary": "Instagram released an updated \"Tips and Tricks\" guide detailing Reels best practices, covering ideal video lengths from 3 seconds to 3 minutes, text overlays, captions, editing tools and Explore page distribution strategies for creators."
-      },
-      {
-        "title": "Meta launches enterprise AI platform to drive business opportunities",
-        "link": "https://www.socialmediatoday.com/news/meta-launches-enterprise-ai-platform-to-drive-business-opportunities/831548/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-09-28T19:29:54",
-        "summary": "Meta has launched Meta Enterprise Platform, a business-focused AI offering designed to help companies integrate Meta's models and agent technology into their operations, using tools like Muse agents, Muse API and Muse Code for automating internal tasks. CEO Mark Zuckerberg framed the launch as leveraging Meta's advanced AI systems, infrastructure scale, and decades of advertiser relationships to help organizations of all sizes innovate and run operations more efficiently. Former MongoDB chief executive Chirantan Desai has been hired to head the new division. The move comes as Meta searches for ways to justify its enormous AI infrastructure spending, which includes over $600 million committed to U.S. projects alone and a total AI investment now estimated to exceed $1 trillion, prompting investor scrutiny over eventual returns. However, Meta's track record may complicate enterprise trust: the company shut down its Workplace collaboration tool in 2024, has a history of data misuse controversies, and recently limited link-sharing on Facebook and Instagram to push businesses toward paid subscriptions.",
-        "li_summary": "Meta unveiled Meta Enterprise Platform, a new AI business suite built on its Muse agents, Muse API and Muse Code tools, hiring former MongoDB CEO Chirantan Desai to lead it as the company seeks fresh revenue from its AI spending, now estimated above $1 trillion."
       }
     ]
   }
