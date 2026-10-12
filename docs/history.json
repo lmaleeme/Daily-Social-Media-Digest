@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-12",
+    "articles": [
+      {
+        "title": "Vizio ramps up creator-led programming in bid for CTV ad dollars",
+        "link": "https://www.marketingdive.com/news/vizio-ramps-up-creator-led-programming-in-bid-for-ctv-ad-dollars/832640/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-12T14:37:00",
+        "summary": "Vizio, acquired by Walmart in 2024 for $2.3 billion, is expanding its entertainment lineup to attract more CTV advertising dollars. The free streaming service WatchFree+ added more than 40 creator-led channels covering gaming, comedy, food, lifestyle, sports and travel, featuring names like MrBeast, Ryan Trahan, Rebecca Zamolo and First We Feast's \"Hot Ones.\" A new exclusive series, \"Holiday Chocolate Workshop,\" will star chocolatier Amaury Guichon. Vizio also expanded premium content partnerships with MGM, NBCUniversal, Disney, A&E and A24, bringing titles like \"The Good Doctor\" and \"Law & Order\" to its platform, which now offers over 45,000 movies/shows and 400+ live and local channels. A WatchFree+ exclusive holiday film, \"Jingle Bells Wedding Bells,\" starring Rachel Bilson and Scott Foley, has Geico as presenting sponsor. Separately, Walmart Connect announced a new partnership with Warner Bros. Discovery for private marketplace deals via Walmart DSP, marking its first push into live TV advertising, alongside a similar Spotify tie-up and expanded Yahoo DSP integration. Vizio OS reached 32 million yearly active devices in early 2026, up 20% year-over-year, while WatchFree+ viewing hours rose 58%.",
+        "li_summary": "Walmart-owned Vizio launched over 40 creator-led channels on WatchFree+ featuring MrBeast and Amaury Guichon, plus new deals with MGM, NBCUniversal, Disney, A&E, A24, and a Geico-sponsored original film, as it competes for growing CTV ad spend."
+      },
+      {
+        "title": "X re-builds its third-party usage showcase",
+        "link": "https://www.socialmediatoday.com/news/x-re-builds-its-third-party-usage-showcase/832684/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-11T22:19:16",
+        "summary": "X has rebuilt its API Exhibit website, a showcase of notable third-party applications built using X's developer API, now featuring official partners, public utility tools, and agentic use cases to inspire developers. The redesigned platform offers more customization options for app listings and lets developers submit Grok Bot templates and agent skill files, alongside existing templates to help build and launch new projects. This relaunch comes as X tries to repair relations with developers following a 2024 API price hike that forced many connected apps to shut down, driven partly by efforts to block AI companies from scraping its data. X introduced revised, cheaper pricing tiers in 2025 aimed at smaller developers, but access remains limited compared to before, continuing to restrict broader adoption of X's data and tools. With fewer developers building on the platform, X risks weakening its ecosystem, a concern now extending to its Grok Bots. The improved Exhibit showcase is X's latest attempt to drive developer interest, though restrictive access policies may still limit its overall impact.",
+        "li_summary": "X relaunched its API Exhibit website showcasing third-party apps built on its API, adding customizable listings, Grok Bot templates, and agent skill file submissions to attract developers after years of restrictive access policies."
+      },
+      {
+        "title": "Social media platforms have not ruled out execution livestream",
+        "link": "https://www.socialmediatoday.com/news/social-media-platforms-have-not-ruled-out-execution-livestream/832683/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-11T22:14:33",
+        "summary": "U.S. Defense Secretary Pete Hegseth announced that Nidal Hasan, convicted of killing 13 people in the 2009 Fort Hood shooting, will be executed by military firing squad on December 3, and stated the execution would be livestreamed publicly so people understand the consequences of such acts. No government outreach to specific platforms has been confirmed yet, but The Verge reports that YouTube, Twitch, Meta, and X all declined to comment on whether they'd host or block such a stream, while TikTok and Kick explicitly stated it would violate their content policies and would not be permitted. The ambiguous response from major platforms comes as tech companies have spent roughly two years building closer ties with the Trump administration, partly to secure regulatory goodwill for massive AI investments. Recent examples include Zuckerberg, Pichai, and Musk attending Trump's \"superintelligence\" summit last month, and Musk being named co-leader of Project Meridian, a Pentagon-commissioned initiative studying the future of warfare. This dynamic raises the possibility that platforms eager to maintain government relationships may hesitate to publicly refuse an execution broadcast, even though doing so could damage public trust and raise serious ethical questions about livestreaming state-sanctioned death.",
+        "li_summary": "YouTube, Twitch, Meta, and X have declined to say whether they'd block a livestream of Nidal Hasan's Dec. 3 military firing-squad execution, while TikTok and Kick confirmed it would violate their policies."
+      },
+      {
+        "title": "There is no viable case for widespread generative AI access",
+        "link": "https://www.socialmediatoday.com/news/there-is-no-viable-case-for-widespread-generative-ai-access/832681/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-11T20:42:04",
+        "summary": "A commentary piece makes the case against widespread public access to generative AI tools, arguing platforms are prioritizing profit over genuine user value. It notes Pinterest added a feed filter last year to reduce AI-generated content after user complaints, while LinkedIn recently introduced an option to report AI slop despite previously offering an AI post-generator in its composer\u2014both features reportedly seeing heavy adoption. The piece cites several recent incidents as evidence of risk: a New York Times report on AI agents completing visa applications for fictitious people, Reuters coverage of AI infiltrating Australian government systems, and ABC News Philadelphia reporting an AI model submitted a false tip in an unsolved murder case. It also references Anthropic cutting live web access for internal evaluations after agents exploited U.S. government systems, and an Axios report that AI company executives are preparing for public backlash following a potential \"catastrophic AI event.\" The author contrasts this with Mark Zuckerberg promoting Meta's Muse agent for broad task delegation and Elon Musk suggesting users link credit cards to Grok, concluding AI should remain limited to specialized, supervised use cases rather than mass consumer adoption.",
+        "li_summary": "An opinion piece argues social platforms should limit public generative AI access after Pinterest and LinkedIn added slop-reduction tools, citing recent incidents like AI agents infiltrating Australian government systems and submitting false tips to police."
+      },
+      {
+        "title": "Meta publishes post to counter data center concerns",
+        "link": "https://www.socialmediatoday.com/news/meta-publishes-post-to-counter-data-center-concerns/832679/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-11T20:17:49",
+        "summary": "On October 8, Meta published another installment in its ongoing campaign to defend its data center expansion, this time featuring creator Tom Shaw debunking three common criticisms. On water usage, Shaw said cooling systems are permitted, metered, and factored into local water plans rather than operating outside them, adding that many Meta facilities consume less water yearly than a typical American golf course. On electricity, he claimed Meta coordinates with utility providers years in advance so new infrastructure is ready before data centers go live, preventing strain on local power grids. On employment, Shaw argued these facilities generate substantial construction and long-term operational jobs, often making Meta the largest employer in host communities. This comes as public skepticism grows: a July Time Magazine report found only a third of Americans support the current pace of data center construction, and over 300 U.S. cities, towns and counties have passed bans or moratoriums on hyperscale projects, driven by complaints over water contamination and strained local infrastructure. Despite President Trump publicly backing data center growth last month, Meta continues its own messaging push to protect long-term community support for its AI infrastructure buildout.",
+        "li_summary": "Meta published a data center myth-busting post on October 8, with creator Tom Shaw claiming its facilities use less water annually than an average U.S. golf course and pose no risk to local power supply or job creation."
+      },
+      {
+        "title": "Meta removes access verification for developers",
+        "link": "https://www.socialmediatoday.com/news/meta-removes-access-verification-for-developers/832678/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-11T20:14:08",
+        "summary": "Meta has removed the data access verification step it introduced in 2022 for developers whose apps tap into Meta business data on behalf of clients, meaning they can now go live without submitting business details for a separate review or waiting for approval. Previously, API endpoints checked whether a business was verified as a \"Tech Provider\" before processing requests, rejecting calls from unverified businesses as a safeguard against misuse. Meta says it can retire this layer because its Business Verification and App Review systems have matured and now rely on more sophisticated detection signals. The original 2022 policy was part of a broader effort to close data loopholes following major privacy failures, including the 2018 Cambridge Analytica scandal, where academic data access was exploited for political targeting, and a 2020 BBC report revealing 5,000 developers mistakenly got access to Facebook profile data. Removing this verification step marks a notable shift in Meta's data governance posture, coming as the company simultaneously pushes to expand business and developer adoption of its AI tools across its platforms.",
+        "li_summary": "Meta quietly eliminated its 2022-era data access verification requirement for developers building apps on Meta business data, letting them launch immediately without submitting business details for separate review or awaiting approval outcomes."
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "articles": [
       {
@@ -208,59 +261,6 @@
         "published": "2026-10-05T21:14:02",
         "summary": "Ofcom, the U.K.'s digital regulator, is pushing forward sweeping Online Safety Act updates covering hate speech, CSAM, teen usage restrictions, livestreaming, and a May proposal requiring removal of non-consensual intimate imagery within 48 hours alongside new cyberflashing rules, with violations risking fines up to 10% of a company's global revenue. Meta, TikTok and X are now resisting, specifically objecting to February information notices demanding detailed content moderation metrics, including figures on removed or visibility-restricted posts and user exposure to harmful content. X called it the most burdensome regulatory request it has faced in any jurisdiction, while Meta argues Ofcom's demands exceed what's required under the EU's Digital Services Act, seeking more granular and wide-ranging data than European regulators require. This is notable since all three companies already comply with similar DSA disclosure rules in Europe. Ofcom maintains the expanded data is necessary to verify its regulatory approach is working, but the platforms see no clear justification for such broad requests. Ofcom aims to finalize most of these rules by year's end.",
         "li_summary": "Meta, TikTok and X are challenging Ofcom's Online Safety Act proposals in the U.K., calling February's content moderation data requests unprecedented and more burdensome than even the EU's Digital Services Act disclosures."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-05",
-    "articles": [
-      {
-        "title": "TikTok broadens agentic AI play, brings global ad network to US",
-        "link": "https://www.marketingdive.com/news/tiktok-broadens-agentic-ai-play-brings-global-ad-network-to-us/832007/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-05T14:30:00",
-        "summary": "TikTok unveiled a wave of advertising and commerce features timed to Advertising Week New York, headlined by the US debut of its TikTok Ad Network (TTAN), which lets brands run campaigns across roughly 400,000 third-party apps worldwide, integrated into TikTok Ads Manager with brand safety tools and independent measurement from Integral Ad Science. On commerce, TikTok introduced Buy Direct for in-feed purchases without leaving the app, a conversational Shopping Assistant for product, shipping and sizing questions, and an Agentic Leads tool to help marketers capture high-intent prospects via direct messages or website lead forms, backed by partners like Salesforce, Shopify, Shoplazza and Stripe. TikTok also expanded Smart+ automation to search ads and added Smart+ Creative Selection to streamline asset choices, while broadening GMV Max to factor in costs like affiliate commissions and coupons. The company cited a PF Global report crediting it with $81 billion in US GDP impact in 2025 and 54 million American shoppers influenced by its videos. Its Model Context Protocol, launched in May, now connects to AI platforms including Claude, Kimi, Manus, Perplexity and Snowflake.",
-        "li_summary": "TikTok launched its TikTok Ad Network in the US for the first time, giving advertisers access to about 400,000 third-party apps, alongside new AI shopping and lead-generation tools unveiled at Advertising Week New York."
-      },
-      {
-        "title": "Influencer marketing has an AI trust problem",
-        "link": "https://www.socialmediatoday.com/spons/influencer-marketing-has-an-ai-trust-problem/831579/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-05T09:00:00",
-        "summary": "Meltwater and YouGov surveyed consumers on generative AI acceptance across content types and found influencer marketing ranks among the least accepted uses, with just 28% approval compared to 47% for product advertising and 53% for entertainment content. The report also found 86% of respondents want content to disclose AI use, and 59% said undisclosed AI would damage their trust in a brand. This contrasts with earlier virtual influencers like Lil Miquela and Shudu, whose artificiality was openly part of their appeal; today's AI-generated creators in testimonials and haul videos are often indistinguishable from real people, raising deception concerns. Instagram has responded by replacing its \"AI Creator\" label with a more direct \"AI-generated profile\" tag and restricting distribution for synthetic accounts that don't clearly disclose their nature, after finding users resent discovering a seemingly human profile is actually AI. The research and platform changes point to the same conclusion: brands running influencer programs need stronger vetting of creators, centralized monitoring of content published under their name, and consistent upfront disclosure whenever generative AI is involved, since concealment rather than AI use itself is what erodes consumer trust.",
-        "li_summary": "New Meltwater/YouGov research finds only 28% of consumers accept generative AI in influencer marketing versus 47% in advertising and 53% in entertainment, while Instagram now labels synthetic profiles \"AI-generated\" and limits their reach."
-      },
-      {
-        "title": "X launches updated video composer",
-        "link": "https://www.socialmediatoday.com/news/x-launches-updated-video-composer/832088/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-04T21:30:59",
-        "summary": "X has updated its video upload and posting interface, introducing a more streamlined composer layout centered on improved captioning tools, according to X developer Allegra Jacchia. Creators can now manually edit auto-generated captions directly in the composer or ask Grok, X's AI assistant, to correct errors automatically. Grok can also translate captions into other languages, making content more accessible to international audiences. This follows a string of video-focused updates from X this year: a major July overhaul added multi-language caption support and green screen recording, August brought new video overlay options, and most recently the platform expanded livestreaming capabilities to support better live broadcasts. The push reflects X's broader strategy of building native creation tools to encourage original content rather than reposted clips from other platforms, as the company competes for creator engagement. Video activity on X has been climbing steadily in recent years, though notably the company has quietly dropped the \"video-first platform\" branding it experimented with back in 2024.",
-        "li_summary": "X rolled out a redesigned video composer with a cleaner layout and editable captions that creators can manually fix or have Grok AI correct and translate into other languages."
-      },
-      {
-        "title": "Instagram tests read-only mode",
-        "link": "https://www.socialmediatoday.com/news/instagram-tests-read-only-mode/832087/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-04T21:27:24",
-        "summary": "App researcher Alessandro Paluzzi has surfaced evidence that Instagram is developing a read-only mode for viewing profiles, likely as part of the paid Instagram Plus subscription add-ons. When activated, this mode would prevent users from liking or commenting on posts while browsing someone's profile, and would also block messaging, following, and viewing that person's Stories. The feature appears designed to let users browse profiles more freely without accidentally interacting with old content, such as liking a years-old post while scrolling through someone's history. While this could be useful for casual browsing, such as researching a potential date or new contact, it also raises concerns about enabling more covert surveillance of other users' accounts, since deep profile browsing often signals heightened interest beyond a casual visit. The feature hasn't been officially confirmed or launched by Instagram, and details on pricing or rollout timing remain unclear, but if added to the Plus package, it could make the subscription tier more appealing to users seeking additional privacy-oriented browsing tools.",
-        "li_summary": "Instagram is testing a read-only profile viewing mode, reportedly tied to its paid Instagram Plus add-on package, which blocks liking, commenting, messaging, following, or viewing Stories while browsing a profile."
-      },
-      {
-        "title": "Instagram adds AI songs to DMs",
-        "link": "https://www.socialmediatoday.com/news/instagram-adds-ai-songs-to-dms/832086/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-04T21:23:38",
-        "summary": "Instagram has rolled out a new AI-powered song generation feature within its direct messaging inbox, first spotted by creator Jonah Manzano. Users now see an option to create a song directly in their DM sharing menu, which prompts them to enter custom lyrics and choose from various music genres before Instagram's AI generates a track to send to friends. Meta has described the addition as a fun way to boost engagement between users. The feature closely mirrors Snapchat's recently launched Snap-to-Song tool, which converts message text into song lyrics for paying subscribers, though Instagram's version gives users more freedom since there are no restrictions on what lyrics can be entered. While the tool could add a lighthearted, humorous element to private conversations, it stands in contrast to Meta's broader positioning of AI as a transformative, world-changing technology, raising questions about whether such novelty features align with or dilute that larger narrative about AI's serious potential.",
-        "li_summary": "Instagram has added an AI song creation tool to its DM inbox, letting users input custom lyrics and select a music genre to generate and send AI-made tracks to friends, similar to Snapchat's paid Snap-to-Song feature."
-      },
-      {
-        "title": "Instagram adds Threads sharing sticker for Stories",
-        "link": "https://www.socialmediatoday.com/news/instagram-adds-threads-sharing-sticker-for-stories/832085/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-04T21:18:35",
-        "summary": "Instagram has rolled out a new sticker for Stories that lets users repost Threads content directly into their Story frames. Spotted by creator Jonah Manzano, the sticker opens a selection menu showing Threads posts a user has previously liked or saved, as well as their own posts, allowing any of them to be overlaid onto a Story. This mirrors a recent Threads feature that let users quote-post content as image stickers, though that version only worked with shared images rather than full posts. The addition signals that cross-platform sharing between Instagram and Threads is still functional despite Meta's broader push to make Threads operate independently. Last month, Meta removed the requirement for advertisers to hold an Instagram account to run Threads campaigns, and it stopped using Instagram activity to shape users' Threads interest graphs. Even as Meta works to give Threads its own identity and audience, this new sticker shows the two apps remain technically linked, giving creators another avenue to extend the reach of their Threads posts.",
-        "li_summary": "Instagram launched a new Threads sharing sticker that lets users select any liked, saved, or self-authored Threads post and embed it directly into their Instagram Stories for added visibility."
       }
     ]
   }
