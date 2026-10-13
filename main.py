@@ -55,6 +55,9 @@ ANTHROPIC_MODEL = "claude-sonnet-5"
 LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_AUTHOR_URN = os.environ.get("LINKEDIN_AUTHOR_URN")
 
+FACEBOOK_PAGE_ID = os.environ.get("FACEBOOK_PAGE_ID")
+FACEBOOK_PAGE_TOKEN = os.environ.get("FACEBOOK_PAGE_TOKEN")
+
 DIGEST_PAGE_TITLE = "Social Media News Digest"
 PUBLISHED_PAGE_URL = os.environ.get("PUBLISHED_PAGE_URL", "")
 
@@ -270,7 +273,11 @@ def build_html(history):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{DIGEST_PAGE_TITLE}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap" rel="stylesheet">
 <style>
+  h1, .day h2, .item h3 {{ font-family: 'Baloo Thambi 2', -apple-system, Helvetica, Arial, sans-serif; font-weight: 600; }}
   body {{ font-family: -apple-system, Helvetica, Arial, sans-serif; max-width: 680px;
          margin: 40px auto; padding: 0 16px; color: #1a1a1a; line-height: 1.5; }}
   h1 {{ font-size: 1.5rem; margin-bottom: 4px; }}
@@ -314,7 +321,7 @@ def _to_bold_unicode(text):
     return "".join(bold_map.get(ch, ch) for ch in text)
 
 
-def build_linkedin_post(today_articles):
+def build_linkedin_post(today_articles, include_url=True):
     # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
     # link to the original source directly — that would route readers away before
     # they ever see sendcutpost.co.za. Instead, everything points to the digest
@@ -325,7 +332,7 @@ def build_linkedin_post(today_articles):
     for a in today_articles:
         bold_title = _to_bold_unicode(a['title'])
         lines.append(f"• {bold_title}: {a['li_summary']}")
-    if PUBLISHED_PAGE_URL:
+    if PUBLISHED_PAGE_URL and include_url:
         lines.append(f"\nFull digest + sources: {PUBLISHED_PAGE_URL}")
     return "\n".join(lines)
 
@@ -372,6 +379,33 @@ def post_to_linkedin(text):
         print("Posted to LinkedIn successfully.")
 
 
+def post_to_facebook(text):
+    if not FACEBOOK_PAGE_ID or not FACEBOOK_PAGE_TOKEN:
+        print("Facebook credentials not set — skipping Facebook post.")
+        return
+
+    # Bump this occasionally — Meta retires old Graph API versions after ~2 years.
+    FACEBOOK_API_VERSION = "v26.0"
+
+    payload = {"message": text, "access_token": FACEBOOK_PAGE_TOKEN}
+    if PUBLISHED_PAGE_URL:
+        payload["link"] = PUBLISHED_PAGE_URL  # renders as a link preview card
+
+    try:
+        resp = requests.post(
+            f"https://graph.facebook.com/{FACEBOOK_API_VERSION}/{FACEBOOK_PAGE_ID}/feed",
+            data=payload,
+            timeout=30,
+        )
+        if resp.status_code >= 300:
+            print(f"Facebook post failed: {resp.status_code} {resp.text}")
+        else:
+            print("Posted to Facebook successfully.")
+    except Exception as e:
+        # Never let a Facebook hiccup stop the LinkedIn post or the web page build.
+        print(f"Facebook post error: {e}")
+
+
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
@@ -397,6 +431,7 @@ def main():
     if today_articles:
         li_text = build_linkedin_post(today_articles)
         post_to_linkedin(li_text)
+        post_to_facebook(build_linkedin_post(today_articles, include_url=False))
     else:
         print("No qualifying articles today — skipping LinkedIn post to avoid a blank digest.")
 
