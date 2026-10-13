@@ -321,32 +321,66 @@ def _to_bold_unicode(text):
     return "".join(bold_map.get(ch, ch) for ch in text)
 
 
-def _to_fraktur_unicode(text):
-    """Convert ASCII letters to Unicode 'Bold Fraktur' (Old English newspaper
-    masthead look). Plain text under the hood, so it works on LinkedIn/Facebook."""
-    out = []
-    for ch in text:
-        if "A" <= ch <= "Z":
-            out.append(chr(0x1D56C + ord(ch) - ord("A")))
-        elif "a" <= ch <= "z":
-            out.append(chr(0x1D586 + ord(ch) - ord("a")))
-        else:
-            out.append(ch)
-    return "".join(out)
+# Banner image: the digest title in Baloo Thambi 2 SemiBold, drawn as a picture,
+# because LinkedIn/Facebook posts are plain text and can't use custom fonts or sizes.
+BANNER_PATH = "/tmp/digest_banner.png"
+BANNER_FONT_PATH = "/tmp/BalooThambi2.ttf"
+BANNER_FONT_URL = ("https://raw.githubusercontent.com/google/fonts/main/ofl/"
+                   "baloothambi2/BalooThambi2%5Bwght%5D.ttf")
 
 
-def build_linkedin_post(today_articles, include_url=True):
+def _banner_font(size, weight=600):
+    from PIL import ImageFont
+    if not os.path.exists(BANNER_FONT_PATH):
+        r = requests.get(BANNER_FONT_URL, timeout=30)
+        r.raise_for_status()
+        with open(BANNER_FONT_PATH, "wb") as f:
+            f.write(r.content)
+    font = ImageFont.truetype(BANNER_FONT_PATH, size)
+    font.set_variation_by_axes([weight])  # 600 = SemiBold
+    return font
+
+
+def make_banner_image():
+    """Draw today's masthead banner. Returns the file path, or None if anything
+    goes wrong (the posts then fall back to text-only, so nothing breaks)."""
+    try:
+        from PIL import Image, ImageDraw
+        W, H = 1200, 627  # LinkedIn's recommended 1.91:1 link/image size
+        paper, ink, blue = (250, 247, 240), (26, 26, 26), (10, 102, 194)
+        img = Image.new("RGB", (W, H), paper)
+        d = ImageDraw.Draw(img)
+
+        # Double rules top and bottom, like a newspaper masthead
+        for y, t in ((52, 6), (66, 2), (H - 58, 2), (H - 72, 6)):
+            d.rectangle([70, y, W - 70, y + t - 1], fill=ink)
+
+        title_font = _banner_font(150)
+        d.text((W / 2, 210), "Social Media", font=title_font, fill=ink, anchor="mm")
+        d.text((W / 2, 350), "News Digest", font=title_font, fill=ink, anchor="mm")
+
+        today = datetime.date.today()
+        date_str = f"{today.strftime('%B')} {today.day}, {today.year}"
+        d.text((W / 2, 478), date_str, font=_banner_font(40), fill=blue, anchor="mm")
+
+        img.save(BANNER_PATH)
+        return BANNER_PATH
+    except Exception as e:
+        print(f"Banner image skipped ({e}) — posting text only.")
+        return None
+
+
+def build_linkedin_post(today_articles, include_url=True, with_header=True):
     # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
     # link to the original source directly — that would route readers away before
     # they ever see sendcutpost.co.za. Instead, everything points to the digest
     # page, which has the full summaries AND links out to each original source
     # from there. This keeps the traffic funnel on your own site first.
+    # with_header=False is used when the banner image already carries the title.
     today = datetime.date.today().strftime("%B %d, %Y")
-    # Newspaper-style masthead: Old English title, date small on its own line,
-    # framed by thin rules. Post text is plain, so font size can't be changed.
-    rule = "━" * 22
-    masthead = _to_fraktur_unicode("Social Media News Digest")
-    lines = [rule, masthead, today, rule + "\n"]
+    lines = []
+    if with_header:
+        lines += [_to_bold_unicode(DIGEST_PAGE_TITLE), today, ""]
     for a in today_articles:
         bold_title = _to_bold_unicode(a['title'])
         lines.append(f"• {bold_title}: {a['li_summary']}")
@@ -355,66 +389,110 @@ def build_linkedin_post(today_articles, include_url=True):
     return "\n".join(lines)
 
 
-def post_to_linkedin(text):
+def post_to_linkedin(text, image_path=None, fallback_text=None):
     if not LINKEDIN_ACCESS_TOKEN or not LINKEDIN_AUTHOR_URN:
         print("LinkedIn credentials not set — skipping post. Digest text:\n")
-        print(text)
+        print(fallback_text or text)
         return
 
-    # Uses LinkedIn's newer versioned Posts API (rest/posts), not the legacy
-    # /v2/ugcPosts endpoint — the legacy endpoint rejects the member ID format
+    # Uses LinkedIn's newer versioned REST APIs (rest/posts, rest/images), not the
+    # legacy /v2/ugcPosts endpoint — the legacy endpoint rejects the member ID format
     # returned by the OpenID /userinfo lookup with an "author" field error.
     # LINKEDIN_API_VERSION should be bumped periodically — LinkedIn sunsets
     # versions after about a year. Check https://learn.microsoft.com/en-us/linkedin/
     # if this starts returning a 426 NONEXISTENT_VERSION error.
     LINKEDIN_API_VERSION = "202603"
 
-    resp = requests.post(
-        "https://api.linkedin.com/rest/posts",
-        headers={
-            "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
-            "Content-Type": "application/json",
-            "X-Restli-Protocol-Version": "2.0.0",
-            "LinkedIn-Version": LINKEDIN_API_VERSION,
+    headers = {
+        "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
+        "Content-Type": "application/json",
+        "X-Restli-Protocol-Version": "2.0.0",
+        "LinkedIn-Version": LINKEDIN_API_VERSION,
+    }
+
+    # Optional: upload the banner image first (two steps: register, then upload)
+    image_urn = None
+    if image_path:
+        try:
+            init = requests.post(
+                "https://api.linkedin.com/rest/images?action=initializeUpload",
+                headers=headers,
+                json={"initializeUploadRequest": {"owner": LINKEDIN_AUTHOR_URN}},
+                timeout=30,
+            )
+            if init.status_code >= 300:
+                print(f"LinkedIn image register failed: {init.status_code} {init.text}")
+            else:
+                value = init.json()["value"]
+                with open(image_path, "rb") as f:
+                    up = requests.put(
+                        value["uploadUrl"],
+                        data=f.read(),
+                        headers={"Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
+                                 "Content-Type": "application/octet-stream"},
+                        timeout=60,
+                    )
+                if up.status_code >= 300:
+                    print(f"LinkedIn image upload failed: {up.status_code} {up.text}")
+                else:
+                    image_urn = value["image"]
+        except Exception as e:
+            print(f"LinkedIn image step error: {e}")
+
+    body = {
+        "author": LINKEDIN_AUTHOR_URN,
+        # If the image didn't make it, use the version of the text that has its own title
+        "commentary": text if image_urn else (fallback_text or text),
+        "visibility": "PUBLIC",
+        "distribution": {
+            "feedDistribution": "MAIN_FEED",
+            "targetEntities": [],
+            "thirdPartyDistributionChannels": [],
         },
-        json={
-            "author": LINKEDIN_AUTHOR_URN,
-            "commentary": text,
-            "visibility": "PUBLIC",
-            "distribution": {
-                "feedDistribution": "MAIN_FEED",
-                "targetEntities": [],
-                "thirdPartyDistributionChannels": [],
-            },
-            "lifecycleState": "PUBLISHED",
-            "isReshareDisabledByAuthor": False,
-        },
-        timeout=30,
-    )
+        "lifecycleState": "PUBLISHED",
+        "isReshareDisabledByAuthor": False,
+    }
+    if image_urn:
+        body["content"] = {"media": {"id": image_urn,
+                                     "altText": "Social Media News Digest masthead"}}
+
+    resp = requests.post("https://api.linkedin.com/rest/posts",
+                         headers=headers, json=body, timeout=30)
     if resp.status_code >= 300:
         print(f"LinkedIn post failed: {resp.status_code} {resp.text}")
     else:
-        print("Posted to LinkedIn successfully.")
+        print("Posted to LinkedIn successfully" + (" (with banner)." if image_urn else "."))
 
 
-def post_to_facebook(text):
+def post_to_facebook(text, image_path=None, fallback_text=None):
     if not FACEBOOK_PAGE_ID or not FACEBOOK_PAGE_TOKEN:
         print("Facebook credentials not set — skipping Facebook post.")
         return
 
     # Bump this occasionally — Meta retires old Graph API versions after ~2 years.
     FACEBOOK_API_VERSION = "v26.0"
-
-    payload = {"message": text, "access_token": FACEBOOK_PAGE_TOKEN}
-    if PUBLISHED_PAGE_URL:
-        payload["link"] = PUBLISHED_PAGE_URL  # renders as a link preview card
+    base = f"https://graph.facebook.com/{FACEBOOK_API_VERSION}/{FACEBOOK_PAGE_ID}"
 
     try:
-        resp = requests.post(
-            f"https://graph.facebook.com/{FACEBOOK_API_VERSION}/{FACEBOOK_PAGE_ID}/feed",
-            data=payload,
-            timeout=30,
-        )
+        # Preferred: photo post (banner + caption)
+        if image_path:
+            with open(image_path, "rb") as f:
+                resp = requests.post(
+                    f"{base}/photos",
+                    data={"caption": text, "access_token": FACEBOOK_PAGE_TOKEN},
+                    files={"source": f},
+                    timeout=60,
+                )
+            if resp.status_code < 300:
+                print("Posted to Facebook successfully (with banner).")
+                return
+            print(f"Facebook photo post failed: {resp.status_code} {resp.text}")
+
+        # Fallback: plain text post with a link preview card
+        payload = {"message": fallback_text or text, "access_token": FACEBOOK_PAGE_TOKEN}
+        if PUBLISHED_PAGE_URL:
+            payload["link"] = PUBLISHED_PAGE_URL
+        resp = requests.post(f"{base}/feed", data=payload, timeout=30)
         if resp.status_code >= 300:
             print(f"Facebook post failed: {resp.status_code} {resp.text}")
         else:
@@ -447,9 +525,19 @@ def main():
     # skip posting to LinkedIn if there's nothing to say (e.g. a quiet news day)
     # rather than publishing an empty digest.
     if today_articles:
-        li_text = build_linkedin_post(today_articles)
-        post_to_linkedin(li_text)
-        post_to_facebook(build_linkedin_post(today_articles, include_url=False))
+        banner = make_banner_image()
+        # With a banner the image carries the title, so the text starts at the bullets.
+        # Without one (or if the upload fails) the text-only version has its own title.
+        post_to_linkedin(
+            build_linkedin_post(today_articles, with_header=False),
+            image_path=banner,
+            fallback_text=build_linkedin_post(today_articles, with_header=True),
+        )
+        post_to_facebook(
+            build_linkedin_post(today_articles, with_header=False),
+            image_path=banner,
+            fallback_text=build_linkedin_post(today_articles, include_url=False, with_header=True),
+        )
     else:
         print("No qualifying articles today — skipping LinkedIn post to avoid a blank digest.")
 
