@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-13",
+    "articles": [
+      {
+        "title": "Vizio ramps up creator-led programming in bid for CTV ad dollars",
+        "link": "https://www.marketingdive.com/news/vizio-ramps-up-creator-led-programming-in-bid-for-ctv-ad-dollars/832640/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-12T14:37:00",
+        "summary": "Vizio, acquired by Walmart in 2024 for $2.3 billion, unveiled a major programming expansion aimed at attracting advertisers to its free ad-supported streaming service, WatchFree+. The update adds over 40 creator-led channels spanning gaming, comedy, food, lifestyle, sports and travel, featuring names like MrBeast, Ryan Trahan, Uncle Roger and First We Feast's \"Hot Ones.\" A new exclusive series, \"Holiday Chocolate Workshop,\" will follow chocolatier Amaury Guichon, while an original WatchFree+ film, \"Jingle Bells Wedding Bells\" starring Rachel Bilson and Scott Foley, carries Geico as presenting sponsor. Vizio also expanded content partnerships with MGM, NBCUniversal, Disney, A&E and A24, bringing titles like \"The Good Doctor\" and \"Law & Order\" to its 45,000-title, 400-channel lineup. Separately, Walmart Connect announced a Warner Bros. Discovery tie-up bringing live TV inventory to its DSP for the first time, plus deals with Spotify and Yahoo DSP via Magnite. Vizio OS reached 32 million yearly active devices in H1 2026, up 20% YoY, as U.S. CTV ad spend is projected to hit $29.3 billion in 2026.",
+        "li_summary": "Walmart-owned Vizio added more than 40 creator-led channels to its free streaming service WatchFree+, featuring MrBeast and chocolatier Amaury Guichon, alongside new studio partnerships and a Geico-sponsored original film, as CTV ad spend climbs."
+      },
+      {
+        "title": "Snapchat publishes 2026 holiday marketing guide",
+        "link": "https://www.socialmediatoday.com/news/snapchat-publishes-2026-holiday-marketing-guide/832800/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-12T20:38:39",
+        "summary": "Snapchat has published a new 8-page holiday marketing guide titled \"Wrapped in the Chat,\" aimed at helping marketers plan 2026 holiday season campaigns on the platform. The guide centers on the idea that holiday shopping now depends heavily on real-time, peer-to-peer validation within close social circles, where users discover a product, share it with trusted friends or family, gather feedback, and then convert from consideration to purchase. It includes data points illustrating how Snapchat users engage in this gifting-discovery behavior, along with specific timing insights on when users are most actively searching for gift ideas during the season. The guide also breaks down how brands can best utilize Snapchat's different ad formats to reach shoppers at these key decision points, plus a practical checklist to help marketing teams structure their holiday campaign planning. With peer recommendations increasingly shaping purchase decisions, Snapchat is positioning itself as a key platform for marketers looking to connect with consumers during the high-stakes holiday shopping period.",
+        "li_summary": "Snapchat released an 8-page \"Wrapped in the Chat\" holiday marketing guide detailing shopping trends, peer-to-peer gifting behavior, ad format recommendations, and a planning checklist for 2026 holiday campaigns."
+      },
+      {
+        "title": "Meta acquires multiple VR patents from Sony",
+        "link": "https://www.socialmediatoday.com/news/meta-acquires-multiple-vr-patents-from-sony/832798/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-12T20:34:55",
+        "summary": "Sony has sold a large portion of its AR/VR patent portfolio to Meta, according to Road to VR via ZDNet Korea, in a move suggesting Sony is stepping back from long-term XR hardware ambitions. The deal, formalized through a Confirmatory Assignment agreement signed in December 2025, has already seen 43 U.S. patents change hands, covering areas like XR-specific information processing, head-mounted displays, and various types of XR glasses filed by Sony between 2010 and 2022. A total of 419 patents worldwide are expected to transfer eventually. Meta becomes the primary beneficiary, absorbing much of Sony's headset-related intellectual property and technical groundwork, potentially strengthening its own VR development even as the company publicly pivots toward AI. At Meta Connect last month, CEO Mark Zuckerberg said superintelligence now matters more and will arrive sooner than the metaverse vision he once prioritized, though he maintains VR remains important long-term. Meta also showcased new VR glasses there, five times lighter than the Quest 3, hinting that AI-VR integration combined with Sony's acquired patents could reinforce Meta's position as a future leader in the space.",
+        "li_summary": "Sony transferred 43 U.S. VR/AR patents to Meta under a December 2025 agreement, with 419 global patents total expected to change hands, signaling Sony's retreat from the headset business."
+      },
+      {
+        "title": "Meta launches advanced Muse Wonder AI models",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-advanced-muse-wonder-ai-models/832795/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-12T20:21:58",
+        "summary": "Meta has rolled out Muse Wonder and Muse Wonder Full, upgraded versions of its Muse agentic AI system designed to handle longer, more complex tasks that can take days to complete, rather than quick single-step actions. The new models combine Active Memory, which tracks user priorities, with Active Focus, which drives task completion, and Meta claims they achieve state-of-the-art results on benchmark tests for personal and professional agentic work, including specialized tasks in law, finance, and health, such as interpreting leases or medical information. This expanded capability requires users to hand over sensitive financial and health data, raising fresh privacy concerns given Meta's past data-handling issues. Risks are already surfacing: Extreme Tech reported a Toronto-based Muse user who let the agent fully manage a Facebook Marketplace sale, unaware it would autonomously share his home address with a stranger for item pickup. While framed as user error rather than a system flaw, the incident highlights how easily users could unintentionally grant agents excessive autonomy, suggesting Muse Wonder may need further real-world testing before its expanded powers are fully trusted.",
+        "li_summary": "Meta launched Muse Wonder and Muse Wonder Full, advanced agentic AI models combining Active Memory and Active Focus to handle complex, multi-day personal and professional tasks across law, finance, and health with state-of-the-art benchmark results."
+      },
+      {
+        "title": "Meta offers updated ad placement control guidance",
+        "link": "https://www.socialmediatoday.com/news/meta-offers-updated-ad-placement-control-guidance/832791/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-12T20:07:57",
+        "summary": "Meta has been stripping away manual ad placement controls as it shifts toward fully automated, AI-driven ad serving, with the change already applied to campaigns using engagement, leads, app promotion, and sales objectives\u2014meaning advertisers can no longer exclude placements like Facebook search results or Reels in-stream ads for these campaign types. Awareness and traffic objectives still retain placement controls for now, but Meta signals that all objectives will eventually lose this capability. To address advertiser pushback, Meta outlined four alternative methods for maintaining some control: customizing media assets by placement through its new multi-media ad creative workflow in Ads Manager, using \"placement value rules\" to raise or lower bids for specific placements based on business value, setting account-level placement exclusions by objective through account control tools, and managing placements when partnering with creators or brands via Advantage+ placements and partnerships, which lets advertisers select media, text, and restrict where partnership content appears. The overarching direction shows Meta prioritizing its AI-guided targeting and delivery system over granular advertiser control, a shift marketers should factor into campaign planning and budget strategy going forward.",
+        "li_summary": "Meta is phasing out manual ad placement controls for engagement, leads, app promotion, and sales campaign objectives, pushing advertisers toward AI-driven placement while offering four workaround tools to retain partial control."
+      },
+      {
+        "title": "Threads allows parents to see who their teens have blocked",
+        "link": "https://www.socialmediatoday.com/news/threads-allows-parents-to-see-who-their-teens-have-blocked/832781/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-12T19:33:43",
+        "summary": "Meta has rolled out a new parental supervision feature on Threads that lets parents see which accounts their teenagers have blocked, expanding on tools first introduced last month. The supervision suite initially launched for parents in the Asia Pacific region before expanding worldwide, and already included options to monitor time spent in the app, set usage limits, manage who can tag teens in posts, and adjust privacy and sensitive content settings. The newly added blocked-accounts visibility gives parents insight into which users may be attempting unwanted contact with their kids or exhibiting concerning behavior, potentially helping them spot harassment or harmful interactions early. With Threads now reporting around 500 million monthly active users and increasingly functioning as a hub connecting various online communities, young users are engaging with a widening circle of accounts, raising fresh safety concerns for parents. This latest addition to Meta's teen safety toolkit is aimed at giving parents more oversight and reassurance, as the company continues building out protections designed to reduce risks like unwanted attention or exposure to harmful contacts on the platform.",
+        "li_summary": "Meta has expanded Threads' parental supervision tools globally, now letting parents view which accounts their teens have blocked, building on earlier features like screen time limits and tagging controls."
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "articles": [
       {
@@ -208,59 +261,6 @@
         "published": "2026-10-06T18:37:34",
         "summary": "Meta used its Advertising Week 2026 presentation in New York to announce a broad set of AI ad tools. Its conversational business assistant now retains context like past quarterly strategies and seasonality, can import brand voice and strategy documents, and gains agentic abilities to generate creative, adjust targeting, or change budgets through chat prompts, plus scheduled recurring performance reports and alerts. Ads Creative Studio, launched earlier this year for select partners, is expanding to more advertisers, while the Meta Ads MCP server now supports more third-party AI integrations for campaign building. Customer Lifecycle Strategy, which aligns campaign audiences and recommendations around top-level goals, is rolling out to all advertisers. Video tools are expanding too: Advantage+ creative can now generate video from static images (generally available), and Ads Creative Studio allows editing of hooks, audio, captions, and end scenes, alongside simplified video generation from catalog listings with upsell recommendations. Meta also announced a Shopify-powered direct checkout feature in Messenger via Meta Business Agent, and is testing similar in-chat purchasing within Meta AI with Adyen, PayPal, Shopify, and Stripe.",
         "li_summary": "At Advertising Week 2026, Meta unveiled an upgraded AI business assistant with memory and agentic ad controls, wider Ads Creative Studio access, new video-generation tools, and Shopify-powered in-chat checkout via Messenger."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-06",
-    "articles": [
-      {
-        "title": "How brands\u2019 deeper creator deals are unlocking cost efficiencies, results",
-        "link": "https://www.marketingdive.com/news/how-brands-deeper-creator-deals-are-unlocking-cost-efficiencies-results/832205/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-06T13:15:00",
-        "summary": "Executives from Chili's, Disney and Alaska Airlines at Advertising Week New York described a shift from treating creators as add-ons to making them central to marketing strategy, with long-term partnerships now driving measurable business results. Chili's social media director Luz Bickert said a May campaign pairing pop star Lizzo's Baby Back Ribs jingle cover with creator Keila Pacheco's low-budget mukbang car video outperformed the brand's polished TV spot, and credited influencer partnerships with growing the Triple Dipper from 7% to 15% of total sales. Disney VP Nicole Leo said creator-led content now makes up over 40% of assets in media campaigns, up from under 10% five years ago, aided by a corporate restructuring that lets creator ideas flow between departments while still requiring customized briefs per project. Alaska Airlines' April Johnson noted that contracting creators long-term creates budget efficiencies and matches how talent prefers to work. Panelists agreed creators should be looped into campaign planning earlier rather than handed rigid briefs, and that combining influencer and media agency reporting helps prove the channel's value, even as brands still grapple with measuring engagement beyond paid impressions.",
-        "li_summary": "At Advertising Week New York, Chili's, Disney and Alaska Airlines executives revealed creators now drive 40%+ of Disney's media assets and helped grow Chili's Triple Dipper from 7% to 15% of sales through long-term, deeply integrated partnerships rather than one-off sponsored posts."
-      },
-      {
-        "title": "TikTok broadens agentic AI play, brings global ad network to US",
-        "link": "https://www.marketingdive.com/news/tiktok-broadens-agentic-ai-play-brings-global-ad-network-to-us/832007/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-05T14:30:00",
-        "summary": "TikTok unveiled a broad set of advertising and commerce updates at Advertising Week New York, centered on AI-driven tools and U.S. expansion. The TikTok Ad Network (TTAN), previously used internationally, is now available to U.S. advertisers, letting them run campaigns across roughly 400,000 third-party apps through TikTok Ads Manager, with Integral Ad Science providing independent measurement for viewability, invalid traffic and brand safety. On the shopping side, TikTok introduced Buy Direct for in-feed purchases without leaving the app, a conversational Shopping Assistant that handles product, shipping and sizing questions, and an Agentic Leads tool for capturing high-intent prospects via DMs or website lead forms, supported by partners including Salesforce, Shopify, Shoplazza and Stripe. TikTok is also expanding Smart+ automation to search campaigns and launching Smart+ Creative Selection to streamline asset choices, alongside growing GMV Max for TikTok Shop merchants. A Model Context Protocol launched in May now connects to Claude, Kimi, Manus, Perplexity and Snowflake. TikTok says it helped generate $81 billion in U.S. GDP in 2025, with 54 million American shoppers buying after watching a TikTok video.",
-        "li_summary": "TikTok launched its U.S. TikTok Ad Network reaching 400,000 third-party apps, plus new AI tools including Buy Direct, a Shopping Assistant, Agentic Leads, and expanded Smart+ campaign automation, timed to Advertising Week New York."
-      },
-      {
-        "title": "Meta adds parental oversight to Meta AI app",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-parental-oversight-to-meta-ai-app/832204/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-05T22:22:31",
-        "summary": "Meta has begun rolling out parental supervision tools for its dedicated Meta AI app, expanding oversight features first introduced in April for AI elements embedded across its other platforms. Once supervision is enabled, parents and guardians can review a seven-day log of topics their teen has raised with Meta AI, though actual conversation content remains private. Parents seeking tighter restrictions can switch from the default 13+ setting to a new Limited Content mode, which further narrows the kinds of exchanges teens can have with the chatbot. The move comes amid growing scrutiny of AI's role in teens' lives: Pew Research found 57% of U.S. teens have used chatbots for information searches and 54% for schoolwork help, while other reporting shows many are turning to AI for companionship and emotional support. The update may also lay groundwork for eventually opening Meta's Muse AI agents to younger users, aligning with the company's broader ambition to expand AI access widely. Still, while topic-level visibility gives parents a useful signal, it may not fully address deeper risks like misinformation, bias, or AI influence on adolescent decision-making.",
-        "li_summary": "Meta today launched parental supervision controls in its standalone Meta AI app, letting parents view the topics\u2014but not full conversations\u2014their teens discussed with the chatbot over the past seven days, plus a new Limited Content setting."
-      },
-      {
-        "title": "Instagram tests option to open to Reels",
-        "link": "https://www.socialmediatoday.com/news/instagram-tests-option-to-open-to-reels/832202/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-05T21:34:36",
-        "summary": "Instagram is piloting a UI option, spotted by app researcher Radu Oncescu, that would let users choose to open directly into their Reels feed rather than the standard post feed when launching the app. Stories would still appear at the top of the home screen as usual, and users could swipe across to access the traditional feed, or revert back to the classic layout whenever they prefer, making this a toggleable setting rather than a forced redesign. Meta previously trialed a similar format in India last year, where the Stories bar sat above a Reels-first feed and a top-right icon let users jump to the traditional feed. The move reflects Reels' growing dominance: over 50% of time spent on Instagram now goes toward Reels, and the format is driving all of the platform's recent engagement growth. By framing this as an opt-in test rather than a default change, Meta can gauge adoption and avoid backlash, though wider Reels engagement gains could eventually push Instagram to make this the standard experience for all users.",
-        "li_summary": "Instagram is testing a new option letting users set Reels as their default home screen feed instead of the traditional post feed, with Stories still displayed on top and a one-tap switch back available anytime."
-      },
-      {
-        "title": "TikTok outlines US election preparations",
-        "link": "https://www.socialmediatoday.com/news/tiktok-outlines-us-election-preparations/832201/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-05T21:22:31",
-        "summary": "TikTok announced on Monday its preparation strategy for the November U.S. midterm elections, centered on four priorities: protecting user data and systems, detecting harmful or deceptive activity, promoting reliable election content, and securing accounts belonging to government officials and candidates. The company confirmed it continues working with Oracle to safeguard American user data, software, and app content, stating that every feature or code update undergoes security review before reaching U.S. users. For the election period specifically, TikTok is standing up a U.S. Election Mission Control Center to track emerging risks, coordinate investigations, and respond to threats in real time, alongside stepped-up monitoring for coordinated influence campaigns, AI-generated misinformation, and false claims. It also launched a new U.S. Election Center within the app to surface verified voting information. This marks the first major election test since TikTok's ownership shifted to a U.S.-based group, TikTok USDS, which was selected with input from President Trump and now oversees the platform's recommendation algorithm\u2014raising scrutiny given Trump's past joking remark about making TikTok \"100% MAGA.\"",
-        "li_summary": "TikTok detailed its U.S. midterm election safeguards on Monday, including a dedicated Election Mission Control Center, partnership with Oracle on data security, and a new Election Center for voting information, marking the first major vote since its U.S. ownership restructuring."
-      },
-      {
-        "title": "Social media platforms resist U.K. safety disclosures",
-        "link": "https://www.socialmediatoday.com/news/social-media-platforms-resist-uk-safety-disclosures/832199/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-05T21:14:02",
-        "summary": "Ofcom, the U.K.'s digital regulator, is pushing forward sweeping Online Safety Act updates covering hate speech, CSAM, teen usage restrictions, livestreaming, and a May proposal requiring removal of non-consensual intimate imagery within 48 hours alongside new cyberflashing rules, with violations risking fines up to 10% of a company's global revenue. Meta, TikTok and X are now resisting, specifically objecting to February information notices demanding detailed content moderation metrics, including figures on removed or visibility-restricted posts and user exposure to harmful content. X called it the most burdensome regulatory request it has faced in any jurisdiction, while Meta argues Ofcom's demands exceed what's required under the EU's Digital Services Act, seeking more granular and wide-ranging data than European regulators require. This is notable since all three companies already comply with similar DSA disclosure rules in Europe. Ofcom maintains the expanded data is necessary to verify its regulatory approach is working, but the platforms see no clear justification for such broad requests. Ofcom aims to finalize most of these rules by year's end.",
-        "li_summary": "Meta, TikTok and X are challenging Ofcom's Online Safety Act proposals in the U.K., calling February's content moderation data requests unprecedented and more burdensome than even the EU's Digital Services Act disclosures."
       }
     ]
   }
