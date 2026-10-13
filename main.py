@@ -321,6 +321,20 @@ def _to_bold_unicode(text):
     return "".join(bold_map.get(ch, ch) for ch in text)
 
 
+def _to_fraktur_unicode(text):
+    """Convert ASCII letters to Unicode 'Bold Fraktur' (Old English newspaper
+    masthead look). Plain text under the hood, so it works on LinkedIn/Facebook."""
+    out = []
+    for ch in text:
+        if "A" <= ch <= "Z":
+            out.append(chr(0x1D56C + ord(ch) - ord("A")))
+        elif "a" <= ch <= "z":
+            out.append(chr(0x1D586 + ord(ch) - ord("a")))
+        else:
+            out.append(ch)
+    return "".join(out)
+
+
 def build_linkedin_post(today_articles, include_url=True):
     # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
     # link to the original source directly — that would route readers away before
@@ -328,7 +342,11 @@ def build_linkedin_post(today_articles, include_url=True):
     # page, which has the full summaries AND links out to each original source
     # from there. This keeps the traffic funnel on your own site first.
     today = datetime.date.today().strftime("%B %d, %Y")
-    lines = [f"📱 Social Media News Digest — {today}\n"]
+    # Newspaper-style masthead: Old English title, date small on its own line,
+    # framed by thin rules. Post text is plain, so font size can't be changed.
+    rule = "━" * 22
+    masthead = _to_fraktur_unicode("Social Media News Digest")
+    lines = [rule, masthead, today, rule + "\n"]
     for a in today_articles:
         bold_title = _to_bold_unicode(a['title'])
         lines.append(f"• {bold_title}: {a['li_summary']}")
