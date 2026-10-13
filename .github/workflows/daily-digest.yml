@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install feedparser requests trafilatura
+        run: pip install feedparser requests trafilatura pillow
 
       - name: Run digest script
         env:
