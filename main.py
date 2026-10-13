@@ -335,6 +335,16 @@ def _to_fraktur_unicode(text):
     return "".join(out)
 
 
+_SUPERSCRIPT = dict(zip("0123456789abcdefghijklmnoprstuvwxyz",
+                        "⁰¹²³⁴⁵⁶⁷⁸⁹ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ"))
+
+
+def _to_superscript(text):
+    """Tiny superscript lookalikes — makes the date read clearly smaller than the
+    masthead. Characters with no superscript form (spaces, commas) stay as-is."""
+    return "".join(_SUPERSCRIPT.get(ch, ch) for ch in text.lower())
+
+
 def build_linkedin_post(today_articles, include_url=True):
     # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
     # link to the original source directly — that would route readers away before
@@ -344,9 +354,13 @@ def build_linkedin_post(today_articles, include_url=True):
     today = datetime.date.today().strftime("%B %d, %Y")
     # Newspaper-style masthead: Old English title, date small on its own line,
     # framed by thin rules. Post text is plain, so font size can't be changed.
-    rule = "━" * 22
-    masthead = _to_fraktur_unicode("Social Media News Digest")
-    lines = [rule, masthead, today, rule + "\n"]
+    rule = "✦ " + "═" * 16 + " ✦"
+    d = datetime.date.today()
+    date_small = _to_superscript(f"{d.strftime('%B')} {d.day}, {d.year}")
+    # All-caps Old English, stacked on two lines, reads as a bigger masthead.
+    masthead = (_to_fraktur_unicode("SOCIAL MEDIA") + "\n"
+                + _to_fraktur_unicode("NEWS DIGEST"))
+    lines = [rule, masthead, date_small, rule + "\n"]
     for a in today_articles:
         bold_title = _to_bold_unicode(a['title'])
         lines.append(f"• {bold_title}: {a['li_summary']}")
