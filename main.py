@@ -571,6 +571,16 @@ def send_whatsapp_nudge(today_articles, image_path=None):
 # ---------------------------------------------------------------------------
 
 def main():
+    # Test switch (set from the "Run workflow" button): sends ONLY a sample nudge
+    # email, with no posts, no web page update and no history change.
+    if os.environ.get("NUDGE_TEST_ONLY") == "true":
+        sample = [{
+            "title": "TEST: this is a sample item",
+            "li_summary": "If you can read this, the morning nudge email works. Nothing was posted anywhere.",
+        }]
+        send_whatsapp_nudge(sample, make_banner_image())
+        return
+
     today_articles = fetch_recent_articles()
     for a in today_articles:
         summaries = summarize_article(a)
