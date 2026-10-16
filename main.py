@@ -58,6 +58,14 @@ LINKEDIN_AUTHOR_URN = os.environ.get("LINKEDIN_AUTHOR_URN")
 FACEBOOK_PAGE_ID = os.environ.get("FACEBOOK_PAGE_ID")
 FACEBOOK_PAGE_TOKEN = os.environ.get("FACEBOOK_PAGE_TOKEN")
 
+# Morning nudge: emails you the finished WhatsApp Channel post (text + banner)
+# so you can paste it into the Channel. WhatsApp has no official posting API.
+NUDGE_EMAIL_TO = os.environ.get("NUDGE_EMAIL_TO")
+SMTP_HOST = os.environ.get("SMTP_HOST")
+SMTP_PORT = os.environ.get("SMTP_PORT") or "465"
+SMTP_USER = os.environ.get("SMTP_USER")
+SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD")
+
 DIGEST_PAGE_TITLE = "Social Media News Digest"
 PUBLISHED_PAGE_URL = os.environ.get("PUBLISHED_PAGE_URL", "")
 
@@ -502,6 +510,62 @@ def post_to_facebook(text, image_path=None, fallback_text=None):
         print(f"Facebook post error: {e}")
 
 
+def build_whatsapp_post(today_articles):
+    # Same content as the other posts, but with WhatsApp's own *bold* markup,
+    # which renders properly in a Channel (the banner image carries the title).
+    lines = []
+    for a in today_articles:
+        lines.append(f"• *{a['title']}*: {a['li_summary']}")
+        lines.append("")
+    if PUBLISHED_PAGE_URL:
+        lines.append(f"Full digest + sources: {PUBLISHED_PAGE_URL}")
+    return "\n".join(lines).strip()
+
+
+def send_whatsapp_nudge(today_articles, image_path=None):
+    """Email the ready-to-paste WhatsApp Channel post (text in the body, banner
+    attached). Skips quietly if the email settings aren't configured."""
+    if not (NUDGE_EMAIL_TO and SMTP_HOST and SMTP_USER and SMTP_PASSWORD):
+        print("Morning nudge email not configured — skipping.")
+        return
+
+    try:
+        import smtplib
+        from email.message import EmailMessage
+
+        today = datetime.date.today().strftime("%A, %B %d")
+        msg = EmailMessage()
+        msg["Subject"] = f"WhatsApp Channel post ready — {today}"
+        msg["From"] = SMTP_USER
+        msg["To"] = NUDGE_EMAIL_TO
+        msg.set_content(
+            "Your WhatsApp Channel post is ready.\n\n"
+            "1. Save the attached banner image.\n"
+            "2. Copy the text below.\n"
+            "3. In your Channel: add the image, paste the text, send.\n\n"
+            "----------------------------------------\n\n"
+            + build_whatsapp_post(today_articles)
+        )
+        if image_path and os.path.exists(image_path):
+            with open(image_path, "rb") as f:
+                msg.add_attachment(f.read(), maintype="image", subtype="png",
+                                   filename="digest-banner.png")
+
+        port = int(SMTP_PORT)
+        if port == 465:
+            server = smtplib.SMTP_SSL(SMTP_HOST, port, timeout=30)
+        else:
+            server = smtplib.SMTP(SMTP_HOST, port, timeout=30)
+            server.starttls()
+        with server:
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.send_message(msg)
+        print("Morning nudge email sent.")
+    except Exception as e:
+        # Never let an email problem stop the posts or the web page build.
+        print(f"Morning nudge email failed: {e}")
+
+
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
@@ -538,6 +602,7 @@ def main():
             image_path=banner,
             fallback_text=build_linkedin_post(today_articles, include_url=False, with_header=True),
         )
+        send_whatsapp_nudge(today_articles, banner)
     else:
         print("No qualifying articles today — skipping LinkedIn post to avoid a blank digest.")
 
