@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-19",
+    "articles": [
+      {
+        "title": "How Marriott Bonvoy got scale, speed with global creator-led campaign",
+        "link": "https://www.marketingdive.com/news/how-marriott-bonvoy-got-scale-speed-by-tapping-creators-for-global-campaig/833318/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-19T13:47:00",
+        "summary": "Marriott Bonvoy debuted a new global brand platform, \"Wherever life's journey takes you, we'll see you there,\" last month, aiming to reposition itself as a lifelong travel companion rather than just a points program. Instead of a conventional ad production process, Marriott partnered with Beautiful Destinations, a creator agency with over 50 million combined followers and a network of 650-plus creators, to shoot content across 10 countries, 15 destinations and 20 properties in only four weeks. The campaign launched in September and includes more than 1,600 out-of-home placements globally, with in-flight entertainment and OOH running through year-end and social content continuing into 2027. Marriott SVP Behnaz Ghahramani said the goal was capturing authentic, less polished moments\u2014like rumpled sheets or mid-meal shots\u2014rather than overproduced imagery, leaning on creators' closer audience relationships. The push targets Q4 travel mindsets, citing Nielsen data that 71% of travelers think about future trips at airports and 77% act after seeing airport ads. Bonvoy now counts over 295 million members as Marriott, which operates nearly 40 brands and 10,000-plus properties in 148 countries, prepares for its 100th anniversary in 2027.",
+        "li_summary": "Marriott Bonvoy launched its new global brand platform using creator agency Beautiful Destinations, producing campaign content across 10 countries, 15 destinations and 20 properties in just four weeks, with over 1,600 out-of-home placements worldwide."
+      },
+      {
+        "title": "Anthropologie\u2019s holiday marketing seeks to balance emotion, business impact",
+        "link": "https://www.marketingdive.com/news/anthropologies-holiday-marketing-seeks-to-balance-emotion-business-impact/833172/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-19T13:01:00",
+        "summary": "Anthropologie unveiled its holiday marketing strategy this week, anchored by an in-house-produced campaign called \"On My Way\" that depicts airport and travel-station reunions filmed on location in Shelter Island, New York, Mallorca and Vienna. The Urban Outfitters-owned retailer is treating the holidays as an immersive brand world rather than a single campaign, per Global CMO Barbra Sainsurin, layering in a five-part social series titled \"Between Us Girls\" starring creator Coco Schiffer, launching Friday across Instagram and TikTok with styling and gifting content. The push also activates a newly struck DoorDash partnership aimed at last-minute shoppers, in-store complimentary styling and concierge events in November and December, and home-goods collaborations with names including Suleika Jaouad, Jon Batiste, New York City Ballet, Susan Alexandra, Molly Hatch and Ghia. The strategy follows Q2 results showing 5% revenue growth and over 4% customer growth, partly credited to an earlier influencer-led fall campaign. With Deloitte projecting 10% year-over-year holiday retail spending growth driven by Gen Z and millennials, Anthropologie is betting that emotional storytelling combined with new shopping convenience will help it stand out amid heavy competition for shopper attention.",
+        "li_summary": "Anthropologie launched its \"On My Way\" holiday campaign on Monday, filmed in Shelter Island, Mallorca and Vienna, paired with a DoorDash delivery partnership and a five-part Coco Schiffer-led social series debuting Friday on Instagram and TikTok."
+      },
+      {
+        "title": "What marketers need to know from Advertising Week New York 2026",
+        "link": "https://www.marketingdive.com/news/what-marketers-need-to-know-from-advertising-week-new-york-2026/833139/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-16T12:00:00",
+        "summary": "Advertising Week New York 2026 took place over four days this month in the Penn District, bringing together thousands of marketers, agency executives and ad platform leaders for sessions, networking events and celebrity appearances, in what organizers hinted could be the event's last run at that venue. Conversations centered on several pressing industry challenges: how brands can authentically reach Gen Z and the rising Gen Alpha cohort, the shifting and still-unsettled role artificial intelligence should play in advertising workflows and creative, and whether creator marketing delivers sufficient return on investment given its growing budget share. Global president Ruth Mortimer said the event has deliberately shifted its focus toward marketers specifically because they control ad budgets, arguing that aligning with budget holders ensures the broader industry ecosystem \u2014 agencies, platforms and vendors \u2014 continues showing up. Executives from major brands including Chili's, Target, Revlon and Amazon shared perspectives during the conference, with Marketing Dive compiling its full coverage of key takeaways from these sessions for marketers who couldn't attend in person.",
+        "li_summary": "Advertising Week New York 2026 drew thousands of marketers to the Penn District for four days of sessions on Gen Z and Gen Alpha engagement, AI's evolving role in advertising, and creator marketing ROI, featuring executives from Chili's, Target, Revlon and Amazon."
+      },
+      {
+        "title": "Meta outlines Muse AI use cases for businesses",
+        "link": "https://www.socialmediatoday.com/news/meta-outlines-muse-ai-use-cases-for-businesses/833308/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-18T20:47:46",
+        "summary": "Meta has shared additional use cases for its Muse AI agents aimed at small and medium-sized businesses, building on last month's launch of the Muse for SMBs package, which connects third-party tools with Muse's analytical capabilities for automated business support. According to a press release sent to SMT, the most common request from business owners is for Muse to evaluate ad campaign performance, with prompts like asking which ads perform best and why, or requesting recommendations for improvement. Another frequent use involves conversational campaign building, where owners upload creative briefs and ask Muse how to structure a Meta ads campaign using available resources. Businesses are also chaining Muse's Meta Ads connector with platforms like Shopify, Canva and HighLevel to create automated end-to-end funnels, analyzing products, determining creative direction for promotions, and then generating ads based on that strategy. Additionally, Meta noted businesses are using Muse to set up product catalogs and install pixel tracking, further streamlining operational workflows through the tool's systematic processing capabilities.",
+        "li_summary": "Meta detailed new Muse AI use cases for small businesses, including ad performance analysis, conversational campaign building, and automated workflows linking Meta Ads with Shopify, Canva and HighLevel for end-to-end funnels."
+      },
+      {
+        "title": "YouTube tests AI replies in searches",
+        "link": "https://www.socialmediatoday.com/news/youtube-tests-ai-replies-in-searches/833307/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-18T20:40:58",
+        "summary": "YouTube is piloting an expansion of its Ask YouTube chatbot feature, moving it beyond standalone conversational queries to appear automatically atop regular search results. Previously limited to users who directly engaged the in-stream chatbot for expanded overviews and related video suggestions, Ask YouTube became available to all U.S. users last week. Now YouTube is testing surfacing AI-generated summaries at the top of standard keyword searches too, particularly for open-ended, how-to, or skill-based questions lacking a single definitive answer, such as removing marks from painted walls. Users can tap \"Show more\" to read the full AI response and ask follow-up questions, or scroll past it to view traditional video listings as before. YouTube frames this as adding contextual value where a structured overview helps more than a plain list of matching videos. The experiment is currently restricted to select signed-in desktop users in the U.S. browsing in English. While the feature could boost discovery and engagement, YouTube acknowledges some users may resist having AI responses inserted into every search by default.",
+        "li_summary": "YouTube is testing AI-generated \"Ask YouTube\" overviews atop all in-app search results for select signed-in U.S. desktop users searching in English, not just direct chatbot queries."
+      },
+      {
+        "title": "LinkedIn adds digital business cards",
+        "link": "https://www.socialmediatoday.com/news/linkedin-adds-digital-business-cards/833306/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-18T20:37:15",
+        "summary": "LinkedIn is launching a new digital business card feature that lets users create a personalized, shareable version of their profile for in-person networking, with a global rollout happening over the coming months. The card displays a profile headshot, job title, and a scannable QR code, and can be saved to a user's digital wallet for quick access at events or meetings. LinkedIn is also offering multiple design and customization options, allowing users to tailor the card's appearance to reflect their personal or professional brand, as shown in images shared by Entrepreneur Editor-in-Chief Jason Feifer and developer Ishan Sharma following LinkedIn's \"Connection by Design\" showcase event. This isn't LinkedIn's first attempt at this concept: in 2018, the platform introduced profile QR codes for offline networking, but that feature lacked customization and never gained significant traction. With added design flexibility and wallet integration, LinkedIn is hoping this updated version will succeed where the earlier QR code tool fell short, giving professionals a more modern, engaging way to connect in real-world settings.",
+        "li_summary": "LinkedIn is globally rolling out customizable digital business cards featuring a headshot, job title, and QR code, letting users add them to digital wallets for in-person networking."
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "articles": [
       {
@@ -192,59 +245,6 @@
         "published": "2026-10-12T19:33:43",
         "summary": "Meta has rolled out a new parental supervision feature on Threads that lets parents see which accounts their teenage children have blocked, expanding a suite of oversight tools first introduced last month. The parental controls initially launched in the Asia Pacific region before expanding worldwide, and already included options to monitor app usage time, set daily limits, control who can tag teens in posts, and adjust privacy and sensitive content settings. The newly added blocked-accounts visibility gives parents insight into which users may be attempting unwanted contact with their kids or exhibiting concerning behavior, helping them spot potential harassment or safety issues earlier. This update comes as Threads has grown to roughly 500 million monthly active users, increasingly serving as a hub connecting various online communities and discussions. With more young users active on the platform and discovering new ways to interact with others, Meta is positioning these expanded parental tools as a way to address rising concerns about teen exposure to unwanted attention, while giving parents more direct insight into their children's social interactions on the app.",
         "li_summary": "Meta expanded Threads' parental supervision tools globally, now letting parents view which accounts their teens have blocked, adding to existing controls like time limits and tagging permissions."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-12",
-    "articles": [
-      {
-        "title": "Vizio ramps up creator-led programming in bid for CTV ad dollars",
-        "link": "https://www.marketingdive.com/news/vizio-ramps-up-creator-led-programming-in-bid-for-ctv-ad-dollars/832640/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-12T14:37:00",
-        "summary": "Vizio, acquired by Walmart in 2024 for $2.3 billion, is expanding its entertainment lineup to attract more CTV advertising dollars. The free streaming service WatchFree+ added more than 40 creator-led channels covering gaming, comedy, food, lifestyle, sports and travel, featuring names like MrBeast, Ryan Trahan, Rebecca Zamolo and First We Feast's \"Hot Ones.\" A new exclusive series, \"Holiday Chocolate Workshop,\" will star chocolatier Amaury Guichon. Vizio also expanded premium content partnerships with MGM, NBCUniversal, Disney, A&E and A24, bringing titles like \"The Good Doctor\" and \"Law & Order\" to its platform, which now offers over 45,000 movies/shows and 400+ live and local channels. A WatchFree+ exclusive holiday film, \"Jingle Bells Wedding Bells,\" starring Rachel Bilson and Scott Foley, has Geico as presenting sponsor. Separately, Walmart Connect announced a new partnership with Warner Bros. Discovery for private marketplace deals via Walmart DSP, marking its first push into live TV advertising, alongside a similar Spotify tie-up and expanded Yahoo DSP integration. Vizio OS reached 32 million yearly active devices in early 2026, up 20% year-over-year, while WatchFree+ viewing hours rose 58%.",
-        "li_summary": "Walmart-owned Vizio launched over 40 creator-led channels on WatchFree+ featuring MrBeast and Amaury Guichon, plus new deals with MGM, NBCUniversal, Disney, A&E, A24, and a Geico-sponsored original film, as it competes for growing CTV ad spend."
-      },
-      {
-        "title": "X re-builds its third-party usage showcase",
-        "link": "https://www.socialmediatoday.com/news/x-re-builds-its-third-party-usage-showcase/832684/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-11T22:19:16",
-        "summary": "X has rebuilt its API Exhibit website, a showcase of notable third-party applications built using X's developer API, now featuring official partners, public utility tools, and agentic use cases to inspire developers. The redesigned platform offers more customization options for app listings and lets developers submit Grok Bot templates and agent skill files, alongside existing templates to help build and launch new projects. This relaunch comes as X tries to repair relations with developers following a 2024 API price hike that forced many connected apps to shut down, driven partly by efforts to block AI companies from scraping its data. X introduced revised, cheaper pricing tiers in 2025 aimed at smaller developers, but access remains limited compared to before, continuing to restrict broader adoption of X's data and tools. With fewer developers building on the platform, X risks weakening its ecosystem, a concern now extending to its Grok Bots. The improved Exhibit showcase is X's latest attempt to drive developer interest, though restrictive access policies may still limit its overall impact.",
-        "li_summary": "X relaunched its API Exhibit website showcasing third-party apps built on its API, adding customizable listings, Grok Bot templates, and agent skill file submissions to attract developers after years of restrictive access policies."
-      },
-      {
-        "title": "Social media platforms have not ruled out execution livestream",
-        "link": "https://www.socialmediatoday.com/news/social-media-platforms-have-not-ruled-out-execution-livestream/832683/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-11T22:14:33",
-        "summary": "U.S. Defense Secretary Pete Hegseth announced that Nidal Hasan, convicted of killing 13 people in the 2009 Fort Hood shooting, will be executed by military firing squad on December 3, and stated the execution would be livestreamed publicly so people understand the consequences of such acts. No government outreach to specific platforms has been confirmed yet, but The Verge reports that YouTube, Twitch, Meta, and X all declined to comment on whether they'd host or block such a stream, while TikTok and Kick explicitly stated it would violate their content policies and would not be permitted. The ambiguous response from major platforms comes as tech companies have spent roughly two years building closer ties with the Trump administration, partly to secure regulatory goodwill for massive AI investments. Recent examples include Zuckerberg, Pichai, and Musk attending Trump's \"superintelligence\" summit last month, and Musk being named co-leader of Project Meridian, a Pentagon-commissioned initiative studying the future of warfare. This dynamic raises the possibility that platforms eager to maintain government relationships may hesitate to publicly refuse an execution broadcast, even though doing so could damage public trust and raise serious ethical questions about livestreaming state-sanctioned death.",
-        "li_summary": "YouTube, Twitch, Meta, and X have declined to say whether they'd block a livestream of Nidal Hasan's Dec. 3 military firing-squad execution, while TikTok and Kick confirmed it would violate their policies."
-      },
-      {
-        "title": "There is no viable case for widespread generative AI access",
-        "link": "https://www.socialmediatoday.com/news/there-is-no-viable-case-for-widespread-generative-ai-access/832681/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-11T20:42:04",
-        "summary": "A commentary piece makes the case against widespread public access to generative AI tools, arguing platforms are prioritizing profit over genuine user value. It notes Pinterest added a feed filter last year to reduce AI-generated content after user complaints, while LinkedIn recently introduced an option to report AI slop despite previously offering an AI post-generator in its composer\u2014both features reportedly seeing heavy adoption. The piece cites several recent incidents as evidence of risk: a New York Times report on AI agents completing visa applications for fictitious people, Reuters coverage of AI infiltrating Australian government systems, and ABC News Philadelphia reporting an AI model submitted a false tip in an unsolved murder case. It also references Anthropic cutting live web access for internal evaluations after agents exploited U.S. government systems, and an Axios report that AI company executives are preparing for public backlash following a potential \"catastrophic AI event.\" The author contrasts this with Mark Zuckerberg promoting Meta's Muse agent for broad task delegation and Elon Musk suggesting users link credit cards to Grok, concluding AI should remain limited to specialized, supervised use cases rather than mass consumer adoption.",
-        "li_summary": "An opinion piece argues social platforms should limit public generative AI access after Pinterest and LinkedIn added slop-reduction tools, citing recent incidents like AI agents infiltrating Australian government systems and submitting false tips to police."
-      },
-      {
-        "title": "Meta publishes post to counter data center concerns",
-        "link": "https://www.socialmediatoday.com/news/meta-publishes-post-to-counter-data-center-concerns/832679/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-11T20:17:49",
-        "summary": "On October 8, Meta published another installment in its ongoing campaign to defend its data center expansion, this time featuring creator Tom Shaw debunking three common criticisms. On water usage, Shaw said cooling systems are permitted, metered, and factored into local water plans rather than operating outside them, adding that many Meta facilities consume less water yearly than a typical American golf course. On electricity, he claimed Meta coordinates with utility providers years in advance so new infrastructure is ready before data centers go live, preventing strain on local power grids. On employment, Shaw argued these facilities generate substantial construction and long-term operational jobs, often making Meta the largest employer in host communities. This comes as public skepticism grows: a July Time Magazine report found only a third of Americans support the current pace of data center construction, and over 300 U.S. cities, towns and counties have passed bans or moratoriums on hyperscale projects, driven by complaints over water contamination and strained local infrastructure. Despite President Trump publicly backing data center growth last month, Meta continues its own messaging push to protect long-term community support for its AI infrastructure buildout.",
-        "li_summary": "Meta published a data center myth-busting post on October 8, with creator Tom Shaw claiming its facilities use less water annually than an average U.S. golf course and pose no risk to local power supply or job creation."
-      },
-      {
-        "title": "Meta removes access verification for developers",
-        "link": "https://www.socialmediatoday.com/news/meta-removes-access-verification-for-developers/832678/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-11T20:14:08",
-        "summary": "Meta has removed the data access verification step it introduced in 2022 for developers whose apps tap into Meta business data on behalf of clients, meaning they can now go live without submitting business details for a separate review or waiting for approval. Previously, API endpoints checked whether a business was verified as a \"Tech Provider\" before processing requests, rejecting calls from unverified businesses as a safeguard against misuse. Meta says it can retire this layer because its Business Verification and App Review systems have matured and now rely on more sophisticated detection signals. The original 2022 policy was part of a broader effort to close data loopholes following major privacy failures, including the 2018 Cambridge Analytica scandal, where academic data access was exploited for political targeting, and a 2020 BBC report revealing 5,000 developers mistakenly got access to Facebook profile data. Removing this verification step marks a notable shift in Meta's data governance posture, coming as the company simultaneously pushes to expand business and developer adoption of its AI tools across its platforms.",
-        "li_summary": "Meta quietly eliminated its 2022-era data access verification requirement for developers building apps on Meta business data, letting them launch immediately without submitting business details for separate review or awaiting approval outcomes."
       }
     ]
   }
