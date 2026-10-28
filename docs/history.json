@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-28",
+    "articles": [
+      {
+        "title": "Edits gets new Halloween-themed options",
+        "link": "https://www.socialmediatoday.com/news/edits-gets-new-halloween-themed-options/872983/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T23:02:45",
+        "summary": "Meta rolled out a fresh batch of updates to its Edits video editing app, led by Halloween-themed creative tools including new spooky fonts, sound effects, animations, and 13 additional text animation styles for seasonal content. The update also introduces beat-synced effects like flashing lights and zoom transitions that automatically sync to a clip's music or audio. Caption tools got an upgrade too, with new styling options and the ability to bulk-edit captions across a project. On the technical side, Meta added automated color adjustment to simplify brightness and color balancing, along with the option to boost individual clip volume up to 150% within a project. The carousel editor, previously limited to iOS, is now available on Android devices. Edits also debuted a custom filter created in partnership with Nigerian musician Arya Starr. With these additions, Edits continues evolving into a comprehensive video creation studio, and Meta has confirmed a desktop version is coming soon, which should further expand creators' editing capabilities beyond mobile devices.",
+        "li_summary": "Meta updated its Edits video app with Halloween-themed fonts, sound effects, and 13 new text animations, plus automated color adjustment, 150% clip volume boost, and Android carousel editing support."
+      },
+      {
+        "title": "YouTube adds microdrama subscriptions",
+        "link": "https://www.socialmediatoday.com/news/youtube-adds-microdrama-subscriptions/872982/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T22:59:04",
+        "summary": "YouTube announced plans to deepen its investment in microdramas, the short, serialized vertical video format that generated more than 6.5 billion views within the app during the first half of 2026, a jump of over 50% compared to the previous year, with particularly strong growth in the Asia Pacific region. To support creators financially, YouTube is revamping the mobile viewing experience in the coming weeks so viewers can join a channel membership and continue watching members-only episodes without exiting the content, building on last month's MadeOn announcement of Shorts Series for organizing episodic content into seasons. The platform also highlighted how auto-translation tools, including multi-language audio, AI-generated subtitles, and localized metadata, help creators reach international audiences without dubbing costs, noting that a series filmed in Tokyo or Seoul can attract viewers in Brazil. YouTube shared data showing 40% of views and 30% of clicks happen more than 30 days post-launch, meaning early episodes keep generating ad revenue long-term. Keys to success include quick emotional hooks, vertical-first filming, frequent uploads, relatable storylines, and interactive formats where audiences influence plot direction, creating fresh marketing and product placement opportunities.",
+        "li_summary": "YouTube is streamlining in-app channel memberships for microdrama episodes on mobile, letting viewers subscribe without leaving the video, after the format hit 6.5 billion views in H1 2026, up over 50% year-over-year."
+      },
+      {
+        "title": "Meta adds individual performance data for ad creative",
+        "link": "https://www.socialmediatoday.com/news/meta-adds-individual-performance-data-for-ad-creative/872981/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T22:48:25",
+        "summary": "Meta has rolled out a new \"Breakdown\" element within its Ads Manager platform that gives advertisers visibility into how individual creative components of their ads are performing, rather than just viewing aggregate results. Selecting the \"Media\" option reveals how specific images and videos performed as standalone assets, while a separate view shows performance by text variation, helping marketers identify which specific creative elements are driving results. The tool has some gaps: ads using multi-post formats like \"Show as collection\" or \"Show as carousel\" are excluded from this breakdown, and it doesn't provide insight for certain custom conversion actions such as \"Donate\" or \"Subscribe.\" This update follows Meta's move last week to let advertisers assign specific audience targeting to individual creative pieces within a campaign, even as the company simultaneously stripped away other manual targeting controls, including detailed targeting options, to push advertisers toward relying more heavily on its AI-driven ad delivery system for audience selection and optimization.",
+        "li_summary": "Meta added a new \"Breakdown\" feature in Ads Manager that lets advertisers see individual performance data for each image, video, and text variation within a single ad, excluding carousel and collection formats."
+      },
+      {
+        "title": "LinkedIn launches data insights hub",
+        "link": "https://www.socialmediatoday.com/news/linkedin-launches-data-insights-hub/872972/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T20:59:24",
+        "summary": "LinkedIn has relaunched its Economic Graph insights platform under the name LinkedIn Pulse, reusing a moniker previously tied to its 2015 creator publishing tool. The revamped hub pulls data from LinkedIn's 1.4 billion members, 71 million companies and 42,000 tracked skills to help businesses, governments and individuals spot emerging work trends and opportunities. CMO Jessica Jensen said the platform draws on LinkedIn's in-house economists, who already advise companies, policymakers and media on global labor market shifts, and is now being opened up more broadly so users can make better decisions about careers, teams or business strategy. As part of the relaunch, LinkedIn is partnering with journalists, including Scalable founder Kaya Yurieff, to produce deeper analysis on specific economic topics such as AI's impact on jobs. While the insights could prove useful for tracking workforce and market shifts, the reused Pulse name may cause some confusion given its earlier association with LinkedIn's long-form content publishing feature launched a decade ago, which has since faded from prominence.",
+        "li_summary": "LinkedIn has rebranded its Economic Graph as LinkedIn Pulse, a data hub drawing on 1.4 billion members, 71 million companies and 42,000 skills to track shifting labor market opportunities."
+      },
+      {
+        "title": "LinkedIn tests simplified UI",
+        "link": "https://www.socialmediatoday.com/news/linkedin-tests-simplified-ui/872969/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T20:42:14",
+        "summary": "LinkedIn has begun rolling out a test version of a simplified navigation experience across desktop and mobile, aimed at reducing menu clutter and better reflecting how users actually engage with the app. On desktop, several previously separate function menus have been merged, with a \"Profile\" tab now housing analytics, saved posts and settings, while a new \"More\" tab consolidates access to puzzle games, news, groups, events, newsletters and video. The mobile app's lower navigation bar mirrors these same consolidated listings. LinkedIn says the rollout will be gradual and vary by region and language, so not all users will see the changes immediately. Separately, LinkedIn is now displaying longer previews of text posts in the main feed before the \"see more\" cutoff kicks in, a shift that could boost engagement for creators and may also undercut the old \"broetry\" formatting trick, where posters used line breaks to hide their main point and bait clicks, since more text will now be visible upfront.",
+        "li_summary": "LinkedIn is testing a redesigned navigation menu that consolidates desktop and mobile function listings, merging profile, analytics, saved posts and settings under one tab, plus a new \"More\" tab for games, news, groups, events and video."
+      },
+      {
+        "title": "YouTube tests reduced payment threshold for creators",
+        "link": "https://www.socialmediatoday.com/news/youtube-tests-reduced-payment-threshold-for-creators/872965/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-27T19:19:41",
+        "summary": "YouTube has begun experimenting with a reduced minimum payment threshold for its Partner Program, allowing a randomly selected group of creators in the U.S., India, and Indonesia to cash out earnings once they hit $20, rather than waiting to reach the standard $100 minimum. The change takes effect with October 2026 payments, and any unused balance below the new threshold will simply carry over to the following month. Creators included in the test will get a notification and can monitor updated payment activity through YouTube Studio on mobile; those who'd rather stick with a higher payout threshold can adjust their preference manually in AdSense for YouTube. The move comes as Instagram ramps up its own long-form video push, positioning itself as a stronger competitor for both viewers and creators. Since YouTube's monetization infrastructure remains more mature than Instagram's, lowering the payout bar could help it retain smaller or newer creators by giving them faster, more flexible access to ad revenue, reinforcing its advantage as rival platforms try to lure talent away.",
+        "li_summary": "YouTube is testing a lower Partner Program payout threshold of $20 (down from $100) for a randomly selected group of creators in the U.S., India, and Indonesia starting with October 2026 payments."
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "articles": [
       {
@@ -200,59 +253,6 @@
         "published": "2026-10-21T19:03:06",
         "summary": "Meta has shared new details on Edits Plus, a paid subscription tier for its Edits video editing app that it first previewed last month alongside broader plans for add-on subscriptions. The package will unlock additional cloud storage and increased access to AI-powered creation tools, available to users with Instagram personal or professional creator accounts who sign up directly through the Edits mobile app. So far, Meta has confirmed only one specific benefit: 200GB of cloud storage, which lets creators sync, back up, and access editing projects across multiple devices on the same operating system, such as between iOS devices or between Android devices. Pricing has not yet been disclosed, and the subscription will initially roll out through limited testing rather than a full launch. Instagram chief Adam Mosseri has previously indicated that monetizing Edits was inevitable given the rising computing costs tied to running AI features, and Meta is expected to expand Edits Plus with additional perks over time to encourage more creators to subscribe.",
         "li_summary": "Meta detailed its upcoming Edits Plus subscription, which will offer 200GB of cloud storage and expanded AI tool usage within the Edits mobile app, though pricing remains unannounced ahead of limited testing."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-21",
-    "articles": [
-      {
-        "title": "Domino\u2019s links with Minecraft to push personal pizza via gaming",
-        "link": "https://www.marketingdive.com/news/dominos-links-with-minecraft-to-push-personal-pizza-via-gaming/833357/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-21T11:07:00",
-        "summary": "Domino's is partnering with \"Minecraft Dungeons II\" starting Oct. 26, connecting the campaign to its Detroit-style \"Domino\" personal pizza that launched Aug. 31, whose rectangular shape mirrors Minecraft's block aesthetic. Domino's Rewards members who buy a Domino can unlock exclusive in-game items, including an avatar skin, a cape, and a Cheesy Cube Pet, marking the game's first co-branded companion pet. The loyalty program, which grew to over 37 million active users in 2025 (up nearly 20% since its 2023 relaunch), is central to the promotion. From Oct. 26 to Nov. 4, Domino's will give away 2,000 game-download tokens daily to customers who purchase a Domino and submit proof via a microsite, also helping the brand gather first-party data from non-members. The campaign includes six collectible packaging designs featuring in-game characters and an upcoming interactive, game-themed redesign of the Domino's Tracker. Creators including Merrick Hanna, Daphne Le, JoshVFX, and the MacFarlane Brothers will produce social content, with the MacFarlane Brothers also starring in a 15-second TV spot. The collaboration will run across 19 global markets, with rollout details varying by region.",
-        "li_summary": "Domino's launches an Oct. 26 \"Minecraft Dungeons II\" tie-in across 19 markets, offering in-game items, 2,000 daily free game tokens through Nov. 4, and six collectible pizza boxes tied to its new rectangular Domino pizza."
-      },
-      {
-        "title": "TikTok shares Black Friday/Cyber Monday promotion tips",
-        "link": "https://www.socialmediatoday.com/news/tiktok-shares-black-fridaycyber-monday-promotion-tips/833546/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-20T21:52:30",
-        "summary": "TikTok has released a \"Road to Black Friday\" video series spotlighting three brands' strategies for driving holiday sales through TikTok Shop. Fashion retailer Princess Polly partners with hundreds of creators monthly and generated roughly 6,000 TikTok Shop creator videos in a single month, while fragrance brand Dossier works with thousands of creators, has over 80,000 videos live, and sends samples to between 1,000 and 5,000 creators each month. Appliance brand SharkNinja leans on TikTok Live to field shopper questions, collect feedback, and fine-tune content performance in real time. TikTok's accompanying data makes the case for this investment: #holidayshopping content jumped 263% month-over-month in September 2026, TikTok Shop listings surfaced in more than 100 billion U.S. searches with purchase intent during 2025, and last year's Black Friday/Cyber Monday weekend generated over $500 million in TikTok Shop sales. Sellers who ran livestreams saw 84% year-over-year sales growth, signaling TikTok's push to position Live shopping as a core holiday sales driver for brands this season.",
-        "li_summary": "TikTok launched a \"Road to Black Friday\" video series highlighting how Dossier, Princess Polly, and SharkNinja use TikTok Shop, creator partnerships, and Live streams, with holiday shopping content up 263% month-over-month in September 2026."
-      },
-      {
-        "title": "Australia prepares to sue social platforms over age violations",
-        "link": "https://www.socialmediatoday.com/news/australia-prepares-to-sue-social-platforms-over-age-violations/833545/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-20T21:46:56",
-        "summary": "Australia is moving toward legal action against major social platforms for failing to enforce its under-16 social media ban, which took effect in December 2025 as the world's first law of its kind. Communications Minister Anika Wells, who also serves as the nation's online safety regulator, confirmed she is collecting evidence for federal court proceedings against Meta, TikTok, Snapchat and YouTube. While platforms reported removing or suspending hundreds of thousands of suspected underage accounts after the law passed, early data suggested most young users still found ways to access these apps. The regulations require platforms to take \"reasonable steps\" to block underage users, but the vague wording leaves room for companies to contest liability, and the government has not specified which enforcement methods count as sufficient. To strengthen pressure on noncompliant platforms, Australia recently doubled the maximum penalty for violations to $70 million per breach. With legal action now looming, platforms may face stronger incentive to adopt more rigorous and verifiable age-verification systems rather than risk costly court battles and reputational damage.",
-        "li_summary": "Australia\u2019s government is preparing to sue Meta, TikTok, Snapchat and YouTube for failing to keep under-16 users off their platforms, with Communications Minister Anika Wells gathering evidence for federal court action and fines now doubled to $70 million per breach."
-      },
-      {
-        "title": "Instagram announces next phase of Rings creative talent awards",
-        "link": "https://www.socialmediatoday.com/news/instagram-announces-next-phase-of-rings-creative-talent-awards/833543/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-20T21:23:18",
-        "summary": "Instagram has detailed the next phase of its Rings program, a creator recognition initiative first launched in October 2025 to spotlight creative talent that shapes broader cultural trends rather than just producing viral content. For 2026, winners will be chosen by a panel of 14 industry judges, including fashion designer Donatella Versace and musician A$AP Rocky, who will evaluate creators based on originality, creative risk-taking, and cultural impact rather than follower counts alone. Selected winners will receive in-app promotion through custom profile design features that highlight their status, plus a physical gold ring crafted by jewelry designer Emily Adams Bode Aujla as a tangible symbol of recognition. Notably, the program doesn't allow public or community nominations, with selections made entirely by the judging panel, which keeps the process somewhat opaque and limits audience participation compared to typical creator award shows. Still, Instagram frames Rings as a way to honor the broader creative process, including setbacks and experimentation, not just finished output, positioning it as a tool to retain and motivate the platform's most original, culture-shaping creators.",
-        "li_summary": "Instagram unveiled its 2026 Rings creator awards, judged by a 14-person panel including Donatella Versace and A$AP Rocky, with winners receiving in-app profile promotion and a custom gold ring by designer Emily Adams Bode Aujla."
-      },
-      {
-        "title": "YouTube inks affiliate deal with AliExpress",
-        "link": "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-20T21:17:44",
-        "summary": "YouTube has partnered with AliExpress to bring the China-based retailer into its shopping affiliate program, which launched in 2022 and allows creators to tag eligible products in their videos to earn commissions on resulting sales. The collaboration begins in South Korea in March 2026, then expands to four additional markets: the United States, Brazil, the United Kingdom, and Germany, with further rollout tied to YouTube's broader affiliate program expansion, which aims to reach 35 markets by the end of 2026 following a UK launch in August and announcements at YouTube's Made On event. Creators will be able to tag AliExpress products across multiple categories, using bestseller and trending-item data to select products suited to their audiences, with viewers able to click directly from YouTube videos to AliExpress to complete purchases. AliExpress lists over 100 million products and has seen rapid growth, including a 50% year-over-year increase in U.S. gross merchandise value during its May 2026 promotional period, making this partnership potentially lucrative for both creators seeking new income streams and AliExpress seeking expanded reach.",
-        "li_summary": "YouTube added AliExpress to its creator shopping affiliate program, letting eligible creators tag products in videos and earn commissions, starting in South Korea in March 2026 before expanding to the US, UK, Brazil, and Germany."
-      },
-      {
-        "title": "Reddit adds AI-powered ad guidance tools",
-        "link": "https://www.socialmediatoday.com/news/reddit-adds-ai-powered-ad-guidance-tools/833532/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-20T19:26:06",
-        "summary": "Reddit has introduced new AI-driven features within its Ads Manager to help advertisers plan and optimize campaigns more efficiently. The campaign planner lets advertisers input campaign details and generate forecasts covering reach, impressions, and estimated costs before launch, alongside data on target audience activity levels and summaries of trending conversation themes within relevant subreddits. A second feature, the campaign optimization score, rates campaigns on a 0-100% scale with tailored recommendations for improvement; Reddit reports that campaigns scoring 80% or above achieved a 19.6% lower blended cost-per-acquisition compared to those scoring lower. The third addition, campaign budget optimization, automatically redistributes ad spend across ad groups, shifting more budget toward top-performing groups to maximize overall returns. Together, these tools aim to reduce the manual research and guesswork traditionally required to run effective Reddit ad campaigns, potentially making the platform more appealing to advertisers who previously found it difficult to gauge performance. Reddit confirmed that the campaign planner and optimization score tools are being rolled out to all advertisers throughout October, with budget optimization also now available as part of the broader Ads Manager update.",
-        "li_summary": "Reddit rolled out three AI tools in Ads Manager this October\u2014campaign planner, optimization score, and budget optimization\u2014with campaigns scoring 80%+ showing 19.6% lower blended CPA than lower-scoring ones."
       }
     ]
   }
