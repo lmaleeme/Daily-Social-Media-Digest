@@ -2,56 +2,64 @@
 """
 Daily Social Media News Digest
 --------------------------------
-Modes (DIGEST_TEST_MODE):
-  full                  Run the normal daily digest.
-  email_test            Send only a sample WhatsApp nudge email.
-  linkedin_text_test    Publish a clearly labelled text-only LinkedIn test.
-  linkedin_banner_test  Publish a clearly labelled LinkedIn test with banner.
+1. Pulls recent articles from configured RSS feeds
+2. Filters for items relevant to social media / platform news
+3. Fetches the FULL article text from the source link
+4. Writes an original executive summary (Anthropic API) — not the RSS
+   snippet, and not quoted text — with a "read more at source" link
+5. Keeps a rolling 5-day history so the page shows today + the last 4 days
+6. Posts today's highlights to LinkedIn (only if credentials are configured)
 
-Run manually: python main.py
-Scheduled by: .github/workflows/daily-digest.yml
+Run manually:  python main.py
+Scheduled by:  .github/workflows/daily-digest.yml
 """
 
 import os
 import re
 import json
 import datetime
-import html
 import feedparser
 import requests
 import trafilatura
 
 # ---------------------------------------------------------------------------
-# CONFIG
+# CONFIG — edit this section to add/remove sources or tune behavior
 # ---------------------------------------------------------------------------
 
 RSS_FEEDS = [
     "https://www.marketingdive.com/feeds/news/",
     "https://www.socialmediatoday.com/feeds/news/",
+    # Add more feeds here, e.g.:
+    # "https://www.adweek.com/feed/",
 ]
+
+# Only keep articles whose title/summary mentions one of these (case-insensitive).
 SOCIAL_KEYWORDS = [
     "social media", "instagram", "tiktok", "linkedin", "facebook", "meta",
     "twitter", " x ", "youtube", "snapchat", "pinterest", "reddit", "threads",
     "influencer", "algorithm", "creator economy", "platform update",
+    # Broader campaign/case-study language that MarketingDive's own "Social Media"
+    # topic page uses, even when a specific platform isn't named in the title:
     "social-first", "social series", "social content", "social campaign",
     "social strategy", "user-generated content", " ugc ", "viral", "creator",
     "brand partnership", "sponsored content",
 ]
-LOOKBACK_HOURS = 26
-MAX_ARTICLES = 6
-HISTORY_DAYS = 5
+
+LOOKBACK_HOURS = 26  # slight buffer past 24h so a daily run never misses items
+MAX_ARTICLES = 6     # cap on how many stories go into one day's digest
+HISTORY_DAYS = 5     # how many days of digests to keep on the page
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 ANTHROPIC_MODEL = "claude-sonnet-5"
 
 LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_AUTHOR_URN = os.environ.get("LINKEDIN_AUTHOR_URN")
-# LinkedIn REST API versions are YYYYMM. Override this variable if needed.
-LINKEDIN_API_VERSION = os.environ.get("LINKEDIN_API_VERSION", "202608")
 
 FACEBOOK_PAGE_ID = os.environ.get("FACEBOOK_PAGE_ID")
 FACEBOOK_PAGE_TOKEN = os.environ.get("FACEBOOK_PAGE_TOKEN")
 
+# Morning nudge: emails you the finished WhatsApp Channel post (text + banner)
+# so you can paste it into the Channel. WhatsApp has no official posting API.
 NUDGE_EMAIL_TO = os.environ.get("NUDGE_EMAIL_TO")
 SMTP_HOST = os.environ.get("SMTP_HOST")
 SMTP_PORT = os.environ.get("SMTP_PORT") or "465"
@@ -60,7 +68,6 @@ SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD")
 
 DIGEST_PAGE_TITLE = "Social Media News Digest"
 PUBLISHED_PAGE_URL = os.environ.get("PUBLISHED_PAGE_URL", "")
-DIGEST_TEST_MODE = (os.environ.get("DIGEST_TEST_MODE") or "full").strip().lower()
 
 OUTPUT_DIR = "docs"
 HISTORY_FILE = os.path.join(OUTPUT_DIR, "history.json")
@@ -71,12 +78,13 @@ HISTORY_FILE = os.path.join(OUTPUT_DIR, "history.json")
 # ---------------------------------------------------------------------------
 
 def fetch_recent_articles():
-    is_monday = datetime.date.today().weekday() == 0
-    lookback_hours = 78 if is_monday else LOOKBACK_HOURS
-    cutoff = (
-        datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
-        - datetime.timedelta(hours=lookback_hours)
-    )
+    # On Mondays, reach back far enough to cover the weekend gap (script doesn't
+    # run Sat/Sun), so Friday/weekend news isn't silently missed. Other weekdays
+    # use the normal short lookback.
+    is_monday = datetime.date.today().weekday() == 0  # Monday == 0
+    lookback_hours = 78 if is_monday else LOOKBACK_HOURS  # ~3.25 days covers Fri-Sun
+
+    cutoff = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None) - datetime.timedelta(hours=lookback_hours)
     articles = []
 
     for feed_url in RSS_FEEDS:
@@ -88,7 +96,10 @@ def fetch_recent_articles():
 
             title = entry.get("title", "").strip()
             summary_raw = entry.get("summary", "") or entry.get("description", "")
+            # Leading/trailing space added so the " x " keyword (X/Twitter) still
+            # matches when "X" is the very first or last word of the title.
             text_blob = f" {title} {summary_raw} ".lower()
+
             if not any(kw in text_blob for kw in SOCIAL_KEYWORDS):
                 continue
 
@@ -117,17 +128,16 @@ def _clean_html(raw):
 
 
 # ---------------------------------------------------------------------------
-# STEP 2: Fetch full article text
+# STEP 2: Fetch full article text from the source URL
 # ---------------------------------------------------------------------------
 
 def fetch_full_text(url):
+    """Download and extract the main article text. Falls back to '' on failure."""
     try:
         downloaded = trafilatura.fetch_url(url)
         if not downloaded:
             return ""
-        extracted = trafilatura.extract(
-            downloaded, include_comments=False, include_tables=False
-        )
+        extracted = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
         return extracted or ""
     except Exception as e:
         print(f"Full-text fetch failed for {url}: {e}")
@@ -135,7 +145,7 @@ def fetch_full_text(url):
 
 
 # ---------------------------------------------------------------------------
-# STEP 3: Summarise article with Anthropic
+# STEP 3: Write an original executive summary (not quoted, not RSS snippet)
 # ---------------------------------------------------------------------------
 
 def summarize_article(article):
@@ -143,10 +153,13 @@ def summarize_article(article):
     source_text = full_text if full_text else article["raw_summary"]
 
     if not ANTHROPIC_API_KEY:
+        # Fallback with no API key: trim what we have (not ideal, but functional)
         trimmed = source_text[:220].rsplit(" ", 1)[0] + "…"
         return {"long": trimmed, "short": trimmed[:120]}
 
+    # Cap input length to keep prompts small/cheap
     source_text = source_text[:6000]
+
     prompt = (
         "You are writing content for a daily social-media-news digest, read by busy "
         "marketing professionals. Read the article text below and respond in EXACTLY "
@@ -156,12 +169,19 @@ def summarize_article(article):
         "For SHORT: a single, information-dense sentence (roughly 25-35 words) "
         "covering what happened, the platform/company involved, and the concrete "
         "detail that matters most. This will stand ALONE next to the headline in a "
-        "LinkedIn post, so it must convey real substance by itself.\n\n"
+        "LinkedIn post, so it must convey real substance by itself — not a teaser "
+        "like 'here's what changed', but the actual news.\n\n"
         "For LONG: a ONE-MINUTE READ, about 150-180 words, written as a single "
-        "paragraph. Dense enough that the reader understands what happened.\n\n"
-        "Both: written entirely in your own words, with concrete specifics rather "
-        "than vague description. No filler, editorializing, or call-to-action.\n\n"
-        f"Title: {article['title']}\n\nArticle text:\n{source_text}"
+        "paragraph (no line breaks within it). Dense enough that the reader "
+        "genuinely understands what happened without opening the article.\n\n"
+        "Both: written ENTIRELY IN YOUR OWN WORDS (no copying or close paraphrasing "
+        "of source sentences, no direct quotes from the article), with concrete "
+        "specifics (numbers, dates, features, names) rather than vague description. "
+        "No throat-clearing openers, no restating the headline, no filler adjectives, "
+        "no editorializing, no call-to-action. Quotation marks, apostrophes, and any "
+        "punctuation are fine to use naturally within your sentences.\n\n"
+        f"Title: {article['title']}\n\n"
+        f"Article text:\n{source_text}"
     )
 
     response = requests.post(
@@ -179,22 +199,20 @@ def summarize_article(article):
         timeout=45,
     )
     if response.status_code >= 400:
-        print(f"Anthropic API error {response.status_code}: {response.text[:1000]}")
+        print(f"Anthropic API error {response.status_code}: {response.text}")
     response.raise_for_status()
     data = response.json()
-    raw_text = "".join(
-        block.get("text", "") for block in data.get("content", [])
-    ).strip()
+    raw_text = "".join(block.get("text", "") for block in data.get("content", [])).strip()
 
-    short_match = re.search(
-        r"SHORT:\s*(.+?)(?=\n\s*LONG:|\Z)", raw_text, re.DOTALL
-    )
-    long_match = re.search(r"LONG:\s*(.+)", raw_text, re.DOTALL)
+    # Plain-text SHORT:/LONG: format — no JSON, so quotes/apostrophes in the
+    # generated text can never break parsing the way escaped JSON strings can.
+    short_match = re.search(r'SHORT:\s*(.+?)(?=\n\s*LONG:|\Z)', raw_text, re.DOTALL)
+    long_match = re.search(r'LONG:\s*(.+)', raw_text, re.DOTALL)
     short_val = short_match.group(1).strip() if short_match else ""
     long_val = long_match.group(1).strip() if long_match else ""
 
     if not short_val and not long_val:
-        print(f"Summary parsing failed for '{article['title']}', using fallback")
+        print(f"Summary parsing found neither field for '{article['title']}', using fallback")
         clean_fallback = source_text[:220].rsplit(" ", 1)[0] + "…"
         short_val = clean_fallback[:150]
         long_val = clean_fallback
@@ -203,7 +221,7 @@ def summarize_article(article):
 
 
 # ---------------------------------------------------------------------------
-# STEP 4: Rolling history
+# STEP 4: Rolling history (today + previous days, up to HISTORY_DAYS)
 # ---------------------------------------------------------------------------
 
 def load_history():
@@ -219,53 +237,50 @@ def load_history():
 def update_history(today_articles):
     today_str = datetime.date.today().isoformat()
     history = load_history()
-    history = [day for day in history if day.get("date") != today_str]
+
+    # Drop any existing entry for today (handles re-runs on the same day)
+    history = [day for day in history if day["date"] != today_str]
+
     history.insert(0, {"date": today_str, "articles": today_articles})
     history = history[:HISTORY_DAYS]
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
+
     return history
 
 
 # ---------------------------------------------------------------------------
-# STEP 5: Build HTML digest page
+# STEP 5: Build HTML digest page (today + rolling history)
 # ---------------------------------------------------------------------------
 
 def build_html(history):
     days_html = ""
     for day in history:
-        date_label = datetime.date.fromisoformat(day["date"]).strftime(
-            "%A, %B %d, %Y"
-        )
+        date_label = datetime.date.fromisoformat(day["date"]).strftime("%A, %B %d, %Y")
         items_html = ""
         for a in day["articles"]:
-            title = html.escape(str(a.get("title", "")))
-            summary = html.escape(str(a.get("summary", "")))
-            link = html.escape(str(a.get("link", "")), quote=True)
-            source = html.escape(str(a.get("source", "source")))
             items_html += f"""
         <div class="item">
-          <h3>{title}</h3>
-          <p>{summary}</p>
-          <a class="src" href="{link}" target="_blank" rel="noopener">Read more at {source} →</a>
+          <h3>{a['title']}</h3>
+          <p>{a['summary']}</p>
+          <a class="src" href="{a['link']}" target="_blank" rel="noopener">Read more at {a['source']} →</a>
         </div>"""
         if not day["articles"]:
             items_html = '<p class="none">No qualifying social media news that day.</p>'
+
         days_html += f"""
       <section class="day">
         <h2>{date_label}</h2>
         {items_html}
       </section>"""
 
-    safe_page_title = html.escape(DIGEST_PAGE_TITLE)
-    return f"""<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{safe_page_title}</title>
+<title>{DIGEST_PAGE_TITLE}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap" rel="stylesheet">
@@ -287,18 +302,23 @@ def build_html(history):
 </style>
 </head>
 <body>
-  <h1>{safe_page_title}</h1>
+  <h1>{DIGEST_PAGE_TITLE}</h1>
   <div class="subtitle">Last {len(history)} day{'s' if len(history) != 1 else ''} of social media news, summarized</div>
   {days_html}
 </body>
 </html>"""
+    return html
 
 
 # ---------------------------------------------------------------------------
-# STEP 6: Social post content and banner
+# STEP 6: Post today's highlights to LinkedIn
 # ---------------------------------------------------------------------------
 
 def _to_bold_unicode(text):
+    """Convert ASCII letters/digits to Unicode 'Mathematical Bold' lookalikes.
+    LinkedIn's post API has no real bold formatting — this fakes it by using
+    different (but visually bold) Unicode characters, which render as bold
+    everywhere since they're just plain text under the hood."""
     bold_map = {}
     for i, c in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
         bold_map[c] = chr(0x1D400 + i)
@@ -309,12 +329,12 @@ def _to_bold_unicode(text):
     return "".join(bold_map.get(ch, ch) for ch in text)
 
 
+# Banner image: the digest title in Baloo Thambi 2 SemiBold, drawn as a picture,
+# because LinkedIn/Facebook posts are plain text and can't use custom fonts or sizes.
 BANNER_PATH = "/tmp/digest_banner.png"
 BANNER_FONT_PATH = "/tmp/BalooThambi2.ttf"
-BANNER_FONT_URL = (
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/"
-    "baloothambi2/BalooThambi2%5Bwght%5D.ttf"
-)
+BANNER_FONT_URL = ("https://raw.githubusercontent.com/google/fonts/main/ofl/"
+                   "baloothambi2/BalooThambi2%5Bwght%5D.ttf")
 
 
 def _banner_font(size, weight=600):
@@ -325,28 +345,32 @@ def _banner_font(size, weight=600):
         with open(BANNER_FONT_PATH, "wb") as f:
             f.write(r.content)
     font = ImageFont.truetype(BANNER_FONT_PATH, size)
-    try:
-        font.set_variation_by_axes([weight])
-    except Exception:
-        pass
+    font.set_variation_by_axes([weight])  # 600 = SemiBold
     return font
 
 
 def make_banner_image():
+    """Draw today's masthead banner. Returns the file path, or None if anything
+    goes wrong (the posts then fall back to text-only, so nothing breaks)."""
     try:
         from PIL import Image, ImageDraw
-        width, height = 1200, 627
+        W, H = 1200, 627  # LinkedIn's recommended 1.91:1 link/image size
         paper, ink, blue = (250, 247, 240), (26, 26, 26), (10, 102, 194)
-        img = Image.new("RGB", (width, height), paper)
-        draw = ImageDraw.Draw(img)
-        for y, thickness in ((52, 6), (66, 2), (height - 58, 2), (height - 72, 6)):
-            draw.rectangle([70, y, width - 70, y + thickness - 1], fill=ink)
+        img = Image.new("RGB", (W, H), paper)
+        d = ImageDraw.Draw(img)
+
+        # Double rules top and bottom, like a newspaper masthead
+        for y, t in ((52, 6), (66, 2), (H - 58, 2), (H - 72, 6)):
+            d.rectangle([70, y, W - 70, y + t - 1], fill=ink)
+
         title_font = _banner_font(150)
-        draw.text((width / 2, 210), "Social Media", font=title_font, fill=ink, anchor="mm")
-        draw.text((width / 2, 350), "News Digest", font=title_font, fill=ink, anchor="mm")
+        d.text((W / 2, 210), "Social Media", font=title_font, fill=ink, anchor="mm")
+        d.text((W / 2, 350), "News Digest", font=title_font, fill=ink, anchor="mm")
+
         today = datetime.date.today()
         date_str = f"{today.strftime('%B')} {today.day}, {today.year}"
-        draw.text((width / 2, 478), date_str, font=_banner_font(40), fill=blue, anchor="mm")
+        d.text((W / 2, 478), date_str, font=_banner_font(40), fill=blue, anchor="mm")
+
         img.save(BANNER_PATH)
         return BANNER_PATH
     except Exception as e:
@@ -355,221 +379,143 @@ def make_banner_image():
 
 
 def build_linkedin_post(today_articles, include_url=True, with_header=True):
+    # Each bullet carries a real one-liner (li_summary), but deliberately does NOT
+    # link to the original source directly — that would route readers away before
+    # they ever see sendcutpost.co.za. Instead, everything points to the digest
+    # page, which has the full summaries AND links out to each original source
+    # from there. This keeps the traffic funnel on your own site first.
+    # with_header=False is used when the banner image already carries the title.
     today = datetime.date.today().strftime("%B %d, %Y")
     lines = []
     if with_header:
         lines += [_to_bold_unicode(DIGEST_PAGE_TITLE), today, ""]
-    for article in today_articles:
-        lines.append(
-            f"• {_to_bold_unicode(article['title'])}: {article['li_summary']}"
-        )
+    for a in today_articles:
+        bold_title = _to_bold_unicode(a['title'])
+        lines.append(f"• {bold_title}: {a['li_summary']}")
     if PUBLISHED_PAGE_URL and include_url:
         lines.append(f"\nFull digest + sources: {PUBLISHED_PAGE_URL}")
     return "\n".join(lines)
 
 
-# ---------------------------------------------------------------------------
-# STEP 7: LinkedIn publishing via versioned Posts REST API
-# ---------------------------------------------------------------------------
-
 def post_to_linkedin(text, image_path=None, fallback_text=None):
-    """
-    Publish through LinkedIn's versioned /rest/posts endpoint.
-
-    This update deliberately prioritises reliable text publishing. The old
-    /v2/assets?action=registerUpload flow is retained for an optional banner
-    attempt, but if that legacy upload is rejected the post falls back to text.
-    """
     if not LINKEDIN_ACCESS_TOKEN or not LINKEDIN_AUTHOR_URN:
-        print("LinkedIn credentials missing: set LINKEDIN_ACCESS_TOKEN and LINKEDIN_AUTHOR_URN.")
-        return False
+        print("LinkedIn credentials not set — skipping post. Digest text:\n")
+        print(fallback_text or text)
+        return
 
-    if not LINKEDIN_AUTHOR_URN.startswith("urn:li:person:"):
-        print("LinkedIn author URN must be a person URN (urn:li:person:...).")
-        print("Check LINKEDIN_AUTHOR_URN; do not put the access token in this field.")
-        return False
+    # Uses LinkedIn's newer versioned REST APIs (rest/posts, rest/images), not the
+    # legacy /v2/ugcPosts endpoint — the legacy endpoint rejects the member ID format
+    # returned by the OpenID /userinfo lookup with an "author" field error.
+    # LINKEDIN_API_VERSION should be bumped periodically — LinkedIn sunsets
+    # versions after about a year. Check https://learn.microsoft.com/en-us/linkedin/
+    # if this starts returning a 426 NONEXISTENT_VERSION error.
+    LINKEDIN_API_VERSION = "202603"
 
-    image_asset = None
-
-    # Optional legacy image upload. If it fails, continue with a text post.
-    if image_path and os.path.isfile(image_path):
-        try:
-            upload_headers = {
-                "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
-                "X-Restli-Protocol-Version": "2.0.0",
-                "Content-Type": "application/json",
-            }
-            register_payload = {
-                "registerUploadRequest": {
-                    "recipes": ["urn:li:digitalmediaRecipe:feedshare-image"],
-                    "owner": LINKEDIN_AUTHOR_URN,
-                    "serviceRelationships": [{
-                        "relationshipType": "OWNER",
-                        "identifier": "urn:li:userGeneratedContent",
-                    }],
-                }
-            }
-            reg = requests.post(
-                "https://api.linkedin.com/v2/assets?action=registerUpload",
-                headers=upload_headers,
-                json=register_payload,
-                timeout=30,
-            )
-            if reg.status_code not in (200, 201):
-                print(
-                    f"LinkedIn image registration failed: {reg.status_code} "
-                    f"{reg.text[:1200]}"
-                )
-            else:
-                value = reg.json()["value"]
-                mechanism = value["uploadMechanism"][
-                    "com.linkedin.digitalmedia.uploading.MediaUploadHttpRequest"
-                ]
-                upload_url = mechanism["uploadUrl"]
-                candidate_asset = value["asset"]
-                binary_headers = dict(mechanism.get("headers", {}))
-                binary_headers.setdefault("Content-Type", "application/octet-stream")
-                with open(image_path, "rb") as image_file:
-                    upload = requests.put(
-                        upload_url, headers=binary_headers, data=image_file, timeout=60
-                    )
-                if upload.status_code in (200, 201, 202):
-                    image_asset = candidate_asset
-                    print("LinkedIn banner uploaded successfully.")
-                else:
-                    print(
-                        f"LinkedIn image upload failed: {upload.status_code} "
-                        f"{upload.text[:1200]}"
-                    )
-        except (requests.RequestException, KeyError, ValueError, OSError) as exc:
-            print(f"LinkedIn image step failed: {exc}")
-
-    # Use the image only if the legacy upload returned a usable asset.
-    # If image posting is rejected by the newer API, retry once as text.
     headers = {
         "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
-        "Linkedin-Version": LINKEDIN_API_VERSION,
-        "X-Restli-Protocol-Version": "2.0.0",
         "Content-Type": "application/json",
+        "X-Restli-Protocol-Version": "2.0.0",
+        "LinkedIn-Version": LINKEDIN_API_VERSION,
     }
 
-    def make_posts_payload(commentary, asset=None):
-        payload = {
-            "author": LINKEDIN_AUTHOR_URN,
-            "commentary": commentary,
-            "visibility": "PUBLIC",
-            "distribution": {
-                "feedDistribution": "MAIN_FEED",
-                "targetEntities": [],
-                "thirdPartyDistributionChannels": [],
-            },
-            "lifecycleState": "PUBLISHED",
-            "isReshareDisabledByAuthor": False,
-        }
-        if asset:
-            payload["content"] = {
-                "media": {
-                    "title": "Social Media News Digest",
-                    "id": asset,
-                }
-            }
-        return payload
-
-    post_text = text if image_asset else (fallback_text or text)
-    try:
-        response = requests.post(
-            "https://api.linkedin.com/rest/posts",
-            headers=headers,
-            json=make_posts_payload(post_text, image_asset),
-            timeout=30,
-        )
-
-        # If image media schema/access is not accepted, retry as a text-only post.
-        if response.status_code >= 400 and image_asset:
-            print(
-                f"LinkedIn image post failed: HTTP {response.status_code}: "
-                f"{response.text[:1200]}. Retrying as text only."
-            )
-            response = requests.post(
-                "https://api.linkedin.com/rest/posts",
+    # Optional: upload the banner image first (two steps: register, then upload)
+    image_urn = None
+    if image_path:
+        try:
+            init = requests.post(
+                "https://api.linkedin.com/rest/images?action=initializeUpload",
                 headers=headers,
-                json=make_posts_payload(fallback_text or text),
+                json={"initializeUploadRequest": {"owner": LINKEDIN_AUTHOR_URN}},
                 timeout=30,
             )
+            if init.status_code >= 300:
+                print(f"LinkedIn image register failed: {init.status_code} {init.text}")
+            else:
+                value = init.json()["value"]
+                with open(image_path, "rb") as f:
+                    up = requests.put(
+                        value["uploadUrl"],
+                        data=f.read(),
+                        headers={"Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
+                                 "Content-Type": "application/octet-stream"},
+                        timeout=60,
+                    )
+                if up.status_code >= 300:
+                    print(f"LinkedIn image upload failed: {up.status_code} {up.text}")
+                else:
+                    image_urn = value["image"]
+        except Exception as e:
+            print(f"LinkedIn image step error: {e}")
 
-        if response.status_code in (200, 201):
-            post_id = response.headers.get("x-restli-id", "(not returned)")
-            print(
-                "LinkedIn post published successfully"
-                + (" with banner." if image_asset else " (text only).")
-            )
-            print(f"LinkedIn post ID: {post_id}")
-            return True
+    body = {
+        "author": LINKEDIN_AUTHOR_URN,
+        # If the image didn't make it, use the version of the text that has its own title
+        "commentary": text if image_urn else (fallback_text or text),
+        "visibility": "PUBLIC",
+        "distribution": {
+            "feedDistribution": "MAIN_FEED",
+            "targetEntities": [],
+            "thirdPartyDistributionChannels": [],
+        },
+        "lifecycleState": "PUBLISHED",
+        "isReshareDisabledByAuthor": False,
+    }
+    if image_urn:
+        body["content"] = {"media": {"id": image_urn,
+                                     "altText": "Social Media News Digest masthead"}}
 
-        print(
-            f"LinkedIn post failed: HTTP {response.status_code}: "
-            f"{response.text[:1800]}"
-        )
-        if response.status_code == 403:
-            print(
-                "Check that the token includes w_member_social, the author URN "
-                "matches the token's member, and the app is entitled to the "
-                "versioned Posts API."
-            )
-        return False
-    except requests.RequestException as exc:
-        print(f"LinkedIn post request failed: {exc}")
-        return False
+    resp = requests.post("https://api.linkedin.com/rest/posts",
+                         headers=headers, json=body, timeout=30)
+    if resp.status_code >= 300:
+        print(f"LinkedIn post failed: {resp.status_code} {resp.text}")
+    else:
+        print("Posted to LinkedIn successfully" + (" (with banner)." if image_urn else "."))
 
-
-# ---------------------------------------------------------------------------
-# STEP 8: Facebook publishing (normal full mode only)
-# ---------------------------------------------------------------------------
 
 def post_to_facebook(text, image_path=None, fallback_text=None):
     if not FACEBOOK_PAGE_ID or not FACEBOOK_PAGE_TOKEN:
         print("Facebook credentials not set — skipping Facebook post.")
         return
 
-    facebook_api_version = "v26.0"
-    base = f"https://graph.facebook.com/{facebook_api_version}/{FACEBOOK_PAGE_ID}"
+    # Bump this occasionally — Meta retires old Graph API versions after ~2 years.
+    FACEBOOK_API_VERSION = "v26.0"
+    base = f"https://graph.facebook.com/{FACEBOOK_API_VERSION}/{FACEBOOK_PAGE_ID}"
+
     try:
+        # Preferred: photo post (banner + caption)
         if image_path:
-            with open(image_path, "rb") as image_file:
-                response = requests.post(
+            with open(image_path, "rb") as f:
+                resp = requests.post(
                     f"{base}/photos",
                     data={"caption": text, "access_token": FACEBOOK_PAGE_TOKEN},
-                    files={"source": image_file},
+                    files={"source": f},
                     timeout=60,
                 )
-            if response.status_code < 300:
+            if resp.status_code < 300:
                 print("Posted to Facebook successfully (with banner).")
                 return
-            print(f"Facebook photo post failed: {response.status_code} {response.text[:1000]}")
+            print(f"Facebook photo post failed: {resp.status_code} {resp.text}")
 
-        payload = {
-            "message": fallback_text or text,
-            "access_token": FACEBOOK_PAGE_TOKEN,
-        }
+        # Fallback: plain text post with a link preview card
+        payload = {"message": fallback_text or text, "access_token": FACEBOOK_PAGE_TOKEN}
         if PUBLISHED_PAGE_URL:
             payload["link"] = PUBLISHED_PAGE_URL
-        response = requests.post(f"{base}/feed", data=payload, timeout=30)
-        if response.status_code >= 300:
-            print(f"Facebook post failed: {response.status_code} {response.text[:1000]}")
+        resp = requests.post(f"{base}/feed", data=payload, timeout=30)
+        if resp.status_code >= 300:
+            print(f"Facebook post failed: {resp.status_code} {resp.text}")
         else:
             print("Posted to Facebook successfully.")
-    except Exception as exc:
-        print(f"Facebook post error: {exc}")
+    except Exception as e:
+        # Never let a Facebook hiccup stop the LinkedIn post or the web page build.
+        print(f"Facebook post error: {e}")
 
-
-# ---------------------------------------------------------------------------
-# STEP 9: WhatsApp post and email nudge
-# ---------------------------------------------------------------------------
 
 def build_whatsapp_post(today_articles):
+    # Same content as the other posts, but with WhatsApp's own *bold* markup,
+    # which renders properly in a Channel (the banner image carries the title).
     lines = []
-    for article in today_articles:
-        lines.append(f"• *{article['title']}*: {article['li_summary']}")
+    for a in today_articles:
+        lines.append(f"• *{a['title']}*: {a['li_summary']}")
         lines.append("")
     if PUBLISHED_PAGE_URL:
         lines.append(f"Full digest + sources: {PUBLISHED_PAGE_URL}")
@@ -577,20 +523,22 @@ def build_whatsapp_post(today_articles):
 
 
 def send_whatsapp_nudge(today_articles, image_path=None):
+    """Email the ready-to-paste WhatsApp Channel post (text in the body, banner
+    attached). Skips quietly if the email settings aren't configured."""
     if not (NUDGE_EMAIL_TO and SMTP_HOST and SMTP_USER and SMTP_PASSWORD):
         print("Morning nudge email not configured — skipping.")
-        return False
+        return
 
     try:
         import smtplib
         from email.message import EmailMessage
 
         today = datetime.date.today().strftime("%A, %B %d")
-        message = EmailMessage()
-        message["Subject"] = f"WhatsApp Channel post ready — {today}"
-        message["From"] = SMTP_USER
-        message["To"] = NUDGE_EMAIL_TO
-        message.set_content(
+        msg = EmailMessage()
+        msg["Subject"] = f"WhatsApp Channel post ready — {today}"
+        msg["From"] = SMTP_USER
+        msg["To"] = NUDGE_EMAIL_TO
+        msg.set_content(
             "Your WhatsApp Channel post is ready.\n\n"
             "1. Save the attached banner image.\n"
             "2. Copy the text below.\n"
@@ -599,13 +547,9 @@ def send_whatsapp_nudge(today_articles, image_path=None):
             + build_whatsapp_post(today_articles)
         )
         if image_path and os.path.exists(image_path):
-            with open(image_path, "rb") as image_file:
-                message.add_attachment(
-                    image_file.read(),
-                    maintype="image",
-                    subtype="png",
-                    filename="digest-banner.png",
-                )
+            with open(image_path, "rb") as f:
+                msg.add_attachment(f.read(), maintype="image", subtype="png",
+                                   filename="digest-banner.png")
 
         port = int(SMTP_PORT)
         if port == 465:
@@ -615,87 +559,49 @@ def send_whatsapp_nudge(today_articles, image_path=None):
             server.starttls()
         with server:
             server.login(SMTP_USER, SMTP_PASSWORD)
-            server.send_message(message)
+            server.send_message(msg)
         print("Morning nudge email sent.")
-        return True
-    except Exception as exc:
-        print(f"Morning nudge email failed: {exc}")
-        return False
+    except Exception as e:
+        # Never let an email problem stop the posts or the web page build.
+        print(f"Morning nudge email failed: {e}")
 
 
 # ---------------------------------------------------------------------------
-# STEP 10: Explicit test modes and main workflow
+# MAIN
 # ---------------------------------------------------------------------------
-
-def run_email_test():
-    sample = [{
-        "title": "TEST: sample WhatsApp Channel post",
-        "li_summary": (
-            "TEST ONLY — if you received this email, the nudge email setup works. "
-            "No social posts or website updates were made."
-        ),
-    }]
-    banner = make_banner_image()
-    send_whatsapp_nudge(sample, banner)
-
-
-def run_linkedin_test(with_banner):
-    if with_banner:
-        banner = make_banner_image()
-        text = (
-            "TEST POST — Social Media News Digest\n\n"
-            "This is a test of LinkedIn text publishing and banner image upload. "
-            "Please disregard; this is not a news update."
-        )
-        fallback = (
-            "TEST POST — Social Media News Digest\n\n"
-            "This is a text-only test of LinkedIn publishing. Please disregard."
-        )
-        post_to_linkedin(text, image_path=banner, fallback_text=fallback)
-    else:
-        text = (
-            "TEST POST — Social Media News Digest\n\n"
-            "This is a text-only test of LinkedIn publishing. Please disregard; "
-            "this is not a news update."
-        )
-        post_to_linkedin(text)
-
 
 def main():
-    print(f"Digest run mode: {DIGEST_TEST_MODE}")
-
-    # Isolated test modes exit before RSS, Anthropic, history, HTML, Facebook,
-    # or normal WhatsApp processing can run.
-    if DIGEST_TEST_MODE == "email_test":
-        run_email_test()
+    # Test switch (set from the "Run workflow" button): sends ONLY a sample nudge
+    # email, with no posts, no web page update and no history change.
+    if os.environ.get("NUDGE_TEST_ONLY") == "true":
+        sample = [{
+            "title": "TEST: this is a sample item",
+            "li_summary": "If you can read this, the morning nudge email works. Nothing was posted anywhere.",
+        }]
+        send_whatsapp_nudge(sample, make_banner_image())
         return
-    if DIGEST_TEST_MODE == "linkedin_text_test":
-        run_linkedin_test(with_banner=False)
-        return
-    if DIGEST_TEST_MODE == "linkedin_banner_test":
-        run_linkedin_test(with_banner=True)
-        return
-    if DIGEST_TEST_MODE != "full":
-        raise ValueError(
-            f"Unknown DIGEST_TEST_MODE '{DIGEST_TEST_MODE}'. "
-            "Use full, email_test, linkedin_text_test, or linkedin_banner_test."
-        )
 
     today_articles = fetch_recent_articles()
-    for article in today_articles:
-        summaries = summarize_article(article)
-        article["summary"] = summaries["long"]
-        article["li_summary"] = summaries["short"]
-        article.pop("raw_summary", None)
+    for a in today_articles:
+        summaries = summarize_article(a)
+        a["summary"] = summaries["long"]       # full one-minute read, shown on the web page
+        a["li_summary"] = summaries["short"]   # dense one-liner, shown in the LinkedIn post
+        a.pop("raw_summary", None)  # no longer needed once we have a real summary
 
     history = update_history(today_articles)
-    html_page = build_html(history)
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as html_file:
-        html_file.write(html_page)
 
+    html = build_html(history)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
+    # Weekday-only safety net: even though the schedule itself is Mon-Fri only,
+    # skip posting to LinkedIn if there's nothing to say (e.g. a quiet news day)
+    # rather than publishing an empty digest.
     if today_articles:
         banner = make_banner_image()
+        # With a banner the image carries the title, so the text starts at the bullets.
+        # Without one (or if the upload fails) the text-only version has its own title.
         post_to_linkedin(
             build_linkedin_post(today_articles, with_header=False),
             image_path=banner,
@@ -704,18 +610,14 @@ def main():
         post_to_facebook(
             build_linkedin_post(today_articles, with_header=False),
             image_path=banner,
-            fallback_text=build_linkedin_post(
-                today_articles, include_url=False, with_header=True
-            ),
+            fallback_text=build_linkedin_post(today_articles, include_url=False, with_header=True),
         )
         send_whatsapp_nudge(today_articles, banner)
     else:
-        print("No qualifying articles today — skipping LinkedIn and Facebook posts.")
+        print("No qualifying articles today — skipping LinkedIn post to avoid a blank digest.")
 
-    print(
-        f"Digest built with {len(today_articles)} article(s) today, "
-        f"{len(history)} day(s) in history."
-    )
+    print(f"Digest built with {len(today_articles)} article(s) today, "
+          f"{len(history)} day(s) in history.")
 
 
 if __name__ == "__main__":
