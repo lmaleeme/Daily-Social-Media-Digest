@@ -1,16 +1,23 @@
+
 name: Daily Social Media Digest
 
 on:
   schedule:
-    # Runs 07:00 UTC, Monday-Friday only — skips weekends since there's
-    # often little/no social media news to report on Sat/Sun.
+    # Runs at 07:00 UTC, Monday-Friday.
     - cron: "0 7 * * 1-5"
-  workflow_dispatch:   # lets you trigger it manually from the Actions tab
+
+  workflow_dispatch:
     inputs:
-      email_test_only:
-        description: "Only send a test nudge email (no posts, no page update)"
-        type: boolean
-        default: false
+      test_mode:
+        description: "Choose what to run"
+        type: choice
+        required: true
+        default: full
+        options:
+          - full
+          - email_test
+          - linkedin_text_test
+          - linkedin_banner_test
 
 permissions:
   contents: write
@@ -18,6 +25,7 @@ permissions:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -33,20 +41,27 @@ jobs:
       - name: Run digest script
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+
           PUBLISHED_PAGE_URL: ${{ vars.PUBLISHED_PAGE_URL }}
+
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
           FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+
           NUDGE_EMAIL_TO: ${{ secrets.NUDGE_EMAIL_TO }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          NUDGE_TEST_ONLY: ${{ inputs.email_test_only }}
+
+          DIGEST_TEST_MODE: ${{ inputs.test_mode || 'full' }}
+
         run: python main.py
 
       - name: Commit updated digest page
+        if: ${{ github.event_name == 'schedule' || inputs.test_mode == 'full' }}
         run: |
           git config user.name "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
