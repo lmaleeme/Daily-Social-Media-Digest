@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-29",
+    "articles": [
+      {
+        "title": "What influencer fatigue says about creator-driven marketing\u2019s next phase",
+        "link": "https://www.marketingdive.com/news/what-influencer-fatigue-says-about-creator-driven-marketings-next-phase/833864/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-10-28T13:39:00",
+        "summary": "A Nantucket shop's \"no influencers\" sign went viral in July, reigniting debate over so-called influencer fatigue, but data suggests the backlash hasn't dented actual engagement: 72% of young adults still follow influencers and 58% of consumers have bought products based on creator endorsements, according to industry research. The Association of National Advertisers projects U.S. creator-economy ad spend will reach $43.9 billion in 2026, with nearly 80% of brands working with one to 10 influencers at a time and over 80% of marketers planning budget increases in the next six to 12 months, per Sprout Social. Costs are climbing, though, driven by pricier PR packages, brand trips, and fees, plus new platform tools like Meta's creator-matching suite complicating partnerships. Whisker CMO Hew Loyd, whose Litter-Robot brand manages influencer relationships in-house (a rarity, done by only 16% of marketers per the ANA), says fatigue is real but distinct in-person versus in-feed, with brands now prioritizing audience fit over follower count, which data shows ranks lowest among partnership criteria.",
+        "li_summary": "Despite viral \"influencer fatigue\" debates like Nantucket's Four Winds Craft Guild \"no influencers\" sign, 72% of young consumers still follow influencers and U.S. creator-economy ad spend is projected to hit $43.9 billion by 2026, per the ANA."
+      },
+      {
+        "title": "Meta says its expanded processing capacity is driving ad results",
+        "link": "https://www.socialmediatoday.com/news/meta-says-its-expanded-processing-capacity-is-driving-ad-results/873133/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-28T22:44:02",
+        "summary": "Meta detailed how AI-driven upgrades to its ad delivery infrastructure are improving advertiser results, crediting expanded data processing capacity across systems like Andromeda, GEM, and GenRecs. In Q2 2026, ranking improvements produced an 8.3% rise in ad clicks and a 15.7% increase in conversions on Facebook, according to an October 28 announcement. Andromeda now evaluates a wider range of product matches per business, while GEM processes more user engagement signals, and GenRecs better predicts relevant promotions even for new ads lacking engagement history. In Q3, further Andromeda refinements lifted conversions 1.4%, and newly launched generative retrieval on Facebook Feed added nearly 2% more conversions in targeted segments. Separately, Meta said its AI business assistant, still rolling out to advertisers, is driving 5% more conversions at equivalent cost. Partnership ads, which let brands collaborate with creators, grew over 97% year-over-year in Q3 and now exceed a $15 billion annual revenue run-rate. Meta is also building checkout functionality into AI agents like Muse to enable more in-stream purchases.",
+        "li_summary": "Meta reported that Q2 2026 upgrades to its Andromeda, GEM, and GenRecs ad-ranking AI systems boosted Facebook ad clicks by 8.3% and conversions by 15.7%, with further Q3 gains from generative retrieval and its AI business assistant."
+      },
+      {
+        "title": "Reddit introduces For You feed",
+        "link": "https://www.socialmediatoday.com/news/reddit-introduces-for-you-feed/873132/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-28T22:42:30",
+        "summary": "Reddit is launching a new For You feed that uses algorithmic recommendations to surface subreddits and discussions users haven't yet discovered, positioned alongside the existing Following feed, which shows updates from communities users already joined. Notably, For You has been given the primary tab placement as Reddit pushes discovery, though the app isn't defaulting to it; instead, it opens to whichever feed a user last viewed. Reddit says the split gives users clearer control over whether they want to explore new content or catch up on familiar communities, framing the update as part of ongoing experiments to make the platform more engaging. The company plans to keep testing additional navigation and customization tools, including options to hide posts or flag content users want less of. Success depends on how well Reddit's prediction models match users with relevant content based on existing engagement data. The rollout comes amid broader industry debate over algorithmic feeds, and could face pressure if regulatory proposals pushing for algorithm opt-outs gain traction. The For You feed will roll out worldwide over the next several weeks.",
+        "li_summary": "Reddit is rolling out a new algorithm-powered For You feed globally over the coming weeks, placed alongside the existing Following feed for app discovery."
+      },
+      {
+        "title": "Meta\u2019s Muse AI agents are now available to users in Singapore",
+        "link": "https://www.socialmediatoday.com/news/metas-muse-ai-agents-are-now-available-to-users-in-singapore/873131/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-28T22:39:08",
+        "summary": "Meta has launched its Muse AI agent in Singapore, marking its first expansion into Southeast Asia after debuting in the U.S. and Canada last month, where it hit 10 million downloads within 30 days. In Singapore, users can link Muse to Gmail, Google Calendar and Instagram for managing emails, schedules and saved content, plus new local app connectors spanning shopping, groceries, dining and travel through partners including Shopee, Lazada, Grab, GrabMart, Grab Dine Out, Singapore Airlines, Agoda, Klook, Trip.com and ShopBack. Muse can research products, compare prices before purchases, organize grocery orders, suggest dining options, and help book travel or claim cashback and in-store deals. The expansion follows Meta CEO Mark Zuckerberg's comments on last week's earnings call that shopping is Muse's top use case, with over 25% of users seeking deal-finding or purchase help, averaging more than $200 per transaction. The move reflects Meta's broader push to prove returns on its AI investment, which could eventually top $1 trillion, by embedding Muse into everyday consumer habits across new global markets.",
+        "li_summary": "Meta expanded its Muse AI assistant to Singapore, its first Southeast Asia launch, adding integrations with Shopee, Grab, Singapore Airlines, Agoda, Klook, Trip.com and Lazada for shopping and travel tasks."
+      },
+      {
+        "title": "TikTok adds in-app restaurant guide",
+        "link": "https://www.socialmediatoday.com/news/tiktok-adds-in-app-restaurant-guide/873122/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-28T20:54:12",
+        "summary": "TikTok USDS has introduced Must Eat, a new in-app restaurant guide spotlighting community-recommended dining spots across several US regions, covering both everyday eats and elevated dining based on user engagement data. Users can browse by city and filter results by cuisine, price, score, and location, then access individual restaurant pages showing neighborhood details, pricing, and relevant TikTok videos tied to each location. Select restaurants can be booked directly within the app through an OpenTable integration, and users can save favorites to personal TikTok collections to build a custom list over time. The feature builds on TikTok's local feed, launched in February, which surfaces travel, event, restaurant, and shopping content from users' areas. TikTok cited data claiming 27 million Americans visited an independent restaurant, cafe, or shop for the first time last year after discovering it on the app, generating an estimated $4.7 billion in local spending. The move echoes Douyin, TikTok's Chinese counterpart, which launched a similar restaurant guide in 2023 before expanding into in-app food ordering, suggesting TikTok could eventually pursue direct food delivery partnerships to boost in-app commerce.",
+        "li_summary": "TikTok launched Must Eat, an in-app restaurant discovery guide letting US users browse, filter, and book via OpenTable, expanding on the platform's February local feed feature."
+      },
+      {
+        "title": "Meta launches two new AI apps, including one aimed at kids",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-two-new-ai-apps-including-one-aimed-at-kids/873118/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-10-28T20:41:35",
+        "summary": "Meta rolled out two experimental AI apps this week as part of its broader push to use internal AI models to speed up app development and code generation. Waddle World is a 16-bit-style virtual pet game aimed at kids, letting users hatch and raise a pet that remembers personal details and generates content based on individual interests; its iOS listing shows it collects location, contact info, and user ID data, and it's currently limited to the Philippines. Style Sketch, meanwhile, uses AI to build outfit combinations from clothes users already own, pulling images directly from Instagram posts or allowing manual entry, and is live in Indonesia, Singapore, and Thailand. Both apps raise data-privacy concerns given their reliance on personal information and AI-generated recommendations. They join other Meta test apps like Pocket (minigame generator), Vibes (AI video feed), StoryKit (bedtime stories), and a rumored prediction-markets app called Arena. Zuckerberg has said AI is accelerating Meta's product pipeline, following earlier launches like Instagram Instants, Forum, and Seller, with plans to scale successful experiments using Meta's recommendation systems.",
+        "li_summary": "Meta launched two AI-powered test apps this week \u2014 Waddle World, a virtual pet game for kids currently live only in the Philippines, and Style Sketch, an AI outfit generator tied to Instagram now available in Indonesia, Singapore and Thailand."
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "articles": [
       {
@@ -200,59 +253,6 @@
         "published": "2026-10-22T19:22:39",
         "summary": "LinkedIn has published a new 18-page guide aimed at helping B2B marketers better connect early buyer engagement signals to ad performance and investment decisions. The guide addresses the complexity of B2B buying journeys, which often involve multiple stakeholders, anonymous research, content consumption without clicks, and growing use of AI tools, all of which make traditional attribution models unreliable. LinkedIn cites internal research showing only 33% of B2B marketers strongly agree they can demonstrate marketing's impact to their C-suite, while 75% admit their current measurement systems are inadequate. To address this gap, the guide lays out five practical frameworks for tracking promotional performance, along with detailed steps for each. It also includes guidance on achieving \"full-funnel visibility\" across the buyer journey and a curated list of LinkedIn-approved attribution and analytics partners marketers can integrate for added context. While the resource offers genuinely useful, actionable steps for improving campaign tracking on LinkedIn, it also serves as a promotional tool highlighting the platform's own analytics products, some of which require a paid subscription to access.",
         "li_summary": "LinkedIn released an 18-page B2B ads attribution guide with five measurement frameworks, citing data that only 33% of B2B marketers can prove marketing impact to their C-suite while 75% say their tracking systems fall short."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-22",
-    "articles": [
-      {
-        "title": "Domino\u2019s links with Minecraft to push personal pizza via gaming",
-        "link": "https://www.marketingdive.com/news/dominos-links-with-minecraft-to-push-personal-pizza-via-gaming/833357/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-21T11:07:00",
-        "summary": "Domino's is partnering with \"Minecraft Dungeons II,\" the video game released Sept. 29, in a campaign launching Oct. 26 across 19 global markets to promote its new Domino personal pizza, which debuted Aug. 31 and is positioned for gaming-session meal occasions. Domino's Rewards members who buy a Domino can unlock exclusive in-game items, including an avatar skin, a cape and a Cheesy Cube Pet companion, marking the game's first co-branded partnership pet; the loyalty program closed 2025 with over 37 million active users, up nearly 20% since its 2023 relaunch. From Oct. 26 through Nov. 4, Domino's will give away 2,000 game-download tokens daily, with customers submitting purchase proof on a microsite for entry, helping the chain gather first-party data from non-members too. The push also features VFX creators Merrick Hanna, Daphne Le, JoshVFX and the Macfarlane Brothers across social and a 15-second TV spot, plus six collectible Minecraft-character boxes and an upcoming game-themed redesign of the Domino's Tracker. This follows Domino's earlier gaming tie-ins, including Twitch's Fortnite network and reviving its Noid character.",
-        "li_summary": "Domino's launches an Oct. 26 \"Minecraft Dungeons II\" collaboration across 19 global markets, offering in-game rewards, 2,000 daily free game-download tokens through Nov. 4, and VFX-creator content tied to its new rectangular Domino personal pizza."
-      },
-      {
-        "title": "Meta offers creative ad targeting for specific audiences",
-        "link": "https://www.socialmediatoday.com/news/meta-offers-creative-ad-targeting-for-specific-audiences/833672/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-21T22:30:35",
-        "summary": "Meta has rolled out a new Marketing API feature allowing third-party platforms and marketers to attach audience targeting details, specifically age range and gender, to individual creative elements like images and videos, rather than applying those parameters only at the ad set level. This means a financial services brand could designate retirement-planning videos for users aged 50 to 65 while keeping savings account content open to all ages, or a fashion retailer could point women's sweater images toward female users and men's sweater images toward male users. By embedding targeting instructions directly into the creative, Meta's ad delivery system can more precisely match specific visuals to specific users, potentially boosting relevance without marketers needing to build separate campaigns for each demographic slice. The change took effect this week. One possible complication is gift-buying behavior, especially heading into the holiday shopping season, since restricting creative by gender or age could limit visibility to people purchasing items for someone outside that target group, raising questions about how this might affect overall campaign reach and conversions during peak shopping periods.",
-        "li_summary": "Meta updated its Marketing API this week to let advertisers assign specific age-range and gender targeting directly to individual ad creatives rather than entire ad sets, aiming to improve visual relevance for each user shown an ad."
-      },
-      {
-        "title": "Meta adds users and revenue as AI costs climb",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-21T22:08:33",
-        "summary": "Meta's Q3 earnings showed continued ad strength alongside ballooning AI costs: daily active users across its apps grew by 40 million to 3.64 billion, with India now its largest market and Asia-Pacific ad impressions up 24% this year, while overall ad impressions rose 10% and ad prices climbed 14%, pushing revenue up 26% year-over-year to $64.6 billion. However, expenses jumped 68% year-over-year, largely from capital expenditures tied to Meta's AI buildout, which includes a previously announced $600 million-plus infrastructure commitment. Reality Labs revenue barely moved quarter-over-quarter, with AI glasses sales reportedly slowing amid misuse backlash, leaving Meta's Muse AI agent as a key hope for future monetization through transaction fees. Muse faces its own troubles",
-        "li_summary": "Meta's Q3 revenue climbed 26% year-over-year to $64.6 billion and daily active users reached 3.64 billion, even as AI infrastructure spending drove a 68% jump in expenses and headcount fell 15% to 66,775."
-      },
-      {
-        "title": "YouTube shares data on how creators are using AI",
-        "link": "https://www.socialmediatoday.com/news/youtube-shares-data-on-how-creators-are-using-ai/833657/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-21T20:00:56",
-        "summary": "YouTube released a new installment of its Culture & Trends series examining how creators incorporate AI into content creation, commissioning research firm NRG to survey almost 700 people aged 14 to 44 who had posted video online within the past year. The standout finding: 72% of these uploaders reported using AI on videos or images, while 61% expressed interest in using AI to digitally insert themselves into content, making this the most common use case among those who had already created AI videos, with over two-thirds confirming they'd featured themselves this way. Examples cited include people recasting themselves as doctors, judges, or superheroes through \"digital costume changes,\" designers using AI to visualize fashion concepts, creators placing themselves inside video game scenes, and a growing group of \"AI auteurs\" constructing entire cinematic universes from imagination. YouTube frames this as creative empowerment, though the report acknowledges tension between legitimate storytelling innovation and risks like misinformation or misleading depictions, alongside broader concerns about low-quality \"AI slop\" flooding the platform.",
-        "li_summary": "YouTube's new Culture & Trends report, based on an NRG survey of nearly 700 video uploaders aged 14-44, found 72% use AI tools on videos or images, with 61% specifically interested in inserting themselves into AI-generated content."
-      },
-      {
-        "title": "YouTube adds temporary pause for hacked accounts",
-        "link": "https://www.socialmediatoday.com/news/youtube-adds-temporary-pause-for-hacked-accounts/833651/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-21T19:37:54",
-        "summary": "YouTube has introduced an automated temporary pause feature designed to protect creators from account hijacking. When the platform detects unusual or unauthorized activity on a channel, it will immediately restrict several functions: uploading new content, starting livestreams, adding videos to playlists, creating custom thumbnails, and switching videos between private, unlisted, and public settings. This is meant to stop hackers from quickly locking out real owners and posting unwanted videos or streams. During the pause, YouTube's security team reviews the account, typically within 24 hours; if ownership is verified, full access returns immediately, and if hacking is confirmed, YouTube contacts the creator with recovery steps. Importantly, viewers can still watch and engage with existing channel content during the restriction, and monetization remains unaffected. Affected creators will see a notification banner inside YouTube Studio explaining the restriction, with a link to more details about the suspicious activity and guidance on recovering the account. The update adds a layer of security for creators who have invested years building audiences and revenue streams on the platform.",
-        "li_summary": "YouTube now automatically pauses uploads, livestreams, playlist edits, and thumbnail changes on channels showing suspicious activity, with security teams reviewing flagged accounts within 24 hours to restore or secure access."
-      },
-      {
-        "title": "Meta shares more information on Edits Plus subscriptions",
-        "link": "https://www.socialmediatoday.com/news/meta-shares-more-information-on-edits-plus-subscriptions/833646/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-21T19:03:06",
-        "summary": "Meta has shared new details on Edits Plus, a paid subscription tier for its Edits video editing app that it first previewed last month alongside broader plans for add-on subscriptions. The package will unlock additional cloud storage and increased access to AI-powered creation tools, available to users with Instagram personal or professional creator accounts who sign up directly through the Edits mobile app. So far, Meta has confirmed only one specific benefit: 200GB of cloud storage, which lets creators sync, back up, and access editing projects across multiple devices on the same operating system, such as between iOS devices or between Android devices. Pricing has not yet been disclosed, and the subscription will initially roll out through limited testing rather than a full launch. Instagram chief Adam Mosseri has previously indicated that monetizing Edits was inevitable given the rising computing costs tied to running AI features, and Meta is expected to expand Edits Plus with additional perks over time to encourage more creators to subscribe.",
-        "li_summary": "Meta detailed its upcoming Edits Plus subscription, which will offer 200GB of cloud storage and expanded AI tool usage within the Edits mobile app, though pricing remains unannounced ahead of limited testing."
       }
     ]
   }
