@@ -46,6 +46,8 @@ ANTHROPIC_MODEL = "claude-sonnet-5"
 
 LINKEDIN_ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_AUTHOR_URN = os.environ.get("LINKEDIN_AUTHOR_URN")
+# LinkedIn REST API versions are YYYYMM. Override this variable if needed.
+LINKEDIN_API_VERSION = os.environ.get("LINKEDIN_API_VERSION", "202608")
 
 FACEBOOK_PAGE_ID = os.environ.get("FACEBOOK_PAGE_ID")
 FACEBOOK_PAGE_TOKEN = os.environ.get("FACEBOOK_PAGE_TOKEN")
@@ -338,9 +340,7 @@ def make_banner_image():
         img = Image.new("RGB", (width, height), paper)
         draw = ImageDraw.Draw(img)
         for y, thickness in ((52, 6), (66, 2), (height - 58, 2), (height - 72, 6)):
-            draw.rectangle(
-                [70, y, width - 70, y + thickness - 1], fill=ink
-            )
+            draw.rectangle([70, y, width - 70, y + thickness - 1], fill=ink)
         title_font = _banner_font(150)
         draw.text((width / 2, 210), "Social Media", font=title_font, fill=ink, anchor="mm")
         draw.text((width / 2, 350), "News Digest", font=title_font, fill=ink, anchor="mm")
@@ -369,10 +369,17 @@ def build_linkedin_post(today_articles, include_url=True, with_header=True):
 
 
 # ---------------------------------------------------------------------------
-# STEP 7: LinkedIn publishing via self-service Share on LinkedIn API
+# STEP 7: LinkedIn publishing via versioned Posts REST API
 # ---------------------------------------------------------------------------
 
 def post_to_linkedin(text, image_path=None, fallback_text=None):
+    """
+    Publish through LinkedIn's versioned /rest/posts endpoint.
+
+    This update deliberately prioritises reliable text publishing. The old
+    /v2/assets?action=registerUpload flow is retained for an optional banner
+    attempt, but if that legacy upload is rejected the post falls back to text.
+    """
     if not LINKEDIN_ACCESS_TOKEN or not LINKEDIN_AUTHOR_URN:
         print("LinkedIn credentials missing: set LINKEDIN_ACCESS_TOKEN and LINKEDIN_AUTHOR_URN.")
         return False
@@ -382,16 +389,16 @@ def post_to_linkedin(text, image_path=None, fallback_text=None):
         print("Check LINKEDIN_AUTHOR_URN; do not put the access token in this field.")
         return False
 
-    base_url = "https://api.linkedin.com/v2"
-    headers = {
-        "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
-        "X-Restli-Protocol-Version": "2.0.0",
-        "Content-Type": "application/json",
-    }
     image_asset = None
 
+    # Optional legacy image upload. If it fails, continue with a text post.
     if image_path and os.path.isfile(image_path):
         try:
+            upload_headers = {
+                "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
+                "X-Restli-Protocol-Version": "2.0.0",
+                "Content-Type": "application/json",
+            }
             register_payload = {
                 "registerUploadRequest": {
                     "recipes": ["urn:li:digitalmediaRecipe:feedshare-image"],
@@ -403,8 +410,8 @@ def post_to_linkedin(text, image_path=None, fallback_text=None):
                 }
             }
             reg = requests.post(
-                f"{base_url}/assets?action=registerUpload",
-                headers=headers,
+                "https://api.linkedin.com/v2/assets?action=registerUpload",
+                headers=upload_headers,
                 json=register_payload,
                 timeout=30,
             )
@@ -419,62 +426,79 @@ def post_to_linkedin(text, image_path=None, fallback_text=None):
                     "com.linkedin.digitalmedia.uploading.MediaUploadHttpRequest"
                 ]
                 upload_url = mechanism["uploadUrl"]
-                image_asset = value["asset"]
-                upload_headers = dict(mechanism.get("headers", {}))
-                upload_headers.setdefault("Content-Type", "application/octet-stream")
-
+                candidate_asset = value["asset"]
+                binary_headers = dict(mechanism.get("headers", {}))
+                binary_headers.setdefault("Content-Type", "application/octet-stream")
                 with open(image_path, "rb") as image_file:
                     upload = requests.put(
-                        upload_url,
-                        headers=upload_headers,
-                        data=image_file,
-                        timeout=60,
+                        upload_url, headers=binary_headers, data=image_file, timeout=60
                     )
-                if upload.status_code not in (200, 201, 202):
+                if upload.status_code in (200, 201, 202):
+                    image_asset = candidate_asset
+                    print("LinkedIn banner uploaded successfully.")
+                else:
                     print(
                         f"LinkedIn image upload failed: {upload.status_code} "
                         f"{upload.text[:1200]}"
                     )
-                    image_asset = None
-                else:
-                    print("LinkedIn banner uploaded successfully.")
         except (requests.RequestException, KeyError, ValueError, OSError) as exc:
-            image_asset = None
             print(f"LinkedIn image step failed: {exc}")
 
+    # Use the image only if the legacy upload returned a usable asset.
+    # If image posting is rejected by the newer API, retry once as text.
+    headers = {
+        "Authorization": f"Bearer {LINKEDIN_ACCESS_TOKEN}",
+        "Linkedin-Version": LINKEDIN_API_VERSION,
+        "X-Restli-Protocol-Version": "2.0.0",
+        "Content-Type": "application/json",
+    }
+
+    def make_posts_payload(commentary, asset=None):
+        payload = {
+            "author": LINKEDIN_AUTHOR_URN,
+            "commentary": commentary,
+            "visibility": "PUBLIC",
+            "distribution": {
+                "feedDistribution": "MAIN_FEED",
+                "targetEntities": [],
+                "thirdPartyDistributionChannels": [],
+            },
+            "lifecycleState": "PUBLISHED",
+            "isReshareDisabledByAuthor": False,
+        }
+        if asset:
+            payload["content"] = {
+                "media": {
+                    "title": "Social Media News Digest",
+                    "id": asset,
+                }
+            }
+        return payload
+
     post_text = text if image_asset else (fallback_text or text)
-    share_content = {
-        "shareCommentary": {"text": post_text},
-        "shareMediaCategory": "IMAGE" if image_asset else "NONE",
-    }
-    if image_asset:
-        share_content["media"] = [{
-            "status": "READY",
-            "media": image_asset,
-            "title": {"text": "Social Media News Digest"},
-            "description": {"text": "Social Media News Digest banner"},
-        }]
-
-    payload = {
-        "author": LINKEDIN_AUTHOR_URN,
-        "lifecycleState": "PUBLISHED",
-        "specificContent": {
-            "com.linkedin.ugc.ShareContent": share_content
-        },
-        "visibility": {
-            "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
-        },
-    }
-
     try:
         response = requests.post(
-            f"{base_url}/ugcPosts",
+            "https://api.linkedin.com/rest/posts",
             headers=headers,
-            json=payload,
+            json=make_posts_payload(post_text, image_asset),
             timeout=30,
         )
-        if response.status_code == 201:
-            post_id = response.headers.get("X-RestLi-Id", "(not returned)")
+
+        # If image media schema/access is not accepted, retry as a text-only post.
+        if response.status_code >= 400 and image_asset:
+            print(
+                f"LinkedIn image post failed: HTTP {response.status_code}: "
+                f"{response.text[:1200]}. Retrying as text only."
+            )
+            response = requests.post(
+                "https://api.linkedin.com/rest/posts",
+                headers=headers,
+                json=make_posts_payload(fallback_text or text),
+                timeout=30,
+            )
+
+        if response.status_code in (200, 201):
+            post_id = response.headers.get("x-restli-id", "(not returned)")
             print(
                 "LinkedIn post published successfully"
                 + (" with banner." if image_asset else " (text only).")
@@ -488,9 +512,9 @@ def post_to_linkedin(text, image_path=None, fallback_text=None):
         )
         if response.status_code == 403:
             print(
-                "Permission check: confirm the app has Share on LinkedIn access, "
-                "the token was authorised with w_member_social, and the author URN "
-                "belongs to the same member who authorised the token."
+                "Check that the token includes w_member_social, the author URN "
+                "matches the token's member, and the app is entitled to the "
+                "versioned Posts API."
             )
         return False
     except requests.RequestException as exc:
