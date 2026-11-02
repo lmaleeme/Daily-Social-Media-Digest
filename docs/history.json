@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-02",
+    "articles": [
+      {
+        "title": "What Reddit\u2019s Q3 earnings mean for marketers amid major traffic shift",
+        "link": "https://www.marketingdive.com/news/what-reddits-q3-earnings-mean-for-marketers-amid-major-traffic-shift/873386/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-02T14:55:00",
+        "summary": "Reddit's Q3 earnings discussion revealed a strategic pivot toward requiring users to log in to access the platform, moving away from allowing anonymous, logged-out browsing. The company frames this shift as a response to declining logged-out traffic and user loss, positioning it instead as an opportunity to build a smaller but more engaged, identifiable user base that advertisers can target more effectively. For marketers, this means Reddit's audience data will likely become richer and more reliable, since logged-in users provide better behavioral and demographic signals than anonymous visitors, improving targeting precision and measurement. However, the trade-off is a probable reduction in overall reach and top-line traffic numbers, since logged-out users\u2014often arriving via search engines\u2014previously inflated Reddit's scale. Marketers evaluating Reddit as an ad channel should expect a smaller but higher-intent audience, and should reassess campaign goals around engagement quality rather than raw impression volume, while watching upcoming earnings calls for concrete metrics on how this transition affects user counts, ad revenue, and advertiser demand on the platform.",
+        "li_summary": "Reddit is shifting toward a logged-in-only platform experience, restricting access for logged-out visitors, aiming to curb user attrition and build a more advertiser-valuable, identifiable audience base."
+      },
+      {
+        "title": "X launches new bonus program for video creators",
+        "link": "https://www.socialmediatoday.com/news/x-launches-new-bonus-program-for-video-creators/873404/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-01T22:37:37",
+        "summary": "X has introduced a new monetization initiative aimed at growing its video content ecosystem by offering cash bonuses to a select group of invited creators. Under this reward-based program, eligible users receive direct cash incentives simply for posting videos to the platform, rather than through traditional ad-revenue sharing models. The move signals X's continued push to compete with platforms like YouTube, TikTok, and Instagram Reels by encouraging more creators to prioritize video uploads. Details on specific payout amounts, eligibility criteria, and how creators are selected for invitations have not been fully disclosed, but the program appears designed to incentivize volume and consistency of video posting rather than performance metrics alone. This approach differs from X's existing ad-share program, which ties payouts to engagement and impressions. By directly rewarding video uploads, X may be attempting to quickly build out its video library and keep creators active on the platform amid ongoing competition for attention in the short-form and long-form video space.",
+        "li_summary": "X rolled out an invite-only bonus program paying selected creators cash rewards for posting videos on the platform, aiming to boost video content and engagement."
+      },
+      {
+        "title": "Meta hires bipartisan political team",
+        "link": "https://www.socialmediatoday.com/news/meta-hires-bipartisan-political-team/873403/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-01T22:32:59",
+        "summary": "Axios reports that Meta has brought on multiple new executives who have significant connections to major figures across both the Democratic and Republican parties, signaling a deliberate push to strengthen its political relationships on both sides of the aisle. The hires reflect Meta's ongoing effort to navigate a polarized Washington landscape, where the company faces scrutiny over content moderation, antitrust concerns, and data privacy regulations regardless of which party holds power. By recruiting people with established ties to both political camps, Meta appears to be positioning itself to maintain influence and access no matter the outcome of future elections or shifts in control of Congress and the White House. The move comes as tech companies broadly continue to invest heavily in government relations and lobbying teams, aiming to shape policy debates on AI regulation, platform accountability, and competition law. Specific names and titles of the new hires were not detailed in the available reporting, but the pattern suggests a calculated bipartisan staffing strategy inside Meta's policy division.",
+        "li_summary": "Meta has hired several new executives with close ties to prominent Democratic and Republican political figures, according to an Axios report on the company's expanding bipartisan political operation."
+      },
+      {
+        "title": "Instagram offers to pay creators for long-form content",
+        "link": "https://www.socialmediatoday.com/news/instagram-offers-to-pay-creators-for-long-form-content/873402/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-01T22:29:02",
+        "summary": "Business Insider reports that Meta is courting top creators with substantial cash incentives, offering as much as $500,000 to individuals willing to publish long-form video content on its newly introduced Features product within Instagram. The offers reportedly target creators with significant followings, aiming to seed the platform with quality long-form content early on. This move signals Meta\u2019s push to compete more directly with YouTube and TikTok, both of which have invested heavily in creator monetization programs tied to longer video formats. While exact terms, number of participating creators, and duration of these deals remain unclear, the scale of the payouts suggests Meta is prioritizing rapid content buildup over organic growth for this new offering. For marketers and brands, this development hints at a potential new advertising and partnership surface within Instagram, as well as a possible shift in creator strategy toward longer, more in-depth content rather than short clips, which could reshape influencer campaign planning in the months ahead.",
+        "li_summary": "Instagram, per Business Insider, is dangling payouts of up to $500,000 to select creators who post long-form video content to Meta\u2019s newly launched Features product."
+      },
+      {
+        "title": "Reddit looks to move toward a logged-in experience",
+        "link": "https://www.socialmediatoday.com/news/reddit-looks-to-move-toward-a-logged-in-experience/873400/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-01T20:28:30",
+        "summary": "Reddit's latest quarterly results reveal a mixed picture that's pushing the company to rethink how people access its platform. In Q3, U.S. weekly active unique visitors fell, and traffic coming from search engines\u2014historically a major discovery channel for Reddit threads\u2014saw a significant decline, likely tied to changes in how Google and other search platforms surface content. Despite these usage pressures, Reddit's revenue grew by more than 50% compared to the same period last year, showing that monetization efforts, including advertising and data-licensing deals, are still paying off even as raw traffic softens. In response, Reddit executives are signaling a strategic pivot: encouraging more visitors to log in rather than browse anonymously or arrive via search snippets. A logged-in base would give Reddit more reliable engagement data, stronger personalization, and better advertising targeting, while reducing dependence on unpredictable search-referral traffic that's incre",
+        "li_summary": "Reddit is shifting strategy toward a logged-in user experience after its Q3 report showed U.S. weekly active users declining and search-referral traffic dropping sharply, even though total revenue still climbed more than 50% year-over-year."
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "articles": [
       {
@@ -208,51 +253,6 @@
         "published": "2026-10-26T22:23:24",
         "summary": "Pinterest has rolled out a new programmatic advertising partnership designed to make its ad inventory available through third-party buying platforms, rather than requiring advertisers to run Pinterest-specific campaigns. Facilitated by Magnite, the new offering, called Programmatic Deals, lets advertisers purchase selected Pinterest display and video inventory alongside their other campaigns through major supply-side and demand-side platforms, including Yahoo DSP, Amazon Ads DVA+ and Google Display and Video 360. This means ads bought through these external platforms can now appear in relevant Pinterest placements automatically, integrating Pinterest into the planning, buying and measurement workflows that many enterprise marketers already rely on. For Pinterest, the move opens a potentially significant new revenue stream by exposing its inventory to a much broader pool of programmatic buyers, while also giving the company a chance to showcase its platform's advertising performance to brands that may not have previously considered it. Programmatic Deals are currently live in North America, South America and Asia Pacific, with Pinterest directing interested advertisers to reach out to its sales representatives for more details on access and setup.",
         "li_summary": "Pinterest launched Programmatic Deals via Magnite, letting advertisers buy its display and video inventory through Yahoo DSP, Amazon Ads DVA+ and Google Display and Video 360 across North America, South America and Asia Pacific."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-26",
-    "articles": [
-      {
-        "title": "Edits comes to iPhone Duo and desktop",
-        "link": "https://www.socialmediatoday.com/news/edits-comes-to-iphone-duo-and-desktop/833909/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-25T22:19:42",
-        "summary": "Meta rolled out two updates to its Edits video editing app this week. The first is a version built specifically for Apple's iPhone Duo foldable, letting users view their editing timeline and preview side by side thanks to the device's larger, adaptive screen; Meta says the interface adjusts around the phone's crease so editing stays usable in different folded positions. Separately, creator Taylor Golub posted a screenshot revealing Meta's in-development desktop version of Edits, which is now in limited live testing with select creators after being first announced back in June. The desktop layout gives users a wider view of editing tools and timeline elements on one screen, aiming to streamline how the app's various creation features work together. Instagram head Adam Mosseri responded to Golub's post, saying he sees the desktop build as a foundation Meta can expand on with many additional features going forward, suggesting Edits' desktop rollout is still early but central to the app's longer-term roadmap.",
-        "li_summary": "Meta launched a dedicated iPhone Duo version of its Edits video app with a foldable-friendly interface, while also testing a new desktop version that Instagram chief Adam Mosseri says will anchor future feature development."
-      },
-      {
-        "title": "X provides holiday campaign tips",
-        "link": "https://www.socialmediatoday.com/news/x-provides-holiday-campaign-tips/833908/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-25T22:17:34",
-        "summary": "X held a webinar last week sharing holiday advertising guidance for marketers, emphasizing that attention and shopping intent peak simultaneously on the platform while users remain unusually receptive to brand messaging during this period. The company presented data on last year's holiday shopping engagement trends, peak activity windows, and audience demographics to help advertisers time campaigns effectively. X also addressed the growing role of AI in shopping decisions, advising brands to describe their products in plain, comparable language so AI models can easily summarize and recommend them. For ad creative, X recommended keeping copy to 50-100 characters (roughly one sentence), writing in a conversational tone rather than overselling, and using urgency tactics like limited-time offers paired with clear calls to action. The platform also advised eliminating distractions that pull focus from the primary conversion goal, directing traffic to a single destination like a website or app. Notably, X said advertisers should avoid tagging other accounts, since tags offer an \"exit\" from the ad, and confirmed that hashtags and multiple emojis remain prohibited in paid ads for similar reasons.",
-        "li_summary": "X hosted a webinar last week offering holiday campaign guidance, recommending 50-100 character ads, plain-language product descriptions for AI discoverability, and avoiding tags, hashtags, and multiple emojis in ads."
-      },
-      {
-        "title": "TikTok US shares Q2 account enforcement data",
-        "link": "https://www.socialmediatoday.com/news/tiktok-us-shares-q2-account-enforcement-data/833907/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-25T22:13:46",
-        "summary": "TikTok's U.S.-based management arm, TikTok USDS, released its second Platform Security and Community Guidelines Report, covering April through June 2025, following its first report in July for Q1. The data shows sharp increases in enforcement activity: 14.6 million fake accounts removed, 64.8 million spam accounts blocked before creation, 781.4 million fake followers deleted, and 403.2 million fraudulent follow requests prevented. Video takedowns and livestream warnings or demonetizations also rose compared to Q1. The leading cause for video removal was violations involving regulated goods and services\u2014covering drugs, alcohol, gambling, counterfeit items, risky financial products, and services selling fake engagement\u2014followed by sexualized content and body exposure, consistent with prior-quarter trends. TikTok also reported disrupting 30 covert influence operations designed to manipulate public opinion, leading to the removal of more than 76,000 accounts and 4.8 million posts. This enforcement push comes as TikTok ramps up election-integrity efforts ahead of the U.S. midterms, including a newly announced Election Mission Control Center to monitor and respond to emerging manipulation risks amid ongoing scrutiny of its U.S. ownership structure.",
-        "li_summary": "TikTok USDS's second quarterly enforcement report (April 1\u2013June 30) shows it removed 14.6 million fake accounts, blocked 64.8 million spam account creations, deleted 781.4 million fake followers, and dismantled 30 covert influence networks linked to over 76,000 accounts."
-      },
-      {
-        "title": "Meta says advertisers should let campaigns gather data",
-        "link": "https://www.socialmediatoday.com/news/meta-says-advertisers-should-let-campaigns-gather-data/833906/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-25T22:11:16",
-        "summary": "Meta released a holiday season best-practices guide advising advertisers to stop tweaking ad campaigns prematurely and instead give its ad system sufficient time and data to optimize performance. The guide stresses treating each campaign setup like a detailed brief, with clearly defined optimization goals, budgets, bid strategies, and attribution settings from the outset. Meta's key data point: ad sets generating fewer than roughly 50 conversions per week ran about 28% more expensive per purchase, since the algorithm lacks enough signal to target efficiently below that volume. The company also cited last year's shopping trends, noting 42% of consumers said they'd planned to cut holiday spending, yet overall spend rose 4.2% year over year. Meta recommends using A/B testing or Conversion Lift studies to properly evaluate results rather than making reactive changes based on early dashboard fluctuations. The overall message asks marketers to trust Meta's automated systems more and intervene less, arguing that clear upfront instructions and patience\u2014rather than constant monitoring\u2014drive stronger peak-season campaign outcomes.",
-        "li_summary": "Meta's new holiday best-practices guide urges advertisers to resist adjusting campaigns too quickly, recommending at least 50 conversions per week per ad set, since underperforming sets below that threshold cost about 28% more per purchase."
-      },
-      {
-        "title": "Meta delays business terms update over data scraping concerns",
-        "link": "https://www.socialmediatoday.com/news/meta-delays-business-terms-update-over-data-scraping-concerns/833905/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-25T20:53:49",
-        "summary": "Meta has delayed its updated commercial terms of service, originally set to take effect Oct 30, pushing the launch to Nov 20 after backlash from publishers, advertisers, and regulators. The dispute centers on language permitting Meta to use bots, crawlers, and automated tools to access and periodically pull data from any domain or webpage connected to a business's use of Facebook or Instagram, then use that content to develop, train, and maintain its products. Critics, including the European Publishers Council and the UK's Competition and Markets Authority, warned this could effectively authorize Meta to scrape virtually any business website for AI training purposes. Meta called the backlash a misunderstanding, insisting the terms merely consolidate existing language for clarity and aren't tied to AI training; last week it already revised the wording to remove explicit training references. The company faces existing lawsuits over alleged use of copyrighted material to train its AI models, which intensified scrutiny of this update. Meta says businesses can still block crawlers via robots.txt files and that existing legal protections remain intact, but it now must explain the terms further to EU and UK authorities before relaunching.",
-        "li_summary": "Meta postponed its updated commercial terms of service from Oct 30 to Nov 20 after publishers, advertisers, and EU/UK regulators warned the language could let it scrape data from any business website using Facebook or Instagram."
       }
     ]
   }
