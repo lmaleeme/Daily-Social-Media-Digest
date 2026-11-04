@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-04",
+    "articles": [
+      {
+        "title": "Reddit tests ads in search results",
+        "link": "https://www.socialmediatoday.com/news/reddit-tests-ads-in-search-results/873676/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-03T23:31:16",
+        "summary": "Reddit has begun testing a new ad format that places sponsored content directly within its search results pages, giving advertisers a way to reach users at the exact moment they're searching for information, products, or recommendations on the platform. The move comes as Reddit's internal search usage has reportedly been declining, likely due to users increasingly relying on external search engines and AI tools to surface Reddit content rather than searching within the app or site itself. By introducing ads into search, Reddit is attempting to create a new monetization opportunity tied to high-intent user behavior, since people actively searching are often further along in a decision-making or research process than those simply scrolling their feeds. This test reflects Reddit's broader push to diversify and grow its advertising business beyond traditional feed and display placements, as the company continues working to prove its value to marketers and sustain revenue growth following its 2024 public listing, even as organic search referrals to the platform face pressure from shifting search habits.",
+        "li_summary": "Reddit is piloting advertisements within its on-platform search results, aiming to connect brands with users during active discovery moments even as the company's internal search traffic declines."
+      },
+      {
+        "title": "LinkedIn shares information on new creator insights options",
+        "link": "https://www.socialmediatoday.com/news/linkedin-shares-information-on-new-creator-insights-options/873675/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-03T23:25:51",
+        "summary": "LinkedIn has introduced updated analytics features aimed at creators, giving them deeper insight into how their content performs and where they can find new ways to monetize their presence on the platform. The refreshed insights dashboard is built to help creators better interpret post-level metrics, making it easier to understand audience engagement patterns and content reach over time. Alongside improved performance tracking, LinkedIn is positioning these updates as a gateway to additional monetization opportunities, suggesting the platform wants to give creators clearer data to inform decisions about brand partnerships, content strategy, and audience growth. While specific metrics or dashboard features weren't detailed extensively, the update reflects LinkedIn's broader push to compete with other platforms investing heavily in creator economy tools, such as YouTube, TikTok, and Instagram, all of which have rolled out similar analytics expansions recently. For marketers and professionals building personal brands on LinkedIn, this update could mean more actionable data to refine content approaches and better justify time investment in platform-specific strategies.",
+        "li_summary": "LinkedIn rolled out updated creator analytics tools designed to help users better track post performance metrics and identify new monetization opportunities on the platform."
+      },
+      {
+        "title": "Meta ends support for Quest 2 and Quest Pro",
+        "link": "https://www.socialmediatoday.com/news/meta-ends-support-for-quest-2-and-quest-pro/873674/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-03T23:22:24",
+        "summary": "Meta announced it is discontinuing support for the Quest 2 and Quest Pro headsets, meaning both devices will no longer receive software updates, feature additions, or technical assistance from the company going forward. This move signals a strategic pivot as Meta concentrates its engineering and development resources on a next-generation VR headset that is expected to launch sometime next year. The decision effectively retires two of Meta's more established VR products, the budget-friendly Quest 2 and the higher-end, enterprise-oriented Quest Pro, both of which have been central to the company's mixed reality lineup for the past few years. While Meta has not detailed the full specifications or pricing for the upcoming headset, ending support for these older models suggests the new device will likely incorporate updated hardware and software architecture that diverges significantly from the current Quest ecosystem. Users still relying on Quest 2 or Quest Pro should expect their devices to function as-is without further improvements, bug fixes, or compatibility updates for newer apps and features.",
+        "li_summary": "Meta will stop providing software updates and support for its Quest 2 and Quest Pro headsets as it redirects resources toward a next-generation VR device slated for release next year."
+      },
+      {
+        "title": "Reddit pitches its 1,300 gaming-related communities to brands",
+        "link": "https://www.socialmediatoday.com/news/reddit-pitches-its-1300-gaming-related-communities-to-brands/873673/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-03T23:19:23",
+        "summary": "Reddit has launched a push to position its platform as a key advertising destination for gaming brands, highlighting a network of roughly 1,300 communities dedicated to gaming topics. The company's pitch centers on the idea that conversations within these spaces are organically created and shaped by actual players rather than brands or marketers, which it argues makes them more credible and influential than conventional advertising content. Reddit is framing this authenticity as a competitive advantage, suggesting that exposure within these player-led discussions can meaningfully increase engagement with gaming audiences and ultimately affect how those users decide what to buy, whether that's new game titles, in-game purchases, or related hardware and accessories. The move reflects a broader strategy by Reddit to court advertisers by emphasizing its niche, highly engaged communities as alternatives to more generic social feeds, betting that brands will pay a premium to reach gamers in spaces where the conversation feels unscripted and community-driven rather than sponsored.",
+        "li_summary": "Reddit is pitching advertisers on its 1,300 gaming-related communities, arguing that authentic player-driven discussions can boost brand engagement and sway purchasing decisions more effectively than traditional ad placements."
+      },
+      {
+        "title": "X launches updated Lead Gen Ads globally",
+        "link": "https://www.socialmediatoday.com/news/x-launches-updated-lead-gen-ads-globally/873666/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-03T19:35:39",
+        "summary": "X has rolled out an updated version of its Lead Generation Ads product to advertisers worldwide, marking a refresh of the ad format originally designed to help brands capture user information directly within the platform. The key change highlighted in the update is a more prominent, visible call-to-action button embedded in the ad unit, intended to make it easier for users to act immediately after engaging with a post rather than navigating away to an external landing page. The goal of this redesign is to improve the conversion path from simple engagement, such as likes, comments, or impressions, into concrete lead capture for businesses running campaigns on the platform. By strengthening the visual emphasis on the CTA, X is positioning the format as a more effective tool for marketers focused on performance-driven objectives like list building, sign-ups, or inquiries, rather than purely brand awareness. The global rollout suggests X is prioritizing direct-response advertising capabilities as it continues trying to attract and retain advertiser spend on the platform.",
+        "li_summary": "X has globally relaunched its Lead Generation Ads format, adding a more prominent call-to-action button aimed at converting user engagement directly into qualified leads for advertisers."
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "articles": [
       {
@@ -200,59 +245,6 @@
         "published": "2026-10-28T22:39:08",
         "summary": "Meta has launched its Muse AI agent in Singapore, marking the first expansion of the tool into Southeast Asia after its U.S. and Canada debut last month, where it hit 10 million downloads within its first 30 days. In Singapore, Muse connects to personal apps like Gmail, Google Calendar and Instagram to manage email, scheduling and saved content, while also linking to local partners including Shopee, Lazada, Grab, GrabMart, Grab Dine Out, Singapore Airlines, Agoda, Klook, Trip.com and ShopBack to help users compare prices, book travel, order food and earn cashback. The move follows Zuckerberg's comments on Meta's Q3 earnings call that shopping is Muse's top use case, with over 25% of users seeking deals or making purchases averaging more than $200 each \u2014 a trend Meta likely hopes to amplify in Singapore's e-commerce-heavy market. The expansion reflects Meta's broader push to embed AI into daily routines as it tries to justify AI spending that could eventually top $1 trillion, with Muse positioned as a potential key driver toward profitability.",
         "li_summary": "Meta expanded its Muse AI assistant to Singapore, its first Southeast Asia launch, adding local app integrations with Shopee, Grab, Lazada, Singapore Airlines, Agoda, Klook, Trip.com and ShopBack for shopping, dining and travel tasks."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-28",
-    "articles": [
-      {
-        "title": "Edits gets new Halloween-themed options",
-        "link": "https://www.socialmediatoday.com/news/edits-gets-new-halloween-themed-options/872983/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T23:02:45",
-        "summary": "Meta rolled out a fresh batch of updates to its Edits video editing app, led by Halloween-themed creative tools including new spooky fonts, sound effects, animations, and 13 additional text animation styles for seasonal content. The update also introduces beat-synced effects like flashing lights and zoom transitions that automatically sync to a clip's music or audio. Caption tools got an upgrade too, with new styling options and the ability to bulk-edit captions across a project. On the technical side, Meta added automated color adjustment to simplify brightness and color balancing, along with the option to boost individual clip volume up to 150% within a project. The carousel editor, previously limited to iOS, is now available on Android devices. Edits also debuted a custom filter created in partnership with Nigerian musician Arya Starr. With these additions, Edits continues evolving into a comprehensive video creation studio, and Meta has confirmed a desktop version is coming soon, which should further expand creators' editing capabilities beyond mobile devices.",
-        "li_summary": "Meta updated its Edits video app with Halloween-themed fonts, sound effects, and 13 new text animations, plus automated color adjustment, 150% clip volume boost, and Android carousel editing support."
-      },
-      {
-        "title": "YouTube adds microdrama subscriptions",
-        "link": "https://www.socialmediatoday.com/news/youtube-adds-microdrama-subscriptions/872982/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T22:59:04",
-        "summary": "YouTube announced plans to deepen its investment in microdramas, the short, serialized vertical video format that generated more than 6.5 billion views within the app during the first half of 2026, a jump of over 50% compared to the previous year, with particularly strong growth in the Asia Pacific region. To support creators financially, YouTube is revamping the mobile viewing experience in the coming weeks so viewers can join a channel membership and continue watching members-only episodes without exiting the content, building on last month's MadeOn announcement of Shorts Series for organizing episodic content into seasons. The platform also highlighted how auto-translation tools, including multi-language audio, AI-generated subtitles, and localized metadata, help creators reach international audiences without dubbing costs, noting that a series filmed in Tokyo or Seoul can attract viewers in Brazil. YouTube shared data showing 40% of views and 30% of clicks happen more than 30 days post-launch, meaning early episodes keep generating ad revenue long-term. Keys to success include quick emotional hooks, vertical-first filming, frequent uploads, relatable storylines, and interactive formats where audiences influence plot direction, creating fresh marketing and product placement opportunities.",
-        "li_summary": "YouTube is streamlining in-app channel memberships for microdrama episodes on mobile, letting viewers subscribe without leaving the video, after the format hit 6.5 billion views in H1 2026, up over 50% year-over-year."
-      },
-      {
-        "title": "Meta adds individual performance data for ad creative",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-individual-performance-data-for-ad-creative/872981/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T22:48:25",
-        "summary": "Meta has rolled out a new \"Breakdown\" element within its Ads Manager platform that gives advertisers visibility into how individual creative components of their ads are performing, rather than just viewing aggregate results. Selecting the \"Media\" option reveals how specific images and videos performed as standalone assets, while a separate view shows performance by text variation, helping marketers identify which specific creative elements are driving results. The tool has some gaps: ads using multi-post formats like \"Show as collection\" or \"Show as carousel\" are excluded from this breakdown, and it doesn't provide insight for certain custom conversion actions such as \"Donate\" or \"Subscribe.\" This update follows Meta's move last week to let advertisers assign specific audience targeting to individual creative pieces within a campaign, even as the company simultaneously stripped away other manual targeting controls, including detailed targeting options, to push advertisers toward relying more heavily on its AI-driven ad delivery system for audience selection and optimization.",
-        "li_summary": "Meta added a new \"Breakdown\" feature in Ads Manager that lets advertisers see individual performance data for each image, video, and text variation within a single ad, excluding carousel and collection formats."
-      },
-      {
-        "title": "LinkedIn launches data insights hub",
-        "link": "https://www.socialmediatoday.com/news/linkedin-launches-data-insights-hub/872972/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T20:59:24",
-        "summary": "LinkedIn has relaunched its Economic Graph insights platform under the name LinkedIn Pulse, reusing a moniker previously tied to its 2015 creator publishing tool. The revamped hub pulls data from LinkedIn's 1.4 billion members, 71 million companies and 42,000 tracked skills to help businesses, governments and individuals spot emerging work trends and opportunities. CMO Jessica Jensen said the platform draws on LinkedIn's in-house economists, who already advise companies, policymakers and media on global labor market shifts, and is now being opened up more broadly so users can make better decisions about careers, teams or business strategy. As part of the relaunch, LinkedIn is partnering with journalists, including Scalable founder Kaya Yurieff, to produce deeper analysis on specific economic topics such as AI's impact on jobs. While the insights could prove useful for tracking workforce and market shifts, the reused Pulse name may cause some confusion given its earlier association with LinkedIn's long-form content publishing feature launched a decade ago, which has since faded from prominence.",
-        "li_summary": "LinkedIn has rebranded its Economic Graph as LinkedIn Pulse, a data hub drawing on 1.4 billion members, 71 million companies and 42,000 skills to track shifting labor market opportunities."
-      },
-      {
-        "title": "LinkedIn tests simplified UI",
-        "link": "https://www.socialmediatoday.com/news/linkedin-tests-simplified-ui/872969/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T20:42:14",
-        "summary": "LinkedIn has begun rolling out a test version of a simplified navigation experience across desktop and mobile, aimed at reducing menu clutter and better reflecting how users actually engage with the app. On desktop, several previously separate function menus have been merged, with a \"Profile\" tab now housing analytics, saved posts and settings, while a new \"More\" tab consolidates access to puzzle games, news, groups, events, newsletters and video. The mobile app's lower navigation bar mirrors these same consolidated listings. LinkedIn says the rollout will be gradual and vary by region and language, so not all users will see the changes immediately. Separately, LinkedIn is now displaying longer previews of text posts in the main feed before the \"see more\" cutoff kicks in, a shift that could boost engagement for creators and may also undercut the old \"broetry\" formatting trick, where posters used line breaks to hide their main point and bait clicks, since more text will now be visible upfront.",
-        "li_summary": "LinkedIn is testing a redesigned navigation menu that consolidates desktop and mobile function listings, merging profile, analytics, saved posts and settings under one tab, plus a new \"More\" tab for games, news, groups, events and video."
-      },
-      {
-        "title": "YouTube tests reduced payment threshold for creators",
-        "link": "https://www.socialmediatoday.com/news/youtube-tests-reduced-payment-threshold-for-creators/872965/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-27T19:19:41",
-        "summary": "YouTube has begun experimenting with a reduced minimum payment threshold for its Partner Program, allowing a randomly selected group of creators in the U.S., India, and Indonesia to cash out earnings once they hit $20, rather than waiting to reach the standard $100 minimum. The change takes effect with October 2026 payments, and any unused balance below the new threshold will simply carry over to the following month. Creators included in the test will get a notification and can monitor updated payment activity through YouTube Studio on mobile; those who'd rather stick with a higher payout threshold can adjust their preference manually in AdSense for YouTube. The move comes as Instagram ramps up its own long-form video push, positioning itself as a stronger competitor for both viewers and creators. Since YouTube's monetization infrastructure remains more mature than Instagram's, lowering the payout bar could help it retain smaller or newer creators by giving them faster, more flexible access to ad revenue, reinforcing its advantage as rival platforms try to lure talent away.",
-        "li_summary": "YouTube is testing a lower Partner Program payout threshold of $20 (down from $100) for a randomly selected group of creators in the U.S., India, and Indonesia starting with October 2026 payments."
       }
     ]
   }
