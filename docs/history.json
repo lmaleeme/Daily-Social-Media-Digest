@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-11-05",
+    "articles": [
+      {
+        "title": "Snapchat posts modest user increase in Q3",
+        "link": "https://www.socialmediatoday.com/news/snapchat-posts-modest-user-increase-in-q3/873823/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T00:46:32",
+        "summary": "Snapchat's latest quarterly results reveal a mixed picture for the social platform: while overall company revenue increased during Q3, user growth told a different story. Daily active users, the key engagement metric investors and advertisers watch closely, rose only marginally compared to previous quarters. More notably, this slowdown wasn't isolated to one region but appeared consistently across nearly every market where Snapchat operates, suggesting a broader plateau in the app's ability to attract new daily users rather than a localized dip. This divergence between rising revenue and stagnant user growth indicates Snapchat may be successfully monetizing its existing user base more effectively, even as it struggles to expand that base further. For marketers relying on Snapchat for reach, this signals a maturing platform where audience growth can no longer be assumed, making retention and engagement strategies increasingly important alongside any plans tied to expanding reach through the app this year.",
+        "li_summary": "Snapchat's Q3 earnings showed revenue growth, but daily active user numbers barely moved, with growth stalling across almost every geographic market the platform tracks."
+      },
+      {
+        "title": "Facebook expands Creator Fast Track program to Brazil",
+        "link": "https://www.socialmediatoday.com/news/facebook-expands-creator-fast-track-program-to-brazil/873821/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-04T22:56:01",
+        "summary": "Facebook has extended its Creator Fast Track program into Brazil, aiming to encourage more local creators to produce and share content on the platform. The program, which previously rolled out in North America, provides creators with monetary incentives tied to performance or participation milestones, intended to accelerate growth of new or emerging creator accounts. However, the financial incentives being offered to Brazilian creators are significantly smaller than those provided to their North American counterparts, reflecting differing market priorities or budget allocations for international expansion. This disparity highlights how Meta is adjusting its creator monetization strategy on a region-by-region basis, likely factoring in local advertising revenue potential, cost of living, and competitive dynamics with other social platforms operating in Brazil. The move signals Facebook's continued push to compete for creator talent globally, even as it calibrates spending to match regional market value, leaving Brazilian creators with smaller earning opportunities compared to those available to creators in more established markets like the United States and Canada.",
+        "li_summary": "Facebook is expanding its Creator Fast Track program to Brazil, offering local creators monetary incentives to boost platform content, though payouts are notably lower than those given to North American creators."
+      },
+      {
+        "title": "Instagram tries to entice long-form creators",
+        "link": "https://www.socialmediatoday.com/news/instagram-tries-to-entice-long-form-creators/873820/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-04T22:50:52",
+        "summary": "Instagram is rolling out incentives aimed at long-form video creators, including one-time cash payments and premium placement within the app, as it tries to compete for talent that typically gravitates toward YouTube. Unlike YouTube, which offers creators a consistent revenue-sharing model tied to ad views and watch time, Instagram currently lacks a comparable ongoing payout structure for longer content. To bridge that gap, the platform is instead using lump-sum payments and boosted visibility placements to lure creators into posting long-form videos on Instagram rather than exclusively on YouTube. The move signals Meta's continued push to expand Instagram's video offerings beyond Reels and short-form clips, as it competes for creator attention and ad dollars in a crowded video landscape. For marketers and creators alike, this suggests Instagram is still experimenting with monetization incentives rather than offering a stable, scalable payout system, meaning the long-form push may rely more on one-time deals than predictable, recurring creator earnings for now.",
+        "li_summary": "Instagram is offering one-off cash payouts and premium in-app placements to attract long-form video creators, compensating for its lack of a YouTube-style ongoing monetization system."
+      },
+      {
+        "title": "Reddit publishes 2027 marketing playbook",
+        "link": "https://www.socialmediatoday.com/news/reddit-publishes-2027-marketing-playbook/873789/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-04T19:31:00",
+        "summary": "Reddit has published a 35-page marketing playbook aimed at helping brands prepare their 2027 strategies well ahead of time. The guide compiles seasonal trend data alongside a curated list of major events expected to shape consumer attention and online conversation throughout the year, giving marketers a reference point for timing campaigns, content drops, and ad spend. Rather than focusing on immediate tactics, the resource is designed for long-range planning, encouraging brands to map out forward-facing strategies months or even years in advance rather than reacting to trends as they emerge. By packaging seasonal insights with a forward calendar, Reddit appears to be positioning itself as a planning partner for advertisers, not just an ad platform, reinforcing its push to be seen as a hub for cultural and community-driven conversation that brands can tap into proactively. The move also signals Reddit's broader effort to court marketing teams with structured, data-backed resources as competition for ad budgets across social platforms continues to intensify heading into the back half of the decade.",
+        "li_summary": "Reddit released a 35-page 2027 marketing playbook outlining seasonal trends and a calendar of major cultural and industry events to help brands plan campaigns well in advance."
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "articles": [
       {
@@ -192,59 +229,6 @@
         "published": "2026-10-29T23:07:15",
         "summary": "Threads, Meta's text-based app, is piloting a new feature called Threads Friends that mirrors Instagram's Close Friends tool, letting users build a private sub-group of up to 50 connections to share posts with instead of broadcasting to their entire audience. Users can create this curated list and choose to post updates visible only to that group rather than all followers. People included on a Threads Friends list will see a label indicating their membership, and if they like or reply to a post, other members of that same list can see their username and interaction. Threads confirmed the test is currently limited to users in Ireland, Italy, and Japan, though anyone globally can be added to a Friends list regardless of location. The move reflects a broader industry shift away from public, one-to-many posting toward smaller, more private group sharing, and could give Threads a fresh mechanism to boost engagement by encouraging more intimate, frequent posting among trusted connections rather than general public broadcasts.",
         "li_summary": "Threads is testing \"Threads Friends,\" a Close Friends-style feature letting users share posts with a curated list of up to 50 connections, currently piloting in Ireland, Italy, and Japan."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-29",
-    "articles": [
-      {
-        "title": "Disney plans TikTok Shop holiday experience with over 20 brands",
-        "link": "https://www.marketingdive.com/news/disney-plans-tiktok-shop-holiday-experience-with-over-20-brands/873072/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-29T13:00:00",
-        "summary": "Disney is making its TikTok Shop debut with a Super Brand Day event running November 4-10 as part of its \"Make the Holidays Magic\" holiday campaign, marking the company's first time using the platform's dedicated shopping feature for a major seasonal push. The event will showcase Disney Store merchandise alongside offerings from more than 20 licensing partners, including Old Navy, Crocs, Corkcicle, ColourPop, Touchland, Kyte Baby, FHI Heat, Girls Crew and PopSockets, spanning categories like toys, beauty, home goods and fashion tied to Disney, Pixar, Marvel and Star Wars properties. Two items, a Darth Vader-themed \"Darth on a Hearth\" collectible and a Loungefly holiday mini backpack, will be sold exclusively through the Disney Store's TikTok Shop before becoming available on Disney's own website. The campaign will be supported by paid media and creator content. Disney Consumer Products SVP Liz Shortreed framed the move as adapting to how fans now discover and purchase branded merchandise. The push follows an August content partnership between Disney and TikTok, and comes as TikTok Shop's U.S. sales are projected by Emarketer to grow 48% in 2026 to $23.4 billion, with GlobalData finding 67% of U.S. consumers trust brands more when encountered there.",
-        "li_summary": "Disney will launch its first TikTok Shop Super Brand Day from Nov. 4-10, featuring Disney Store products and over 20 partner brands like Old Navy, Crocs and ColourPop, plus two TikTok-exclusive holiday items."
-      },
-      {
-        "title": "What marketers should know about the legal risks of algorithmic pricing",
-        "link": "https://www.marketingdive.com/news/what-marketers-should-know-about-the-legal-risks-of-algorithmic-pricing/832963/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-29T12:00:00",
-        "summary": "Marketers face mounting legal exposure around algorithmic pricing, where software sets different prices for different customers based on signals like browsing history, location, or loyalty status, rather than simple dynamic pricing that charges everyone the same fluctuating rate. New York Governor Kathy Hochul must decide by December 31 whether to sign the One Fair Price Act, a broad ban on individualized pricing across most industries, reflecting a surge of similar bills pending in more than 20 states. In December 2025, Consumer Reports found Instacart charging some shoppers up to 23% more for identical items; the company halted the practice, but New York Attorney General Letitia James still demanded its pricing records. A House Oversight committee has also sought records from Uber and Lyft, while the FTC has drafted guidance on when personalized pricing becomes deceptive or unfair. States vary widely, some banning the practice in grocery and retail, others requiring disclosures like New York's algorithm-pricing notices, with New Jersey allowing private lawsuits and treble damages. Attorney Laura Brett advises marketers to audit which data feeds pricing decisions, map where personalized pricing occurs, and involve legal counsel before deploying new pricing tools, since loyalty discounts carry lower risk than targeting by device or location.",
-        "li_summary": "New York Governor Kathy Hochul faces a Dec. 31 deadline to sign or veto the One Fair Price Act, a sweeping ban on individualized algorithmic pricing, as regulators nationwide intensify scrutiny of personalized pricing practices following Instacart's December 2025 pricing controversy."
-      },
-      {
-        "title": "What influencer fatigue says about creator-driven marketing\u2019s next phase",
-        "link": "https://www.marketingdive.com/news/what-influencer-fatigue-says-about-creator-driven-marketings-next-phase/833864/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-28T13:39:00",
-        "summary": "A Nantucket artisan shop's \"no influencers\" sign went viral this July, sparking debate over whether influencer culture has worn out its welcome, and reigniting discussion of so-called \"influencer fatigue.\" Yet data suggests the channel remains strong: 72% of young consumers follow influencers, 58% have bought products based on creator endorsements, and nearly 80% of brands work with one to ten influencers at a time, according to the Association of National Advertisers, which projects U.S. creator-economy ad spend will hit $43.9 billion by 2026. Over 80% of marketers plan to boost influencer budgets within a year, per Sprout Social, even as costs rise through pricier PR packages, brand trips and fees, plus new tools like Meta's creator-matching suite. More than half of creators with 500,000-plus followers report friction between brand demands and audience expectations. Whisker CMO Hew Loyd, who manages influencer relationships in-house (done by only 16% of marketers), says fatigue is real in person but more nuanced online, as brands shift toward niche-fit over follower count, now ranked the least important selection factor.",
-        "li_summary": "Despite viral \"no influencers\" backlash like a Nantucket shop's sign, 72% of young consumers still follow influencers and U.S. creator-economy ad spend is projected to hit $43.9 billion in 2026, per the ANA."
-      },
-      {
-        "title": "Meta says its expanded processing capacity is driving ad results",
-        "link": "https://www.socialmediatoday.com/news/meta-says-its-expanded-processing-capacity-is-driving-ad-results/873133/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-28T22:44:02",
-        "summary": "Meta detailed how AI-driven improvements to its ad delivery infrastructure are boosting advertiser performance across its platforms. In an Oct. 28 announcement, the company said Q2 2026 updates to its ads ranking system increased Facebook ad clicks by 8.3% and conversions by 15.7%. Key drivers include upgrades to the Andromeda ranking system, which now evaluates a broader range of product matches against user interests; the GEM model, which processes additional engagement signals for relevance; and GenRecs, which predicts suitable ads even for new campaigns with minimal history. In Q3, Andromeda improvements added a further 1.4% conversion increase, while generative retrieval launched on Facebook Feed lifted conversions nearly 2% in targeted segments. Separately, Meta said its AI business assistant, still expanding to more advertisers, is generating 5% more conversions at equal cost. Partnership ads, which let brands collaborate with creators, grew over 97% year-over-year in Q3 and now exceed a $15 billion annual revenue run-rate. Meta is also building checkout functionality into AI agents like Muse to enable in-stream purchases.",
-        "li_summary": "Meta announced Oct. 28 that Q2 2026 ad ranking upgrades boosted Facebook ad clicks by 8.3% and conversions by 15.7%, while its AI business assistant now drives 5% more conversions at the same cost."
-      },
-      {
-        "title": "Reddit introduces For You feed",
-        "link": "https://www.socialmediatoday.com/news/reddit-introduces-for-you-feed/873132/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-28T22:42:30",
-        "summary": "Reddit is introducing a new For You feed powered by algorithmic recommendations, designed to help users discover new subreddits and discussions beyond the communities they've already joined. This feed will sit alongside the existing Following feed, which shows updates from communities users already follow, giving people a clearer split between discovery and catch-up browsing. Notably, For You has been placed in the primary tab position as Reddit pushes discovery, though it won't be the default view\u2014the app will instead open to whichever feed a user last viewed. Reddit says the change uses its engagement and audience data to predict content users might find interesting, framing it as part of ongoing experiments to make the platform more valuable, with future plans including more navigation options and controls like hiding posts or flagging unwanted content. The rollout will happen globally over the coming weeks. The move comes amid broader industry debate over algorithmic feeds' risks and benefits, and growing calls for platforms to offer non-algorithmic, chronological feed opt-outs.",
-        "li_summary": "Reddit is rolling out a new algorithm-driven For You feed alongside its existing Following feed, letting users choose between discovering new subreddits or catching up on joined communities, with global rollout over the next few weeks."
-      },
-      {
-        "title": "Meta\u2019s Muse AI agents are now available to users in Singapore",
-        "link": "https://www.socialmediatoday.com/news/metas-muse-ai-agents-are-now-available-to-users-in-singapore/873131/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-28T22:39:08",
-        "summary": "Meta has launched its Muse AI agent in Singapore, marking the first expansion of the tool into Southeast Asia after its U.S. and Canada debut last month, where it hit 10 million downloads within its first 30 days. In Singapore, Muse connects to personal apps like Gmail, Google Calendar and Instagram to manage email, scheduling and saved content, while also linking to local partners including Shopee, Lazada, Grab, GrabMart, Grab Dine Out, Singapore Airlines, Agoda, Klook, Trip.com and ShopBack to help users compare prices, book travel, order food and earn cashback. The move follows Zuckerberg's comments on Meta's Q3 earnings call that shopping is Muse's top use case, with over 25% of users seeking deals or making purchases averaging more than $200 each \u2014 a trend Meta likely hopes to amplify in Singapore's e-commerce-heavy market. The expansion reflects Meta's broader push to embed AI into daily routines as it tries to justify AI spending that could eventually top $1 trillion, with Muse positioned as a potential key driver toward profitability.",
-        "li_summary": "Meta expanded its Muse AI assistant to Singapore, its first Southeast Asia launch, adding local app integrations with Shopee, Grab, Lazada, Singapore Airlines, Agoda, Klook, Trip.com and ShopBack for shopping, dining and travel tasks."
       }
     ]
   }
