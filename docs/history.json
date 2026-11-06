@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-06",
+    "articles": [
+      {
+        "title": "Sociable: Reddit tests ads in search results",
+        "link": "https://www.marketingdive.com/news/sociable-reddit-tests-ads-in-search-results/873874/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-05T16:04:00",
+        "summary": "Reddit has begun testing a new advertising format that inserts promoted content directly into its internal search results pages, giving brands a way to reach users at the exact moment they're searching for related topics, products, or discussions. The move is designed to capitalize on intent-driven behavior, since someone typing a specific query into Reddit's search bar is often further along in a decision-making or research process than a typical passive scroller. This test comes at an interesting moment for the platform, as Reddit's broader search traffic has reportedly been slipping, likely due to shifts in how users discover content, including competition from AI-powered search tools and other platforms pulling attention away from traditional on-site search. By embedding ads into search, Reddit is attempting to create a new monetization channel that doesn't rely solely on feed-based impressions, while also giving advertisers a more precise way to align their campaigns with real-time user discovery patterns rather than broader interest-based targeting.",
+        "li_summary": "Reddit is piloting ads placed directly within its on-site search results, letting advertisers target users based on what they're actively searching for, even as the platform's overall search traffic declines."
+      },
+      {
+        "title": "Meta makes Muse agents speak",
+        "link": "https://www.socialmediatoday.com/news/meta-makes-muse-agents-speak/873959/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T23:13:30",
+        "summary": "Meta has added voice capabilities to its AI-powered tool Muse, enabling the system to recognize spoken conversational queries from users and respond audibly rather than relying solely on text-based interaction. A key feature of this update is user choice: individuals can select which voice they want Muse to use when it speaks back to them, allowing for a more personalized interaction style. This move positions Muse alongside other AI agents that have been adding voice-first or voice-enabled experiences as companies compete to make AI assistants feel more natural and accessible. By recognizing conversational queries, Muse can presumably handle more casual, spoken-language requests rather than requiring precisely typed commands, which could make the tool more approachable for everyday users. The update reflects a broader industry trend of AI companies racing to humanize their chatbots and virtual agents through voice, as spoken interaction is often seen as more intuitive than text for many use cases, from customer service to personal assistance.",
+        "li_summary": "Meta upgraded its AI tool Muse to recognize conversational voice queries and respond using a voice selected by the user, adding spoken interaction to the platform."
+      },
+      {
+        "title": "Meta, TikTok and Google push back on California law",
+        "link": "https://www.socialmediatoday.com/news/meta-tiktok-and-google-push-back-on-california-law/873955/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T22:57:37",
+        "summary": "Meta, TikTok and Google are pushing back against a new California law scheduled to take effect next year, arguing in public statements and legal filings that the measure violates First Amendment free speech protections and oversteps the boundaries of state regulatory power. According to a Reuters report, the three tech giants contend the law would impose restrictions on platform operations and content moderation practices that infringe on constitutionally protected speech rights for both the companies and their users. Their pushback signals a broader fight over how far individual states can go in regulating social media and search platforms without running afoul of federal constitutional protections. The companies are expected to pursue further legal and lobbying action before the law takes effect, setting up a potential courtroom battle that could shape precedent for other states considering similar tech regulations. The outcome may influence how platforms operate not just in California but nationwide, given the state's outsized role in setting regulatory trends that other jurisdictions often follow.",
+        "li_summary": "Meta, TikTok and Google are challenging a new California law set to take effect in 2025, arguing it violates First Amendment rights and exceeds state regulators' authority, according to Reuters."
+      },
+      {
+        "title": "TikTok launches standalone shopping app",
+        "link": "https://www.socialmediatoday.com/news/tiktok-launches-standalone-shopping-app/873952/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T22:14:51",
+        "summary": "TikTok has introduced a dedicated shopping app that operates independently from its core social video platform, signaling a deeper push into e-commerce beyond the existing in-app shopping features. The new app is designed specifically around product discovery and purchasing, giving users a shopping-first experience rather than blending commerce into the main content feed. Unlike TikTok's primary app, which reaches a global audience, this standalone version is being tested in a limited rollout, currently accessible only in a handful of countries across Asia. The move suggests TikTok is treating shopping as a distinct use case worth its own dedicated product, potentially allowing for more tailored features, checkout flows, and seller tools without disrupting the main entertainment-focused app. For marketers and brands, this points to a possible future where TikTok separates content discovery from transactional shopping journeys, which could change how campaigns are structured and measured. Wider availability beyond the initial Asian test markets has not yet been confirmed.",
+        "li_summary": "TikTok has rolled out a standalone shopping app separate from its main platform, centered on product discovery and direct purchasing, though availability is currently limited to a small number of Asian markets."
+      },
+      {
+        "title": "Meta adds new capabilities to Graph and Marketing API",
+        "link": "https://www.socialmediatoday.com/news/meta-adds-new-capabilities-to-graph-and-marketing-api/873951/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T22:13:39",
+        "summary": "Meta has rolled out updates to its Graph API and Marketing API that change how businesses manage content and ads on its platforms. The most notable addition lets businesses toggle AI self-disclosure labels on their posts directly through the API, giving brands more control over when content is flagged as AI-generated or AI-assisted rather than relying solely on automatic detection. This matters as more marketers use generative AI tools to produce images, video, and copy, and platforms face pressure to maintain transparency around synthetic content. Alongside this addition, Meta has deprecated a number of other existing features within these APIs, meaning developers and marketing teams relying on those older functions will need to update their integrations or workflows to avoid disruptions. Meta has not detailed the full list of deprecated capabilities publicly in depth, but businesses using the Graph or Marketing API for ad management, content publishing, or analytics should review Meta's developer documentation to confirm compatibility before the changes affect live campaigns or automated posting systems.",
+        "li_summary": "Meta updated its Graph and Marketing API, letting businesses add or remove AI self-disclosure labels on posts, while simultaneously deprecating several other existing API features."
+      },
+      {
+        "title": "Edits launches for MacOS",
+        "link": "https://www.socialmediatoday.com/news/edits-launches-for-macos/873949/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-05T19:24:19",
+        "summary": "Meta has expanded its Edits video creation app beyond mobile devices with a new MacOS version, giving creators a desktop option for producing short-form video content. The MacOS release supports multiple aspect ratios, allowing users to format videos for different platforms and placements rather than being locked into a single vertical format typical of mobile-first editing tools. Meta designed the desktop interface specifically with larger screens in mind, suggesting a layout and toolset adapted for more precise editing work than what's possible on a phone screen. This move brings Edits in line with other short-form video editing tools that have expanded to desktop to capture creators who prefer working on bigger displays for tasks like trimming, adding effects, and fine-tuning footage before publishing to platforms such as Instagram Reels. The expansion signals Meta's continued investment in supporting content creators across its ecosystem, giving them more flexibility in how and where they produce video content destined for its apps.",
+        "li_summary": "Meta's Edits video creation app, previously mobile-only, has launched on MacOS with support for multiple aspect ratios and an interface built specifically for larger desktop screens."
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "articles": [
       {
@@ -176,59 +229,6 @@
         "published": "2026-11-01T20:28:30",
         "summary": "Reddit's latest quarterly results reveal a mixed picture that's pushing the company to rethink how people access its platform. In Q3, U.S. weekly active unique visitors fell, and traffic coming from search engines\u2014historically a major discovery channel for Reddit threads\u2014saw a significant decline, likely tied to changes in how Google and other search platforms surface content. Despite these usage pressures, Reddit's revenue grew by more than 50% compared to the same period last year, showing that monetization efforts, including advertising and data-licensing deals, are still paying off even as raw traffic softens. In response, Reddit executives are signaling a strategic pivot: encouraging more visitors to log in rather than browse anonymously or arrive via search snippets. A logged-in base would give Reddit more reliable engagement data, stronger personalization, and better advertising targeting, while reducing dependence on unpredictable search-referral traffic that's incre",
         "li_summary": "Reddit is shifting strategy toward a logged-in user experience after its Q3 report showed U.S. weekly active users declining and search-referral traffic dropping sharply, even though total revenue still climbed more than 50% year-over-year."
-      }
-    ]
-  },
-  {
-    "date": "2026-10-30",
-    "articles": [
-      {
-        "title": "Sociable: Meta says its expanded processing capacity is driving ad results",
-        "link": "https://www.marketingdive.com/news/sociable-meta-says-its-expanded-processing-capacity-is-driving-ad-results/873191/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-29T15:22:00",
-        "summary": "Meta detailed how AI-driven upgrades to its ad delivery infrastructure are boosting advertiser performance, stating that in Q2 2026 improvements to its ads ranking system increased Facebook ad clicks by 8.3% and conversions by 15.7%. Key drivers include an upgraded Andromeda system, which now matches a wider range of products to individual user interests; an expanded Generative Ads Recommendation Model (GEM) that processes more engagement signals per user; and GenRecs, which predicts relevant ads even for new campaigns with little engagement history. In Q3, Andromeda alone added 1.4% more Facebook conversions, while newly launched generative retrieval in Facebook Feed drove nearly a 2% conversion increase in targeted segments. Separately, Meta said its AI business assistant, now rolling out more broadly, is generating 5% more conversions at the same ad spend. Partnership ads, which let brands run campaigns alongside creators, grew over 97% year-over-year in Q3 and now exceed a $15 billion annual revenue run-rate. Meta also plans to add checkout functionality to AI agents like Muse, enabling in-stream purchases, as expanding data center capacity continues fueling these ad-targeting gains.",
-        "li_summary": "Meta reported that Q2 2026 upgrades to its Andromeda, GEM, and GenRecs ad-ranking systems lifted Facebook ad clicks 8.3% and conversions 15.7%, while partnership ads revenue surpassed a $15 billion annual run-rate."
-      },
-      {
-        "title": "Disney plans TikTok Shop holiday experience with over 20 brands",
-        "link": "https://www.marketingdive.com/news/disney-plans-tiktok-shop-holiday-experience-with-over-20-brands/873072/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-29T13:00:00",
-        "summary": "Disney is launching its first-ever Super Brand Day on TikTok Shop, running Nov. 4-10, marking a major push into social commerce as part of its \"Make the Holidays Magic\" holiday campaign. The event will combine Disney Store merchandise with collections from more than 20 participating brands, including Old Navy, Crocs, Touchland, ColourPop, Corkcicle, Kyte Baby, FHI Heat, Girls Crew and PopSockets, all offering Disney, Pixar, Marvel or Star Wars-themed products across categories like toys, beauty, home and fashion. Two items, a \"Darth on a Hearth\" collectible and a Loungefly holiday mini backpack, will be sold exclusively on Disney Store's TikTok Shop before later appearing on Disney's own website. The campaign will be supported by paid media and creator content. This follows Disney's August content-sharing partnership with TikTok and comes as TikTok Shop's U.S. sales are projected to grow 48% next year to $23.4 billion, according to Emarketer, with GlobalData research showing 67% of U.S. shoppers, and 82% of those aged 18-24, trust brands more when discovered through TikTok Shop versus other platforms.",
-        "li_summary": "Disney will host its first TikTok Shop Super Brand Day from Nov. 4-10, uniting Disney Store products with over 20 partner brands like Old Navy, Crocs and ColourPop, plus platform-exclusive holiday items, as part of its \"Make the Holidays Magic\" campaign."
-      },
-      {
-        "title": "What marketers should know about the legal risks of algorithmic pricing",
-        "link": "https://www.marketingdive.com/news/what-marketers-should-know-about-the-legal-risks-of-algorithmic-pricing/832963/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-10-29T12:00:00",
-        "summary": "Legal expert Laura Brett of Simpson Thacher & Bartlett outlines mounting legal risks for marketers using algorithmic pricing, which sets different prices for different customers based on data like browsing history, location, or loyalty status. New York Governor Kathy Hochul must decide by Dec. 31 whether to sign the One Fair Price Act, a broad ban on individualized pricing. This follows a December 2025 controversy where Consumer Reports found Instacart charging some shoppers up to 23% more for identical items, prompting New York Attorney General Letitia James to demand pricing records even after Instacart halted the practice. Brett distinguishes \"dynamic pricing\" (same price shown to everyone, varying by time or demand) from riskier \"surveillance\" or \"personalized pricing\" (different prices per customer). Over 20 states have pending bills, the FTC has issued a draft policy statement on the issue, and a House Oversight probe has sought records from Uber and Lyft. New Jersey allows private lawsuits with treble damages. Brett advises marketers to audit data inputs, map pricing practices across jurisdictions, and involve legal counsel early, since transparent, criteria-based loyalty discounts carry lower risk than device- or location-based pricing or shared third-party pricing tools that could suggest competitor coordination.",
-        "li_summary": "New York Governor Kathy Hochul faces a Dec. 31 deadline to sign or veto the One Fair Price Act, a sweeping ban on individualized algorithmic pricing, as regulators nationwide intensify scrutiny of practices like Instacart's 23%-higher pricing for some shoppers."
-      },
-      {
-        "title": "Pinterest reports solid user growth in Q3",
-        "link": "https://www.socialmediatoday.com/news/pinterest-reports-solid-user-growth-in-q3/873274/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-30T00:56:32",
-        "summary": "Pinterest's Q3 2026 earnings, released Oct. 29, revealed strong platform momentum, with monthly active users reaching 661 million, a gain of 21 million from the previous quarter. European user growth rebounded after a year of stagnation and decline, while 17 million new users came from \"Rest of World\" markets outside the U.S. and Europe, which still generate less revenue per user. Gen Z now makes up 57% of Pinterest's audience, and engagement is climbing in the U.S. and Canada across search, board creation, and outbound clicks. Revenue hit $1.17 billion, up 12% year-over-year, with U.S. and Canada revenue growing 14%, though European regulatory changes affecting cross-border selling dampened international gains. Pinterest rolled out its programmatic ad-buying tool globally and launched visual search ads last month, letting brands appear in search results and Pin close-ups, capitalizing on more than 80 billion monthly searches. The company is also expanding creator monetization, including sponsored creator Pins and a Roku TV show, while continuing to face scrutiny over rising AI-generated content in Pins.",
-        "li_summary": "Pinterest's Q3 2026 results show 661 million monthly active users, up 21 million from Q2, with revenue climbing 12% year-over-year to $1.17 billion."
-      },
-      {
-        "title": "YouTube subscriptions are rising as more users turn to CTV",
-        "link": "https://www.socialmediatoday.com/news/youtube-subscriptions-are-rising-as-more-users-turn-to-ctv/873272/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-29T23:59:56",
-        "summary": "Alphabet's Q3 2026 earnings show YouTube's advertising growth cooling to 9% year-over-year ($11.2 billion), down from 13% in Q2, even as subscription revenue accelerates, helping drive an 11% rise in Google's overall subscription income. YouTube Music and Premium subscribers reached 150 million, up from the 100 million milestone hit in early 2024, with connected TV viewing cited as a key driver since Nielsen's August 2026 Gauge report named YouTube the top U.S. streaming platform. Google Chief Business Officer Philipp Schindler noted that Living Room, YouTube's CTV experience, now generates over a third of total ad revenue. The platform also reported over three million creators in its partner program and 1.3 million channels using its shopping tools, alongside a new Amazon affiliate feature letting U.S. creators tag products in videos and Shorts. On AI, Schindler highlighted new generative tools in YouTube Studio and Shorts, including a \"reimagine\" remix feature and conversational editing assistants, with a recent YouTube survey finding 61% of recent uploaders interested in using AI to insert themselves into content.",
-        "li_summary": "YouTube's Q3 2026 ad revenue hit $11.2 billion (up 9% year over year, slower than Q2's 13%), while Premium and Music subscriptions climbed to 150 million, up from 100 million in early 2024."
-      },
-      {
-        "title": "Threads tests smaller group sharing option",
-        "link": "https://www.socialmediatoday.com/news/threads-tests-smaller-group-sharing-option/873271/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-10-29T23:07:15",
-        "summary": "Threads, Meta's text-based app, is piloting a new feature called Threads Friends that mirrors Instagram's Close Friends tool, letting users build a private sub-group of up to 50 connections to share posts with instead of broadcasting to their entire audience. Users can create this curated list and choose to post updates visible only to that group rather than all followers. People included on a Threads Friends list will see a label indicating their membership, and if they like or reply to a post, other members of that same list can see their username and interaction. Threads confirmed the test is currently limited to users in Ireland, Italy, and Japan, though anyone globally can be added to a Friends list regardless of location. The move reflects a broader industry shift away from public, one-to-many posting toward smaller, more private group sharing, and could give Threads a fresh mechanism to boost engagement by encouraging more intimate, frequent posting among trusted connections rather than general public broadcasts.",
-        "li_summary": "Threads is testing \"Threads Friends,\" a Close Friends-style feature letting users share posts with a curated list of up to 50 connections, currently piloting in Ireland, Italy, and Japan."
       }
     ]
   }
