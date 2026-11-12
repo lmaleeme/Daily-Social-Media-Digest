@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-12",
+    "articles": [
+      {
+        "title": "How Unilever\u2019s social-first marketing is evolving amid reorganization",
+        "link": "https://www.marketingdive.com/news/how-unilevers-social-first-marketing-is-evolving-amid-reorganization/874457/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-12T14:46:00",
+        "summary": "Unilever has begun reshaping its marketing operations following the announcement of a company-wide reorganization built on the principle of \"global strategy, local execution,\" meaning overarching brand and marketing strategies will be set centrally while individual markets retain control over how campaigns are executed locally. As part of this shift, the company shared details on how its social-first marketing approach is evolving to fit the new structure, signaling that social media content and strategy will increasingly be guided by global direction but adapted regionally to reflect local consumer behavior and platform trends. This move reflects Unilever's broader effort to balance consistency in brand messaging across its vast portfolio with the flexibility needed to stay relevant in fast-moving social media environments across different countries. For marketers, the development highlights how major consumer goods companies are rethinking centralized versus decentralized marketing models to keep pace with social-first content demands while maintaining efficiency and brand coherence at a global scale.",
+        "li_summary": "Unilever revealed how its social-first marketing strategy is adapting as the company restructures its organization around a new \"global strategy, local execution\" operating model."
+      },
+      {
+        "title": "Thought leadership remains highly valuable for B2B buyers",
+        "link": "https://www.socialmediatoday.com/news/thought-leadership-remains-highly-valuable-for-b2b-buyers/874464/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-11T23:39:39",
+        "summary": "Edelman's latest research into LinkedIn content confirms that thought leadership continues to carry real weight with B2B buyers, who say they look to professional insight and firsthand experience when assessing potential vendors and partners. The study found that decision-makers consistently turn to credible, expert-driven content to gauge a company's expertise and trustworthiness before engaging commercially, often using it as a key factor in shortlisting providers. However, the report also high",
+        "li_summary": "A new Edelman-LinkedIn report finds that B2B buyers still rely heavily on thought leadership content from industry professionals to evaluate vendors, despite widespread criticism that most published insights feel shallow or generic."
+      },
+      {
+        "title": "LinkedIn tests frequent viewer feature",
+        "link": "https://www.socialmediatoday.com/news/linkedin-tests-frequent-viewer-feature/874463/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-11T23:17:02",
+        "summary": "LinkedIn appears to be piloting an expanded version of its profile-viewing analytics tool, according to a Wired report. Currently, Premium subscribers can already see a list of users who have viewed their profile, a feature often used for networking and sales prospecting. The platform is now testing an enhancement that would show the frequency of these visits, letting users know if someone has checked their profile once or returned multiple times. This added layer of detail could help professionals gauge genuine interest from recruiters, potential clients, or business contacts, distinguishing a casual glance from repeated attention. The feature is still in testing and has not been confirmed for a full rollout, so specifics on availability, timing, or whether it will remain exclusive to Premium accounts are not yet clear. If launched, this could further differentiate LinkedIn's paid tier by offering deeper engagement insights, reinforcing the value proposition of Premium subscriptions for users focused on relationship-building and visibility tracking on the platform.",
+        "li_summary": "LinkedIn is testing a new feature for Premium subscribers that reveals not just who viewed their profile, but how frequently specific viewers have returned to check it out, Wired reports."
+      },
+      {
+        "title": "X experiments with expanded AI transparency labels",
+        "link": "https://www.socialmediatoday.com/news/x-experiments-with-expanded-ai-transparency-labels/874461/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-11T22:40:36",
+        "summary": "X is testing a new automated system designed to identify and label posts that appear to have been created using artificial intelligence tools, marking an expansion of the platform's existing transparency features around synthetic content. Rather than relying solely on users to voluntarily disclose when they've used AI to generate text, images, or video, this experimental feature would allow X's systems to detect likely AI-generated material and apply a label automatically, flagging it for viewers. The move reflects growing pressure on social platforms to address the spread of AI-generated content, including deepfakes and synthetic media, which has raised concerns about misinformation and authenticity across the internet. By building automated detection into its labeling system, X aims to catch content that might otherwise go unmarked, giving users more context about what they're seeing in their feeds. Details on the specific detection methods, accuracy rates, or rollout timeline have not been fully disclosed, as the feature remains in a testing phase, but it signals X's continued investment in content moderation tools tied to AI-era challenges.",
+        "li_summary": "X is piloting an automated detection system that scans posts for signs of AI generation and applies transparency labels, expanding its existing content-authenticity tools without manual user disclosure required."
+      },
+      {
+        "title": "Meta publishes explainer on Your Algorithm controls",
+        "link": "https://www.socialmediatoday.com/news/meta-publishes-explainer-on-your-algorithm-controls/874460/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-11T19:44:52",
+        "summary": "Meta has published new guidance detailing how its \"Your Algorithm\" feature works, giving users more visibility and control over the content ranking system behind their feeds. The tool allows people to opt in or out of particular topics they do or don't want surfaced, effectively letting them steer what the recommendation engine prioritizes rather than relying solely on automated signals like past engagement. According to the explainer, this customization applies across personal preferences, meaning users can fine-tune their experience based on interests, sensitivities, or topics they'd rather avoid seeing altogether. The move is part of Meta's broader push toward transparency around algorithmic feed curation, responding to ongoing scrutiny over how social platforms decide what content reaches users. For marketers and brands, this signals that audience reach could become more dependent on user-selected topic preferences rather than purely engagement-driven distribution, making it worth monitoring how opt-in and opt-out behavior shapes organic visibility going forward across Meta's family of apps.",
+        "li_summary": "Meta released a detailed explainer on its \"Your Algorithm\" controls, letting users opt in or out of specific content topics to personalize how their feeds are ranked across its apps."
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "articles": [
       {
@@ -184,43 +229,6 @@
         "published": "2026-11-05T19:24:19",
         "summary": "Meta has expanded its Edits video creation app beyond mobile devices with a new MacOS version, giving creators a desktop option for producing short-form video content. The MacOS release supports multiple aspect ratios, allowing users to format videos for different platforms and placements rather than being locked into a single vertical format typical of mobile-first editing tools. Meta designed the desktop interface specifically with larger screens in mind, suggesting a layout and toolset adapted for more precise editing work than what's possible on a phone screen. This move brings Edits in line with other short-form video editing tools that have expanded to desktop to capture creators who prefer working on bigger displays for tasks like trimming, adding effects, and fine-tuning footage before publishing to platforms such as Instagram Reels. The expansion signals Meta's continued investment in supporting content creators across its ecosystem, giving them more flexibility in how and where they produce video content destined for its apps.",
         "li_summary": "Meta's Edits video creation app, previously mobile-only, has launched on MacOS with support for multiple aspect ratios and an interface built specifically for larger desktop screens."
-      }
-    ]
-  },
-  {
-    "date": "2026-11-05",
-    "articles": [
-      {
-        "title": "Snapchat posts modest user increase in Q3",
-        "link": "https://www.socialmediatoday.com/news/snapchat-posts-modest-user-increase-in-q3/873823/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T00:46:32",
-        "summary": "Snapchat's latest quarterly results reveal a mixed picture for the social platform: while overall company revenue increased during Q3, user growth told a different story. Daily active users, the key engagement metric investors and advertisers watch closely, rose only marginally compared to previous quarters. More notably, this slowdown wasn't isolated to one region but appeared consistently across nearly every market where Snapchat operates, suggesting a broader plateau in the app's ability to attract new daily users rather than a localized dip. This divergence between rising revenue and stagnant user growth indicates Snapchat may be successfully monetizing its existing user base more effectively, even as it struggles to expand that base further. For marketers relying on Snapchat for reach, this signals a maturing platform where audience growth can no longer be assumed, making retention and engagement strategies increasingly important alongside any plans tied to expanding reach through the app this year.",
-        "li_summary": "Snapchat's Q3 earnings showed revenue growth, but daily active user numbers barely moved, with growth stalling across almost every geographic market the platform tracks."
-      },
-      {
-        "title": "Facebook expands Creator Fast Track program to Brazil",
-        "link": "https://www.socialmediatoday.com/news/facebook-expands-creator-fast-track-program-to-brazil/873821/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-04T22:56:01",
-        "summary": "Facebook has extended its Creator Fast Track program into Brazil, aiming to encourage more local creators to produce and share content on the platform. The program, which previously rolled out in North America, provides creators with monetary incentives tied to performance or participation milestones, intended to accelerate growth of new or emerging creator accounts. However, the financial incentives being offered to Brazilian creators are significantly smaller than those provided to their North American counterparts, reflecting differing market priorities or budget allocations for international expansion. This disparity highlights how Meta is adjusting its creator monetization strategy on a region-by-region basis, likely factoring in local advertising revenue potential, cost of living, and competitive dynamics with other social platforms operating in Brazil. The move signals Facebook's continued push to compete for creator talent globally, even as it calibrates spending to match regional market value, leaving Brazilian creators with smaller earning opportunities compared to those available to creators in more established markets like the United States and Canada.",
-        "li_summary": "Facebook is expanding its Creator Fast Track program to Brazil, offering local creators monetary incentives to boost platform content, though payouts are notably lower than those given to North American creators."
-      },
-      {
-        "title": "Instagram tries to entice long-form creators",
-        "link": "https://www.socialmediatoday.com/news/instagram-tries-to-entice-long-form-creators/873820/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-04T22:50:52",
-        "summary": "Instagram is rolling out incentives aimed at long-form video creators, including one-time cash payments and premium placement within the app, as it tries to compete for talent that typically gravitates toward YouTube. Unlike YouTube, which offers creators a consistent revenue-sharing model tied to ad views and watch time, Instagram currently lacks a comparable ongoing payout structure for longer content. To bridge that gap, the platform is instead using lump-sum payments and boosted visibility placements to lure creators into posting long-form videos on Instagram rather than exclusively on YouTube. The move signals Meta's continued push to expand Instagram's video offerings beyond Reels and short-form clips, as it competes for creator attention and ad dollars in a crowded video landscape. For marketers and creators alike, this suggests Instagram is still experimenting with monetization incentives rather than offering a stable, scalable payout system, meaning the long-form push may rely more on one-time deals than predictable, recurring creator earnings for now.",
-        "li_summary": "Instagram is offering one-off cash payouts and premium in-app placements to attract long-form video creators, compensating for its lack of a YouTube-style ongoing monetization system."
-      },
-      {
-        "title": "Reddit publishes 2027 marketing playbook",
-        "link": "https://www.socialmediatoday.com/news/reddit-publishes-2027-marketing-playbook/873789/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-04T19:31:00",
-        "summary": "Reddit has published a 35-page marketing playbook aimed at helping brands prepare their 2027 strategies well ahead of time. The guide compiles seasonal trend data alongside a curated list of major events expected to shape consumer attention and online conversation throughout the year, giving marketers a reference point for timing campaigns, content drops, and ad spend. Rather than focusing on immediate tactics, the resource is designed for long-range planning, encouraging brands to map out forward-facing strategies months or even years in advance rather than reacting to trends as they emerge. By packaging seasonal insights with a forward calendar, Reddit appears to be positioning itself as a planning partner for advertisers, not just an ad platform, reinforcing its push to be seen as a hub for cultural and community-driven conversation that brands can tap into proactively. The move also signals Reddit's broader effort to court marketing teams with structured, data-backed resources as competition for ad budgets across social platforms continues to intensify heading into the back half of the decade.",
-        "li_summary": "Reddit released a 35-page 2027 marketing playbook outlining seasonal trends and a calendar of major cultural and industry events to help brands plan campaigns well in advance."
       }
     ]
   }
