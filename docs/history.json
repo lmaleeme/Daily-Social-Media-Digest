@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-13",
+    "articles": [
+      {
+        "title": "Sociable: Meta\u2019s AI ads included unapproved discounts",
+        "link": "https://www.marketingdive.com/news/sociable-metas-ai-ads-included-unapproved-discounts/874525/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-12T17:24:00",
+        "summary": "Recent reports have revealed a flaw in Meta's artificial intelligence-powered advertising tools, which were found to display discount offers to customers even after businesses had disabled promotions. This means advertisers who intentionally turned off discount campaigns still had unapproved deals surfaced to shoppers, potentially undercutting pricing strategies and creating confusion or mistrust among customers expecting accurate offers. The issue highlights growing concerns around the reliability of AI-driven automation in advertising, particularly as platforms like Meta push businesses toward increasingly automated, AI-managed ad campaigns that offer less manual oversight. For marketers, this raises questions about how much control they actually retain when using AI ad tools, especially regarding pricing and promotional messaging that directly affects revenue and brand consistency. The report adds to a broader pattern of scrutiny facing AI-powered ad platforms, as advertisers weigh the efficiency gains of automation against risks of errors that can affect customer experience, pricing integrity, and trust. It remains unclear how widespread the issue was or what corrective steps Meta has taken.",
+        "li_summary": "Meta's AI-driven ad tools reportedly displayed discount offers to customers even when businesses had explicitly turned promotions off, raising concerns about advertiser control and trust in automated ad systems."
+      },
+      {
+        "title": "How Unilever\u2019s social-first marketing is evolving amid reorganization",
+        "link": "https://www.marketingdive.com/news/how-unilevers-social-first-marketing-is-evolving-amid-reorganization/874457/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-12T14:46:00",
+        "summary": "Unilever has shared new details about how its marketing approach is shifting as it rolls out a broader company reorganization built on the principle of \"global strategy, local execution.\" The consumer goods giant is restructuring so that overarching brand and marketing strategy is set centrally, while individual markets retain control over how campaigns are executed on the ground, including social media content. This shift reflects Unilever's continued push toward social-first marketing, where platforms like TikTok, Instagram, and YouTube shape campaign planning from the outset rather than serving as an afterthought to traditional advertising. The reorganization is designed to let global teams maintain consistent brand positioning and efficiency across Unilever's portfolio, while giving regional and local marketers flexibility to adapt content, tone, and platform choices to local audiences and cultural nuances. For marketers watching Unilever, long seen as a bellwether for large-scale brand strategy, the changes signal a broader industry trend toward balancing centralized strategic control with decentralized, locally responsive social execution.",
+        "li_summary": "Unilever detailed how its social-first marketing strategy is adapting as the company restructures internally around a new \"global strategy, local execution\" operating principle."
+      },
+      {
+        "title": "Edits app gets speed curves and auto audio balancing",
+        "link": "https://www.socialmediatoday.com/news/edits-app-gets-speed-curves-and-auto-audio-balancing/874586/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-12T22:27:56",
+        "summary": "Instagram's video editing tool, Edits, has rolled out two new features aimed at giving creators more precise control over their content: speed curves and automatic audio balancing. The speed curve tool allows users to adjust playback speed at different points within a single clip, rather than applying one uniform speed throughout, enabling smoother transitions between slow-motion and fast-forward effects for more dynamic storytelling. The automatic audio balancing feature addresses a common editing headache by evening out volume levels across multiple clips or audio tracks within a project, reducing the need for manual tweaking to fix jarring loudness differences when stitching together footage from different sources. Together, these updates are designed to streamline the editing workflow directly within the app, cutting down on the time creators spend fine-tuning pacing and sound quality before publishing. The changes reflect Instagram's ongoing push to make Edits a more competitive standalone tool for short-form video creators who might otherwise rely on third-party editing software for similar functionality.",
+        "li_summary": "Instagram's Edits app added speed curve controls for variable playback speed and automatic audio balancing, giving creators finer control over pacing and consistent sound levels across clips without manual adjustments."
+      },
+      {
+        "title": "Instagram experiments with sports feature",
+        "link": "https://www.socialmediatoday.com/news/instagram-experiments-with-sports-feature/874585/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-12T22:20:57",
+        "summary": "Instagram appears to be developing a new, dedicated sports engagement feature, based on early signs spotted within the app's code and interface experiments. While details remain limited, the move suggests Meta is exploring ways to let users follow live games, scores, or sports-related content more directly inside Instagram rather than relying on third-party apps or separate sports platforms. This would mark an expansion of Instagram's efforts to keep users engaged with real-time, interest-based content beyond its core photo and video sharing functions, following similar moves by competitors to integrate live sports updates and fan interaction tools. For marketers and brands, a dedicated sports hub could open new opportunities for timely engagement, targeted advertising around major sporting events, and partnerships tied to live audience spikes. As with most early-stage app experiments, it's unclear whether this feature will roll out broadly, remain limited to select markets, or get scrapped before public release, but it signals Instagram's continued interest in tapping into sports fandom as a growth and retention lever.",
+        "li_summary": "Instagram is testing a new dedicated sports engagement feature within its app, signaling a fresh push to capture real-time fan interaction around games and sporting events on the platform."
+      },
+      {
+        "title": "YouTube announces GTA VI activations",
+        "link": "https://www.socialmediatoday.com/news/youtube-announces-gta-vi-activations/874583/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-12T22:18:35",
+        "summary": "YouTube will mark Grand Theft Au",
+        "li_summary": "YouTube will mark Grand Theft Au"
+      },
+      {
+        "title": "LinkedIn launches CTV ads in the UK",
+        "link": "https://www.socialmediatoday.com/news/linkedin-launches-ctv-ads-in-the-uk/874581/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-12T22:15:43",
+        "summary": "LinkedIn has expanded its advertising offering into connected TV in the UK, giving marketers a new way to target professional audiences on streaming and smart TV screens rather than just desktop and mobile feeds. The platform states that its CTV ad placements are 2.6 times more effective at reaching genuine B2B audiences compared with other connected TV advertising solutions currently available, positioning the format as a differentiated option for brands focused on reaching business decision-makers rather than general consumers. This move follows a broader industry trend of advertising platforms pushing further into CTV as viewing habits shift away from traditional linear television toward streaming services, and it signals LinkedIn's intent to capture advertising budgets that might otherwise go to video-first platforms. For marketing professionals running account-based or B2B campaigns, the launch offers an additional channel to extend brand reach beyond LinkedIn's native feed, potentially allowing for more integrated, cross-screen targeting strategies that combine professional data with the high-impact format of television advertising.",
+        "li_summary": "LinkedIn has launched connected TV advertising in the UK, claiming its CTV ads are 2.6 times more likely to reach B2B decision-makers than rival CTV ad options in the market."
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "articles": [
       {
@@ -176,59 +229,6 @@
         "published": "2026-11-08T02:50:53",
         "summary": "TransUnion has released new data, highlighted by Reddit, indicating that financial services advertising placed within the Reddit app delivers better campaign outcomes compared to similar promotions run elsewhere. The findings point to Reddit as an underused channel for banks, fintechs, insurers, and other financial brands looking to improve marketing performance, since the platform's community-driven, discussion-heavy environment appears to engage users in ways that benefit financial product messaging specifically. For marketing professionals managing paid media budgets, this signals a potential opportunity to test or expand financial services campaigns on Reddit rather than defaulting to traditional social platforms. While exact performance metrics weren't fully detailed, the core takeaway is that Reddit is positioning itself as a credible, high-performing environment for financial advertisers, encouraging brands in this sector to reconsider platform allocation strategies and explore Reddit's niche communities and intent-driven conversations as a way to reach financially engaged audiences more effectively than on competing channels.",
         "li_summary": "New TransUnion research shared by Reddit finds that financial services ads run on its platform generate stronger performance results than comparable campaigns on other major social and digital platforms."
-      }
-    ]
-  },
-  {
-    "date": "2026-11-06",
-    "articles": [
-      {
-        "title": "Sociable: Reddit tests ads in search results",
-        "link": "https://www.marketingdive.com/news/sociable-reddit-tests-ads-in-search-results/873874/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-05T16:04:00",
-        "summary": "Reddit has begun testing a new advertising format that inserts promoted content directly into its internal search results pages, giving brands a way to reach users at the exact moment they're searching for related topics, products, or discussions. The move is designed to capitalize on intent-driven behavior, since someone typing a specific query into Reddit's search bar is often further along in a decision-making or research process than a typical passive scroller. This test comes at an interesting moment for the platform, as Reddit's broader search traffic has reportedly been slipping, likely due to shifts in how users discover content, including competition from AI-powered search tools and other platforms pulling attention away from traditional on-site search. By embedding ads into search, Reddit is attempting to create a new monetization channel that doesn't rely solely on feed-based impressions, while also giving advertisers a more precise way to align their campaigns with real-time user discovery patterns rather than broader interest-based targeting.",
-        "li_summary": "Reddit is piloting ads placed directly within its on-site search results, letting advertisers target users based on what they're actively searching for, even as the platform's overall search traffic declines."
-      },
-      {
-        "title": "Meta makes Muse agents speak",
-        "link": "https://www.socialmediatoday.com/news/meta-makes-muse-agents-speak/873959/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T23:13:30",
-        "summary": "Meta has added voice capabilities to its AI-powered tool Muse, enabling the system to recognize spoken conversational queries from users and respond audibly rather than relying solely on text-based interaction. A key feature of this update is user choice: individuals can select which voice they want Muse to use when it speaks back to them, allowing for a more personalized interaction style. This move positions Muse alongside other AI agents that have been adding voice-first or voice-enabled experiences as companies compete to make AI assistants feel more natural and accessible. By recognizing conversational queries, Muse can presumably handle more casual, spoken-language requests rather than requiring precisely typed commands, which could make the tool more approachable for everyday users. The update reflects a broader industry trend of AI companies racing to humanize their chatbots and virtual agents through voice, as spoken interaction is often seen as more intuitive than text for many use cases, from customer service to personal assistance.",
-        "li_summary": "Meta upgraded its AI tool Muse to recognize conversational voice queries and respond using a voice selected by the user, adding spoken interaction to the platform."
-      },
-      {
-        "title": "Meta, TikTok and Google push back on California law",
-        "link": "https://www.socialmediatoday.com/news/meta-tiktok-and-google-push-back-on-california-law/873955/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T22:57:37",
-        "summary": "Meta, TikTok and Google are pushing back against a new California law scheduled to take effect next year, arguing in public statements and legal filings that the measure violates First Amendment free speech protections and oversteps the boundaries of state regulatory power. According to a Reuters report, the three tech giants contend the law would impose restrictions on platform operations and content moderation practices that infringe on constitutionally protected speech rights for both the companies and their users. Their pushback signals a broader fight over how far individual states can go in regulating social media and search platforms without running afoul of federal constitutional protections. The companies are expected to pursue further legal and lobbying action before the law takes effect, setting up a potential courtroom battle that could shape precedent for other states considering similar tech regulations. The outcome may influence how platforms operate not just in California but nationwide, given the state's outsized role in setting regulatory trends that other jurisdictions often follow.",
-        "li_summary": "Meta, TikTok and Google are challenging a new California law set to take effect in 2025, arguing it violates First Amendment rights and exceeds state regulators' authority, according to Reuters."
-      },
-      {
-        "title": "TikTok launches standalone shopping app",
-        "link": "https://www.socialmediatoday.com/news/tiktok-launches-standalone-shopping-app/873952/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T22:14:51",
-        "summary": "TikTok has introduced a dedicated shopping app that operates independently from its core social video platform, signaling a deeper push into e-commerce beyond the existing in-app shopping features. The new app is designed specifically around product discovery and purchasing, giving users a shopping-first experience rather than blending commerce into the main content feed. Unlike TikTok's primary app, which reaches a global audience, this standalone version is being tested in a limited rollout, currently accessible only in a handful of countries across Asia. The move suggests TikTok is treating shopping as a distinct use case worth its own dedicated product, potentially allowing for more tailored features, checkout flows, and seller tools without disrupting the main entertainment-focused app. For marketers and brands, this points to a possible future where TikTok separates content discovery from transactional shopping journeys, which could change how campaigns are structured and measured. Wider availability beyond the initial Asian test markets has not yet been confirmed.",
-        "li_summary": "TikTok has rolled out a standalone shopping app separate from its main platform, centered on product discovery and direct purchasing, though availability is currently limited to a small number of Asian markets."
-      },
-      {
-        "title": "Meta adds new capabilities to Graph and Marketing API",
-        "link": "https://www.socialmediatoday.com/news/meta-adds-new-capabilities-to-graph-and-marketing-api/873951/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T22:13:39",
-        "summary": "Meta has rolled out updates to its Graph API and Marketing API that change how businesses manage content and ads on its platforms. The most notable addition lets businesses toggle AI self-disclosure labels on their posts directly through the API, giving brands more control over when content is flagged as AI-generated or AI-assisted rather than relying solely on automatic detection. This matters as more marketers use generative AI tools to produce images, video, and copy, and platforms face pressure to maintain transparency around synthetic content. Alongside this addition, Meta has deprecated a number of other existing features within these APIs, meaning developers and marketing teams relying on those older functions will need to update their integrations or workflows to avoid disruptions. Meta has not detailed the full list of deprecated capabilities publicly in depth, but businesses using the Graph or Marketing API for ad management, content publishing, or analytics should review Meta's developer documentation to confirm compatibility before the changes affect live campaigns or automated posting systems.",
-        "li_summary": "Meta updated its Graph and Marketing API, letting businesses add or remove AI self-disclosure labels on posts, while simultaneously deprecating several other existing API features."
-      },
-      {
-        "title": "Edits launches for MacOS",
-        "link": "https://www.socialmediatoday.com/news/edits-launches-for-macos/873949/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-05T19:24:19",
-        "summary": "Meta has expanded its Edits video creation app beyond mobile devices with a new MacOS version, giving creators a desktop option for producing short-form video content. The MacOS release supports multiple aspect ratios, allowing users to format videos for different platforms and placements rather than being locked into a single vertical format typical of mobile-first editing tools. Meta designed the desktop interface specifically with larger screens in mind, suggesting a layout and toolset adapted for more precise editing work than what's possible on a phone screen. This move brings Edits in line with other short-form video editing tools that have expanded to desktop to capture creators who prefer working on bigger displays for tasks like trimming, adding effects, and fine-tuning footage before publishing to platforms such as Instagram Reels. The expansion signals Meta's continued investment in supporting content creators across its ecosystem, giving them more flexibility in how and where they produce video content destined for its apps.",
-        "li_summary": "Meta's Edits video creation app, previously mobile-only, has launched on MacOS with support for multiple aspect ratios and an interface built specifically for larger desktop screens."
       }
     ]
   }
