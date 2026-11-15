@@ -839,6 +839,59 @@ def build_whatsapp_post(today_articles, notice=None):
     return "\n".join(lines).strip()
 
 
+def send_github_nudge(today_articles, image_path=None, notice=None, test=False):
+    """Open a GitHub issue holding the ready-to-paste WhatsApp post and tag the repo
+    owner, so GitHub emails it to them. No mail server or password involved: it uses
+    the workflow's own built-in token."""
+    token = os.environ.get("GITHUB_TOKEN")
+    repo = os.environ.get("GITHUB_REPOSITORY")          # "owner/name", set by GitHub
+    owner = os.environ.get("GITHUB_REPOSITORY_OWNER")
+    if not (token and repo):
+        print("GitHub nudge not configured — skipping.")
+        return
+
+    try:
+        day = _sa_today()
+        steps = []
+        image_md = ""
+        if image_path and os.path.exists(image_path):
+            import shutil
+            os.makedirs(OUTPUT_DIR, exist_ok=True)
+            # Saved into docs/ so the workflow publishes it on your GitHub Pages site.
+            shutil.copyfile(image_path, os.path.join(OUTPUT_DIR, "digest-banner.png"))
+            user, name = repo.split("/", 1)
+            url = f"https://{user.lower()}.github.io/{name}/digest-banner.png?d={day.strftime('%Y%m%d')}"
+            image_md = (f"![banner]({url})\n\n[Open the banner image]({url}) "
+                        "(it goes live a minute or two after the run finishes)\n\n")
+            steps.append("Save the banner image below.")
+        steps.append("Copy the text in the box (use the copy icon at its top right).")
+        steps.append("In your Channel: add the image, paste the text, send.")
+        steps_md = "\n".join(f"{i}. {t}" for i, t in enumerate(steps, 1))
+
+        intro = ("This is a test. Nothing was posted anywhere." if test
+                 else "Your WhatsApp Channel post is ready.")
+        body = (f"@{owner} {intro}\n\n{steps_md}\n\n{image_md}"
+                f"```\n{build_whatsapp_post(today_articles, notice)}\n```\n")
+        title = (f"TEST: WhatsApp nudge check ({day.strftime('%d %B')})" if test
+                 else f"WhatsApp Channel post ready — {day.strftime('%A, %B %d')}")
+
+        resp = requests.post(
+            f"https://api.github.com/repos/{repo}/issues",
+            headers={"Authorization": f"Bearer {token}",
+                     "Accept": "application/vnd.github+json",
+                     "X-GitHub-Api-Version": "2022-11-28"},
+            json={"title": title, "body": body, "labels": ["whatsapp-nudge"]},
+            timeout=30,
+        )
+        if resp.status_code >= 300:
+            print(f"GitHub nudge failed: {resp.status_code} {resp.text}")
+        else:
+            print(f"GitHub nudge created: {resp.json().get('html_url')}")
+    except Exception as e:
+        # Never let a nudge problem stop the posts or the web page build.
+        print(f"GitHub nudge error: {type(e).__name__}: {e}")
+
+
 def _smtp_send(msg):
     """Send with retries. If the configured port keeps failing, try the other common
     one (465 SSL / 587 STARTTLS) before giving up. A wrong password is not retried."""
@@ -930,7 +983,9 @@ def main():
             "title": "TEST: this is a sample item",
             "li_summary": "If you can read this, the morning nudge email works. Nothing was posted anywhere.",
         }]
-        send_whatsapp_nudge(sample, make_banner_image())
+        test_banner = make_banner_image()
+        send_github_nudge(sample, test_banner, test=True)
+        send_whatsapp_nudge(sample, test_banner)
         return
 
     # Holiday break: nothing is published from 19 December until 10 January.
@@ -977,6 +1032,7 @@ def main():
                                               with_header=True, notice=notice),
         )
         mark_posted(today)
+        send_github_nudge(today_articles, banner, notice)
         send_whatsapp_nudge(today_articles, banner, notice)
     else:
         print("No qualifying articles today — skipping posts to avoid a blank digest.")
