@@ -2,9 +2,13 @@ name: Daily Social Media Digest
 
 on:
   schedule:
-    # Runs 07:00 UTC, Monday-Friday only — skips weekends since there's
-    # often little/no social media news to report on Sat/Sun.
-    - cron: "0 7 * * 1-5"
+    # Two runs, Monday-Friday. Times are UTC; South Africa is UTC+2 all year.
+    #   Early run:  04:17 UTC = 06:17 South Africa time
+    #   Backup run: 06:17 UTC = 08:17 South Africa time (stands down if the early
+    #               run already published, so it only matters when GitHub is late)
+    # Odd minutes on purpose: GitHub is busiest at the top of the hour.
+    - cron: "17 4 * * 1-5"
+    - cron: "17 6 * * 1-5"
   workflow_dispatch:   # lets you trigger it manually from the Actions tab
     inputs:
       email_test_only:
@@ -14,6 +18,12 @@ on:
 
 permissions:
   contents: write
+
+# Runs never overlap: if the backup starts while the early run is still going,
+# it waits, then sees the post already went out and stands down.
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
 
 jobs:
   build-and-publish:
