@@ -848,24 +848,30 @@ def _smtp_send(msg):
     last_error = None
     for port in ports:
         for attempt in (1, 2):
+            stage = "connect"
             try:
                 if port == 465:
                     server = smtplib.SMTP_SSL(SMTP_HOST, port, timeout=30)
                 else:
                     server = smtplib.SMTP(SMTP_HOST, port, timeout=30)
+                    stage = "hello"
                     server.ehlo()
+                    stage = "starttls"
                     server.starttls()
+                    stage = "hello"
                     server.ehlo()
                 with server:
+                    stage = "login"
                     server.login(SMTP_USER, SMTP_PASSWORD)
+                    stage = "send"
                     server.send_message(msg)
                 return port
             except smtplib.SMTPAuthenticationError:
                 raise
             except (smtplib.SMTPException, OSError) as e:
                 last_error = e
-                print(f"Nudge email attempt failed (port {port}, try {attempt}): "
-                      f"{type(e).__name__}: {e}")
+                print(f"Nudge email attempt failed (port {port}, try {attempt}, "
+                      f"step: {stage}): {type(e).__name__}: {e}")
                 time.sleep(5)
     raise last_error
 
