@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write      # lets the workflow open the daily WhatsApp-post issue
 
 # Runs never overlap: if the backup starts while the early run is still going,
 # it waits, then sees the post already went out and stands down.
@@ -54,6 +55,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NUDGE_TEST_ONLY: ${{ inputs.email_test_only }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python main.py
 
       - name: Commit updated digest page
