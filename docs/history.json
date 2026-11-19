@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-19",
+    "articles": [
+      {
+        "title": "Paid media now plays largest role in brand-funded creator growth: report",
+        "link": "https://www.marketingdive.com/news/paid-media-now-plays-largest-role-in-brand-funded-creator-growth-report/875032/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-18T15:09:50",
+        "summary": "A recent industry report reveals a significant shift in how brands fund creator partnerships, with paid media amplification now accounting for close to half of all brand-funded creator spending. This approach\u2014where companies pay to boost or distribute creator-made content through advertising channels\u2014has overtaken the long-standing #sponsored post model, which simply compensates creators for organic posts to their own audiences. The finding signals that marketers increasingly view creator content as a raw asset to be amplified through paid distribution rather than relying solely on a creator's existing reach and engagement. This trend suggests brands are treating influencer-generated content more like traditional ad creative, optimizing it for performance media placements across social platforms rather than treating it as a one-off endorsement. For marketing professionals, this points to a maturing creator economy where production and amplification strategies are increasingly intertwined, requiring budgets and workflows that blend influencer relationships with paid social expertise rather than keeping these functions separate.",
+        "li_summary": "A new report finds brands now allocate nearly 50% of creator-marketing budgets to paid media amplification, surpassing traditional sponsored-post deals as the dominant spending category."
+      },
+      {
+        "title": "TikTok releases its 2026 Music Impact Report",
+        "link": "https://www.socialmediatoday.com/news/tiktok-releases-its-2026-music-impact-report/875144/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-18T22:19:18",
+        "summary": "TikTok published its 2026 Music Impact Report, highlighting the platform's growing influence over which songs become global hits. The headline finding: 94% of tracks that appeared on the Billboard Global 200 chart in 2025 experienced a viral moment on TikTok before they climbed onto that chart. In practical terms, this means the vast majority of the world's most popular songs last year were propelled by user-generated trends, sounds, challenges, or clips on the app before achieving mainstream chart success through traditional streaming and sales metrics. The finding reinforces TikTok's position as a primary discovery engine for the music industry, effectively acting as an early-warning signal or launchpad for hits well ahead of official chart recognition. For marketers, labels, and artists, the data signals that TikTok virality is increasingly a prerequisite\u2014rather than a byproduct\u2014of commercial music success, making the platform a critical testing ground for new releases and a key metric for predicting which songs are likely to break through to broader audiences and official industry rankings.",
+        "li_summary": "TikTok's 2026 Music Impact Report found that 94% of songs on the Billboard Global 200 in 2025 went viral on the platform before entering the chart, underscoring its outsized role in shaping global hit music."
+      },
+      {
+        "title": "Meta brings its updated Creator Dashboard to the web",
+        "link": "https://www.socialmediatoday.com/news/meta-brings-its-updated-creator-dashboard-to-the-web/875143/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-18T22:09:00",
+        "summary": "Meta has rolled out its newly redesigned Creator Dashboard to the web, extending a tool that was previously limited to mobile app access. The updated interface is intended to become the central hub creators use to manage their presence across Meta's platforms, consolidating features that were previously scattered across separate in-app tools. This marks another iteration of Meta's creator management console, reflecting the company's ongoing effort to streamline how creators monitor and control their content, audience, and account settings in one place. By bringing the dashboard to desktop, Meta is making it easier for creators who prefer working on larger screens or managing multiple accounts to access analytics, content controls, and other creator-focused features without relying solely on mobile devices. The move signals Meta's broader push to position this dashboard as the default, unified starting point for creator operations, phasing out older, fragmented management interfaces in favor of a single consistent experience across both mobile and web platforms.",
+        "li_summary": "Meta has expanded its redesigned Creator Dashboard to desktop web access, positioning it as the primary control panel for managing creator presence across its apps, replacing older in-app management tools."
+      },
+      {
+        "title": "Snapchat adds more creator partnership opportunities",
+        "link": "https://www.socialmediatoday.com/news/snapchat-adds-more-creator-partnership-opportunities/875141/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-18T22:02:22",
+        "summary": "Snapchat is piloting two new features aimed at expanding creator-brand collaboration on the app. The first is a revamped version of its Snap Creator Network, a platform designed to connect creators with brands for sponsored content and partnership opportunities, though Snapchat has not detailed exactly what changes are being tested. The second addition, \"Visited By\" listings, will appear on Snap Map and highlight which creators have visited specific locations, such as restaurants, stores, or events, giving local businesses a new way to showcase influencer engagement and attract foot traffic. Together, these tools suggest Snapchat is leaning further into creator commerce and local marketing, positioning itself as a platform where creators can monetize visits and collaborations while brands gain visibility through authentic, location-based content. Marketers watching the creator economy should note this as another signal that social platforms are building more structured, discoverable ways to match creators with business opportunities tied to real-world locations.",
+        "li_summary": "Snapchat is testing an updated Snap Creator Network alongside new \"Visited By\" listings on Snap Map, giving brands and local businesses fresh ways to connect with creators for promotional partnerships."
+      },
+      {
+        "title": "Snapchat enables Lens creation via third-party AI tools",
+        "link": "https://www.socialmediatoday.com/news/snapchat-enables-lens-creation-via-third-party-ai-tools/875139/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-18T21:59:34",
+        "summary": "Snapchat has rolled out a new tool called Easy Lens, a command line interface designed to simplify how creators build AR Lenses for the platform. Instead of requiring developers to work exclusively within Snap's native Lens Studio environment, Easy Lens allows them to connect their chatbot of choice, including popular third-party AI assistants, to generate and refine Lens code through conversational prompts. This approach lowers the technical barrier for Lens creation, letting creators describe the effect they want in natural language and have the AI handle much of the coding work behind the scenes. By opening up compatibility to external AI tools rather than locking developers into a single proprietary system, Snap is betting that flexibility will encourage more creators, including those without deep AR or coding backgrounds, to experiment with building Lenses. The move reflects a broader industry trend of platforms integrating AI-assisted development tools to accelerate content creation and reduce production friction for creators and brands alike.",
+        "li_summary": "Snapchat introduced a new Easy Lens command line interface that lets developers build AR Lenses by pairing it with any third-party AI chatbot they prefer, rather than relying solely on Snap's own tools."
+      },
+      {
+        "title": "LinkedIn adds ninth in-stream game",
+        "link": "https://www.socialmediatoday.com/news/linkedin-adds-ninth-in-stream-game/875119/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-18T19:22:14",
+        "summary": "LinkedIn has rolled out Sumbreak, a new math-based puzzle game, becoming the ninth in-stream game added to the professional networking platform. The addition continues LinkedIn's strategy of incorporating casual gaming content directly into the user feed as a tool to drive higher retention and deeper engagement among its member base. By offering quick, skill-based puzzles like Sumbreak alongside its existing lineup of in-app games, LinkedIn aims to give users another reason to open the app daily and spend more time interacting with the platform beyond professional networking, job searching, and content browsing. This move reflects a broader trend among social and professional platforms turning to lightweight gaming experiences to compete for user attention in a crowded digital landscape. While specific performance metrics for Sumbreak have not been disclosed, its launch signals LinkedIn's continued investment in gamification as part of its product roadmap to keep users returning to the platform more frequently throughout the week.",
+        "li_summary": "LinkedIn launched Sumbreak, a math-based puzzle, marking its ninth in-stream game as the platform continues expanding casual gaming features to boost user retention and daily engagement."
+      }
+    ],
+    "posted": true
+  },
+  {
     "date": "2026-11-18",
     "articles": [
       {
@@ -211,51 +265,6 @@
         "published": "2026-11-12T22:15:43",
         "summary": "LinkedIn has expanded its advertising offering into connected TV in the UK, giving marketers a new way to target professional audiences on streaming and smart TV screens rather than just desktop and mobile feeds. The platform states that its CTV ad placements are 2.6 times more effective at reaching genuine B2B audiences compared with other connected TV advertising solutions currently available, positioning the format as a differentiated option for brands focused on reaching business decision-makers rather than general consumers. This move follows a broader industry trend of advertising platforms pushing further into CTV as viewing habits shift away from traditional linear television toward streaming services, and it signals LinkedIn's intent to capture advertising budgets that might otherwise go to video-first platforms. For marketing professionals running account-based or B2B campaigns, the launch offers an additional channel to extend brand reach beyond LinkedIn's native feed, potentially allowing for more integrated, cross-screen targeting strategies that combine professional data with the high-impact format of television advertising.",
         "li_summary": "LinkedIn has launched connected TV advertising in the UK, claiming its CTV ads are 2.6 times more likely to reach B2B decision-makers than rival CTV ad options in the market."
-      }
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "articles": [
-      {
-        "title": "How Unilever\u2019s social-first marketing is evolving amid reorganization",
-        "link": "https://www.marketingdive.com/news/how-unilevers-social-first-marketing-is-evolving-amid-reorganization/874457/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-12T14:46:00",
-        "summary": "Unilever has begun reshaping its marketing operations following the announcement of a company-wide reorganization built on the principle of \"global strategy, local execution,\" meaning overarching brand and marketing strategies will be set centrally while individual markets retain control over how campaigns are executed locally. As part of this shift, the company shared details on how its social-first marketing approach is evolving to fit the new structure, signaling that social media content and strategy will increasingly be guided by global direction but adapted regionally to reflect local consumer behavior and platform trends. This move reflects Unilever's broader effort to balance consistency in brand messaging across its vast portfolio with the flexibility needed to stay relevant in fast-moving social media environments across different countries. For marketers, the development highlights how major consumer goods companies are rethinking centralized versus decentralized marketing models to keep pace with social-first content demands while maintaining efficiency and brand coherence at a global scale.",
-        "li_summary": "Unilever revealed how its social-first marketing strategy is adapting as the company restructures its organization around a new \"global strategy, local execution\" operating model."
-      },
-      {
-        "title": "Thought leadership remains highly valuable for B2B buyers",
-        "link": "https://www.socialmediatoday.com/news/thought-leadership-remains-highly-valuable-for-b2b-buyers/874464/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-11T23:39:39",
-        "summary": "Edelman's latest research into LinkedIn content confirms that thought leadership continues to carry real weight with B2B buyers, who say they look to professional insight and firsthand experience when assessing potential vendors and partners. The study found that decision-makers consistently turn to credible, expert-driven content to gauge a company's expertise and trustworthiness before engaging commercially, often using it as a key factor in shortlisting providers. However, the report also high",
-        "li_summary": "A new Edelman-LinkedIn report finds that B2B buyers still rely heavily on thought leadership content from industry professionals to evaluate vendors, despite widespread criticism that most published insights feel shallow or generic."
-      },
-      {
-        "title": "LinkedIn tests frequent viewer feature",
-        "link": "https://www.socialmediatoday.com/news/linkedin-tests-frequent-viewer-feature/874463/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-11T23:17:02",
-        "summary": "LinkedIn appears to be piloting an expanded version of its profile-viewing analytics tool, according to a Wired report. Currently, Premium subscribers can already see a list of users who have viewed their profile, a feature often used for networking and sales prospecting. The platform is now testing an enhancement that would show the frequency of these visits, letting users know if someone has checked their profile once or returned multiple times. This added layer of detail could help professionals gauge genuine interest from recruiters, potential clients, or business contacts, distinguishing a casual glance from repeated attention. The feature is still in testing and has not been confirmed for a full rollout, so specifics on availability, timing, or whether it will remain exclusive to Premium accounts are not yet clear. If launched, this could further differentiate LinkedIn's paid tier by offering deeper engagement insights, reinforcing the value proposition of Premium subscriptions for users focused on relationship-building and visibility tracking on the platform.",
-        "li_summary": "LinkedIn is testing a new feature for Premium subscribers that reveals not just who viewed their profile, but how frequently specific viewers have returned to check it out, Wired reports."
-      },
-      {
-        "title": "X experiments with expanded AI transparency labels",
-        "link": "https://www.socialmediatoday.com/news/x-experiments-with-expanded-ai-transparency-labels/874461/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-11T22:40:36",
-        "summary": "X is testing a new automated system designed to identify and label posts that appear to have been created using artificial intelligence tools, marking an expansion of the platform's existing transparency features around synthetic content. Rather than relying solely on users to voluntarily disclose when they've used AI to generate text, images, or video, this experimental feature would allow X's systems to detect likely AI-generated material and apply a label automatically, flagging it for viewers. The move reflects growing pressure on social platforms to address the spread of AI-generated content, including deepfakes and synthetic media, which has raised concerns about misinformation and authenticity across the internet. By building automated detection into its labeling system, X aims to catch content that might otherwise go unmarked, giving users more context about what they're seeing in their feeds. Details on the specific detection methods, accuracy rates, or rollout timeline have not been fully disclosed, as the feature remains in a testing phase, but it signals X's continued investment in content moderation tools tied to AI-era challenges.",
-        "li_summary": "X is piloting an automated detection system that scans posts for signs of AI generation and applies transparency labels, expanding its existing content-authenticity tools without manual user disclosure required."
-      },
-      {
-        "title": "Meta publishes explainer on Your Algorithm controls",
-        "link": "https://www.socialmediatoday.com/news/meta-publishes-explainer-on-your-algorithm-controls/874460/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-11T19:44:52",
-        "summary": "Meta has published new guidance detailing how its \"Your Algorithm\" feature works, giving users more visibility and control over the content ranking system behind their feeds. The tool allows people to opt in or out of particular topics they do or don't want surfaced, effectively letting them steer what the recommendation engine prioritizes rather than relying solely on automated signals like past engagement. According to the explainer, this customization applies across personal preferences, meaning users can fine-tune their experience based on interests, sensitivities, or topics they'd rather avoid seeing altogether. The move is part of Meta's broader push toward transparency around algorithmic feed curation, responding to ongoing scrutiny over how social platforms decide what content reaches users. For marketers and brands, this signals that audience reach could become more dependent on user-selected topic preferences rather than purely engagement-driven distribution, making it worth monitoring how opt-in and opt-out behavior shapes organic visibility going forward across Meta's family of apps.",
-        "li_summary": "Meta released a detailed explainer on its \"Your Algorithm\" controls, letting users opt in or out of specific content topics to personalize how their feeds are ranked across its apps."
       }
     ]
   }
