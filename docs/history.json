@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-20",
+    "articles": [
+      {
+        "title": "Sociable: Instagram adds Amazon affiliate links",
+        "link": "https://www.marketingdive.com/news/sociable-instagram-adds-amazon-affiliate-links/875206/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-19T17:18:00",
+        "summary": "Instagram has partnered with Amazon to let creators embed shoppable Amazon product links directly into their Reels, with each Reel supporting up to 30 tagged items. The integration is designed to simplify affiliate marketing by removing the need for creators to direct followers to external links in bios or captions, instead allowing viewers to browse and purchase Amazon products without leaving the Instagram app. This move reflects a broader push by both companies to capture more social commerce revenue, as short-form video continues to drive purchasing decisions among younger audiences. For creators, the feature offers a more direct path to monetization through affiliate commissions tied to Amazon's existing marketplace, while Instagram benefits from keeping users engaged on-platform rather than losing them to outbound links. The partnership signals growing convergence between entertainment content and e-commerce, positioning Reels as a shopping discovery tool alongside its existing role in entertainment and brand marketing, and it gives marketers a new testing ground for product placement strategies within influencer-driven video content.",
+        "li_summary": "Instagram and Amazon launched a partnership letting creators tag up to 30 shoppable Amazon products directly within a single Reel, streamlining affiliate marketing for social commerce."
+      },
+      {
+        "title": "How SharkNinja is doubling down on its creator strategy",
+        "link": "https://www.marketingdive.com/news/sharkninja-is-doubling-down-on-its-creator-strategy/874691/",
+        "source": "Marketing Dive - Latest News",
+        "published": "2026-11-19T14:00:00",
+        "summary": "SharkNinja is expanding its creator-driven marketing approach by rolling out two new programs designed to strengthen its social media footprint. One program is aimed at mobilizing employees to act as brand advocates online, encouraging staff to create and share content that amplifies the company's presence across platforms. The second program targets external content creators, formalizing how SharkNinja collaborates with influencers and creators to produce branded content. Together, these initiatives signal the company's continued investment in creator partnerships as a core pillar of its marketing strategy, building on its existing reputation for leveraging social media to drive product awareness and engagement. By tapping both internal employees and external creators, SharkNinja is positioning itself to scale content production, diversify its messaging across audiences, and maintain momentum in an increasingly competitive social commerce landscape where brand authenticity and creator-led storytelling have become key differentiators for consumer product companies.",
+        "li_summary": "SharkNinja is launching two new initiatives, an employee advocacy program and a content creator program, to expand its social media presence and deepen its influencer marketing strategy."
+      },
+      {
+        "title": "Meta launches shopping platform Achados in Brazil",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-shopping-platform-achados-in-brazil/875290/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-19T22:33:57",
+        "summary": "Meta has rolled out Achados, a shopping platform designed specifically for the Brazilian market, consolidating product listings sourced from across its family of apps\u2014including Facebook, Instagram, and WhatsApp\u2014into a single, unified marketplace interface. Rather than forcing users to browse separate catalogs on each app, Achados pulls together items from sellers and brands already active on Meta's platforms, presenting them in one centralized discovery hub. The move signals Meta's continued push to strengthen e-commerce capabilities within its ecosystem, giving Brazilian consumers an easier way to search, compare, and shop products without switching between apps, while also creating a more streamlined channel for merchants and advertisers to reach shoppers. Brazil, one of Meta's largest and most engaged markets in Latin America, serves as a strategic testing ground for this kind of integrated commerce feature, reflecting broader industry trends of social platforms blurring the line between content, communication, and online retail as they compete for a larger share of digital shopping activity.",
+        "li_summary": "Meta launched Achados, a new shopping marketplace in Brazil that aggregates product listings from Facebook, Instagram, and WhatsApp into one unified browsing and discovery experience for users."
+      },
+      {
+        "title": "Threads tests new Q&A option in live chats",
+        "link": "https://www.socialmediatoday.com/news/threads-tests-new-qa-option-in-live-chats/875287/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-19T22:28:50",
+        "summary": "Meta's Threads app is piloting a new Q&A format built into its live chat function, giving hosts a structured way to gather questions from participants during a session. Rather than simply reading messages as they appear, hosts will be able to solicit specific questions from the audience, which other chat members can then vote on to determine which get asked first. The feature appears aimed at making live chats more organized and interactive, especially for hosts fielding large volumes of audience input, such as creators, brands, or public figures hosting Q&A sessions. By letting the community prioritize questions through voting, Threads could reduce chat clutter and help hosts focus on the topics generating the most interest. The test is still in an experimental phase, with no confirmed timeline for a broader rollout. If it performs well, this could become a standard tool for live interactions on the platform, giving Threads another point of differentiation as it competes with X and other real-time conversation apps.",
+        "li_summary": "Threads is testing a Q&A feature within its live chat tool that lets hosts collect audience questions while participants vote on which ones get prioritized and answered."
+      },
+      {
+        "title": "Reddit publishes guide to Super Bowl engagement trends",
+        "link": "https://www.socialmediatoday.com/news/reddit-publishes-guide-to-super-bowl-engagement-trends/875284/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-19T22:19:03",
+        "summary": "Reddit has published a guide aimed at helping brands effectively tap into subreddit communities around Super Bowl content, with a specific focus on preparing for the 2027 game. The platform's main recommendation is that marketers should start their planning process far ahead of the actual event rather than scrambling in the weeks before kickoff. This early-start approach is meant to give brands time to properly map out which subreddits are relevant to their goals, understand the specific tone and culture of those communities, and design engagement strategies that feel native rather than like traditional advertising. The guide reflects Reddit's continued effort to position",
+        "li_summary": "Reddit released a new guide advising brands to begin planning subreddit engagement strategies for the 2027 Super Bowl well in advance, emphasizing early community mapping over last-minute campaigns."
+      },
+      {
+        "title": "LinkedIn study explores B2B buying decisions",
+        "link": "https://www.socialmediatoday.com/news/linkedin-study-explores-b2b-buying-decisions/875281/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-19T22:11:52",
+        "summary": "LinkedIn has released research examining how B2B buyers actually make purchasing decisions, and the findings point to the growing weight of relational, trust-based factors over purely transactional ones. Rather than relying solely on product specs, pricing sheets, or sales pitches, business buyers are shown to lean heavily on testimonials from existing customers and validation from industry peers when evaluating vendors. This suggests that traditional B2B marketing tactics focused on feature lists and direct outreach may be less persuasive than content that demonstrates real-world trust, such as case studies, reviews, and peer recommendations. For marketers, the implication is that building credibility through third-party voices and community endorsement could be more effective at moving buyers through the funnel than brand-generated messaging alone. The research reinforces a broader shift in B2B marketing strategy toward relationship-driven and socially validated content, encouraging companies to prioritize cultivating genuine customer advocacy and peer networks as part of their demand generation and conversion efforts, rather than depending on conventional sales collateral to close deals.",
+        "li_summary": "LinkedIn's new research into B2B purchasing behavior finds that relational factors, particularly customer testimonials and peer validation, play a decisive role in shaping client purchase decisions."
+      }
+    ],
+    "posted": true
+  },
+  {
     "date": "2026-11-19",
     "articles": [
       {
@@ -214,58 +268,5 @@
       }
     ],
     "posted": true
-  },
-  {
-    "date": "2026-11-13",
-    "articles": [
-      {
-        "title": "Sociable: Meta\u2019s AI ads included unapproved discounts",
-        "link": "https://www.marketingdive.com/news/sociable-metas-ai-ads-included-unapproved-discounts/874525/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-12T17:24:00",
-        "summary": "Recent reports have revealed a flaw in Meta's artificial intelligence-powered advertising tools, which were found to display discount offers to customers even after businesses had disabled promotions. This means advertisers who intentionally turned off discount campaigns still had unapproved deals surfaced to shoppers, potentially undercutting pricing strategies and creating confusion or mistrust among customers expecting accurate offers. The issue highlights growing concerns around the reliability of AI-driven automation in advertising, particularly as platforms like Meta push businesses toward increasingly automated, AI-managed ad campaigns that offer less manual oversight. For marketers, this raises questions about how much control they actually retain when using AI ad tools, especially regarding pricing and promotional messaging that directly affects revenue and brand consistency. The report adds to a broader pattern of scrutiny facing AI-powered ad platforms, as advertisers weigh the efficiency gains of automation against risks of errors that can affect customer experience, pricing integrity, and trust. It remains unclear how widespread the issue was or what corrective steps Meta has taken.",
-        "li_summary": "Meta's AI-driven ad tools reportedly displayed discount offers to customers even when businesses had explicitly turned promotions off, raising concerns about advertiser control and trust in automated ad systems."
-      },
-      {
-        "title": "How Unilever\u2019s social-first marketing is evolving amid reorganization",
-        "link": "https://www.marketingdive.com/news/how-unilevers-social-first-marketing-is-evolving-amid-reorganization/874457/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-12T14:46:00",
-        "summary": "Unilever has shared new details about how its marketing approach is shifting as it rolls out a broader company reorganization built on the principle of \"global strategy, local execution.\" The consumer goods giant is restructuring so that overarching brand and marketing strategy is set centrally, while individual markets retain control over how campaigns are executed on the ground, including social media content. This shift reflects Unilever's continued push toward social-first marketing, where platforms like TikTok, Instagram, and YouTube shape campaign planning from the outset rather than serving as an afterthought to traditional advertising. The reorganization is designed to let global teams maintain consistent brand positioning and efficiency across Unilever's portfolio, while giving regional and local marketers flexibility to adapt content, tone, and platform choices to local audiences and cultural nuances. For marketers watching Unilever, long seen as a bellwether for large-scale brand strategy, the changes signal a broader industry trend toward balancing centralized strategic control with decentralized, locally responsive social execution.",
-        "li_summary": "Unilever detailed how its social-first marketing strategy is adapting as the company restructures internally around a new \"global strategy, local execution\" operating principle."
-      },
-      {
-        "title": "Edits app gets speed curves and auto audio balancing",
-        "link": "https://www.socialmediatoday.com/news/edits-app-gets-speed-curves-and-auto-audio-balancing/874586/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-12T22:27:56",
-        "summary": "Instagram's video editing tool, Edits, has rolled out two new features aimed at giving creators more precise control over their content: speed curves and automatic audio balancing. The speed curve tool allows users to adjust playback speed at different points within a single clip, rather than applying one uniform speed throughout, enabling smoother transitions between slow-motion and fast-forward effects for more dynamic storytelling. The automatic audio balancing feature addresses a common editing headache by evening out volume levels across multiple clips or audio tracks within a project, reducing the need for manual tweaking to fix jarring loudness differences when stitching together footage from different sources. Together, these updates are designed to streamline the editing workflow directly within the app, cutting down on the time creators spend fine-tuning pacing and sound quality before publishing. The changes reflect Instagram's ongoing push to make Edits a more competitive standalone tool for short-form video creators who might otherwise rely on third-party editing software for similar functionality.",
-        "li_summary": "Instagram's Edits app added speed curve controls for variable playback speed and automatic audio balancing, giving creators finer control over pacing and consistent sound levels across clips without manual adjustments."
-      },
-      {
-        "title": "Instagram experiments with sports feature",
-        "link": "https://www.socialmediatoday.com/news/instagram-experiments-with-sports-feature/874585/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-12T22:20:57",
-        "summary": "Instagram appears to be developing a new, dedicated sports engagement feature, based on early signs spotted within the app's code and interface experiments. While details remain limited, the move suggests Meta is exploring ways to let users follow live games, scores, or sports-related content more directly inside Instagram rather than relying on third-party apps or separate sports platforms. This would mark an expansion of Instagram's efforts to keep users engaged with real-time, interest-based content beyond its core photo and video sharing functions, following similar moves by competitors to integrate live sports updates and fan interaction tools. For marketers and brands, a dedicated sports hub could open new opportunities for timely engagement, targeted advertising around major sporting events, and partnerships tied to live audience spikes. As with most early-stage app experiments, it's unclear whether this feature will roll out broadly, remain limited to select markets, or get scrapped before public release, but it signals Instagram's continued interest in tapping into sports fandom as a growth and retention lever.",
-        "li_summary": "Instagram is testing a new dedicated sports engagement feature within its app, signaling a fresh push to capture real-time fan interaction around games and sporting events on the platform."
-      },
-      {
-        "title": "YouTube announces GTA VI activations",
-        "link": "https://www.socialmediatoday.com/news/youtube-announces-gta-vi-activations/874583/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-12T22:18:35",
-        "summary": "YouTube will mark Grand Theft Au",
-        "li_summary": "YouTube will mark Grand Theft Au"
-      },
-      {
-        "title": "LinkedIn launches CTV ads in the UK",
-        "link": "https://www.socialmediatoday.com/news/linkedin-launches-ctv-ads-in-the-uk/874581/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-12T22:15:43",
-        "summary": "LinkedIn has expanded its advertising offering into connected TV in the UK, giving marketers a new way to target professional audiences on streaming and smart TV screens rather than just desktop and mobile feeds. The platform states that its CTV ad placements are 2.6 times more effective at reaching genuine B2B audiences compared with other connected TV advertising solutions currently available, positioning the format as a differentiated option for brands focused on reaching business decision-makers rather than general consumers. This move follows a broader industry trend of advertising platforms pushing further into CTV as viewing habits shift away from traditional linear television toward streaming services, and it signals LinkedIn's intent to capture advertising budgets that might otherwise go to video-first platforms. For marketing professionals running account-based or B2B campaigns, the launch offers an additional channel to extend brand reach beyond LinkedIn's native feed, potentially allowing for more integrated, cross-screen targeting strategies that combine professional data with the high-impact format of television advertising.",
-        "li_summary": "LinkedIn has launched connected TV advertising in the UK, claiming its CTV ads are 2.6 times more likely to reach B2B decision-makers than rival CTV ad options in the market."
-      }
-    ]
   }
 ]
