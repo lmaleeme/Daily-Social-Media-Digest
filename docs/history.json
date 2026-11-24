@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-11-24",
+    "articles": [
+      {
+        "title": "Meta launches iPad version of Edits",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-ipad-version-of-edits/875566/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-23T22:40:37",
+        "summary": "Meta has expanded its Edits video-editing app, originally built for Instagram Reels creators, to iPad, bringing a layout optimized for the larger screen. The redesigned interface is meant to make handling multi-clip video projects more manageable, giving creators more visual space to arrange timelines, review footage, and fine-tune edits compared to the cramped mobile phone experience. Edits was launched earlier as Meta's answer to CapCut and other third-party editing tools, aimed at helping Instagram creators produce polished short-form video content directly tied to the platform's publishing tools. By bringing the app to iPad, Meta is targeting creators who prefer working on tablets for more detailed editing tasks, such as color adjustments, transitions, and multi-layer sequencing, without needing a full desktop setup. The move signals Meta's continued investment in building out its native creator tools ecosystem, competing more directly with established editing apps as short-form video remains central to Instagram's growth strategy and creator retention efforts.",
+        "li_summary": "Meta released an iPad version of its Edits video-editing app, giving creators a larger-screen layout designed to simplify managing and organizing video projects."
+      },
+      {
+        "title": "Threads teases coming iPad app",
+        "link": "https://www.socialmediatoday.com/news/threads-teases-coming-ipad-app/875561/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-23T21:27:49",
+        "summary": "Threads, Meta's text-based social platform, is working on a native iPad application, according to screenshots shared by Head of Design Christopher Clare. The images showcase how the app's feed will appear on a larger tablet display, suggesting a layout designed to take advantage of the bigger screen real estate compared to the current mobile-only experience. Currently, iPad users accessing Threads must rely on the iPhone app scaled up or use a web browser, neither of which offers an optimized viewing experience. Clare did not disclose when the dedicated app might launch, leaving users without a concrete timeline for availability. This development signals Meta's continued investment in expanding Threads' platform reach beyond smartphones, potentially making the app more competitive with other social platforms that already offer tailored tablet experiences, such as X and Instagram. The announcement comes as Threads continues to grow its user base and refine features to compete more directly with established social media players in the broader market.",
+        "li_summary": "Meta's Threads is developing a dedicated iPad app, confirmed by Head of Design Christopher Clare through screenshots showing the feed optimized for tablet screens, though no release date was given."
+      },
+      {
+        "title": "TikTok highlights 2026 holiday trends",
+        "link": "https://www.socialmediatoday.com/news/tiktok-highlights-2026-holiday-trends/875560/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-23T21:24:48",
+        "summary": "TikTok has outlined emerging holiday trends for the 2026 season, pointing to a noticeable shift in how users are approaching Christmas content on the platform. Last year's dominant aesthetic, dubbed \"Ralph Lauren Christmas,\" favored a polished, preppy, traditional look for decor, outfits, and gift styling. This year, trending hashtags such as #diychristmas and #pinkchristmas suggest users are moving toward more whimsical, personalized, and colorful holiday expressions instead. The DIY angle points to a rise in handmade decorations, crafts, and creative gift-wrapping content, while the pink Christmas theme signals interest in nontraditional color palettes replacing the classic red-and-green or neutral-toned looks popular in prior years. For marketers and brands planning holiday campaigns, this shift indicates an opportunity to lean into more",
+        "li_summary": "TikTok's holiday trend outlook for 2026 shows a move away from last year's polished \"Ralph Lauren Christmas\" aesthetic, with hashtags like #diychristmas and #pinkchristmas signaling a shift toward playful, whimsical, handmade-style holiday content."
+      },
+      {
+        "title": "Pinterest simplifies parental controls",
+        "link": "https://www.socialmediatoday.com/news/pinterest-simplifies-parental-controls/875554/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-23T21:18:03",
+        "summary": "Pinterest has rolled out an update to its parental control dashboard aimed at making it easier for parents and guardians to manage how teens use the platform. The redesign brings device management and account access settings together into one simplified interface, reducing the number of steps needed to adjust permissions across multiple devices. Previously, parents may have needed to navigate separate menus to control different aspects of a teen's account, but the updated dashboard consolidates these options into a single view. This change reflects a broader push across social platforms to give families clearer, more accessible tools for overseeing younger users' online activity amid ongoing scrutiny from regulators and child-safety advocates. For marketers and brands working with Pinterest, the update signals continued investment in trust and safety features that could affect how teen audiences engage with the platform, potentially influencing ad targeting options, content visibility, and overall usage patterns among younger demographics as parental oversight becomes simpler to implement and maintain.",
+        "li_summary": "Pinterest redesigned its parental control dashboard, consolidating device management and access settings into a single, more streamlined interface for parents overseeing teen accounts."
+      },
+      {
+        "title": "Pinterest announces partnership with Microsoft Ads",
+        "link": "https://www.socialmediatoday.com/news/pinterest-announces-partnership-with-microsoft-ads/875553/",
+        "source": "Social Media Today - Latest News",
+        "published": "2026-11-23T21:10:29",
+        "summary": "Pinterest has announced a new advertising partnership with Microsoft Ads that will see Pinterest ad inventory extended across Microsoft's broader network of partner platforms. Under the integration, brands and advertisers using Microsoft Ads will gain access to Pinterest placements as part of their campaign buys, effectively widening the distribution of Pinterest ads beyond the platform's own app and website. The move positions Pinterest to capture additional ad spend by plugging into Microsoft's existing advertiser relationships and programmatic infrastructure, rather than requiring marketers to manage a separate, standalone Pinterest ad buy. For marketers, this means Pinterest's visually driven, intent-rich ad formats could now surface across a wider set of third-party sites and apps connected through Microsoft's partner ecosystem, potentially increasing reach and scale for campaigns already built around Microsoft Ads tools. The partnership reflects a broader industry trend of social and visual-discovery platforms seeking distribution partnerships with major ad tech players to compete more effectively for budgets against dominant players like Google and Meta.",
+        "li_summary": "Pinterest partnered with Microsoft Ads to extend Pinterest ad placements across Microsoft's network of partner platforms, broadening programmatic reach for advertisers beyond Pinterest's own app and site."
+      }
+    ],
+    "posted": true
+  },
+  {
     "date": "2026-11-23",
     "articles": [
       {
@@ -203,60 +249,6 @@
         "published": "2026-11-17T18:47:17",
         "summary": "Meta announced it is bringing its existing Facebook content protection system to Instagram, giving creators on both platforms the same safeguards against unauthorized reposting of their work. The system relies on automatic detection technology that scans for matches to a creator's original content across the platform, then sends an alert when a repost is identified. This mirrors the tool Meta already uses on Facebook, where creators receive notifications if someone else shares their video or photo without permission, helping them track where their content is being redistributed and take action if needed. By extending this feature to Instagram, Meta is aiming to give creators more visibility and control over how their content spreads across its family of apps, addressing a long-standing concern among creators about losing credit or engagement when their posts are copied and reshared by other accounts without attribution.",
         "li_summary": "Meta is extending its Facebook content protection tools to Instagram, using automatic detection to alert original creators whenever their videos or photos get reposted by other accounts."
-      }
-    ],
-    "posted": true
-  },
-  {
-    "date": "2026-11-17",
-    "articles": [
-      {
-        "title": "Holiday marketing hits inflection point in 2026: What brands need to know",
-        "link": "https://www.marketingdive.com/news/holiday-marketing-hits-inflection-point-in-2026-what-brands-need-to-know/874758/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-17T13:00:00",
-        "summary": "As brands begin shaping their 2026 holiday marketing plans, a central challenge is emerging around consumer sentiment toward artificial intelligence versus established tactics like creator collaborations. Shoppers are increasingly exposed to AI-generated content, recommendations, and personalized experiences, yet many still gravitate toward relatable, human-driven marketing such as influencer and creator partnerships that feel more genuine. This creates friction for marketing teams trying to decide how heavily to lean into automated, AI-powered campaign elements versus investing in creator relationships that have historically driven trust and engagement during the critical holiday shopping season. The tension reflects a broader industry inflection point: brands can no longer treat AI adoption as a simple efficiency play, since consumers are scrutinizing how and where it's used, especially in content that touches on authenticity and emotional connection. At the same time, creator marketing remains a reliable performance driver, pushing companies to find hybrid approaches that use AI for scale and targeting while preserving the human touch consumers expect from holiday messaging and promotions.",
-        "li_summary": "Marketers heading into 2026 holiday campaigns face growing consumer tension between embracing AI-driven tools and valuing authentic creator partnerships, forcing brands to carefully balance innovation with trust-building strategies."
-      },
-      {
-        "title": "How CeraVe\u2019s \u2018Dune\u2019 deal takes the brand\u2019s social-first playbook global",
-        "link": "https://www.marketingdive.com/news/how-ceraves-dune-deal-takes-the-brands-social-first-playbook-global/874654/",
-        "source": "Marketing Dive - Latest News",
-        "published": "2026-11-16T14:00:00",
-        "summary": "CeraVe has struck its first-ever movie tie-in, partnering with the upcoming \"Dune\" film to become the \"Official Moisturizer of Arrakis\" in the lead-up to the blockbuster's December 18 release. The L'Or\u00e9al-owned skincare brand, known for leaning heavily into social-first marketing and dermatologist-backed content, is using the sci-fi franchise's massive fanbase and cultural buzz to extend its reach beyond typical beauty audiences into entertainment and pop-culture conversations. By aligning with a desert-set franchise where skin protection and hydration are a natural fit, CeraVe is positioning itself at the intersection of film promotion and skincare relevance, aiming to capture attention from moviegoers and online communities already engaging with \"Dune\" content across TikTok, Instagram and other platforms. The partnership marks a shift for the brand, which has largely built its identity through viral social campaigns and influencer-driven storytelling, now testing how that same playbook can translate into a large-scale entertainment collaboration with global visibility tied to one of the year's biggest film releases.",
-        "li_summary": "CeraVe, the L'Or\u00e9al-owned skincare brand, signed its first-ever film partnership, becoming the \"Official Moisturizer of Arrakis\" tied to Warner Bros.' \"Dune\" sequel ahead of its December 18 theatrical release."
-      },
-      {
-        "title": "Instagram launches iPhone Duo-native app",
-        "link": "https://www.socialmediatoday.com/news/instagram-launches-iphone-duo-native-app/874830/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-16T22:07:04",
-        "summary": "Instagram has rolled out a native app tailored for Apple's iPhone Duo, the company's foldable-style device with an expanded display. Rather than simply stretching the standard phone interface, this version introduces functions built specifically to take advantage of the bigger screen real estate, suggesting changes to how content, navigation, and possibly multitasking are laid out compared to the standard iPhone experience. The move signals Meta's early push to optimize its flagship app for Apple's newest hardware form factor as foldable and dual-screen-style devices gain traction in the market. For marketers and brands active on Instagram, this could mean new creative possibilities on larger canvases, different engagement patterns from users on bigger screens, and a need to reconsider how ads, Stories, and Reels render on this expanded format. While specific feature details beyond the larger-screen optimization weren't outlined, the launch points to Instagram positioning itself early for a new category of Apple devices rather than waiting for broader adoption before adapting its app experience.",
-        "li_summary": "Instagram released a version of its app built specifically for Apple's iPhone Duo, adding interface functions designed to make full use of the device's larger foldable screen."
-      },
-      {
-        "title": "X tests adding professional histories to user profiles",
-        "link": "https://www.socialmediatoday.com/news/x-tests-adding-professional-histories-to-user-profiles/874827/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-16T22:03:39",
-        "summary": "X appears to be experimenting with a work experience section for user profiles, allowing people to list past roles, employers, and career details directly on their X pages. The feature mirrors the platform's prior attempt at building a jobs-focused product, X Jobs, which debuted around two years ago but failed to gain significant traction or compete meaningfully with established players in professional networking. By resurfacing a work-history element now, X signals continued interest in expanding beyond its core social feed into career-oriented territory, potentially positioning itself as a rival to LinkedIn for professional branding and networking. For marketers and brand teams, this could eventually open new avenues for talent showcasing, employer branding, and recruitment-adjacent content directly within X's ecosystem, though it remains unclear whether the test will be rolled out broadly or quietly shelved like its predecessor. No details have been confirmed yet regarding timing, availability, or how deeply the feature will integrate with existing profile formats and verification systems.",
-        "li_summary": "X is testing a new profile feature that displays users' professional work history, echoing the platform's earlier X Jobs initiative launched roughly two years ago."
-      },
-      {
-        "title": "LinkedIn adds monetization tab to profile analytics",
-        "link": "https://www.socialmediatoday.com/news/linkedin-adds-monetization-tab-to-profile-analytics/874821/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-16T21:26:21",
-        "summary": "LinkedIn has rolled out a new monetization tab within its profile analytics section, designed specifically for users enrolled in or eligible for the platform's Creator Marketplace. The addition consolidates data on profile performance alongside visibility into available brand partnership and collaboration opportunities, removing the need for creators to navigate away from their profile to check eligibility or track engagement tied to monetization. By surfacing this information directly in analytics, LinkedIn is making it easier for creators to understand how their content performance connects to potential paid opportunities on the platform. The move reflects LinkedIn's ongoing push to build out creator-focused tools and compete with other social platforms that have invested heavily in monetization features, such as TikTok and YouTube. For marketers and brands, this update could mean more creators actively tracking and seeking partnership opportunities, potentially increasing the pool of professionals available for sponsored content and collaboration campaigns through LinkedIn's marketplace infrastructure.",
-        "li_summary": "LinkedIn added a dedicated monetization tab to profile analytics, giving creators direct access to Creator Marketplace opportunities and performance data without leaving their profile dashboard."
-      },
-      {
-        "title": "Instagram adds Amazon affiliate links",
-        "link": "https://www.socialmediatoday.com/news/instagram-adds-amazon-affiliate-links/874817/",
-        "source": "Social Media Today - Latest News",
-        "published": "2026-11-16T21:12:27",
-        "summary": "Instagram has rolled out a new creator monetization feature through a partnership with Amazon, allowing users to tag shoppable products directly within their content and earn affiliate commissions on resulting sales. Creators can attach up to 30 product tags to a single Reel, while static feed posts are capped at 20 tags each. The integration pulls products straight from Amazon's catalog, letting followers browse and purchase items without leaving the Instagram app, streamlining the path from content discovery to checkout. This move deepens Instagram's push into social commerce, giving creators a built-in incentive to recommend products they use or endorse while tying that activity to measurable revenue through Amazon's affiliate structure. For marketers and brands, the update signals growing overlap between influencer content and e-commerce infrastructure, as platforms compete to keep shopping activity native to their apps rather than routing users externally. The feature expands Instagram's existing shopping tools and positions Amazon's massive product inventory as a direct extension of creator storefronts on the platform.",
-        "li_summary": "Instagram has partnered with Amazon to let creators embed shoppable affiliate product links directly in posts, capping tags at 30 per Reel and 20 per feed post."
       }
     ],
     "posted": true
